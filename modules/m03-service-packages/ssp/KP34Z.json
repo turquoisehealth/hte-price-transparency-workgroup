@@ -1,0 +1,216 @@
+{
+  "id": "KP34Z",
+  "version": "2.0",
+  "title": "Shoulder replacement",
+  "description": "A shoulder replacement is an outpatient surgical procedure where your surgeon removes damaged bone and cartilage from your shoulder joint and replaces it with artificial components made of metal and plastic. Shoulder replacement is performed when arthritis or severe injury has damaged your shoulder joint. The procedure takes 1-2 hours, and you may go home the same day or stay overnight. You'll wear a sling and have restrictions on arm movement for several weeks. Physical therapy begins soon after surgery and progresses gradually from gentle motion to strengthening. Full recovery typically takes 3-6 months. You'll need patience with your rehabilitation as aggressive therapy too early can cause problems. Your surgeon may perform partial replacement if only part of the shoulder is damaged, or total replacement if the entire joint needs replacing. This type of procedure can be performed various ways, including partial and total, and the cost may vary depending on the extent of the procedure.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 4.47,
+  "apc": "5115",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "23473",
+      "code_type": "CPT"
+    },
+    {
+      "code": "23474",
+      "code_type": "CPT"
+    },
+    {
+      "code": "23470",
+      "code_type": "CPT"
+    },
+    {
+      "code": "23472",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "KP341",
+      "name": "Partial",
+      "anchor_codes": [
+        {
+          "code": "23470",
+          "code_type": "CPT"
+        },
+        {
+          "code": "23473",
+          "code_type": "CPT"
+        },
+        {
+          "code": "23474",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "KP342",
+      "name": "Total",
+      "anchor_codes": [
+        {
+          "code": "23472",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "C1776",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Joint device (implantable)"
+    },
+    {
+      "code": "23473",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Revision shoulder arthroplasty; Humeral component"
+    },
+    {
+      "code": "23474",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Revision shoulder arthroplasty; Glenoid component"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9493794506612411,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9493794506612411,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9493794506612411,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9859613428280773,
+      "description": "General"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9493794506612411,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "23470",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Shoulder arthroplasty; Hemiarthroplasty"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9493794506612411,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "C1713",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anchor/screw for opposing bone-to-bone or soft tissue-to-bone (implantable)"
+    },
+    {
+      "code": "01638",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8844188650848984,
+      "description": "Anesthesia for open or surgical arthroscopic procedures on humeral head and neck, sternoclavicular joint, acromioclavicular joint, and shoulder joint; Total shoulder replacement"
+    },
+    {
+      "code": "23472",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Total shoulder arthroplasty, glenohumeral joint (glenoid and proximal humeral replacement)"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "01630",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8316831683168316,
+      "description": "Anesthesia for open or surgical arthroscopic procedures on humeral head and neck, sternoclavicular joint, acromioclavicular joint, and shoulder joint; Not otherwise specified"
+    },
+    {
+      "code": "64415",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6010965382721919,
+      "description": "Injection(s), anesthetic agent(s) and/or steroid; Brachial plexus, including imaging guidance, when performed"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9493794506612411,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

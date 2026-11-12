@@ -1,0 +1,131 @@
+{
+  "id": "UP050",
+  "version": "2.0",
+  "title": "Transurethral resection of the prostate (TURP)",
+  "description": "A transurethral resection of the prostate (TURP) removes obstructing prostate tissue causing urinary problems. During this outpatient or brief overnight inpatient procedure, your urologist passes a resectoscope through the urethra to the prostate and uses radiofrequency energy to vaporize obstructive tissue. The procedure takes 30-90 minutes. Most people experience dramatically improved urinary stream within weeks. You may have temporary blood-tinged urine and mild discomfort for a few days. Activity restrictions last 3-4 weeks. Long-term success rates are excellent with symptom improvement lasting many years. This type of procedure can be performed various ways, including initial / revision, and the cost may vary depending on the specific approach or service provided.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Urology / Nephrology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5375",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "52630",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52601",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9309363137916491,
+      "description": "General"
+    },
+    {
+      "code": "00914",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for transurethral procedures (including urethrocystoscopy); Transurethral resection of prostate"
+    },
+    {
+      "code": "52630",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Repeat transurethral resection of the prostate (TURP)"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "52601",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Transurethral removal of prostate"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8013496415014761,
+      "description": "Level IV - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9751687051876845,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9606178827498946,
+      "description": "General"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9751687051876845,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9207612821594264,
+      "description": "Sterile"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9751687051876845,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9751687051876845,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

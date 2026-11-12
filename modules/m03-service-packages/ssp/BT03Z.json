@@ -1,0 +1,216 @@
+{
+  "id": "BT03Z",
+  "version": "2.0",
+  "title": "Outpatient psychotherapy",
+  "description": "Outpatient psychotherapy is a treatment where you work with a trained mental health professional in regular office visits to address emotional, behavioral, or mental health challenges. Your therapist uses various evidence-based techniques to help you understand your thoughts and feelings, develop coping strategies, and make positive changes in your life. Psychotherapy can help with depression, anxiety, trauma, relationship issues, and many other concerns. This type of procedure can be performed various ways, including group therapy and 1:1 therapy, and the cost may vary depending on the specific approach or service provided.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Behavioral Health",
+  "place_of_service": "outpatient",
+  "shoppability": 4.0,
+  "apc": "5822",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "90846",
+      "code_type": "CPT"
+    },
+    {
+      "code": "90839",
+      "code_type": "CPT"
+    },
+    {
+      "code": "90837",
+      "code_type": "CPT"
+    },
+    {
+      "code": "90853",
+      "code_type": "CPT"
+    },
+    {
+      "code": "90836",
+      "code_type": "CPT"
+    },
+    {
+      "code": "90838",
+      "code_type": "CPT"
+    },
+    {
+      "code": "90832",
+      "code_type": "CPT"
+    },
+    {
+      "code": "90834",
+      "code_type": "CPT"
+    },
+    {
+      "code": "90833",
+      "code_type": "CPT"
+    },
+    {
+      "code": "90840",
+      "code_type": "CPT"
+    },
+    {
+      "code": "90847",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "BT031",
+      "name": "Group therapy",
+      "anchor_codes": [
+        {
+          "code": "90833",
+          "code_type": "CPT"
+        },
+        {
+          "code": "90836",
+          "code_type": "CPT"
+        },
+        {
+          "code": "90838",
+          "code_type": "CPT"
+        },
+        {
+          "code": "90839",
+          "code_type": "CPT"
+        },
+        {
+          "code": "90840",
+          "code_type": "CPT"
+        },
+        {
+          "code": "90853",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "BT032",
+      "name": "1:1 therapy",
+      "anchor_codes": [
+        {
+          "code": "90832",
+          "code_type": "CPT"
+        },
+        {
+          "code": "90834",
+          "code_type": "CPT"
+        },
+        {
+          "code": "90837",
+          "code_type": "CPT"
+        },
+        {
+          "code": "90846",
+          "code_type": "CPT"
+        },
+        {
+          "code": "90847",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "90846",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Telephone counseling session with family (50 minutes) without patient"
+    },
+    {
+      "code": "90839",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Psychotherapy for crisis; First 60 minutes"
+    },
+    {
+      "code": "90837",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Prolonged face-to-face psychotherapy session, 60 minutes"
+    },
+    {
+      "code": "90853",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Group therapy for multiple individuals simultaneously"
+    },
+    {
+      "code": "90836",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Psychotherapy, 45 minutes with patient when performed with an evaluation and management service (list separately in addition to the code for primary procedure)"
+    },
+    {
+      "code": "90838",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Psychotherapy, 60 minutes with patient when performed with an evaluation and management service (list separately in addition to the code for primary procedure)"
+    },
+    {
+      "code": "90832",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Psychotherapy for patient, 30 minutes session time"
+    },
+    {
+      "code": "90834",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "45-minute individual psychotherapy session with patient"
+    },
+    {
+      "code": "90833",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Psychotherapy, 30 minutes with patient when performed with an evaluation and management service (list separately in addition to the code for primary procedure)"
+    },
+    {
+      "code": "90840",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Psychotherapy for crisis; Each additional 30 minutes (list separately in addition to code for primary service)"
+    },
+    {
+      "code": "90847",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Family psychotherapy session of 50 minutes with all members present"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

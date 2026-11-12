@@ -1,0 +1,51 @@
+{
+  "id": "NE020",
+  "version": "2.0",
+  "title": "SNS device programming",
+  "description": "SNS device programming is an outpatient appointment where your doctor adjusts the settings on your sacral neuromodulation device to optimize pain relief or symptom control. Using a wireless programmer, your doctor can change the electrical pulse intensity, frequency, and pattern without needing surgery. You'll work together to find the settings that provide the best symptom relief with minimal side effects. Programming sessions usually take 30-60 minutes and may need to be repeated as your condition changes. You can make small adjustments at home using a patient programmer if your device allows it. Regular follow-up appointments ensure your device continues to work effectively for your needs.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Neurology",
+  "place_of_service": "outpatient",
+  "shoppability": 5.0,
+  "apc": "5742",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "95972",
+      "code_type": "CPT"
+    },
+    {
+      "code": "95971",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "95972",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Electronic analysis of implanted neurostimulator pulse generator/transmitter, complex"
+    },
+    {
+      "code": "95971",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Electronic analysis of implanted neurostimulator pulse generator/transmitter, simple"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

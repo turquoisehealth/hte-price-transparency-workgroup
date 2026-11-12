@@ -1,0 +1,147 @@
+{
+  "id": "KP260",
+  "version": "2.0",
+  "title": "ACL repair / reconstruction",
+  "description": "An ACL repair or reconstruction is an outpatient surgical procedure where your surgeon repairs or rebuilds your anterior cruciate ligament (ACL), one of the major ligaments that stabilizes your knee. A torn ACL causes instability, pain, and difficulty with activities. Your surgeon will either repair the torn ligament or reconstruct it using a graft from your own tissue (hamstring or patellar tendon) or donor tissue. The procedure takes 1-2 hours, and you typically go home the same day or stay overnight. You'll use crutches for several weeks and begin physical therapy immediately. Full recovery typically takes 4-6 months minimum and often longer for athletes returning to sports. You'll have specific restrictions on twisting and pivoting movements during healing. Physical therapy is essential for success. Most patients return to full function and activity after ACL reconstruction.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5114",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "29888",
+      "code_type": "CPT"
+    },
+    {
+      "code": "29889",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8752647074014772,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8752647074014772,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "29888",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopically-assisted ACL repair/augmentation/reconstruction"
+    },
+    {
+      "code": "29889",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Open ACL repair; Open PCL repair with/without other structures; Arthroscopic PCL repair"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8752647074014772,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "64447",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5191092676386795,
+      "description": "Injection(s), anesthetic agent(s) and/or steroid; Femoral nerve, including imaging guidance, when performed"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8752647074014772,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8752647074014772,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "01400",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8949046840958607,
+      "description": "Anesthesia for open or surgical arthroscopic procedures on knee joint; Not otherwise specified"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8752647074014772,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "C1713",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anchor/screw for opposing bone-to-bone or soft tissue-to-bone (implantable)"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

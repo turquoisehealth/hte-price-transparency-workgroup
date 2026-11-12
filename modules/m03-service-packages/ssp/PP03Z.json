@@ -1,0 +1,112 @@
+{
+  "id": "PP03Z",
+  "version": "2.0",
+  "title": "Vena cava filter placement",
+  "description": "Vena cava filter placement is an outpatient procedure that places a small metal filter in the large vein carrying blood to your heart (vena cava) to prevent blood clots from traveling to your lungs. Your radiologist uses imaging guidance to position the filter through a small catheter inserted in a vein. The procedure takes about 30-60 minutes under local anesthesia. You go home the same day. This category includes filter insertion (permanent or temporary) and filter retrieval when the filter needs to be removed because it's no longer needed. This type of procedure can involve either insertion of a new device or retrieval of an existing one, and the cost may vary depending on the specific service performed.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Pulmonology",
+  "place_of_service": "outpatient",
+  "shoppability": 3.51,
+  "apc": "5183",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "37191",
+      "code_type": "CPT"
+    },
+    {
+      "code": "37193",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "PP031",
+      "name": "Retrieval",
+      "anchor_codes": [
+        {
+          "code": "37193",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "PP032",
+      "name": "Insertion",
+      "anchor_codes": [
+        {
+          "code": "37191",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "37191",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Insertion of intravascular vena cava filter"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "Q9967",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Low osmolar contrast material, 300-399 MG/ML iodine concentration, per ML"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "C1880",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Vena cava filter"
+    },
+    {
+      "code": "99152",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5676109032602886,
+      "description": "Moderate sedation services provided by the same physician or other qualified health care professional performing the diagnostic or therapeutic service that the sedation supports, requiring the presence of an independent trained observer to assist in the monitoring of the Patient's level of consciousness and physiological status; Initial 15 minutes of intraservice time, patient age 5 years or older"
+    },
+    {
+      "code": "37193",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Retrieval of intravascular vena cava filter"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

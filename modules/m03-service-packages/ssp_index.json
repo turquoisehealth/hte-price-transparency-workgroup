@@ -1,0 +1,1323 @@
+{
+  "version": "2.0",
+  "ssps": [
+    {
+      "id": "AE02Z",
+      "title": "Outpatient clinic visit",
+      "type": "item_service",
+      "disease_area": "General Medicine",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "AE021",
+        "AE022",
+        "AE023"
+      ],
+      "file": "ssp/AE02Z.json"
+    },
+    {
+      "id": "BE010",
+      "title": "Outpatient psychiatric evaluation",
+      "type": "item_service",
+      "disease_area": "Behavioral Health",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/BE010.json"
+    },
+    {
+      "id": "BT010",
+      "title": "Electroconvulsive therapy (ECT)",
+      "type": "encounter",
+      "disease_area": "Behavioral Health",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/BT010.json"
+    },
+    {
+      "id": "BT03Z",
+      "title": "Outpatient psychotherapy",
+      "type": "item_service",
+      "disease_area": "Behavioral Health",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "BT031",
+        "BT032"
+      ],
+      "file": "ssp/BT03Z.json"
+    },
+    {
+      "id": "CE010",
+      "title": "Cardiac electrophysiology study",
+      "type": "item_service",
+      "disease_area": "Cardiac & Vascular",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "CE011",
+        "CE012"
+      ],
+      "file": "ssp/CE010.json"
+    },
+    {
+      "id": "CP010",
+      "title": "Cardiac biopsy",
+      "type": "encounter",
+      "disease_area": "Cardiac & Vascular",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/CP010.json"
+    },
+    {
+      "id": "CP020",
+      "title": "Cardiac catheterization",
+      "type": "encounter",
+      "disease_area": "Cardiac & Vascular",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/CP020.json"
+    },
+    {
+      "id": "CP03Z",
+      "title": "Outpatient defibrillator (ICD) replacement",
+      "type": "encounter",
+      "disease_area": "Cardiac & Vascular",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "CP031",
+        "CP032"
+      ],
+      "file": "ssp/CP03Z.json"
+    },
+    {
+      "id": "CP040",
+      "title": "Leadless pacemaker insertion",
+      "type": "encounter",
+      "disease_area": "Cardiac & Vascular",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/CP040.json"
+    },
+    {
+      "id": "CP05Z",
+      "title": "Pacemaker insertion",
+      "type": "encounter",
+      "disease_area": "Cardiac & Vascular",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "CP051",
+        "CP052"
+      ],
+      "file": "ssp/CP05Z.json"
+    },
+    {
+      "id": "CP060",
+      "title": "Pacemaker replacement",
+      "type": "encounter",
+      "disease_area": "Cardiac & Vascular",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/CP060.json"
+    },
+    {
+      "id": "CP07Z",
+      "title": "Outpatient percutaneous coronary intervention (PCI)",
+      "type": "encounter",
+      "disease_area": "Cardiac & Vascular",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "CP071",
+        "CP072"
+      ],
+      "file": "ssp/CP07Z.json"
+    },
+    {
+      "id": "CP08Z",
+      "title": "Cardiac rhythm monitor",
+      "type": "encounter",
+      "disease_area": "Cardiac & Vascular",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "CP081",
+        "CP082"
+      ],
+      "file": "ssp/CP08Z.json"
+    },
+    {
+      "id": "CP10Z",
+      "title": "Varicose vein treatment",
+      "type": "encounter",
+      "disease_area": "Cardiac & Vascular",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "CP101",
+        "CP102"
+      ],
+      "file": "ssp/CP10Z.json"
+    },
+    {
+      "id": "CP120",
+      "title": "AV node ablation",
+      "type": "encounter",
+      "disease_area": "Cardiac & Vascular",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/CP120.json"
+    },
+    {
+      "id": "CP140",
+      "title": "Vascular embolization",
+      "type": "encounter",
+      "disease_area": "Cardiac & Vascular",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/CP140.json"
+    },
+    {
+      "id": "DP02Z",
+      "title": "Skin cyst aspiration",
+      "type": "encounter",
+      "disease_area": "Dermatology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "DP021",
+        "DP022",
+        "DP023"
+      ],
+      "file": "ssp/DP02Z.json"
+    },
+    {
+      "id": "DP03Z",
+      "title": "Fine needle biopsy",
+      "type": "encounter",
+      "disease_area": "Dermatology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "DP031",
+        "DP032"
+      ],
+      "file": "ssp/DP03Z.json"
+    },
+    {
+      "id": "DP05Z",
+      "title": "Percutaneous (core needle) biopsy",
+      "type": "encounter",
+      "disease_area": "Dermatology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "DP051",
+        "DP052",
+        "DP053",
+        "DP054"
+      ],
+      "file": "ssp/DP05Z.json"
+    },
+    {
+      "id": "DP06Z",
+      "title": "Skin lesion localization",
+      "type": "encounter",
+      "disease_area": "Dermatology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "DP061",
+        "DP062"
+      ],
+      "file": "ssp/DP06Z.json"
+    },
+    {
+      "id": "DP090",
+      "title": "Pilonidal cyst excision",
+      "type": "encounter",
+      "disease_area": "Dermatology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/DP090.json"
+    },
+    {
+      "id": "DP11Z",
+      "title": "Skin lesion removal",
+      "type": "encounter",
+      "disease_area": "Dermatology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "DP111",
+        "DP112",
+        "DP113"
+      ],
+      "file": "ssp/DP11Z.json"
+    },
+    {
+      "id": "DP12Z",
+      "title": "Local tumor excision",
+      "type": "encounter",
+      "disease_area": "Dermatology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "DP121",
+        "DP122",
+        "DP123",
+        "DP124"
+      ],
+      "file": "ssp/DP12Z.json"
+    },
+    {
+      "id": "DP130",
+      "title": "Radical tumor resection",
+      "type": "encounter",
+      "disease_area": "Dermatology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/DP130.json"
+    },
+    {
+      "id": "EE01Z",
+      "title": "Emergency room visit",
+      "type": "item_service",
+      "disease_area": "Emergency / Trauma",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "EE011",
+        "EE012",
+        "EE013",
+        "EE014"
+      ],
+      "file": "ssp/EE01Z.json"
+    },
+    {
+      "id": "EE02Z",
+      "title": "Wound treatment",
+      "type": "item_service",
+      "disease_area": "Emergency / Trauma",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "EE021",
+        "EE022",
+        "EE023",
+        "EE024"
+      ],
+      "file": "ssp/EE02Z.json"
+    },
+    {
+      "id": "EM010",
+      "title": "Critical care (outpatient)",
+      "type": "item_service",
+      "disease_area": "Emergency / Trauma",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/EM010.json"
+    },
+    {
+      "id": "GP01Z",
+      "title": "Appendectomy",
+      "type": "encounter",
+      "disease_area": "Gastroenterology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "GP011",
+        "GP012"
+      ],
+      "file": "ssp/GP01Z.json"
+    },
+    {
+      "id": "GP02Z",
+      "title": "Cholecystectomy",
+      "type": "encounter",
+      "disease_area": "Gastroenterology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "GP022"
+      ],
+      "file": "ssp/GP02Z.json"
+    },
+    {
+      "id": "GP03Z",
+      "title": "Colonoscopy",
+      "type": "encounter",
+      "disease_area": "Gastroenterology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "GP031",
+        "GP032",
+        "GP033",
+        "GP034"
+      ],
+      "file": "ssp/GP03Z.json"
+    },
+    {
+      "id": "GP04Z",
+      "title": "Upper endoscopy (EGD)",
+      "type": "encounter",
+      "disease_area": "Gastroenterology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "GP041",
+        "GP042",
+        "GP043",
+        "GP044"
+      ],
+      "file": "ssp/GP04Z.json"
+    },
+    {
+      "id": "GP05Z",
+      "title": "Hernia repair",
+      "type": "encounter",
+      "disease_area": "Gastroenterology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "GP051",
+        "GP052"
+      ],
+      "file": "ssp/GP05Z.json"
+    },
+    {
+      "id": "GP060",
+      "title": "Image-guided liver biopsy",
+      "type": "encounter",
+      "disease_area": "Gastroenterology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/GP060.json"
+    },
+    {
+      "id": "GP070",
+      "title": "Sigmoidoscopy",
+      "type": "encounter",
+      "disease_area": "Gastroenterology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/GP070.json"
+    },
+    {
+      "id": "HP01Z",
+      "title": "Lymph node biopsy",
+      "type": "encounter",
+      "disease_area": "Hematology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "HP011",
+        "HP012"
+      ],
+      "file": "ssp/HP01Z.json"
+    },
+    {
+      "id": "JE01Z",
+      "title": "IMRT treatment planning",
+      "type": "encounter",
+      "disease_area": "Oncology / Radiation Therapy",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "JE011",
+        "JE012",
+        "JE013"
+      ],
+      "file": "ssp/JE01Z.json"
+    },
+    {
+      "id": "KP010",
+      "title": "Arthrocentesis",
+      "type": "item_service",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/KP010.json"
+    },
+    {
+      "id": "KP03Z",
+      "title": "Cervical disc replacement",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP031",
+        "KP032"
+      ],
+      "file": "ssp/KP03Z.json"
+    },
+    {
+      "id": "KP04Z",
+      "title": "Hip replacement",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP041",
+        "KP042",
+        "KP043"
+      ],
+      "file": "ssp/KP04Z.json"
+    },
+    {
+      "id": "KP050",
+      "title": "Knee / hip arthroplasty revision",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/KP050.json"
+    },
+    {
+      "id": "KP06Z",
+      "title": "Knee replacement",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP061",
+        "KP062"
+      ],
+      "file": "ssp/KP06Z.json"
+    },
+    {
+      "id": "KP070",
+      "title": "Lumbar laminectomy",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/KP070.json"
+    },
+    {
+      "id": "KP08Z",
+      "title": "Non-surgical ankle fracture treatment",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP081",
+        "KP082"
+      ],
+      "file": "ssp/KP08Z.json"
+    },
+    {
+      "id": "KP09Z",
+      "title": "Non-surgical arm fracture treatment",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP091",
+        "KP092"
+      ],
+      "file": "ssp/KP09Z.json"
+    },
+    {
+      "id": "KP120",
+      "title": "Non-surgical foot fracture treatment (with / without manipulation)",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/KP120.json"
+    },
+    {
+      "id": "KP13Z",
+      "title": "Non-surgical hand fracture treatment",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP131",
+        "KP132"
+      ],
+      "file": "ssp/KP13Z.json"
+    },
+    {
+      "id": "KP140",
+      "title": "Non-surgical hip fracture treatment",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/KP140.json"
+    },
+    {
+      "id": "KP160",
+      "title": "Non-surgical knee fracture treatment",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/KP160.json"
+    },
+    {
+      "id": "KP17Z",
+      "title": "Non-surgical nasal fracture treatment",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP171",
+        "KP172"
+      ],
+      "file": "ssp/KP17Z.json"
+    },
+    {
+      "id": "KP180",
+      "title": "Non-surgical pelvic fracture treatment",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/KP180.json"
+    },
+    {
+      "id": "KP19Z",
+      "title": "Non-surgical shoulder fracture treatment",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP191",
+        "KP192"
+      ],
+      "file": "ssp/KP19Z.json"
+    },
+    {
+      "id": "KP200",
+      "title": "Non-surgical spine fracture treatment",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/KP200.json"
+    },
+    {
+      "id": "KP22Z",
+      "title": "Non-surgical thigh (femur) fracture treatment",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP221",
+        "KP222"
+      ],
+      "file": "ssp/KP22Z.json"
+    },
+    {
+      "id": "KP23Z",
+      "title": "Non-surgical tibia fracture treatment",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP231",
+        "KP232"
+      ],
+      "file": "ssp/KP23Z.json"
+    },
+    {
+      "id": "KP24Z",
+      "title": "Non-surgical wrist fracture treatment",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP241",
+        "KP242"
+      ],
+      "file": "ssp/KP24Z.json"
+    },
+    {
+      "id": "KP250",
+      "title": "Lumbar spine fusion",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/KP250.json"
+    },
+    {
+      "id": "KP260",
+      "title": "ACL repair / reconstruction",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/KP260.json"
+    },
+    {
+      "id": "KP270",
+      "title": "Surgical ankle repair",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/KP270.json"
+    },
+    {
+      "id": "KP280",
+      "title": "Ankle replacement",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/KP280.json"
+    },
+    {
+      "id": "KP31Z",
+      "title": "Surgical hip fracture repair",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP311",
+        "KP312"
+      ],
+      "file": "ssp/KP31Z.json"
+    },
+    {
+      "id": "KP320",
+      "title": "Surgical knee repair (knee arthroscopy)",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/KP320.json"
+    },
+    {
+      "id": "KP33Z",
+      "title": "Shoulder arthroscopy",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP331",
+        "KP332"
+      ],
+      "file": "ssp/KP33Z.json"
+    },
+    {
+      "id": "KP34Z",
+      "title": "Shoulder replacement",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP341",
+        "KP342"
+      ],
+      "file": "ssp/KP34Z.json"
+    },
+    {
+      "id": "KP350",
+      "title": "Trigger point injection",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/KP350.json"
+    },
+    {
+      "id": "KP36Z",
+      "title": "Vertebral compression fracture treatment",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP361",
+        "KP362"
+      ],
+      "file": "ssp/KP36Z.json"
+    },
+    {
+      "id": "KP40Z",
+      "title": "Carpal tunnel release",
+      "type": "encounter",
+      "disease_area": "Musculoskeletal",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "KP401",
+        "KP402"
+      ],
+      "file": "ssp/KP40Z.json"
+    },
+    {
+      "id": "L003Z",
+      "title": "Pathology / tissue analysis",
+      "type": "item_service",
+      "disease_area": "Lab / Pathology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "L0031",
+        "L0032",
+        "L0033",
+        "L0034"
+      ],
+      "file": "ssp/L003Z.json"
+    },
+    {
+      "id": "NE01Z",
+      "title": "Sleep study (polysomnography)",
+      "type": "item_service",
+      "disease_area": "Neurology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "NE011",
+        "NE012",
+        "NE013",
+        "NE014"
+      ],
+      "file": "ssp/NE01Z.json"
+    },
+    {
+      "id": "NE020",
+      "title": "SNS device programming",
+      "type": "item_service",
+      "disease_area": "Neurology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/NE020.json"
+    },
+    {
+      "id": "NM01Z",
+      "title": "Nerve block injection",
+      "type": "item_service",
+      "disease_area": "Neurology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "NM011",
+        "NM012"
+      ],
+      "file": "ssp/NM01Z.json"
+    },
+    {
+      "id": "NP010",
+      "title": "Cranial neurostimulator implantation",
+      "type": "encounter",
+      "disease_area": "Neurology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/NP010.json"
+    },
+    {
+      "id": "NP020",
+      "title": "Intrathecal pump implantation",
+      "type": "encounter",
+      "disease_area": "Neurology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/NP020.json"
+    },
+    {
+      "id": "NP03Z",
+      "title": "SNS device insertion",
+      "type": "encounter",
+      "disease_area": "Neurology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "NP031",
+        "NP032",
+        "NP033"
+      ],
+      "file": "ssp/NP03Z.json"
+    },
+    {
+      "id": "NP04Z",
+      "title": "Spinal cord stimulator implantation",
+      "type": "encounter",
+      "disease_area": "Neurology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "NP041",
+        "NP042",
+        "NP043",
+        "NP044"
+      ],
+      "file": "ssp/NP04Z.json"
+    },
+    {
+      "id": "OP52Z",
+      "title": "Inpatient delivery",
+      "type": "encounter",
+      "disease_area": "Obstetrics",
+      "place_of_service": "inpatient",
+      "sub_variant_ids": [
+        "OP521",
+        "OP522"
+      ],
+      "file": "ssp/OP52Z.json"
+    },
+    {
+      "id": "PE01Z",
+      "title": "Pulmonary function testing",
+      "type": "item_service",
+      "disease_area": "Pulmonology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "PE011",
+        "PE012",
+        "PE013",
+        "PE014",
+        "PE015"
+      ],
+      "file": "ssp/PE01Z.json"
+    },
+    {
+      "id": "PP01Z",
+      "title": "Bronchoscopy",
+      "type": "encounter",
+      "disease_area": "Pulmonology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "PP011",
+        "PP012",
+        "PP013",
+        "PP014",
+        "PP015"
+      ],
+      "file": "ssp/PP01Z.json"
+    },
+    {
+      "id": "PP03Z",
+      "title": "Vena cava filter placement",
+      "type": "encounter",
+      "disease_area": "Pulmonology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "PP031",
+        "PP032"
+      ],
+      "file": "ssp/PP03Z.json"
+    },
+    {
+      "id": "QP01Z",
+      "title": "Laryngoscopy",
+      "type": "encounter",
+      "disease_area": "Ear, Nose & Throat",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "QP011",
+        "QP012",
+        "QP013",
+        "QP014",
+        "QP015"
+      ],
+      "file": "ssp/QP01Z.json"
+    },
+    {
+      "id": "QP03Z",
+      "title": "Tonsillectomy",
+      "type": "encounter",
+      "disease_area": "Ear, Nose & Throat",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "QP031",
+        "QP032"
+      ],
+      "file": "ssp/QP03Z.json"
+    },
+    {
+      "id": "QP090",
+      "title": "Cerumen (earwax) removal",
+      "type": "item_service",
+      "disease_area": "Ear, Nose & Throat",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/QP090.json"
+    },
+    {
+      "id": "R0020",
+      "title": "Audiological testing",
+      "type": "encounter",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/R0020.json"
+    },
+    {
+      "id": "R003Z",
+      "title": "CT scan",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "R0031",
+        "R0032",
+        "R0033",
+        "R0034",
+        "R0035"
+      ],
+      "file": "ssp/R003Z.json"
+    },
+    {
+      "id": "R004Z",
+      "title": "CT angiography",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "R0041",
+        "R0042",
+        "R0043"
+      ],
+      "file": "ssp/R004Z.json"
+    },
+    {
+      "id": "R0050",
+      "title": "Dual-Energy X-ray Absorptiometry (DEXA) scan",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/R0050.json"
+    },
+    {
+      "id": "R0060",
+      "title": "Echocardiogram",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/R0060.json"
+    },
+    {
+      "id": "R0080",
+      "title": "Mammogram",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/R0080.json"
+    },
+    {
+      "id": "R0090",
+      "title": "Myocardial perfusion imaging (MPI)",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/R0090.json"
+    },
+    {
+      "id": "R010Z",
+      "title": "MRA (magnetic resonance angiography)",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "R0101",
+        "R0102"
+      ],
+      "file": "ssp/R010Z.json"
+    },
+    {
+      "id": "R0110",
+      "title": "MR elastography (MRE)",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/R0110.json"
+    },
+    {
+      "id": "R013Z",
+      "title": "MRI scan",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "R0131",
+        "R0132"
+      ],
+      "file": "ssp/R013Z.json"
+    },
+    {
+      "id": "R0140",
+      "title": "MR spectroscopy",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/R0140.json"
+    },
+    {
+      "id": "R0150",
+      "title": "PET scan",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/R0150.json"
+    },
+    {
+      "id": "R016Z",
+      "title": "Quantitative MRI",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "R0161",
+        "R0162"
+      ],
+      "file": "ssp/R016Z.json"
+    },
+    {
+      "id": "R017Z",
+      "title": "Ultrasound",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "R0171",
+        "R0172",
+        "R0173"
+      ],
+      "file": "ssp/R017Z.json"
+    },
+    {
+      "id": "R019Z",
+      "title": "X-ray",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "R0191",
+        "R0192",
+        "R0193",
+        "R0194",
+        "R0195",
+        "R0196"
+      ],
+      "file": "ssp/R019Z.json"
+    },
+    {
+      "id": "R020Z",
+      "title": "Cardiac PET scan",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/R020Z.json"
+    },
+    {
+      "id": "R021Z",
+      "title": "Cardiac function testing",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "R0211",
+        "R0212"
+      ],
+      "file": "ssp/R021Z.json"
+    },
+    {
+      "id": "R0220",
+      "title": "Parathyroid scan",
+      "type": "item_service",
+      "disease_area": "Radiology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/R0220.json"
+    },
+    {
+      "id": "SP03Z",
+      "title": "Hysterectomy",
+      "type": "encounter",
+      "disease_area": "Gynecology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "SP031",
+        "SP032"
+      ],
+      "file": "ssp/SP03Z.json"
+    },
+    {
+      "id": "SP04Z",
+      "title": "Hysteroscopy",
+      "type": "encounter",
+      "disease_area": "Gynecology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "SP041",
+        "SP042"
+      ],
+      "file": "ssp/SP04Z.json"
+    },
+    {
+      "id": "SP060",
+      "title": "Ovarian cystectomy",
+      "type": "encounter",
+      "disease_area": "Gynecology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/SP060.json"
+    },
+    {
+      "id": "SP130",
+      "title": "Tubal ligation",
+      "type": "encounter",
+      "disease_area": "Gynecology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/SP130.json"
+    },
+    {
+      "id": "UP01Z",
+      "title": "Bladder neck resection",
+      "type": "encounter",
+      "disease_area": "Urology / Nephrology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "UP011",
+        "UP012",
+        "UP013"
+      ],
+      "file": "ssp/UP01Z.json"
+    },
+    {
+      "id": "UP020",
+      "title": "Circumcision",
+      "type": "encounter",
+      "disease_area": "Urology / Nephrology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/UP020.json"
+    },
+    {
+      "id": "UP03Z",
+      "title": "Cystourethroscopy / ureteroscopy",
+      "type": "encounter",
+      "disease_area": "Urology / Nephrology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "UP031",
+        "UP032",
+        "UP033",
+        "UP034"
+      ],
+      "file": "ssp/UP03Z.json"
+    },
+    {
+      "id": "UP040",
+      "title": "Hydrocelectomy",
+      "type": "encounter",
+      "disease_area": "Urology / Nephrology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/UP040.json"
+    },
+    {
+      "id": "UP050",
+      "title": "Transurethral resection of the prostate (TURP)",
+      "type": "encounter",
+      "disease_area": "Urology / Nephrology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/UP050.json"
+    },
+    {
+      "id": "UP06Z",
+      "title": "Urethroplasty",
+      "type": "encounter",
+      "disease_area": "Urology / Nephrology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "UP061",
+        "UP062",
+        "UP063",
+        "UP064"
+      ],
+      "file": "ssp/UP06Z.json"
+    },
+    {
+      "id": "UP070",
+      "title": "Nephrectomy",
+      "type": "encounter",
+      "disease_area": "Urology / Nephrology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/UP070.json"
+    },
+    {
+      "id": "UP08Z",
+      "title": "Lithotripsy (kidney stone)",
+      "type": "encounter",
+      "disease_area": "Urology / Nephrology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "UP081",
+        "UP082"
+      ],
+      "file": "ssp/UP08Z.json"
+    },
+    {
+      "id": "UP110",
+      "title": "Prostate biopsy",
+      "type": "encounter",
+      "disease_area": "Urology / Nephrology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/UP110.json"
+    },
+    {
+      "id": "UT01Z",
+      "title": "AV access creation for dialysis",
+      "type": "encounter",
+      "disease_area": "Urology / Nephrology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "UT011",
+        "UT012"
+      ],
+      "file": "ssp/UT01Z.json"
+    },
+    {
+      "id": "UT02Z",
+      "title": "Dialysis",
+      "type": "encounter",
+      "disease_area": "Urology / Nephrology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "UT021",
+        "UT022"
+      ],
+      "file": "ssp/UT02Z.json"
+    },
+    {
+      "id": "VE010",
+      "title": "Eye exam",
+      "type": "item_service",
+      "disease_area": "Ophthalmology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/VE010.json"
+    },
+    {
+      "id": "VP01Z",
+      "title": "Cataract surgery",
+      "type": "encounter",
+      "disease_area": "Ophthalmology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [
+        "VP011",
+        "VP012"
+      ],
+      "file": "ssp/VP01Z.json"
+    },
+    {
+      "id": "VP020",
+      "title": "Retinal repair surgery",
+      "type": "encounter",
+      "disease_area": "Ophthalmology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/VP020.json"
+    },
+    {
+      "id": "VP030",
+      "title": "Glaucoma surgery",
+      "type": "encounter",
+      "disease_area": "Ophthalmology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/VP030.json"
+    },
+    {
+      "id": "VP040",
+      "title": "YAG laser capsulotomy",
+      "type": "encounter",
+      "disease_area": "Ophthalmology",
+      "place_of_service": "outpatient",
+      "sub_variant_ids": [],
+      "file": "ssp/VP040.json"
+    }
+  ]
+}

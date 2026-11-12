@@ -1,0 +1,207 @@
+{
+  "id": "VP030",
+  "version": "2.0",
+  "title": "Glaucoma surgery",
+  "description": "Glaucoma surgery lowers the pressure inside the eye (intraocular pressure) when eye drops, oral medications, or laser treatment have not been sufficient to prevent progressive damage to the optic nerve. Several surgical approaches are used depending on the type and severity of glaucoma: trabeculectomy creates a new drainage opening in the eye wall; canaloplasty uses a microcatheter and stent to widen the eye's natural drainage canal; and aqueous shunt implantation (tube shunt surgery) places a small drainage device to redirect fluid to a reservoir under the conjunctiva. Your ophthalmologist will recommend the most appropriate procedure based on your specific diagnosis, prior treatments, and overall eye health. The goal in all cases is to stabilize eye pressure and protect your remaining vision.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Ophthalmology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5492",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "66175",
+      "code_type": "CPT"
+    },
+    {
+      "code": "66172",
+      "code_type": "CPT"
+    },
+    {
+      "code": "66174",
+      "code_type": "CPT"
+    },
+    {
+      "code": "66179",
+      "code_type": "CPT"
+    },
+    {
+      "code": "66170",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "66175",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Transluminal dilation of aqueous outflow canal (e.g., canaloplasty); With retention of device or stent"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.866529351184346,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.866529351184346,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.866529351184346,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "00142",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7111111111111111,
+      "description": "Anesthesia for procedures on eye; Lens surgery"
+    },
+    {
+      "code": "0637",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.866529351184346,
+      "description": "Self-administered Drugs"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8591143151390319,
+      "description": "General"
+    },
+    {
+      "code": "66172",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Fistulization of sclera for glaucoma; Trabeculectomy ab externo with scarring from previous ocular surgery or trauma (includes injection of antifibrotic agents)"
+    },
+    {
+      "code": "00140",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for procedures on eye; Not otherwise specified"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.866529351184346,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.913697219361483,
+      "description": "General"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.866529351184346,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9670442842430484,
+      "description": "General"
+    },
+    {
+      "code": "C1783",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9581874356333676,
+      "description": "Ocular implant, aqueous drainage assist device"
+    },
+    {
+      "code": "66174",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Transluminal dilation of aqueous outflow canal (e.g., canaloplasty); Without retention of device or stent"
+    },
+    {
+      "code": "C1889",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9581874356333676,
+      "description": "Implantable/insertable device, not otherwise classified"
+    },
+    {
+      "code": "J3490",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.866529351184346,
+      "description": "Unclassified drugs"
+    },
+    {
+      "code": "66179",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Aqueous shunt to extraocular equatorial plate reservoir, external approach; Without graft"
+    },
+    {
+      "code": "66170",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Fistulization of sclera for glaucoma; Trabeculectomy ab externo in absence of previous surgery"
+    },
+    {
+      "code": "J1580",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.866529351184346,
+      "description": "Injection, garamycin, gentamicin, up to 80 MG"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

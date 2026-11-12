@@ -1,0 +1,167 @@
+{
+  "id": "GP01Z",
+  "version": "2.0",
+  "title": "Appendectomy",
+  "description": "Appendectomy is surgery to remove your appendix, a small tube attached to your large intestine. Appendicitis occurs when your appendix becomes inflamed or infected, causing pain and requiring surgical removal to prevent rupture. Your surgeon will carefully remove the inflamed appendix while protecting your other internal organs. This procedure is most often performed urgently or emergently because an inflamed appendix can rupture, causing life-threatening infection. Your surgeon may use either an open approach with a larger incision or a minimally invasive laparoscopic approach with smaller incisions. After appendectomy, you'll recover once your incision heals, usually within 1-2 weeks. You'll receive pain management and instructions about returning to normal activities at your own pace. This type of procedure can be performed various ways, including an open surgical approach or a minimally invasive laparoscopic technique, and the cost may vary depending on the method used.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Gastroenterology",
+  "place_of_service": "outpatient",
+  "shoppability": 1.0,
+  "apc": "5342",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "44970",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "GP011",
+      "name": "Open",
+      "anchor_codes": []
+    },
+    {
+      "id": "GP012",
+      "name": "Laparoscopic",
+      "anchor_codes": [
+        {
+          "code": "44970",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "44970",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Surgical laparoscopy to remove appendix"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9701806071474318,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "88304",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8731138721660049,
+      "description": "Level III - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Sterile"
+    },
+    {
+      "code": "J7120",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9701806071474318,
+      "description": "Ringers lactate infusion, up to 1000 CC"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J1885",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9701806071474318,
+      "description": "Injection, ketorolac tromethamine, per 15 MG"
+    },
+    {
+      "code": "85025",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7542205712821827,
+      "description": "CBC with automated differential WBC count"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9701806071474318,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9701806071474318,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9701806071474318,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9701806071474318,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "00840",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8234799663771365,
+      "description": "Anesthesia for intraperitoneal procedures in lower abdomen including laparoscopy; Not otherwise specified"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

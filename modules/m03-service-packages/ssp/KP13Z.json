@@ -1,0 +1,192 @@
+{
+  "id": "KP13Z",
+  "version": "2.0",
+  "title": "Non-surgical hand fracture treatment",
+  "description": "Non-surgical hand fracture treatment is an outpatient procedure where your doctor treats your broken hand bones without surgery using a splint, cast, or buddy taping (taping your injured finger to an adjacent finger). Your doctor takes X-rays to determine which hand bones are broken. Many hand fractures can heal without surgery if properly immobilized. Your doctor will apply protective immobilization and provide instructions for care. You'll need to keep your hand elevated to reduce swelling and ice it regularly. Pain medication helps manage discomfort. You'll avoid heavy gripping and strenuous hand activities during healing. Periodic X-rays monitor progress. Physical therapy helps restore your motion and strength once healing is underway. Full healing typically takes 4-8 weeks depending on the fracture type. Some fractures may need the bones repositioned before immobilization. The cost of this procedure may vary depending on whether your doctor needs to manually reposition (manipulate) the bone fragments into proper alignment, or whether the fracture can heal in its current position without manipulation.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 3.5,
+  "apc": "5112",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "26725",
+      "code_type": "CPT"
+    },
+    {
+      "code": "26750",
+      "code_type": "CPT"
+    },
+    {
+      "code": "26742",
+      "code_type": "CPT"
+    },
+    {
+      "code": "26720",
+      "code_type": "CPT"
+    },
+    {
+      "code": "26600",
+      "code_type": "CPT"
+    },
+    {
+      "code": "26740",
+      "code_type": "CPT"
+    },
+    {
+      "code": "26755",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "KP131",
+      "name": "without manipulation",
+      "anchor_codes": [
+        {
+          "code": "26600",
+          "code_type": "CPT"
+        },
+        {
+          "code": "26720",
+          "code_type": "CPT"
+        },
+        {
+          "code": "26725",
+          "code_type": "CPT"
+        },
+        {
+          "code": "26740",
+          "code_type": "CPT"
+        },
+        {
+          "code": "26750",
+          "code_type": "CPT"
+        },
+        {
+          "code": "26755",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "KP132",
+      "name": "with manipulation",
+      "anchor_codes": [
+        {
+          "code": "26742",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "26725",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction and immobilization of phalangeal shaft fracture"
+    },
+    {
+      "code": "73130",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6124731182795699,
+      "description": "X-ray imaging of the hand, requiring 3 views"
+    },
+    {
+      "code": "99284",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9354838709677418,
+      "description": "Emergency department visit for moderate complexity evaluation and management with counseling/coordination of care"
+    },
+    {
+      "code": "99283",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "ED visit for moderate complexity assessment, history, exam, & counseling"
+    },
+    {
+      "code": "26750",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Orthopaedic closed reduction of finger/thumb fracture"
+    },
+    {
+      "code": "26742",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction and internal fixation of mcp/pip joint fracture"
+    },
+    {
+      "code": "73140",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Radiographic imaging of finger(s) with 2 or more views"
+    },
+    {
+      "code": "26720",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction and fixation of finger bone fracture"
+    },
+    {
+      "code": "26600",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction of single metacarpal fracture without manipulation"
+    },
+    {
+      "code": "99204",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5833333333333334,
+      "description": "Office or other outpatient visit, new patient; Moderate complexity medical decision making, 45-59 min"
+    },
+    {
+      "code": "26740",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cast immobilization of mcp/ip joint fracture, no manipulation"
+    },
+    {
+      "code": "26755",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Manipulation and fixation of broken finger/thumb bone"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "DP06Z",
+  "version": "2.0",
+  "title": "Skin lesion localization",
+  "description": "Skin lesion localization is a procedure where your doctor marks or identifies a suspicious skin lesion's exact location to guide surgical removal or biopsy. This is particularly helpful for small or difficult-to-see lesions. Your doctor may use a dye injection, wire placement, or radioactive tracer to mark the lesion. This type of procedure can be performed various ways, including without mammography and with mammography, and the cost may vary depending on the specific approach or service provided.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Dermatology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5072",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "19287",
+      "code_type": "CPT"
+    },
+    {
+      "code": "19285",
+      "code_type": "CPT"
+    },
+    {
+      "code": "19281",
+      "code_type": "CPT"
+    },
+    {
+      "code": "19283",
+      "code_type": "CPT"
+    },
+    {
+      "code": "10035",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "DP061",
+      "name": "without mammography",
+      "anchor_codes": [
+        {
+          "code": "10035",
+          "code_type": "CPT"
+        },
+        {
+          "code": "19283",
+          "code_type": "CPT"
+        },
+        {
+          "code": "19285",
+          "code_type": "CPT"
+        },
+        {
+          "code": "19287",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "DP062",
+      "name": "with mammography",
+      "anchor_codes": [
+        {
+          "code": "19281",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "77065",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7089193921934136,
+      "description": "Diagnostic mammography with CAD, unilateral workup"
+    },
+    {
+      "code": "19287",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Percutaneous placement of breast localization device(s), each additional lesion, with MRI guidance"
+    },
+    {
+      "code": "19285",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Percutaneous breast lesion localization with ultrasound guidance"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.283495145631068,
+      "description": "Level IV - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "19281",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Percutaneous placement of breast marker, 1st lesion with mammography"
+    },
+    {
+      "code": "19283",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Percutaneous placement of breast localization device(s), initial lesion, with stereotactic guidance"
+    },
+    {
+      "code": "A4648",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Tissue marker, implantable, any type, each"
+    },
+    {
+      "code": "10035",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Placement of soft tissue localization device (non-breast)"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

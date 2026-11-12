@@ -1,0 +1,230 @@
+{
+  "id": "NP03Z",
+  "version": "2.0",
+  "title": "SNS device insertion",
+  "description": "Sacral neuromodulation (SNS) is a treatment where a small device is implanted near your sacral nerves to send electrical pulses that help control bladder, bowel, or pain issues. The procedure involves placing an electrode near these nerves and connecting it to a pulse generator (battery pack) under your skin. Before permanent implantation, you may have a trial period with temporary leads to confirm the treatment works for you. The outpatient implantation typically takes 1-2 hours under general anesthesia. You can return home the same day with careful activity restrictions while healing. The device can be adjusted or removed if needed, and battery replacement is required every few years. This type of procedure can be performed various ways, including revision/removal, implantation, electrode array, and implantation, pulse generator / definitive, and the cost may vary depending on the specific approach or service provided.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Neurology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5464",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "64561",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64581",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64585",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64590",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64595",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "NP031",
+      "name": "Revision / removal",
+      "anchor_codes": [
+        {
+          "code": "64585",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64595",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "NP032",
+      "name": "Implantation, electrode array",
+      "anchor_codes": [
+        {
+          "code": "64561",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64581",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "NP033",
+      "name": "Implantation, pulse generator / definitive",
+      "anchor_codes": [
+        {
+          "code": "64590",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.94236700077101,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "00630",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9267015706806283,
+      "description": "Anesthesia for procedures in lumbar region; Not otherwise specified"
+    },
+    {
+      "code": "64561",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Percutaneous implantation of neurostimulator electrode array; Sacral nerve (transforaminal placement), including image guidance, if performed"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.94236700077101,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9445515291698792,
+      "description": "General"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.94236700077101,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9866358262657414,
+      "description": "General"
+    },
+    {
+      "code": "64581",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Open implantation of neurostimulator electrode array; Sacral nerve (transforaminal placement)"
+    },
+    {
+      "code": "64585",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Revision or removal of peripheral neurostimulator electrode array"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.94236700077101,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9930609097918273,
+      "description": "General"
+    },
+    {
+      "code": "C1897",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Lead, neurostimulator test kit (implantable)"
+    },
+    {
+      "code": "64590",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Surgical insertion/replacement of a neurostimulator pulse generator"
+    },
+    {
+      "code": "00300",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7910648039790634,
+      "description": "Anesthesia for all procedures on the integumentary system, muscles and nerves of head, neck, and posterior trunk, not otherwise specified"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.94236700077101,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "C1778",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Lead, neurostimulator (implantable)"
+    },
+    {
+      "code": "76000",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5445026178010471,
+      "description": "Fluoroscopy (separate procedure), up to 1 hour physician or other qualified health care professional time"
+    },
+    {
+      "code": "64595",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Revision or removal of peripheral or gastric neurostimulator pulse generator or receiver"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,668 @@
+{
+  "id": "DP12Z",
+  "version": "2.0",
+  "title": "Local tumor excision",
+  "description": "Local tumor excision is surgical removal of a skin cancer or tumor along with a margin of healthy tissue around it. Your dermatologic surgeon removes the tumor completely to eliminate cancer cells while preserving healthy skin. The size and location of the tumor determine the surgical technique used. Pathology examination of the removed specimen confirms complete removal. The wound is closed with stitches. The cost of this procedure may vary depending on the size of the area being treated. Categories include small (<3 cm), medium (2-5 cm), large (≥5 cm), and breast & radical resection.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Dermatology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5073",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "22901",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27618",
+      "code_type": "CPT"
+    },
+    {
+      "code": "21930",
+      "code_type": "CPT"
+    },
+    {
+      "code": "21014",
+      "code_type": "CPT"
+    },
+    {
+      "code": "19120",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27327",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27632",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27619",
+      "code_type": "CPT"
+    },
+    {
+      "code": "19125",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27328",
+      "code_type": "CPT"
+    },
+    {
+      "code": "21933",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27337",
+      "code_type": "CPT"
+    },
+    {
+      "code": "21013",
+      "code_type": "CPT"
+    },
+    {
+      "code": "23076",
+      "code_type": "CPT"
+    },
+    {
+      "code": "21012",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27339",
+      "code_type": "CPT"
+    },
+    {
+      "code": "22902",
+      "code_type": "CPT"
+    },
+    {
+      "code": "23073",
+      "code_type": "CPT"
+    },
+    {
+      "code": "21920",
+      "code_type": "CPT"
+    },
+    {
+      "code": "23071",
+      "code_type": "CPT"
+    },
+    {
+      "code": "22903",
+      "code_type": "CPT"
+    },
+    {
+      "code": "21932",
+      "code_type": "CPT"
+    },
+    {
+      "code": "21931",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27634",
+      "code_type": "CPT"
+    },
+    {
+      "code": "21011",
+      "code_type": "CPT"
+    },
+    {
+      "code": "22900",
+      "code_type": "CPT"
+    },
+    {
+      "code": "23075",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "DP121",
+      "name": "Small (<3 cm)",
+      "anchor_codes": [
+        {
+          "code": "21011",
+          "code_type": "CPT"
+        },
+        {
+          "code": "21013",
+          "code_type": "CPT"
+        },
+        {
+          "code": "21920",
+          "code_type": "CPT"
+        },
+        {
+          "code": "21930",
+          "code_type": "CPT"
+        },
+        {
+          "code": "22902",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27327",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27618",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "DP122",
+      "name": "Medium (2–5 cm)",
+      "anchor_codes": [
+        {
+          "code": "21012",
+          "code_type": "CPT"
+        },
+        {
+          "code": "21014",
+          "code_type": "CPT"
+        },
+        {
+          "code": "21931",
+          "code_type": "CPT"
+        },
+        {
+          "code": "21932",
+          "code_type": "CPT"
+        },
+        {
+          "code": "22900",
+          "code_type": "CPT"
+        },
+        {
+          "code": "22903",
+          "code_type": "CPT"
+        },
+        {
+          "code": "23071",
+          "code_type": "CPT"
+        },
+        {
+          "code": "23073",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27328",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27337",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27619",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27632",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "DP123",
+      "name": "Large (≥5 cm)",
+      "anchor_codes": [
+        {
+          "code": "21933",
+          "code_type": "CPT"
+        },
+        {
+          "code": "22901",
+          "code_type": "CPT"
+        },
+        {
+          "code": "23075",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27339",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27634",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "DP124",
+      "name": "Breast & radical resection",
+      "anchor_codes": [
+        {
+          "code": "19120",
+          "code_type": "CPT"
+        },
+        {
+          "code": "19125",
+          "code_type": "CPT"
+        },
+        {
+          "code": "23076",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "22901",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision, tumor, soft tissue of abdominal wall, subfascial (e.g., desmoid); 5 CM or greater"
+    },
+    {
+      "code": "27618",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision, tumor, soft tissue of leg or ankle area, subcutaneous; Less than 3 CM"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9457130917850647,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "01250",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7441951987406533,
+      "description": "Anesthesia for all procedures on nerves, muscles, tendons, fascia, and bursae of upper leg"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8333661078609704,
+      "description": "Sterile"
+    },
+    {
+      "code": "21930",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Soft tissue, back/flank, subcutaneous"
+    },
+    {
+      "code": "21014",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of soft tissue tumor, face/scalp, subfascial; 2.0 CM or greater"
+    },
+    {
+      "code": "76098",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6819474652835871,
+      "description": "Radiological examination, surgical specimen"
+    },
+    {
+      "code": "00400",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9685119720112058,
+      "description": "Anesthesia for procedures on the integumentary system on the extremities, anterior trunk and perineum; Not otherwise specified"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9457130917850647,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "19120",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Open excision, breast lesion, no margins"
+    },
+    {
+      "code": "27327",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision, tumor, soft tissue of thigh or knee area, subcutaneous; Less than 3 CM"
+    },
+    {
+      "code": "27632",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision, tumor, soft tissue of leg or ankle area, subfascial (e.g., intramuscular); Less than 5 CM"
+    },
+    {
+      "code": "27619",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision, tumor, soft tissue of leg or ankle area, subcutaneous; 3 CM or greater"
+    },
+    {
+      "code": "00800",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6218487394957983,
+      "description": "Anesthesia for procedures on lower anterior abdominal wall; Not otherwise specified"
+    },
+    {
+      "code": "19125",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of breast lesion identified by preoperative placement of radiological marker, open; Single lesion"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9457130917850647,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "27328",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision, tumor, soft tissue of thigh or knee area, subcutaneous; 3 CM or greater"
+    },
+    {
+      "code": "21933",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of soft tissue tumor, back/flank, subfascial; 5 CM or greater"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9935843862150336,
+      "description": "General"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9650090949314193,
+      "description": "General"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8978049260115039,
+      "description": "Level IV - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "27337",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision, tumor, soft tissue of thigh or knee area, subfascial (e.g., intramuscular); Less than 5 CM"
+    },
+    {
+      "code": "21013",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of soft tissue tumor, face/scalp, subfascial; Less than 2.0 CM"
+    },
+    {
+      "code": "23076",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of soft tissue tumor, shoulder; Radical resection"
+    },
+    {
+      "code": "21012",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of soft tissue tumor, face/scalp, subcutaneous; 2.0-3.9 CM"
+    },
+    {
+      "code": "01610",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.813158969601728,
+      "description": "Anesthesia for all procedures on nerves, muscles, tendons, fascia, and bursae of shoulder and axilla"
+    },
+    {
+      "code": "88342",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8461538461538461,
+      "description": "Immunohistochemistry, initial single antibody stain"
+    },
+    {
+      "code": "27339",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision, tumor, soft tissue of thigh or knee area, subfascial (e.g., intramuscular); 5 CM or greater"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9457130917850647,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "22902",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision, tumor, soft tissue of abdominal wall, subcutaneous; Less than 3 CM"
+    },
+    {
+      "code": "23073",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of soft tissue tumor, shoulder, subfascial; Less than 5 CM"
+    },
+    {
+      "code": "88341",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7692307692307693,
+      "description": "Immunohistochemistry or immunocytochemistry, per specimen; Each additional single antibody stain procedure (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "21920",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Soft tissue tumor excision, hip or pelvis; Subcutaneous"
+    },
+    {
+      "code": "23071",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Soft tissue, shoulder, subcutaneous/subfascial"
+    },
+    {
+      "code": "22903",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision, tumor, soft tissue of abdominal wall, subcutaneous; 3 CM or greater"
+    },
+    {
+      "code": "21932",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of soft tissue tumor, back/flank, subfascial; Less than 5 CM"
+    },
+    {
+      "code": "21931",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of soft tissue tumor, back/flank, subcutaneous; 3.0-4.9 CM"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9457130917850647,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "00300",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9062468560879651,
+      "description": "Anesthesia for all procedures on the integumentary system, muscles and nerves of head, neck, and posterior trunk, not otherwise specified"
+    },
+    {
+      "code": "27634",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision, tumor, soft tissue of leg or ankle area, subfascial (e.g., intramuscular); 5 CM or greater"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "88304",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8978049260115039,
+      "description": "Level III - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "01470",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9621212121212123,
+      "description": "Anesthesia for procedures on nerves, muscles, tendons, and fascia of lower leg, ankle, and foot; Not otherwise specified"
+    },
+    {
+      "code": "76942",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Ultrasonic guidance for needle placement (e.g., biopsy, aspiration, injection, localization device), imaging supervision and interpretation"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9457130917850647,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "88307",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8978049260115039,
+      "description": "Level v - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "21011",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Soft tissue, face/scalp, subcutaneous"
+    },
+    {
+      "code": "22900",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision, tumor, soft tissue of abdominal wall, subfascial (e.g., desmoid); Less than 5 CM"
+    },
+    {
+      "code": "23075",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of soft tissue tumor, shoulder, subfascial; 5 CM or greater"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

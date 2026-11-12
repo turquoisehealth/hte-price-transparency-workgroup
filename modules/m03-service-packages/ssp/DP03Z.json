@@ -1,0 +1,128 @@
+{
+  "id": "DP03Z",
+  "version": "2.0",
+  "title": "Fine needle biopsy",
+  "description": "Fine needle biopsy is a procedure where your doctor uses a thin needle to extract a small tissue sample from a suspicious lesion or lump for examination under a microscope. This helps diagnose whether the lesion is benign or cancerous. Your pathologist examines the cells to determine diagnosis. This type of procedure can be performed various ways, including non-guided fna and image-guided fna, and the cost may vary depending on the specific approach or service provided.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Dermatology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.51,
+  "apc": "5071",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "10021",
+      "code_type": "CPT"
+    },
+    {
+      "code": "10005",
+      "code_type": "CPT"
+    },
+    {
+      "code": "10009",
+      "code_type": "CPT"
+    },
+    {
+      "code": "10007",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "DP031",
+      "name": "Non-guided FNA",
+      "anchor_codes": [
+        {
+          "code": "10021",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "DP032",
+      "name": "Image-guided FNA",
+      "anchor_codes": [
+        {
+          "code": "10005",
+          "code_type": "CPT"
+        },
+        {
+          "code": "10007",
+          "code_type": "CPT"
+        },
+        {
+          "code": "10009",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "10021",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.30224195411243354,
+      "description": "Fine needle aspiration biopsy without imaging guidance for initial lesion"
+    },
+    {
+      "code": "99152",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6547619047619048,
+      "description": "Moderate sedation services provided by the same physician or other qualified health care professional performing the diagnostic or therapeutic service that the sedation supports, requiring the presence of an independent trained observer to assist in the monitoring of the Patient's level of consciousness and physiological status; Initial 15 minutes of intraservice time, patient age 5 years or older"
+    },
+    {
+      "code": "88173",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Cytopathology, evaluation of fine needle aspirate; Interpretation and report"
+    },
+    {
+      "code": "10005",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound-guided fine needle aspiration biopsy of first lesion"
+    },
+    {
+      "code": "10009",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Fine needle aspiration biopsy with CT guidance"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Level IV - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "10007",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Fine needle aspiration biopsy with fluoroscopic guidance, 1st lesion"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

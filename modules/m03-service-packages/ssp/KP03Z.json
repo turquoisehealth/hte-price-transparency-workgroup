@@ -1,0 +1,135 @@
+{
+  "id": "KP03Z",
+  "version": "2.0",
+  "title": "Cervical disc replacement",
+  "description": "A cervical disc replacement is an outpatient surgical procedure where your surgeon removes a damaged disc in your neck and replaces it with an artificial disc that mimics your natural disc's movement. Unlike fusion, which locks vertebrae together, disc replacement preserves motion in your neck. The surgery is performed from the front of your neck and usually takes 1-2 hours. You may go home the same day or stay overnight depending on your surgeon's preference and your condition. You'll wear a neck brace temporarily to support healing. Recovery typically takes 6-12 weeks, and you can often return to normal activities within this timeframe. Physical therapy helps restore strength and motion. The goal is to relieve your pain while maintaining better neck flexibility than fusion would provide. This type of procedure can be performed various ways, including removal/replacement and total, and the cost may vary depending on the extent of the procedure.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 4.49,
+  "apc": "5116",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "22856",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "KP031",
+      "name": "Removal/replacement",
+      "anchor_codes": []
+    },
+    {
+      "id": "KP032",
+      "name": "Total",
+      "anchor_codes": [
+        {
+          "code": "22856",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8338577721837633,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8338577721837633,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8338577721837633,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8338577721837633,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8338577721837633,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Sterile"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "22856",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Total disc arthroplasty, anterior approach with discectomy; Single interspace, cervical"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8338577721837633,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

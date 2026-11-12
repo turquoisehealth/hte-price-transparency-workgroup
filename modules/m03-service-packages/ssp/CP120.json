@@ -1,0 +1,71 @@
+{
+  "id": "CP120",
+  "version": "2.0",
+  "title": "AV node ablation",
+  "description": "AV node ablation treats certain types of irregular heartbeat (arrhythmias) by carefully destroying the abnormal electrical tissue causing the problem. This procedure is performed using a catheter-based approach guided by specialized imaging, allowing your cardiologist to target only the problematic tissue while preserving normal heart function. The procedure is minimally invasive, typically requiring only a small catheter inserted through the groin or arm. Most patients experience dramatic improvement in symptoms and can return to normal activities quickly.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Cardiac & Vascular",
+  "place_of_service": "outpatient",
+  "shoppability": 2.5,
+  "apc": "5212",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "93650",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9590443686006825,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "C1894",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Introducer/sheath, other than guiding, other than intracardiac electrophysiological, non-laser"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7887372013651878,
+      "description": "General"
+    },
+    {
+      "code": "93650",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Intracardiac catheter ablation of atrioventricular node function, atrioventricular conduction for creation of complete heart block, with or without temporary pacemaker placement"
+    },
+    {
+      "code": "00537",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5178791615289766,
+      "description": "Anesthesia for cardiac electrophysiologic procedures including radiofrequency ablation"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

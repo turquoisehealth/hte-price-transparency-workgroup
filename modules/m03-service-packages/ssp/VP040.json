@@ -1,0 +1,39 @@
+{
+  "id": "VP040",
+  "version": "2.0",
+  "title": "YAG laser capsulotomy",
+  "description": "A YAG (yttrium-aluminum-garnet) laser capsulotomy is a quick laser procedure that restores clear vision when the membrane behind a lens implant becomes cloudy after cataract surgery. This clouding, sometimes called a secondary cataract, can develop months or years later and cause blurry or hazy vision much like the original cataract. Your eye doctor uses numbing drops and a focused laser to create a small opening in the cloudy membrane, letting light pass through clearly again. You sit at a machine and see flashes of light, and most people feel little or no discomfort. The procedure takes only a few minutes, requires no incision, and most people notice their vision clear within a day, returning to normal activities almost immediately.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Ophthalmology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5481",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "66821",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "66821",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Discission of secondary membranous cataract (opacified posterior lens capsule and/or anterior hyaloid); Laser surgery (e.g., yag laser) (1 or more stages)"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

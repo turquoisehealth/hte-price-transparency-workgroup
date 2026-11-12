@@ -1,0 +1,128 @@
+{
+  "id": "KP40Z",
+  "version": "2.0",
+  "title": "Carpal tunnel release",
+  "description": "Carpal tunnel release is outpatient surgery that relieves pressure on the median nerve in your wrist, the nerve responsible for carpal tunnel syndrome. When this nerve is squeezed, you may feel numbness, tingling, weakness, or pain in your hand and fingers. Your surgeon numbs the area with local anesthesia, then cuts the tight band of tissue pressing on the nerve, giving it more room. Relieving the pressure allows the nerve to recover, and many people notice their tingling and night-time symptoms improve soon afterward. You go home the same day and gradually return to using your hand as it heals.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5431",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "29848",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64721",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "KP401",
+      "name": "Open",
+      "anchor_codes": [
+        {
+          "code": "64721",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "KP402",
+      "name": "Endoscopic",
+      "anchor_codes": [
+        {
+          "code": "29848",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9023792636533625,
+      "description": "General"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7648093733592476,
+      "description": "Sterile"
+    },
+    {
+      "code": "29848",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Endoscopy, wrist, surgical, with release of transverse carpal ligament"
+    },
+    {
+      "code": "01810",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.792007247687935,
+      "description": "Anesthesia for all procedures on nerves, muscles, tendons, fascia, and bursae of forearm, wrist, and hand"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7835726720890175,
+      "description": "General"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8258338476276448,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "64721",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Neuroplasty and/or transposition; Median nerve at carpal tunnel"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8258338476276448,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9430376831885633,
+      "description": "General"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

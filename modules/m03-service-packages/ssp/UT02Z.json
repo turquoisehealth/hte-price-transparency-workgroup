@@ -1,0 +1,104 @@
+{
+  "id": "UT02Z",
+  "version": "2.0",
+  "title": "Dialysis",
+  "description": "Dialysis is a lifesaving treatment that removes waste and excess water from your blood when your kidneys can no longer do this job. Two main types exist: hemodialysis (filtering blood through an artificial kidney machine) and peritoneal dialysis (using your abdominal lining to filter blood). The type of dialysis recommended depends on your kidney function level, lifestyle, and medical status. Most dialysis patients require three sessions per week, each lasting 3-5 hours. With proper dialysis and medical management, patients with kidney failure can enjoy good quality of life.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Urology / Nephrology",
+  "place_of_service": "outpatient",
+  "shoppability": 2.0,
+  "apc": "5401",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "90935",
+      "code_type": "CPT"
+    },
+    {
+      "code": "90945",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "UT021",
+      "name": "Other dialysis (peritoneal dialysis, hemofiltration)",
+      "anchor_codes": [
+        {
+          "code": "90945",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "UT022",
+      "name": "Hemodialysis",
+      "anchor_codes": [
+        {
+          "code": "90935",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "90935",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Hemodialysis procedure with single evaluation by a physician or other qualified health care professional"
+    },
+    {
+      "code": "90945",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Dialysis procedure other than hemodialysis (e.g., peritoneal dialysis, hemofiltration, or other continuous renal replacement therapies), with single evaluation by a physician or other qualified health care professional"
+    },
+    {
+      "code": "99284",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8277777777777778,
+      "description": "Emergency department visit for moderate complexity evaluation and management with counseling/coordination of care"
+    },
+    {
+      "code": "90966",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5517241379310345,
+      "description": "End-stage renal disease (ESRD) related services for home dialysis per full month, for patients 20 years of age and older"
+    },
+    {
+      "code": "99214",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5172413793103449,
+      "description": "Office or other outpatient visit, established patient; Moderate complexity medical decision making, 30-39 min"
+    },
+    {
+      "code": "93010",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Electrocardiogram, routine ECG; Interpretation & report only"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

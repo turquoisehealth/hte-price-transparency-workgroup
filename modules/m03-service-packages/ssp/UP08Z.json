@@ -1,0 +1,184 @@
+{
+  "id": "UP08Z",
+  "version": "2.0",
+  "title": "Lithotripsy (kidney stone)",
+  "description": "Lithotripsy is a procedure to break up or remove kidney stones that are too large to pass on their own. Kidney stones are hard mineral deposits that can cause severe pain and block the flow of urine. Depending on the size and location of the stone, your doctor may use focused shock waves delivered from outside the body to shatter the stone into small pieces that you then pass in your urine, or, for larger stones, a minimally invasive surgery through a small incision in the back to remove the stone directly. The approach is chosen to fit your stone. Both are done with anesthesia so you are comfortable, and clearing the stone relieves pain and restores normal urine flow.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Urology / Nephrology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.41,
+  "apc": "5374",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "50080",
+      "code_type": "CPT"
+    },
+    {
+      "code": "50081",
+      "code_type": "CPT"
+    },
+    {
+      "code": "50590",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "UP081",
+      "name": "ESWL",
+      "anchor_codes": [
+        {
+          "code": "50590",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "UP082",
+      "name": "Percutaneous nephrolithotomy",
+      "anchor_codes": [
+        {
+          "code": "50080",
+          "code_type": "CPT"
+        },
+        {
+          "code": "50081",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "50080",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Percutaneous nephrolithotomy or pyelolithotomy, lithotripsy, stone extraction, antegrade ureteroscopy, antegrade stent placement and nephrostomy tube placement, when performed, including imaging guidance; Simple (e.g., stone[s] up to 2 CM in single location of kidney or renal pelvis, nonbranching stones)"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "50081",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Percutaneous nephrolithotomy or pyelolithotomy, lithotripsy, stone extraction, antegrade ureteroscopy, antegrade stent placement and nephrostomy tube placement, when performed, including imaging guidance; Complex (e.g., stone[s] > 2 CM, branching stones, stones in multiple locations, ureter stones, complicated anatomy)"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "C2617",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8530602888362497,
+      "description": "Stent, non-coronary, temporary, without delivery system"
+    },
+    {
+      "code": "82365",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.761175212042485,
+      "description": "Calculus; Infrared spectroscopy"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "00862",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for extraperitoneal procedures in lower abdomen, including urinary tract; Renal procedures, including upper one-third of ureter, or donor nephrectomy"
+    },
+    {
+      "code": "50590",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Lithotripsy, extracorporeal shock wave"
+    },
+    {
+      "code": "00873",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8414077775363894,
+      "description": "Anesthesia for lithotripsy, extracorporeal shock wave; Without water bath"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

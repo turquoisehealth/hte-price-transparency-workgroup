@@ -1,0 +1,127 @@
+{
+  "id": "CP060",
+  "version": "2.0",
+  "title": "Pacemaker replacement",
+  "description": "Pacemaker replacement is an outpatient procedure where your doctor removes your old pacemaker and implants a new one. Pacemakers typically last 7-10 years before the battery depletes, at which point replacement is necessary. Your cardiologist makes a small incision under your collarbone, removes the old device, and places a new one in the same location. The wires already in your heart are usually reused and connected to the new device. This procedure helps ensure your pacemaker continues to keep your heart beating at a healthy rate. After recovery, your new device will function just like your previous one.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Cardiac & Vascular",
+  "place_of_service": "outpatient",
+  "shoppability": 4.0,
+  "apc": "5223",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "33229",
+      "code_type": "CPT"
+    },
+    {
+      "code": "33228",
+      "code_type": "CPT"
+    },
+    {
+      "code": "33227",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "C1786",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Pacemaker, single chamber, rate-responsive (implantable)"
+    },
+    {
+      "code": "C2621",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Pacemaker, other than single or dual chamber (implantable)"
+    },
+    {
+      "code": "93010",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5042643923240938,
+      "description": "Electrocardiogram, routine ECG; Interpretation & report only"
+    },
+    {
+      "code": "C1785",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Pacemaker, dual chamber, rate-responsive (implantable)"
+    },
+    {
+      "code": "33229",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Removal of permanent pacemaker pulse generator with replacement; Multiple lead system"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "33228",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Removal of permanent pacemaker pulse generator with replacement; Dual lead system"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "33227",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Removal of permanent pacemaker pulse generator with replacement; Single lead system"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,718 @@
+{
+  "id": "DP11Z",
+  "version": "2.0",
+  "title": "Skin lesion removal",
+  "description": "Skin lesion removal is an outpatient procedure to surgically remove benign or malignant skin lesions. Your dermatologist removes the lesion under local anesthesia, taking care to remove it completely with appropriate margins. The wound is closed with stitches or left to heal naturally depending on the lesion's size and location. Healing typically takes one to three weeks. The cost of this procedure may vary depending on the size of the area being treated. Categories include small (<2cm), medium (2-4cm), and large (>4cm).",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Dermatology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.89,
+  "apc": "5072",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "11403",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11406",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11644",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11446",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11601",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11642",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11604",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11442",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11606",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11421",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11440",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11646",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11623",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11401",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11441",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11622",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11620",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11420",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11640",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11621",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11424",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11400",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11641",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11624",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11643",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11423",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11443",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11422",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11402",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11600",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11626",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11444",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11404",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11426",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11602",
+      "code_type": "CPT"
+    },
+    {
+      "code": "11603",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "DP111",
+      "name": "Small (<2cm)",
+      "anchor_codes": [
+        {
+          "code": "11400",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11401",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11402",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11403",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11420",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11421",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11422",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11440",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11441",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11442",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11600",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11601",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11602",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11620",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11621",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11622",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11640",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11641",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11642",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "DP112",
+      "name": "Medium (2-4cm)",
+      "anchor_codes": [
+        {
+          "code": "11404",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11423",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11424",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11443",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11444",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11603",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11604",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11623",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11624",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11643",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11644",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "DP113",
+      "name": "Large (>4cm)",
+      "anchor_codes": [
+        {
+          "code": "11406",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11426",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11446",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11606",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11626",
+          "code_type": "CPT"
+        },
+        {
+          "code": "11646",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "11403",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion from trunk, arms, or legs; 2.1-3.0 CM"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7521805505586293,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "11406",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion from trunk, arms, or legs; Over CM"
+    },
+    {
+      "code": "11644",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of malignant lesion from face/ear/eye/nose/lip"
+    },
+    {
+      "code": "11446",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion: face, ears eyelids, nose, ear, over 4cm"
+    },
+    {
+      "code": "11601",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of malignant lesion from trunk, arms, or legs; 0.6-1.0 CM diameter"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.6749350939800274,
+      "description": "General"
+    },
+    {
+      "code": "11642",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of malignant lesion from face/ear/eye/nose/lip"
+    },
+    {
+      "code": "11604",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excise malignant lesion of trunk, arms, or legs"
+    },
+    {
+      "code": "11442",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion: face, ears eyelids, nose, ear"
+    },
+    {
+      "code": "11606",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excise malignant lesion of trunk, arms, or legs"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7521805505586293,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "12032",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6122469277548857,
+      "description": "Repair, intermediate, wounds of scalp, axillae, trunk and/or extremities (excluding hands and feet); 2.6 CM to 7.5 CM"
+    },
+    {
+      "code": "11421",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion: scalp, neck, hands, feet, genitalia"
+    },
+    {
+      "code": "11440",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion: face, ears eyelids, nose, ear"
+    },
+    {
+      "code": "11646",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of malignant lesion from face/ear/eye/nose/lip"
+    },
+    {
+      "code": "11623",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of malignant lesionon scalp, neck, hands, feet, genitalia"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Level IV - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "11401",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion 0.6-1.0cm. from trunk/arms/legs"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7521805505586293,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "11441",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion: face, ears eyelids, nose, ear"
+    },
+    {
+      "code": "00300",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7489552160751908,
+      "description": "Anesthesia for all procedures on the integumentary system, muscles and nerves of head, neck, and posterior trunk, not otherwise specified"
+    },
+    {
+      "code": "11602",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Excise malignant lesion of trunk, arms, or legs with 1.1-2.0cm. diameter"
+    },
+    {
+      "code": "00400",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6271132816774545,
+      "description": "Anesthesia for procedures on the integumentary system on the extremities, anterior trunk and perineum; Not otherwise specified"
+    },
+    {
+      "code": "11622",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of malignant lesion 1.1 - 2.0 CM on scalp, neck, hands, feet, genitalia"
+    },
+    {
+      "code": "11620",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of malignant lesion: scalp, neck, hands, feet, genitalia"
+    },
+    {
+      "code": "11420",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion: scalp, neck, hands, feet, genitalia"
+    },
+    {
+      "code": "11640",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Incision and removal of malignant lesion from face, ears, eyelids, nose, lips of diameter 0.5 CM or less"
+    },
+    {
+      "code": "11621",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of malignant lesion 0.6-1.0cm. on scalp, neck, hands, feet, genitalia"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7886446067229996,
+      "description": "General"
+    },
+    {
+      "code": "11424",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion: scalp, neck, hands, feet, genitalia"
+    },
+    {
+      "code": "11400",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion <0.5"
+    },
+    {
+      "code": "11641",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of malignant lesion from face/ear/eye/nose/lip, 0.6-1.0 CM"
+    },
+    {
+      "code": "11624",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of malignant lesionon scalp, neck, hands, feet, genitalia"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7521805505586293,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8454507443529332,
+      "description": "General"
+    },
+    {
+      "code": "11643",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of malignant lesion from face/ear/eye/nose/lip"
+    },
+    {
+      "code": "11423",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion: scalp, neck, hands, feet, genitalia"
+    },
+    {
+      "code": "11443",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion: face, ears eyelids, nose, ear"
+    },
+    {
+      "code": "11422",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excise benign lesion of scalp, neck, hands, feet, genitalia; 1.1-2.0 CM"
+    },
+    {
+      "code": "11402",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion of trunk, arms, or legs, 1.1-2.0 CM diameter"
+    },
+    {
+      "code": "11600",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excise malignant lesion of trunk, arms, or legs"
+    },
+    {
+      "code": "11626",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of malignant lesionon scalp, neck, hands, feet, genitalia, >4cm"
+    },
+    {
+      "code": "11603",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Excise malignant lesion of trunk, arms, or legs"
+    },
+    {
+      "code": "11444",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion: face, ears eyelids, nose, ear"
+    },
+    {
+      "code": "11404",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion from trunk, arms, or legs; 3.1-4cm"
+    },
+    {
+      "code": "11426",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Excision of benign lesion: scalp, neck, hands, feet, genitalia, over 4cm"
+    },
+    {
+      "code": "88304",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Level III - surgical pathology, gross and microscopic examination"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "id": "CP140",
+  "version": "2.0",
+  "title": "Vascular embolization",
+  "description": "A vascular embolization blocks blood flow to abnormal blood vessels or tumors using catheters and special materials. During this outpatient procedure, your doctor threads a thin catheter through blood vessels to the target area under imaging guidance. Small particles, coils, or other materials are deployed to block blood flow, shrinking the abnormal tissue. The procedure takes 1-3 hours and you're sedated for comfort. Most people go home the same day or with brief overnight observation. Recovery is faster than surgery.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Cardiac & Vascular",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5193",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "37241",
+      "code_type": "CPT"
+    },
+    {
+      "code": "37242",
+      "code_type": "CPT"
+    },
+    {
+      "code": "37243",
+      "code_type": "CPT"
+    },
+    {
+      "code": "37244",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "37241",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Vascular embolization or occlusion, inclusive of all radiological supervision and interpretation, intraprocedural roadmapping, and imaging guidance necessary to complete the intervention; Venous, other than hemorrhage (e.g., congenital or acquired venous malformations, venous and capillary hemangiomas, varices, varicoceles)"
+    },
+    {
+      "code": "99152",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Moderate sedation services provided by the same physician or other qualified health care professional performing the diagnostic or therapeutic service that the sedation supports, requiring the presence of an independent trained observer to assist in the monitoring of the Patient's level of consciousness and physiological status; Initial 15 minutes of intraservice time, patient age 5 years or older"
+    },
+    {
+      "code": "01930",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.872655478775913,
+      "description": "Anesthesia for therapeutic interventional radiological procedures involving the venous/lymphatic system (not to include access to the central circulation); Not otherwise specified"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7955378486055776,
+      "description": "General"
+    },
+    {
+      "code": "37242",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Vascular embolization or occlusion, inclusive of all radiological supervision and interpretation, intraprocedural roadmapping, and imaging guidance necessary to complete the intervention; Arterial, other than hemorrhage or tumor (e.g., congenital or acquired arterial malformations, arteriovenous malformations, arteriovenous fistulas, aneurysms, pseudoaneurysms)"
+    },
+    {
+      "code": "75774",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5258620689655172,
+      "description": "Angiography, selective, each additional vessel studied after basic examination, radiological supervision and interpretation (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "Q9967",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Low osmolar contrast material, 300-399 MG/ML iodine concentration, per ML"
+    },
+    {
+      "code": "C1760",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Closure device, vascular (implantable/insertable)"
+    },
+    {
+      "code": "36247",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Selective catheter placement, arterial system; Initial third order or more selective abdominal, pelvic, or lower extremity artery branch, within a vascular family"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "85610",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8809561752988048,
+      "description": "Prothrombin time (pt)"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "37243",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Vascular embolization or occlusion, inclusive of all radiological supervision and interpretation, intraprocedural roadmapping, and imaging guidance necessary to complete the intervention; For tumors, organ ischemia, or infarction"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "37244",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Vascular embolization or occlusion, inclusive of all radiological supervision and interpretation, intraprocedural roadmapping, and imaging guidance necessary to complete the intervention; For hemorrhage or vascular or lymphatic extravasation"
+    },
+    {
+      "code": "76937",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.6338645418326693,
+      "description": "Ultrasound guidance for vascular access requiring ultrasound evaluation of potential access sites, documentation of selected vessel patency, concurrent real-time ultrasound visualization of vascular needle entry, with permanent recording and reporting (list separately in addition to code for primary procedure)"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

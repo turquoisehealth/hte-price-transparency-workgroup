@@ -1,0 +1,103 @@
+{
+  "id": "KP120",
+  "version": "2.0",
+  "title": "Non-surgical foot fracture treatment (with / without manipulation)",
+  "description": "Non-surgical foot fracture treatment is an outpatient procedure where your doctor treats your broken foot bones without surgery using a cast, boot, or specialized shoe. Your doctor will take X-rays to determine which foot bones are broken and assess the severity. Many foot fractures can heal without surgery if the bones are properly aligned. You'll wear protective footwear, usually a cast or walking boot, to immobilize your foot and allow healing. You'll need to avoid weight-bearing activities for several weeks, using crutches if necessary. Ice and elevation help manage swelling and pain. Periodic X-rays monitor healing progress. Physical therapy helps restore your strength and motion once healing is underway. Full healing typically takes 6-12 weeks depending on the fracture location and severity.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 3.5,
+  "apc": "5111",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "28515",
+      "code_type": "CPT"
+    },
+    {
+      "code": "28510",
+      "code_type": "CPT"
+    },
+    {
+      "code": "28490",
+      "code_type": "CPT"
+    },
+    {
+      "code": "28400",
+      "code_type": "CPT"
+    },
+    {
+      "code": "28470",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "28515",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.6152613016992626,
+      "description": "Manipulative closed treatment of non-great toe fracture"
+    },
+    {
+      "code": "28510",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction of phalangeal fracture without manipulation"
+    },
+    {
+      "code": "28490",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction and immobilization of toe fracture"
+    },
+    {
+      "code": "28400",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction of calcaneal fracture without manipulation"
+    },
+    {
+      "code": "28470",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Treatment of non-manipulated metatarsal fractures: each"
+    },
+    {
+      "code": "99284",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.525,
+      "description": "Emergency department visit for moderate complexity evaluation and management with counseling/coordination of care"
+    },
+    {
+      "code": "73660",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.525,
+      "description": "X-ray of two or more toes, minimum of two views"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

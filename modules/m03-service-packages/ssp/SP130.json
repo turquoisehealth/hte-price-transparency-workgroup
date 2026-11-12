@@ -1,0 +1,155 @@
+{
+  "id": "SP130",
+  "version": "2.0",
+  "title": "Tubal ligation",
+  "description": "A tubal ligation is a minimally invasive female sterilization surgery that closes your fallopian tubes, the tubes that carry eggs from the ovaries to the uterus. With the tubes sealed, eggs and sperm cannot meet, so pregnancy cannot occur.Sealing these tubes prevents eggs and sperm from meeting, so pregnancy cannot occur. Your surgeon makes one or two small incisions near your navel and uses a camera and specialized instruments, usually under general anesthesia, to cut, seal, clip, or band each tube. The procedure is often done as day surgery, and most people go home the same day. Your menstrual cycle and hormones stay the same. Because it is permanent, your doctor will make sure you are certain about your decision beforehand.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Gynecology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5361",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "58670",
+      "code_type": "CPT"
+    },
+    {
+      "code": "58671",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Sterile"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9475696340797378,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "00851",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for intraperitoneal procedures in lower abdomen including laparoscopy; Tubal ligation/transection"
+    },
+    {
+      "code": "58670",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laparoscopic oviduct fulguration, possibly with transection"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9475696340797378,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "81025",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8511742217367558,
+      "description": "Urine pregnancy test, by visual color comparison"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9475696340797378,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9475696340797378,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "J1885",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9475696340797378,
+      "description": "Injection, ketorolac tromethamine, per 15 MG"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "58671",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laparoscopic occlusion of oviducts with device"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J7120",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9475696340797378,
+      "description": "Ringers lactate infusion, up to 1000 CC"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9475696340797378,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,6015 @@
+{
+  "version": "2.0",
+  "codes": {
+    "0648T": {
+      "code_type": "HCPCS",
+      "ssp_id": "R016Z",
+      "sub_variant_ids": [
+        "R0162"
+      ]
+    },
+    "0649T": {
+      "code_type": "HCPCS",
+      "ssp_id": "R016Z",
+      "sub_variant_ids": [
+        "R0162"
+      ]
+    },
+    "0795T": {
+      "code_type": "HCPCS",
+      "ssp_id": "CP040",
+      "sub_variant_ids": []
+    },
+    "0823T": {
+      "code_type": "HCPCS",
+      "ssp_id": "CP040",
+      "sub_variant_ids": []
+    },
+    "0865T": {
+      "code_type": "HCPCS",
+      "ssp_id": "R016Z",
+      "sub_variant_ids": [
+        "R0161"
+      ]
+    },
+    "0866T": {
+      "code_type": "HCPCS",
+      "ssp_id": "R016Z",
+      "sub_variant_ids": [
+        "R0161"
+      ]
+    },
+    "10005": {
+      "code_type": "CPT",
+      "ssp_id": "DP03Z",
+      "sub_variant_ids": [
+        "DP032"
+      ]
+    },
+    "10007": {
+      "code_type": "CPT",
+      "ssp_id": "DP03Z",
+      "sub_variant_ids": [
+        "DP032"
+      ]
+    },
+    "10009": {
+      "code_type": "CPT",
+      "ssp_id": "DP03Z",
+      "sub_variant_ids": [
+        "DP032"
+      ]
+    },
+    "10021": {
+      "code_type": "CPT",
+      "ssp_id": "DP03Z",
+      "sub_variant_ids": [
+        "DP031"
+      ]
+    },
+    "10035": {
+      "code_type": "CPT",
+      "ssp_id": "DP06Z",
+      "sub_variant_ids": [
+        "DP061"
+      ]
+    },
+    "10160": {
+      "code_type": "CPT",
+      "ssp_id": "DP02Z",
+      "sub_variant_ids": [
+        "DP021"
+      ]
+    },
+    "11400": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11401": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11402": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11403": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11404": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP112"
+      ]
+    },
+    "11406": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP113"
+      ]
+    },
+    "11420": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11421": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11422": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11423": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP112"
+      ]
+    },
+    "11424": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP112"
+      ]
+    },
+    "11426": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP113"
+      ]
+    },
+    "11440": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11441": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11442": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11443": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP112"
+      ]
+    },
+    "11444": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP112"
+      ]
+    },
+    "11446": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP113"
+      ]
+    },
+    "11600": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11601": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11602": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11603": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP112"
+      ]
+    },
+    "11604": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP112"
+      ]
+    },
+    "11606": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP113"
+      ]
+    },
+    "11620": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11621": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11622": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11623": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP112"
+      ]
+    },
+    "11624": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP112"
+      ]
+    },
+    "11626": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP113"
+      ]
+    },
+    "11640": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11641": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11642": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP111"
+      ]
+    },
+    "11643": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP112"
+      ]
+    },
+    "11644": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP112"
+      ]
+    },
+    "11646": {
+      "code_type": "CPT",
+      "ssp_id": "DP11Z",
+      "sub_variant_ids": [
+        "DP113"
+      ]
+    },
+    "11770": {
+      "code_type": "CPT",
+      "ssp_id": "DP090",
+      "sub_variant_ids": []
+    },
+    "11771": {
+      "code_type": "CPT",
+      "ssp_id": "DP090",
+      "sub_variant_ids": []
+    },
+    "11772": {
+      "code_type": "CPT",
+      "ssp_id": "DP090",
+      "sub_variant_ids": []
+    },
+    "12001": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE022"
+      ]
+    },
+    "12002": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE022"
+      ]
+    },
+    "12004": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE022"
+      ]
+    },
+    "12005": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE022"
+      ]
+    },
+    "12006": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE022"
+      ]
+    },
+    "12011": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE022"
+      ]
+    },
+    "12013": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE022"
+      ]
+    },
+    "12014": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE022"
+      ]
+    },
+    "12015": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE022"
+      ]
+    },
+    "12020": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE022"
+      ]
+    },
+    "12021": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE022"
+      ]
+    },
+    "12031": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE023"
+      ]
+    },
+    "12032": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE023"
+      ]
+    },
+    "12034": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE023"
+      ]
+    },
+    "12035": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE023"
+      ]
+    },
+    "12036": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE023"
+      ]
+    },
+    "12037": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE023"
+      ]
+    },
+    "12041": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE023"
+      ]
+    },
+    "12042": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE023"
+      ]
+    },
+    "12044": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE023"
+      ]
+    },
+    "12045": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE023"
+      ]
+    },
+    "12051": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE023"
+      ]
+    },
+    "12052": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE023"
+      ]
+    },
+    "12053": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE023"
+      ]
+    },
+    "12054": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE023"
+      ]
+    },
+    "13100": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE024"
+      ]
+    },
+    "13101": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE024"
+      ]
+    },
+    "13120": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE024"
+      ]
+    },
+    "13121": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE024"
+      ]
+    },
+    "13131": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE024"
+      ]
+    },
+    "13132": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE024"
+      ]
+    },
+    "13151": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE024"
+      ]
+    },
+    "13152": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE024"
+      ]
+    },
+    "19000": {
+      "code_type": "CPT",
+      "ssp_id": "DP02Z",
+      "sub_variant_ids": [
+        "DP021"
+      ]
+    },
+    "19081": {
+      "code_type": "CPT",
+      "ssp_id": "DP05Z",
+      "sub_variant_ids": [
+        "DP052"
+      ]
+    },
+    "19083": {
+      "code_type": "CPT",
+      "ssp_id": "DP05Z",
+      "sub_variant_ids": [
+        "DP052"
+      ]
+    },
+    "19085": {
+      "code_type": "CPT",
+      "ssp_id": "DP05Z",
+      "sub_variant_ids": [
+        "DP052"
+      ]
+    },
+    "19100": {
+      "code_type": "CPT",
+      "ssp_id": "DP05Z",
+      "sub_variant_ids": [
+        "DP052"
+      ]
+    },
+    "19120": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP124"
+      ]
+    },
+    "19125": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP124"
+      ]
+    },
+    "19281": {
+      "code_type": "CPT",
+      "ssp_id": "DP06Z",
+      "sub_variant_ids": [
+        "DP062"
+      ]
+    },
+    "19283": {
+      "code_type": "CPT",
+      "ssp_id": "DP06Z",
+      "sub_variant_ids": [
+        "DP061"
+      ]
+    },
+    "19285": {
+      "code_type": "CPT",
+      "ssp_id": "DP06Z",
+      "sub_variant_ids": [
+        "DP061"
+      ]
+    },
+    "19287": {
+      "code_type": "CPT",
+      "ssp_id": "DP06Z",
+      "sub_variant_ids": [
+        "DP061"
+      ]
+    },
+    "20206": {
+      "code_type": "CPT",
+      "ssp_id": "DP05Z",
+      "sub_variant_ids": [
+        "DP052"
+      ]
+    },
+    "20550": {
+      "code_type": "CPT",
+      "ssp_id": "KP350",
+      "sub_variant_ids": []
+    },
+    "20553": {
+      "code_type": "CPT",
+      "ssp_id": "KP350",
+      "sub_variant_ids": []
+    },
+    "20600": {
+      "code_type": "CPT",
+      "ssp_id": "KP010",
+      "sub_variant_ids": []
+    },
+    "20604": {
+      "code_type": "CPT",
+      "ssp_id": "KP010",
+      "sub_variant_ids": []
+    },
+    "20605": {
+      "code_type": "CPT",
+      "ssp_id": "KP010",
+      "sub_variant_ids": []
+    },
+    "20606": {
+      "code_type": "CPT",
+      "ssp_id": "KP010",
+      "sub_variant_ids": []
+    },
+    "20610": {
+      "code_type": "CPT",
+      "ssp_id": "KP010",
+      "sub_variant_ids": []
+    },
+    "20611": {
+      "code_type": "CPT",
+      "ssp_id": "KP010",
+      "sub_variant_ids": []
+    },
+    "20612": {
+      "code_type": "CPT",
+      "ssp_id": "KP010",
+      "sub_variant_ids": []
+    },
+    "21011": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP121"
+      ]
+    },
+    "21012": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP122"
+      ]
+    },
+    "21013": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP121"
+      ]
+    },
+    "21014": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP122"
+      ]
+    },
+    "21016": {
+      "code_type": "CPT",
+      "ssp_id": "DP130",
+      "sub_variant_ids": []
+    },
+    "21315": {
+      "code_type": "CPT",
+      "ssp_id": "KP17Z",
+      "sub_variant_ids": [
+        "KP171"
+      ]
+    },
+    "21320": {
+      "code_type": "CPT",
+      "ssp_id": "KP17Z",
+      "sub_variant_ids": [
+        "KP172"
+      ]
+    },
+    "21337": {
+      "code_type": "CPT",
+      "ssp_id": "KP17Z",
+      "sub_variant_ids": [
+        "KP172"
+      ]
+    },
+    "21558": {
+      "code_type": "CPT",
+      "ssp_id": "DP130",
+      "sub_variant_ids": []
+    },
+    "21920": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP121"
+      ]
+    },
+    "21930": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP121"
+      ]
+    },
+    "21931": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP122"
+      ]
+    },
+    "21932": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP122"
+      ]
+    },
+    "21933": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP123"
+      ]
+    },
+    "21936": {
+      "code_type": "CPT",
+      "ssp_id": "DP130",
+      "sub_variant_ids": []
+    },
+    "22310": {
+      "code_type": "CPT",
+      "ssp_id": "KP200",
+      "sub_variant_ids": []
+    },
+    "22510": {
+      "code_type": "CPT",
+      "ssp_id": "KP36Z",
+      "sub_variant_ids": [
+        "KP361"
+      ]
+    },
+    "22511": {
+      "code_type": "CPT",
+      "ssp_id": "KP36Z",
+      "sub_variant_ids": [
+        "KP361"
+      ]
+    },
+    "22513": {
+      "code_type": "CPT",
+      "ssp_id": "KP36Z",
+      "sub_variant_ids": [
+        "KP362"
+      ]
+    },
+    "22514": {
+      "code_type": "CPT",
+      "ssp_id": "KP36Z",
+      "sub_variant_ids": [
+        "KP362"
+      ]
+    },
+    "22612": {
+      "code_type": "CPT",
+      "ssp_id": "KP250",
+      "sub_variant_ids": []
+    },
+    "22630": {
+      "code_type": "CPT",
+      "ssp_id": "KP250",
+      "sub_variant_ids": []
+    },
+    "22633": {
+      "code_type": "CPT",
+      "ssp_id": "KP250",
+      "sub_variant_ids": []
+    },
+    "22856": {
+      "code_type": "CPT",
+      "ssp_id": "KP03Z",
+      "sub_variant_ids": [
+        "KP032"
+      ]
+    },
+    "22900": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP122"
+      ]
+    },
+    "22901": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP123"
+      ]
+    },
+    "22902": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP121"
+      ]
+    },
+    "22903": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP122"
+      ]
+    },
+    "23071": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP122"
+      ]
+    },
+    "23073": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP122"
+      ]
+    },
+    "23075": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP123"
+      ]
+    },
+    "23076": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP124"
+      ]
+    },
+    "23078": {
+      "code_type": "CPT",
+      "ssp_id": "DP130",
+      "sub_variant_ids": []
+    },
+    "23470": {
+      "code_type": "CPT",
+      "ssp_id": "KP34Z",
+      "sub_variant_ids": [
+        "KP341"
+      ]
+    },
+    "23472": {
+      "code_type": "CPT",
+      "ssp_id": "KP34Z",
+      "sub_variant_ids": [
+        "KP342"
+      ]
+    },
+    "23473": {
+      "code_type": "CPT",
+      "ssp_id": "KP34Z",
+      "sub_variant_ids": [
+        "KP341"
+      ]
+    },
+    "23474": {
+      "code_type": "CPT",
+      "ssp_id": "KP34Z",
+      "sub_variant_ids": [
+        "KP341"
+      ]
+    },
+    "23500": {
+      "code_type": "CPT",
+      "ssp_id": "KP19Z",
+      "sub_variant_ids": [
+        "KP191"
+      ]
+    },
+    "23570": {
+      "code_type": "CPT",
+      "ssp_id": "KP19Z",
+      "sub_variant_ids": [
+        "KP191"
+      ]
+    },
+    "23600": {
+      "code_type": "CPT",
+      "ssp_id": "KP09Z",
+      "sub_variant_ids": [
+        "KP091"
+      ]
+    },
+    "23605": {
+      "code_type": "CPT",
+      "ssp_id": "KP09Z",
+      "sub_variant_ids": [
+        "KP092"
+      ]
+    },
+    "23620": {
+      "code_type": "CPT",
+      "ssp_id": "KP09Z",
+      "sub_variant_ids": [
+        "KP091"
+      ]
+    },
+    "24079": {
+      "code_type": "CPT",
+      "ssp_id": "DP130",
+      "sub_variant_ids": []
+    },
+    "24500": {
+      "code_type": "CPT",
+      "ssp_id": "KP09Z",
+      "sub_variant_ids": [
+        "KP091"
+      ]
+    },
+    "24505": {
+      "code_type": "CPT",
+      "ssp_id": "KP09Z",
+      "sub_variant_ids": [
+        "KP092"
+      ]
+    },
+    "24530": {
+      "code_type": "CPT",
+      "ssp_id": "KP09Z",
+      "sub_variant_ids": [
+        "KP091"
+      ]
+    },
+    "24535": {
+      "code_type": "CPT",
+      "ssp_id": "KP09Z",
+      "sub_variant_ids": [
+        "KP092"
+      ]
+    },
+    "24560": {
+      "code_type": "CPT",
+      "ssp_id": "KP09Z",
+      "sub_variant_ids": [
+        "KP091"
+      ]
+    },
+    "24576": {
+      "code_type": "CPT",
+      "ssp_id": "KP09Z",
+      "sub_variant_ids": [
+        "KP091"
+      ]
+    },
+    "24620": {
+      "code_type": "CPT",
+      "ssp_id": "KP09Z",
+      "sub_variant_ids": [
+        "KP092"
+      ]
+    },
+    "24650": {
+      "code_type": "CPT",
+      "ssp_id": "KP24Z",
+      "sub_variant_ids": [
+        "KP241"
+      ]
+    },
+    "24655": {
+      "code_type": "CPT",
+      "ssp_id": "KP24Z",
+      "sub_variant_ids": [
+        "KP242"
+      ]
+    },
+    "24670": {
+      "code_type": "CPT",
+      "ssp_id": "KP24Z",
+      "sub_variant_ids": [
+        "KP241"
+      ]
+    },
+    "24675": {
+      "code_type": "CPT",
+      "ssp_id": "KP24Z",
+      "sub_variant_ids": [
+        "KP242"
+      ]
+    },
+    "25500": {
+      "code_type": "CPT",
+      "ssp_id": "KP24Z",
+      "sub_variant_ids": [
+        "KP241"
+      ]
+    },
+    "25505": {
+      "code_type": "CPT",
+      "ssp_id": "KP24Z",
+      "sub_variant_ids": [
+        "KP242"
+      ]
+    },
+    "25530": {
+      "code_type": "CPT",
+      "ssp_id": "KP24Z",
+      "sub_variant_ids": [
+        "KP241"
+      ]
+    },
+    "25560": {
+      "code_type": "CPT",
+      "ssp_id": "KP24Z",
+      "sub_variant_ids": [
+        "KP241"
+      ]
+    },
+    "25565": {
+      "code_type": "CPT",
+      "ssp_id": "KP24Z",
+      "sub_variant_ids": [
+        "KP242"
+      ]
+    },
+    "25600": {
+      "code_type": "CPT",
+      "ssp_id": "KP24Z",
+      "sub_variant_ids": [
+        "KP241"
+      ]
+    },
+    "25605": {
+      "code_type": "CPT",
+      "ssp_id": "KP24Z",
+      "sub_variant_ids": [
+        "KP242"
+      ]
+    },
+    "25622": {
+      "code_type": "CPT",
+      "ssp_id": "KP24Z",
+      "sub_variant_ids": [
+        "KP241"
+      ]
+    },
+    "25630": {
+      "code_type": "CPT",
+      "ssp_id": "KP24Z",
+      "sub_variant_ids": [
+        "KP241"
+      ]
+    },
+    "25650": {
+      "code_type": "CPT",
+      "ssp_id": "KP24Z",
+      "sub_variant_ids": [
+        "KP241"
+      ]
+    },
+    "26600": {
+      "code_type": "CPT",
+      "ssp_id": "KP13Z",
+      "sub_variant_ids": [
+        "KP131"
+      ]
+    },
+    "26720": {
+      "code_type": "CPT",
+      "ssp_id": "KP13Z",
+      "sub_variant_ids": [
+        "KP131"
+      ]
+    },
+    "26725": {
+      "code_type": "CPT",
+      "ssp_id": "KP13Z",
+      "sub_variant_ids": [
+        "KP131"
+      ]
+    },
+    "26740": {
+      "code_type": "CPT",
+      "ssp_id": "KP13Z",
+      "sub_variant_ids": [
+        "KP131"
+      ]
+    },
+    "26742": {
+      "code_type": "CPT",
+      "ssp_id": "KP13Z",
+      "sub_variant_ids": [
+        "KP132"
+      ]
+    },
+    "26750": {
+      "code_type": "CPT",
+      "ssp_id": "KP13Z",
+      "sub_variant_ids": [
+        "KP131"
+      ]
+    },
+    "26755": {
+      "code_type": "CPT",
+      "ssp_id": "KP13Z",
+      "sub_variant_ids": [
+        "KP131"
+      ]
+    },
+    "27059": {
+      "code_type": "CPT",
+      "ssp_id": "DP130",
+      "sub_variant_ids": []
+    },
+    "27130": {
+      "code_type": "CPT",
+      "ssp_id": "KP04Z",
+      "sub_variant_ids": [
+        "KP043"
+      ]
+    },
+    "27132": {
+      "code_type": "CPT",
+      "ssp_id": "KP050",
+      "sub_variant_ids": []
+    },
+    "27134": {
+      "code_type": "CPT",
+      "ssp_id": "KP050",
+      "sub_variant_ids": []
+    },
+    "27197": {
+      "code_type": "CPT",
+      "ssp_id": "KP180",
+      "sub_variant_ids": []
+    },
+    "27246": {
+      "code_type": "CPT",
+      "ssp_id": "KP140",
+      "sub_variant_ids": []
+    },
+    "27327": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP121"
+      ]
+    },
+    "27328": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP122"
+      ]
+    },
+    "27337": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP122"
+      ]
+    },
+    "27339": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP123"
+      ]
+    },
+    "27364": {
+      "code_type": "CPT",
+      "ssp_id": "DP130",
+      "sub_variant_ids": []
+    },
+    "27438": {
+      "code_type": "CPT",
+      "ssp_id": "KP06Z",
+      "sub_variant_ids": [
+        "KP061"
+      ]
+    },
+    "27446": {
+      "code_type": "CPT",
+      "ssp_id": "KP06Z",
+      "sub_variant_ids": [
+        "KP061"
+      ]
+    },
+    "27447": {
+      "code_type": "CPT",
+      "ssp_id": "KP06Z",
+      "sub_variant_ids": [
+        "KP062"
+      ]
+    },
+    "27486": {
+      "code_type": "CPT",
+      "ssp_id": "KP050",
+      "sub_variant_ids": []
+    },
+    "27487": {
+      "code_type": "CPT",
+      "ssp_id": "KP050",
+      "sub_variant_ids": []
+    },
+    "27500": {
+      "code_type": "CPT",
+      "ssp_id": "KP22Z",
+      "sub_variant_ids": [
+        "KP221"
+      ]
+    },
+    "27508": {
+      "code_type": "CPT",
+      "ssp_id": "KP22Z",
+      "sub_variant_ids": [
+        "KP221"
+      ]
+    },
+    "27520": {
+      "code_type": "CPT",
+      "ssp_id": "KP160",
+      "sub_variant_ids": []
+    },
+    "27530": {
+      "code_type": "CPT",
+      "ssp_id": "KP23Z",
+      "sub_variant_ids": [
+        "KP231"
+      ]
+    },
+    "27532": {
+      "code_type": "CPT",
+      "ssp_id": "KP23Z",
+      "sub_variant_ids": [
+        "KP232"
+      ]
+    },
+    "27616": {
+      "code_type": "CPT",
+      "ssp_id": "DP130",
+      "sub_variant_ids": []
+    },
+    "27618": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP121"
+      ]
+    },
+    "27619": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP122"
+      ]
+    },
+    "27632": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP122"
+      ]
+    },
+    "27634": {
+      "code_type": "CPT",
+      "ssp_id": "DP12Z",
+      "sub_variant_ids": [
+        "DP123"
+      ]
+    },
+    "27702": {
+      "code_type": "CPT",
+      "ssp_id": "KP280",
+      "sub_variant_ids": []
+    },
+    "27703": {
+      "code_type": "CPT",
+      "ssp_id": "KP280",
+      "sub_variant_ids": []
+    },
+    "27750": {
+      "code_type": "CPT",
+      "ssp_id": "KP23Z",
+      "sub_variant_ids": [
+        "KP231"
+      ]
+    },
+    "27752": {
+      "code_type": "CPT",
+      "ssp_id": "KP23Z",
+      "sub_variant_ids": [
+        "KP232"
+      ]
+    },
+    "27760": {
+      "code_type": "CPT",
+      "ssp_id": "KP08Z",
+      "sub_variant_ids": [
+        "KP081"
+      ]
+    },
+    "27762": {
+      "code_type": "CPT",
+      "ssp_id": "KP08Z",
+      "sub_variant_ids": [
+        "KP082"
+      ]
+    },
+    "27780": {
+      "code_type": "CPT",
+      "ssp_id": "KP23Z",
+      "sub_variant_ids": [
+        "KP231"
+      ]
+    },
+    "27786": {
+      "code_type": "CPT",
+      "ssp_id": "KP23Z",
+      "sub_variant_ids": [
+        "KP231"
+      ]
+    },
+    "27788": {
+      "code_type": "CPT",
+      "ssp_id": "KP23Z",
+      "sub_variant_ids": [
+        "KP232"
+      ]
+    },
+    "27808": {
+      "code_type": "CPT",
+      "ssp_id": "KP08Z",
+      "sub_variant_ids": [
+        "KP081"
+      ]
+    },
+    "27810": {
+      "code_type": "CPT",
+      "ssp_id": "KP08Z",
+      "sub_variant_ids": [
+        "KP082"
+      ]
+    },
+    "27818": {
+      "code_type": "CPT",
+      "ssp_id": "KP08Z",
+      "sub_variant_ids": [
+        "KP082"
+      ]
+    },
+    "27824": {
+      "code_type": "CPT",
+      "ssp_id": "KP23Z",
+      "sub_variant_ids": [
+        "KP231"
+      ]
+    },
+    "27825": {
+      "code_type": "CPT",
+      "ssp_id": "KP23Z",
+      "sub_variant_ids": [
+        "KP232"
+      ]
+    },
+    "28400": {
+      "code_type": "CPT",
+      "ssp_id": "KP120",
+      "sub_variant_ids": []
+    },
+    "28430": {
+      "code_type": "CPT",
+      "ssp_id": "KP08Z",
+      "sub_variant_ids": [
+        "KP081"
+      ]
+    },
+    "28470": {
+      "code_type": "CPT",
+      "ssp_id": "KP120",
+      "sub_variant_ids": []
+    },
+    "28490": {
+      "code_type": "CPT",
+      "ssp_id": "KP120",
+      "sub_variant_ids": []
+    },
+    "28510": {
+      "code_type": "CPT",
+      "ssp_id": "KP120",
+      "sub_variant_ids": []
+    },
+    "28515": {
+      "code_type": "CPT",
+      "ssp_id": "KP120",
+      "sub_variant_ids": []
+    },
+    "29806": {
+      "code_type": "CPT",
+      "ssp_id": "KP33Z",
+      "sub_variant_ids": [
+        "KP332"
+      ]
+    },
+    "29807": {
+      "code_type": "CPT",
+      "ssp_id": "KP33Z",
+      "sub_variant_ids": [
+        "KP332"
+      ]
+    },
+    "29822": {
+      "code_type": "CPT",
+      "ssp_id": "KP33Z",
+      "sub_variant_ids": [
+        "KP331"
+      ]
+    },
+    "29823": {
+      "code_type": "CPT",
+      "ssp_id": "KP33Z",
+      "sub_variant_ids": [
+        "KP331"
+      ]
+    },
+    "29824": {
+      "code_type": "CPT",
+      "ssp_id": "KP33Z",
+      "sub_variant_ids": [
+        "KP331"
+      ]
+    },
+    "29826": {
+      "code_type": "CPT",
+      "ssp_id": "KP33Z",
+      "sub_variant_ids": [
+        "KP331"
+      ]
+    },
+    "29827": {
+      "code_type": "CPT",
+      "ssp_id": "KP33Z",
+      "sub_variant_ids": [
+        "KP332"
+      ]
+    },
+    "29828": {
+      "code_type": "CPT",
+      "ssp_id": "KP33Z",
+      "sub_variant_ids": [
+        "KP332"
+      ]
+    },
+    "29848": {
+      "code_type": "CPT",
+      "ssp_id": "KP40Z",
+      "sub_variant_ids": [
+        "KP402"
+      ]
+    },
+    "29875": {
+      "code_type": "CPT",
+      "ssp_id": "KP320",
+      "sub_variant_ids": []
+    },
+    "29876": {
+      "code_type": "CPT",
+      "ssp_id": "KP320",
+      "sub_variant_ids": []
+    },
+    "29877": {
+      "code_type": "CPT",
+      "ssp_id": "KP320",
+      "sub_variant_ids": []
+    },
+    "29879": {
+      "code_type": "CPT",
+      "ssp_id": "KP320",
+      "sub_variant_ids": []
+    },
+    "29880": {
+      "code_type": "CPT",
+      "ssp_id": "KP320",
+      "sub_variant_ids": []
+    },
+    "29881": {
+      "code_type": "CPT",
+      "ssp_id": "KP320",
+      "sub_variant_ids": []
+    },
+    "29882": {
+      "code_type": "CPT",
+      "ssp_id": "KP320",
+      "sub_variant_ids": []
+    },
+    "29888": {
+      "code_type": "CPT",
+      "ssp_id": "KP260",
+      "sub_variant_ids": []
+    },
+    "29889": {
+      "code_type": "CPT",
+      "ssp_id": "KP260",
+      "sub_variant_ids": []
+    },
+    "29898": {
+      "code_type": "CPT",
+      "ssp_id": "KP270",
+      "sub_variant_ids": []
+    },
+    "29914": {
+      "code_type": "CPT",
+      "ssp_id": "KP31Z",
+      "sub_variant_ids": [
+        "KP312"
+      ]
+    },
+    "29916": {
+      "code_type": "CPT",
+      "ssp_id": "KP31Z",
+      "sub_variant_ids": [
+        "KP312"
+      ]
+    },
+    "31505": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP011"
+      ]
+    },
+    "31525": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP012"
+      ]
+    },
+    "31526": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP012"
+      ]
+    },
+    "31528": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP014"
+      ]
+    },
+    "31529": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP014"
+      ]
+    },
+    "31530": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP014"
+      ]
+    },
+    "31535": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP014"
+      ]
+    },
+    "31536": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP014"
+      ]
+    },
+    "31541": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP014"
+      ]
+    },
+    "31545": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP014"
+      ]
+    },
+    "31561": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP015"
+      ]
+    },
+    "31570": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP013"
+      ]
+    },
+    "31571": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP013"
+      ]
+    },
+    "31572": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP014"
+      ]
+    },
+    "31573": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP013"
+      ]
+    },
+    "31574": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP013"
+      ]
+    },
+    "31575": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP011"
+      ]
+    },
+    "31576": {
+      "code_type": "CPT",
+      "ssp_id": "QP01Z",
+      "sub_variant_ids": [
+        "QP012"
+      ]
+    },
+    "31622": {
+      "code_type": "CPT",
+      "ssp_id": "PP01Z",
+      "sub_variant_ids": [
+        "PP011"
+      ]
+    },
+    "31623": {
+      "code_type": "CPT",
+      "ssp_id": "PP01Z",
+      "sub_variant_ids": [
+        "PP011"
+      ]
+    },
+    "31624": {
+      "code_type": "CPT",
+      "ssp_id": "PP01Z",
+      "sub_variant_ids": [
+        "PP011"
+      ]
+    },
+    "31625": {
+      "code_type": "CPT",
+      "ssp_id": "PP01Z",
+      "sub_variant_ids": [
+        "PP012"
+      ]
+    },
+    "31628": {
+      "code_type": "CPT",
+      "ssp_id": "PP01Z",
+      "sub_variant_ids": [
+        "PP012"
+      ]
+    },
+    "31629": {
+      "code_type": "CPT",
+      "ssp_id": "PP01Z",
+      "sub_variant_ids": [
+        "PP012"
+      ]
+    },
+    "31635": {
+      "code_type": "CPT",
+      "ssp_id": "PP01Z",
+      "sub_variant_ids": [
+        "PP013"
+      ]
+    },
+    "31640": {
+      "code_type": "CPT",
+      "ssp_id": "PP01Z",
+      "sub_variant_ids": [
+        "PP013"
+      ]
+    },
+    "31641": {
+      "code_type": "CPT",
+      "ssp_id": "PP01Z",
+      "sub_variant_ids": [
+        "PP013"
+      ]
+    },
+    "31645": {
+      "code_type": "CPT",
+      "ssp_id": "PP01Z",
+      "sub_variant_ids": [
+        "PP013"
+      ]
+    },
+    "31652": {
+      "code_type": "CPT",
+      "ssp_id": "PP01Z",
+      "sub_variant_ids": [
+        "PP014"
+      ]
+    },
+    "31653": {
+      "code_type": "CPT",
+      "ssp_id": "PP01Z",
+      "sub_variant_ids": [
+        "PP014"
+      ]
+    },
+    "32400": {
+      "code_type": "CPT",
+      "ssp_id": "DP05Z",
+      "sub_variant_ids": [
+        "DP052"
+      ]
+    },
+    "32408": {
+      "code_type": "CPT",
+      "ssp_id": "DP05Z",
+      "sub_variant_ids": [
+        "DP052"
+      ]
+    },
+    "33206": {
+      "code_type": "CPT",
+      "ssp_id": "CP05Z",
+      "sub_variant_ids": [
+        "CP051"
+      ]
+    },
+    "33207": {
+      "code_type": "CPT",
+      "ssp_id": "CP05Z",
+      "sub_variant_ids": [
+        "CP052"
+      ]
+    },
+    "33208": {
+      "code_type": "CPT",
+      "ssp_id": "CP05Z",
+      "sub_variant_ids": [
+        "CP051"
+      ]
+    },
+    "33216": {
+      "code_type": "CPT",
+      "ssp_id": "CP05Z",
+      "sub_variant_ids": [
+        "CP051"
+      ]
+    },
+    "33217": {
+      "code_type": "CPT",
+      "ssp_id": "CP05Z",
+      "sub_variant_ids": [
+        "CP051"
+      ]
+    },
+    "33227": {
+      "code_type": "CPT",
+      "ssp_id": "CP060",
+      "sub_variant_ids": []
+    },
+    "33228": {
+      "code_type": "CPT",
+      "ssp_id": "CP060",
+      "sub_variant_ids": []
+    },
+    "33229": {
+      "code_type": "CPT",
+      "ssp_id": "CP060",
+      "sub_variant_ids": []
+    },
+    "33249": {
+      "code_type": "CPT",
+      "ssp_id": "CP03Z",
+      "sub_variant_ids": [
+        "CP032"
+      ]
+    },
+    "33262": {
+      "code_type": "CPT",
+      "ssp_id": "CP03Z",
+      "sub_variant_ids": [
+        "CP031"
+      ]
+    },
+    "33263": {
+      "code_type": "CPT",
+      "ssp_id": "CP03Z",
+      "sub_variant_ids": [
+        "CP031"
+      ]
+    },
+    "33264": {
+      "code_type": "CPT",
+      "ssp_id": "CP03Z",
+      "sub_variant_ids": [
+        "CP031"
+      ]
+    },
+    "33270": {
+      "code_type": "CPT",
+      "ssp_id": "CP03Z",
+      "sub_variant_ids": [
+        "CP032"
+      ]
+    },
+    "33274": {
+      "code_type": "CPT",
+      "ssp_id": "CP040",
+      "sub_variant_ids": []
+    },
+    "33285": {
+      "code_type": "CPT",
+      "ssp_id": "CP08Z",
+      "sub_variant_ids": [
+        "CP082"
+      ]
+    },
+    "33286": {
+      "code_type": "CPT",
+      "ssp_id": "CP08Z",
+      "sub_variant_ids": [
+        "CP081"
+      ]
+    },
+    "36471": {
+      "code_type": "CPT",
+      "ssp_id": "CP10Z",
+      "sub_variant_ids": [
+        "CP101"
+      ]
+    },
+    "36475": {
+      "code_type": "CPT",
+      "ssp_id": "CP10Z",
+      "sub_variant_ids": [
+        "CP102"
+      ]
+    },
+    "36478": {
+      "code_type": "CPT",
+      "ssp_id": "CP10Z",
+      "sub_variant_ids": [
+        "CP102"
+      ]
+    },
+    "36482": {
+      "code_type": "CPT",
+      "ssp_id": "CP10Z",
+      "sub_variant_ids": [
+        "CP102"
+      ]
+    },
+    "36821": {
+      "code_type": "CPT",
+      "ssp_id": "UT01Z",
+      "sub_variant_ids": [
+        "UT011"
+      ]
+    },
+    "36830": {
+      "code_type": "CPT",
+      "ssp_id": "UT01Z",
+      "sub_variant_ids": [
+        "UT012"
+      ]
+    },
+    "36831": {
+      "code_type": "CPT",
+      "ssp_id": "UT01Z",
+      "sub_variant_ids": [
+        "UT012"
+      ]
+    },
+    "36832": {
+      "code_type": "CPT",
+      "ssp_id": "UT01Z",
+      "sub_variant_ids": [
+        "UT012"
+      ]
+    },
+    "37191": {
+      "code_type": "CPT",
+      "ssp_id": "PP03Z",
+      "sub_variant_ids": [
+        "PP032"
+      ]
+    },
+    "37193": {
+      "code_type": "CPT",
+      "ssp_id": "PP03Z",
+      "sub_variant_ids": [
+        "PP031"
+      ]
+    },
+    "37241": {
+      "code_type": "CPT",
+      "ssp_id": "CP140",
+      "sub_variant_ids": []
+    },
+    "37242": {
+      "code_type": "CPT",
+      "ssp_id": "CP140",
+      "sub_variant_ids": []
+    },
+    "37243": {
+      "code_type": "CPT",
+      "ssp_id": "CP140",
+      "sub_variant_ids": []
+    },
+    "37244": {
+      "code_type": "CPT",
+      "ssp_id": "CP140",
+      "sub_variant_ids": []
+    },
+    "38500": {
+      "code_type": "CPT",
+      "ssp_id": "HP01Z",
+      "sub_variant_ids": [
+        "HP012"
+      ]
+    },
+    "38505": {
+      "code_type": "CPT",
+      "ssp_id": "HP01Z",
+      "sub_variant_ids": [
+        "HP011"
+      ]
+    },
+    "38525": {
+      "code_type": "CPT",
+      "ssp_id": "HP01Z",
+      "sub_variant_ids": [
+        "HP012"
+      ]
+    },
+    "38531": {
+      "code_type": "CPT",
+      "ssp_id": "HP01Z",
+      "sub_variant_ids": [
+        "HP012"
+      ]
+    },
+    "42820": {
+      "code_type": "CPT",
+      "ssp_id": "QP03Z",
+      "sub_variant_ids": [
+        "QP032"
+      ]
+    },
+    "42821": {
+      "code_type": "CPT",
+      "ssp_id": "QP03Z",
+      "sub_variant_ids": [
+        "QP031"
+      ]
+    },
+    "42825": {
+      "code_type": "CPT",
+      "ssp_id": "QP03Z",
+      "sub_variant_ids": [
+        "QP032"
+      ]
+    },
+    "42826": {
+      "code_type": "CPT",
+      "ssp_id": "QP03Z",
+      "sub_variant_ids": [
+        "QP031"
+      ]
+    },
+    "42830": {
+      "code_type": "CPT",
+      "ssp_id": "QP03Z",
+      "sub_variant_ids": [
+        "QP031"
+      ]
+    },
+    "42831": {
+      "code_type": "CPT",
+      "ssp_id": "QP03Z",
+      "sub_variant_ids": [
+        "QP031"
+      ]
+    },
+    "42835": {
+      "code_type": "CPT",
+      "ssp_id": "QP03Z",
+      "sub_variant_ids": [
+        "QP031"
+      ]
+    },
+    "42836": {
+      "code_type": "CPT",
+      "ssp_id": "QP03Z",
+      "sub_variant_ids": [
+        "QP031"
+      ]
+    },
+    "43236": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP042"
+      ]
+    },
+    "43237": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP043"
+      ]
+    },
+    "43238": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP043"
+      ]
+    },
+    "43239": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP041"
+      ]
+    },
+    "43240": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP044"
+      ]
+    },
+    "43242": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP043"
+      ]
+    },
+    "43244": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP042"
+      ]
+    },
+    "43245": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP042"
+      ]
+    },
+    "43246": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP042"
+      ]
+    },
+    "43247": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP041"
+      ]
+    },
+    "43248": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP042"
+      ]
+    },
+    "43249": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP042"
+      ]
+    },
+    "43250": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP042"
+      ]
+    },
+    "43251": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP043"
+      ]
+    },
+    "43253": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP043"
+      ]
+    },
+    "43254": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP042"
+      ]
+    },
+    "43255": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP042"
+      ]
+    },
+    "43259": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP043"
+      ]
+    },
+    "43270": {
+      "code_type": "CPT",
+      "ssp_id": "GP04Z",
+      "sub_variant_ids": [
+        "GP042"
+      ]
+    },
+    "44388": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP031"
+      ]
+    },
+    "44389": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP032"
+      ]
+    },
+    "44394": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP033"
+      ]
+    },
+    "44970": {
+      "code_type": "CPT",
+      "ssp_id": "GP01Z",
+      "sub_variant_ids": [
+        "GP012"
+      ]
+    },
+    "45330": {
+      "code_type": "CPT",
+      "ssp_id": "GP070",
+      "sub_variant_ids": []
+    },
+    "45331": {
+      "code_type": "CPT",
+      "ssp_id": "GP070",
+      "sub_variant_ids": []
+    },
+    "45378": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP031"
+      ]
+    },
+    "45379": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP033"
+      ]
+    },
+    "45380": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP032"
+      ]
+    },
+    "45381": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP033"
+      ]
+    },
+    "45382": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP033"
+      ]
+    },
+    "45384": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP033"
+      ]
+    },
+    "45385": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP033"
+      ]
+    },
+    "45386": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP033"
+      ]
+    },
+    "45388": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP033"
+      ]
+    },
+    "45390": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP034"
+      ]
+    },
+    "45391": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP032"
+      ]
+    },
+    "45392": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP032"
+      ]
+    },
+    "45398": {
+      "code_type": "CPT",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP033"
+      ]
+    },
+    "47000": {
+      "code_type": "CPT",
+      "ssp_id": "GP060",
+      "sub_variant_ids": []
+    },
+    "47562": {
+      "code_type": "CPT",
+      "ssp_id": "GP02Z",
+      "sub_variant_ids": [
+        "GP022"
+      ]
+    },
+    "47563": {
+      "code_type": "CPT",
+      "ssp_id": "GP02Z",
+      "sub_variant_ids": [
+        "GP022"
+      ]
+    },
+    "48102": {
+      "code_type": "CPT",
+      "ssp_id": "DP05Z",
+      "sub_variant_ids": [
+        "DP052"
+      ]
+    },
+    "49180": {
+      "code_type": "CPT",
+      "ssp_id": "DP05Z",
+      "sub_variant_ids": [
+        "DP052"
+      ]
+    },
+    "49322": {
+      "code_type": "CPT",
+      "ssp_id": "DP02Z",
+      "sub_variant_ids": [
+        "DP022"
+      ]
+    },
+    "49505": {
+      "code_type": "CPT",
+      "ssp_id": "GP05Z",
+      "sub_variant_ids": [
+        "GP051"
+      ]
+    },
+    "49507": {
+      "code_type": "CPT",
+      "ssp_id": "GP05Z",
+      "sub_variant_ids": [
+        "GP051"
+      ]
+    },
+    "49520": {
+      "code_type": "CPT",
+      "ssp_id": "GP05Z",
+      "sub_variant_ids": [
+        "GP051"
+      ]
+    },
+    "49550": {
+      "code_type": "CPT",
+      "ssp_id": "GP05Z",
+      "sub_variant_ids": [
+        "GP051"
+      ]
+    },
+    "49553": {
+      "code_type": "CPT",
+      "ssp_id": "GP05Z",
+      "sub_variant_ids": [
+        "GP051"
+      ]
+    },
+    "49591": {
+      "code_type": "CPT",
+      "ssp_id": "GP05Z",
+      "sub_variant_ids": [
+        "GP051"
+      ]
+    },
+    "49650": {
+      "code_type": "CPT",
+      "ssp_id": "GP05Z",
+      "sub_variant_ids": [
+        "GP052"
+      ]
+    },
+    "49651": {
+      "code_type": "CPT",
+      "ssp_id": "GP05Z",
+      "sub_variant_ids": [
+        "GP052"
+      ]
+    },
+    "50080": {
+      "code_type": "CPT",
+      "ssp_id": "UP08Z",
+      "sub_variant_ids": [
+        "UP082"
+      ]
+    },
+    "50081": {
+      "code_type": "CPT",
+      "ssp_id": "UP08Z",
+      "sub_variant_ids": [
+        "UP082"
+      ]
+    },
+    "50200": {
+      "code_type": "CPT",
+      "ssp_id": "DP05Z",
+      "sub_variant_ids": [
+        "DP052"
+      ]
+    },
+    "50390": {
+      "code_type": "CPT",
+      "ssp_id": "DP02Z",
+      "sub_variant_ids": [
+        "DP021"
+      ]
+    },
+    "50543": {
+      "code_type": "CPT",
+      "ssp_id": "UP070",
+      "sub_variant_ids": []
+    },
+    "50590": {
+      "code_type": "CPT",
+      "ssp_id": "UP08Z",
+      "sub_variant_ids": [
+        "UP081"
+      ]
+    },
+    "52000": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP031"
+      ]
+    },
+    "52001": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP032"
+      ]
+    },
+    "52005": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP032"
+      ]
+    },
+    "52204": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP031"
+      ]
+    },
+    "52214": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP032"
+      ]
+    },
+    "52224": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP032"
+      ]
+    },
+    "52235": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP033"
+      ]
+    },
+    "52240": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP033"
+      ]
+    },
+    "52276": {
+      "code_type": "CPT",
+      "ssp_id": "UP01Z",
+      "sub_variant_ids": [
+        "UP011"
+      ]
+    },
+    "52281": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP032"
+      ]
+    },
+    "52310": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP032"
+      ]
+    },
+    "52315": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP032"
+      ]
+    },
+    "52332": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP032"
+      ]
+    },
+    "52352": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP034"
+      ]
+    },
+    "52353": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP034"
+      ]
+    },
+    "52354": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP034"
+      ]
+    },
+    "52356": {
+      "code_type": "CPT",
+      "ssp_id": "UP03Z",
+      "sub_variant_ids": [
+        "UP034"
+      ]
+    },
+    "52500": {
+      "code_type": "CPT",
+      "ssp_id": "UP01Z",
+      "sub_variant_ids": [
+        "UP012"
+      ]
+    },
+    "52601": {
+      "code_type": "CPT",
+      "ssp_id": "UP050",
+      "sub_variant_ids": []
+    },
+    "52630": {
+      "code_type": "CPT",
+      "ssp_id": "UP050",
+      "sub_variant_ids": []
+    },
+    "52640": {
+      "code_type": "CPT",
+      "ssp_id": "UP01Z",
+      "sub_variant_ids": [
+        "UP011"
+      ]
+    },
+    "53020": {
+      "code_type": "CPT",
+      "ssp_id": "UP06Z",
+      "sub_variant_ids": [
+        "UP061"
+      ]
+    },
+    "53400": {
+      "code_type": "CPT",
+      "ssp_id": "UP06Z",
+      "sub_variant_ids": [
+        "UP063"
+      ]
+    },
+    "53410": {
+      "code_type": "CPT",
+      "ssp_id": "UP06Z",
+      "sub_variant_ids": [
+        "UP063"
+      ]
+    },
+    "53450": {
+      "code_type": "CPT",
+      "ssp_id": "UP06Z",
+      "sub_variant_ids": [
+        "UP062"
+      ]
+    },
+    "53460": {
+      "code_type": "CPT",
+      "ssp_id": "UP06Z",
+      "sub_variant_ids": [
+        "UP062"
+      ]
+    },
+    "53520": {
+      "code_type": "CPT",
+      "ssp_id": "UP06Z",
+      "sub_variant_ids": [
+        "UP062"
+      ]
+    },
+    "54150": {
+      "code_type": "CPT",
+      "ssp_id": "UP020",
+      "sub_variant_ids": []
+    },
+    "54161": {
+      "code_type": "CPT",
+      "ssp_id": "UP020",
+      "sub_variant_ids": []
+    },
+    "54162": {
+      "code_type": "CPT",
+      "ssp_id": "UP020",
+      "sub_variant_ids": []
+    },
+    "54163": {
+      "code_type": "CPT",
+      "ssp_id": "UP020",
+      "sub_variant_ids": []
+    },
+    "55000": {
+      "code_type": "CPT",
+      "ssp_id": "DP02Z",
+      "sub_variant_ids": [
+        "DP021"
+      ]
+    },
+    "55040": {
+      "code_type": "CPT",
+      "ssp_id": "UP040",
+      "sub_variant_ids": []
+    },
+    "55041": {
+      "code_type": "CPT",
+      "ssp_id": "UP040",
+      "sub_variant_ids": []
+    },
+    "55700": {
+      "code_type": "CPT",
+      "ssp_id": "UP110",
+      "sub_variant_ids": []
+    },
+    "55706": {
+      "code_type": "CPT",
+      "ssp_id": "UP110",
+      "sub_variant_ids": []
+    },
+    "58150": {
+      "code_type": "CPT",
+      "ssp_id": "SP03Z",
+      "sub_variant_ids": [
+        "SP031"
+      ]
+    },
+    "58260": {
+      "code_type": "CPT",
+      "ssp_id": "SP03Z",
+      "sub_variant_ids": [
+        "SP031"
+      ]
+    },
+    "58262": {
+      "code_type": "CPT",
+      "ssp_id": "SP03Z",
+      "sub_variant_ids": [
+        "SP031"
+      ]
+    },
+    "58270": {
+      "code_type": "CPT",
+      "ssp_id": "SP03Z",
+      "sub_variant_ids": [
+        "SP031"
+      ]
+    },
+    "58542": {
+      "code_type": "CPT",
+      "ssp_id": "SP03Z",
+      "sub_variant_ids": [
+        "SP032"
+      ]
+    },
+    "58552": {
+      "code_type": "CPT",
+      "ssp_id": "SP03Z",
+      "sub_variant_ids": [
+        "SP032"
+      ]
+    },
+    "58555": {
+      "code_type": "CPT",
+      "ssp_id": "SP04Z",
+      "sub_variant_ids": [
+        "SP041"
+      ]
+    },
+    "58558": {
+      "code_type": "CPT",
+      "ssp_id": "SP04Z",
+      "sub_variant_ids": [
+        "SP041"
+      ]
+    },
+    "58559": {
+      "code_type": "CPT",
+      "ssp_id": "SP04Z",
+      "sub_variant_ids": [
+        "SP042"
+      ]
+    },
+    "58560": {
+      "code_type": "CPT",
+      "ssp_id": "SP04Z",
+      "sub_variant_ids": [
+        "SP042"
+      ]
+    },
+    "58561": {
+      "code_type": "CPT",
+      "ssp_id": "SP04Z",
+      "sub_variant_ids": [
+        "SP042"
+      ]
+    },
+    "58563": {
+      "code_type": "CPT",
+      "ssp_id": "SP04Z",
+      "sub_variant_ids": [
+        "SP042"
+      ]
+    },
+    "58570": {
+      "code_type": "CPT",
+      "ssp_id": "SP03Z",
+      "sub_variant_ids": [
+        "SP032"
+      ]
+    },
+    "58571": {
+      "code_type": "CPT",
+      "ssp_id": "SP03Z",
+      "sub_variant_ids": [
+        "SP032"
+      ]
+    },
+    "58573": {
+      "code_type": "CPT",
+      "ssp_id": "SP03Z",
+      "sub_variant_ids": [
+        "SP032"
+      ]
+    },
+    "58661": {
+      "code_type": "CPT",
+      "ssp_id": "SP060",
+      "sub_variant_ids": []
+    },
+    "58662": {
+      "code_type": "CPT",
+      "ssp_id": "SP060",
+      "sub_variant_ids": []
+    },
+    "58670": {
+      "code_type": "CPT",
+      "ssp_id": "SP130",
+      "sub_variant_ids": []
+    },
+    "58671": {
+      "code_type": "CPT",
+      "ssp_id": "SP130",
+      "sub_variant_ids": []
+    },
+    "60100": {
+      "code_type": "CPT",
+      "ssp_id": "DP05Z",
+      "sub_variant_ids": [
+        "DP051"
+      ]
+    },
+    "60300": {
+      "code_type": "CPT",
+      "ssp_id": "DP02Z",
+      "sub_variant_ids": [
+        "DP021"
+      ]
+    },
+    "61070": {
+      "code_type": "CPT",
+      "ssp_id": "DP02Z",
+      "sub_variant_ids": [
+        "DP021"
+      ]
+    },
+    "61885": {
+      "code_type": "CPT",
+      "ssp_id": "NP010",
+      "sub_variant_ids": []
+    },
+    "61886": {
+      "code_type": "CPT",
+      "ssp_id": "NP010",
+      "sub_variant_ids": []
+    },
+    "62267": {
+      "code_type": "CPT",
+      "ssp_id": "DP05Z",
+      "sub_variant_ids": [
+        "DP053"
+      ]
+    },
+    "62321": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM012"
+      ]
+    },
+    "62323": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM012"
+      ]
+    },
+    "62362": {
+      "code_type": "CPT",
+      "ssp_id": "NP020",
+      "sub_variant_ids": []
+    },
+    "62365": {
+      "code_type": "CPT",
+      "ssp_id": "NP020",
+      "sub_variant_ids": []
+    },
+    "63030": {
+      "code_type": "CPT",
+      "ssp_id": "KP070",
+      "sub_variant_ids": []
+    },
+    "63047": {
+      "code_type": "CPT",
+      "ssp_id": "KP070",
+      "sub_variant_ids": []
+    },
+    "63048": {
+      "code_type": "CPT",
+      "ssp_id": "KP070",
+      "sub_variant_ids": []
+    },
+    "63650": {
+      "code_type": "CPT",
+      "ssp_id": "NP04Z",
+      "sub_variant_ids": [
+        "NP042"
+      ]
+    },
+    "63655": {
+      "code_type": "CPT",
+      "ssp_id": "NP04Z",
+      "sub_variant_ids": [
+        "NP043"
+      ]
+    },
+    "63661": {
+      "code_type": "CPT",
+      "ssp_id": "NP04Z",
+      "sub_variant_ids": [
+        "NP041"
+      ]
+    },
+    "63662": {
+      "code_type": "CPT",
+      "ssp_id": "NP04Z",
+      "sub_variant_ids": [
+        "NP041"
+      ]
+    },
+    "63663": {
+      "code_type": "CPT",
+      "ssp_id": "NP04Z",
+      "sub_variant_ids": [
+        "NP041"
+      ]
+    },
+    "63664": {
+      "code_type": "CPT",
+      "ssp_id": "NP04Z",
+      "sub_variant_ids": [
+        "NP041"
+      ]
+    },
+    "63685": {
+      "code_type": "CPT",
+      "ssp_id": "NP04Z",
+      "sub_variant_ids": [
+        "NP044"
+      ]
+    },
+    "63688": {
+      "code_type": "CPT",
+      "ssp_id": "NP04Z",
+      "sub_variant_ids": [
+        "NP041"
+      ]
+    },
+    "64400": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64415": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64416": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64435": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64445": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64447": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64448": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64450": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64461": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64483": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64484": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64488": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64490": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64491": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64492": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64493": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64494": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64495": {
+      "code_type": "CPT",
+      "ssp_id": "NM01Z",
+      "sub_variant_ids": [
+        "NM011"
+      ]
+    },
+    "64561": {
+      "code_type": "CPT",
+      "ssp_id": "NP03Z",
+      "sub_variant_ids": [
+        "NP032"
+      ]
+    },
+    "64581": {
+      "code_type": "CPT",
+      "ssp_id": "NP03Z",
+      "sub_variant_ids": [
+        "NP032"
+      ]
+    },
+    "64585": {
+      "code_type": "CPT",
+      "ssp_id": "NP03Z",
+      "sub_variant_ids": [
+        "NP031"
+      ]
+    },
+    "64590": {
+      "code_type": "CPT",
+      "ssp_id": "NP03Z",
+      "sub_variant_ids": [
+        "NP033"
+      ]
+    },
+    "64595": {
+      "code_type": "CPT",
+      "ssp_id": "NP03Z",
+      "sub_variant_ids": [
+        "NP031"
+      ]
+    },
+    "64721": {
+      "code_type": "CPT",
+      "ssp_id": "KP40Z",
+      "sub_variant_ids": [
+        "KP401"
+      ]
+    },
+    "66170": {
+      "code_type": "CPT",
+      "ssp_id": "VP030",
+      "sub_variant_ids": []
+    },
+    "66172": {
+      "code_type": "CPT",
+      "ssp_id": "VP030",
+      "sub_variant_ids": []
+    },
+    "66174": {
+      "code_type": "CPT",
+      "ssp_id": "VP030",
+      "sub_variant_ids": []
+    },
+    "66175": {
+      "code_type": "CPT",
+      "ssp_id": "VP030",
+      "sub_variant_ids": []
+    },
+    "66179": {
+      "code_type": "CPT",
+      "ssp_id": "VP030",
+      "sub_variant_ids": []
+    },
+    "66821": {
+      "code_type": "CPT",
+      "ssp_id": "VP040",
+      "sub_variant_ids": []
+    },
+    "66940": {
+      "code_type": "CPT",
+      "ssp_id": "VP01Z",
+      "sub_variant_ids": [
+        "VP011"
+      ]
+    },
+    "66982": {
+      "code_type": "CPT",
+      "ssp_id": "VP01Z",
+      "sub_variant_ids": [
+        "VP011"
+      ]
+    },
+    "66984": {
+      "code_type": "CPT",
+      "ssp_id": "VP01Z",
+      "sub_variant_ids": [
+        "VP011"
+      ]
+    },
+    "66991": {
+      "code_type": "CPT",
+      "ssp_id": "VP01Z",
+      "sub_variant_ids": [
+        "VP012"
+      ]
+    },
+    "67036": {
+      "code_type": "CPT",
+      "ssp_id": "VP020",
+      "sub_variant_ids": []
+    },
+    "67040": {
+      "code_type": "CPT",
+      "ssp_id": "VP020",
+      "sub_variant_ids": []
+    },
+    "67042": {
+      "code_type": "CPT",
+      "ssp_id": "VP020",
+      "sub_variant_ids": []
+    },
+    "67108": {
+      "code_type": "CPT",
+      "ssp_id": "VP020",
+      "sub_variant_ids": []
+    },
+    "69209": {
+      "code_type": "CPT",
+      "ssp_id": "QP090",
+      "sub_variant_ids": []
+    },
+    "69210": {
+      "code_type": "CPT",
+      "ssp_id": "QP090",
+      "sub_variant_ids": []
+    },
+    "70100": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "70140": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "70200": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "70220": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "70260": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "70330": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "70336": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "70360": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "70450": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "70460": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "70470": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0034"
+      ]
+    },
+    "70480": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "70481": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "70482": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0034"
+      ]
+    },
+    "70486": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "70487": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "70488": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0034"
+      ]
+    },
+    "70490": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "70491": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "70492": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0034"
+      ]
+    },
+    "70496": {
+      "code_type": "CPT",
+      "ssp_id": "R004Z",
+      "sub_variant_ids": [
+        "R0043"
+      ]
+    },
+    "70498": {
+      "code_type": "CPT",
+      "ssp_id": "R004Z",
+      "sub_variant_ids": [
+        "R0043"
+      ]
+    },
+    "70540": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "70542": {
+      "code_type": "CPT",
+      "ssp_id": "R010Z",
+      "sub_variant_ids": [
+        "R0102"
+      ]
+    },
+    "70543": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "70544": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "70545": {
+      "code_type": "CPT",
+      "ssp_id": "R010Z",
+      "sub_variant_ids": [
+        "R0102"
+      ]
+    },
+    "70546": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "70547": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "70548": {
+      "code_type": "CPT",
+      "ssp_id": "R010Z",
+      "sub_variant_ids": [
+        "R0102"
+      ]
+    },
+    "70549": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "70551": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "70552": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "70553": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "70554": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "70555": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "71045": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "71046": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "71047": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "71048": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "71101": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "71111": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "71120": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "71130": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "71250": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "71260": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "71270": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0034"
+      ]
+    },
+    "71271": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "71275": {
+      "code_type": "CPT",
+      "ssp_id": "R004Z",
+      "sub_variant_ids": [
+        "R0043"
+      ]
+    },
+    "71550": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "71551": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "71552": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "72020": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0195"
+      ]
+    },
+    "72040": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0195"
+      ]
+    },
+    "72050": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0195"
+      ]
+    },
+    "72070": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0195"
+      ]
+    },
+    "72072": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0195"
+      ]
+    },
+    "72080": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0195"
+      ]
+    },
+    "72081": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0195"
+      ]
+    },
+    "72082": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0195"
+      ]
+    },
+    "72083": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0195"
+      ]
+    },
+    "72084": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0195"
+      ]
+    },
+    "72100": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0195"
+      ]
+    },
+    "72110": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0195"
+      ]
+    },
+    "72114": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0195"
+      ]
+    },
+    "72120": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0195"
+      ]
+    },
+    "72125": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "72126": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "72127": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0034"
+      ]
+    },
+    "72128": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "72129": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "72130": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0034"
+      ]
+    },
+    "72131": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "72132": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "72133": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0034"
+      ]
+    },
+    "72141": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "72142": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "72146": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "72147": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "72148": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "72149": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "72156": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "72157": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "72158": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "72170": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "72190": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "72191": {
+      "code_type": "CPT",
+      "ssp_id": "R004Z",
+      "sub_variant_ids": [
+        "R0043"
+      ]
+    },
+    "72192": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "72193": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "72194": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0034"
+      ]
+    },
+    "72195": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "72196": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "72197": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "72220": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "73000": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "73020": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "73030": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "73070": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "73080": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "73090": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "73092": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "73100": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "73110": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "73120": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "73130": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "73140": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0191"
+      ]
+    },
+    "73200": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "73201": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "73202": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0034"
+      ]
+    },
+    "73206": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0034"
+      ]
+    },
+    "73218": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "73219": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "73220": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "73221": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "73222": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "73223": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "73501": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73502": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73521": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73522": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73523": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73560": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73562": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73564": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73565": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73590": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73592": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73600": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73610": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73620": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73630": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73650": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73660": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0193"
+      ]
+    },
+    "73700": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "73701": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "73702": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0034"
+      ]
+    },
+    "73706": {
+      "code_type": "CPT",
+      "ssp_id": "R004Z",
+      "sub_variant_ids": [
+        "R0043"
+      ]
+    },
+    "73718": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "73719": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "73720": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "73721": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "73722": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "73723": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "74018": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "74019": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "74021": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "74022": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "74150": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "74160": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "74170": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0034"
+      ]
+    },
+    "74174": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0034"
+      ]
+    },
+    "74175": {
+      "code_type": "CPT",
+      "ssp_id": "R004Z",
+      "sub_variant_ids": [
+        "R0043"
+      ]
+    },
+    "74176": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "74177": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "74178": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0034"
+      ]
+    },
+    "74181": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "74182": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "74183": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "74220": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0196"
+      ]
+    },
+    "74240": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0196"
+      ]
+    },
+    "74261": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "74262": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "74263": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "74712": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "75557": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "75561": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "75563": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "75571": {
+      "code_type": "CPT",
+      "ssp_id": "R004Z",
+      "sub_variant_ids": [
+        "R0041"
+      ]
+    },
+    "75572": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "75573": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "75574": {
+      "code_type": "CPT",
+      "ssp_id": "R004Z",
+      "sub_variant_ids": [
+        "R0042"
+      ]
+    },
+    "75635": {
+      "code_type": "CPT",
+      "ssp_id": "R004Z",
+      "sub_variant_ids": [
+        "R0043"
+      ]
+    },
+    "76010": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0192"
+      ]
+    },
+    "76380": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "76390": {
+      "code_type": "CPT",
+      "ssp_id": "R0140",
+      "sub_variant_ids": []
+    },
+    "76391": {
+      "code_type": "CPT",
+      "ssp_id": "R0110",
+      "sub_variant_ids": []
+    },
+    "76497": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0032"
+      ]
+    },
+    "76506": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76510": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76511": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76512": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76514": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76516": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76519": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76536": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76604": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76641": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76642": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76700": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76705": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76706": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76770": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76775": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76776": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "768": {
+      "code_type": "MS-DRG",
+      "ssp_id": "OP52Z",
+      "sub_variant_ids": []
+    },
+    "76800": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76801": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0171"
+      ]
+    },
+    "76802": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0171"
+      ]
+    },
+    "76805": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0171"
+      ]
+    },
+    "76810": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0171"
+      ]
+    },
+    "76811": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0171"
+      ]
+    },
+    "76812": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0171"
+      ]
+    },
+    "76813": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0171"
+      ]
+    },
+    "76815": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0171"
+      ]
+    },
+    "76816": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0171"
+      ]
+    },
+    "76817": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0171"
+      ]
+    },
+    "76820": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "76821": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "76825": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0171"
+      ]
+    },
+    "76826": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0171"
+      ]
+    },
+    "76827": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0171"
+      ]
+    },
+    "76828": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0171"
+      ]
+    },
+    "76830": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76831": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "76856": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76857": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76870": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76872": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76873": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76881": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76882": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76885": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76886": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "76998": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0172"
+      ]
+    },
+    "77002": {
+      "code_type": "CPT",
+      "ssp_id": "DP02Z",
+      "sub_variant_ids": [
+        "DP023"
+      ]
+    },
+    "77012": {
+      "code_type": "CPT",
+      "ssp_id": "DP02Z",
+      "sub_variant_ids": [
+        "DP023"
+      ]
+    },
+    "77046": {
+      "code_type": "CPT",
+      "ssp_id": "R010Z",
+      "sub_variant_ids": [
+        "R0101"
+      ]
+    },
+    "77047": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0131"
+      ]
+    },
+    "77049": {
+      "code_type": "CPT",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "77065": {
+      "code_type": "CPT",
+      "ssp_id": "R0080",
+      "sub_variant_ids": []
+    },
+    "77066": {
+      "code_type": "CPT",
+      "ssp_id": "R0080",
+      "sub_variant_ids": []
+    },
+    "77067": {
+      "code_type": "CPT",
+      "ssp_id": "R0080",
+      "sub_variant_ids": []
+    },
+    "77072": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0194"
+      ]
+    },
+    "77073": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0194"
+      ]
+    },
+    "77074": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0194"
+      ]
+    },
+    "77075": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0194"
+      ]
+    },
+    "77076": {
+      "code_type": "CPT",
+      "ssp_id": "R019Z",
+      "sub_variant_ids": [
+        "R0194"
+      ]
+    },
+    "77078": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0031"
+      ]
+    },
+    "77080": {
+      "code_type": "CPT",
+      "ssp_id": "R0050",
+      "sub_variant_ids": []
+    },
+    "77081": {
+      "code_type": "CPT",
+      "ssp_id": "R0050",
+      "sub_variant_ids": []
+    },
+    "77084": {
+      "code_type": "CPT",
+      "ssp_id": "R010Z",
+      "sub_variant_ids": [
+        "R0101"
+      ]
+    },
+    "77085": {
+      "code_type": "CPT",
+      "ssp_id": "R0050",
+      "sub_variant_ids": []
+    },
+    "77086": {
+      "code_type": "CPT",
+      "ssp_id": "R0050",
+      "sub_variant_ids": []
+    },
+    "77295": {
+      "code_type": "CPT",
+      "ssp_id": "JE01Z",
+      "sub_variant_ids": [
+        "JE013"
+      ]
+    },
+    "77300": {
+      "code_type": "CPT",
+      "ssp_id": "JE01Z",
+      "sub_variant_ids": [
+        "JE011"
+      ]
+    },
+    "77301": {
+      "code_type": "CPT",
+      "ssp_id": "JE01Z",
+      "sub_variant_ids": [
+        "JE013"
+      ]
+    },
+    "77336": {
+      "code_type": "CPT",
+      "ssp_id": "JE01Z",
+      "sub_variant_ids": [
+        "JE011"
+      ]
+    },
+    "77338": {
+      "code_type": "CPT",
+      "ssp_id": "JE01Z",
+      "sub_variant_ids": [
+        "JE012"
+      ]
+    },
+    "78070": {
+      "code_type": "CPT",
+      "ssp_id": "R0220",
+      "sub_variant_ids": []
+    },
+    "78071": {
+      "code_type": "CPT",
+      "ssp_id": "R0220",
+      "sub_variant_ids": []
+    },
+    "78072": {
+      "code_type": "CPT",
+      "ssp_id": "R0220",
+      "sub_variant_ids": []
+    },
+    "78226": {
+      "code_type": "CPT",
+      "ssp_id": "R003Z",
+      "sub_variant_ids": [
+        "R0033"
+      ]
+    },
+    "783": {
+      "code_type": "MS-DRG",
+      "ssp_id": "OP52Z",
+      "sub_variant_ids": []
+    },
+    "784": {
+      "code_type": "MS-DRG",
+      "ssp_id": "OP52Z",
+      "sub_variant_ids": []
+    },
+    "78430": {
+      "code_type": "CPT",
+      "ssp_id": "R020Z",
+      "sub_variant_ids": []
+    },
+    "78431": {
+      "code_type": "CPT",
+      "ssp_id": "R020Z",
+      "sub_variant_ids": []
+    },
+    "78433": {
+      "code_type": "CPT",
+      "ssp_id": "R020Z",
+      "sub_variant_ids": []
+    },
+    "78434": {
+      "code_type": "CPT",
+      "ssp_id": "R0150",
+      "sub_variant_ids": []
+    },
+    "78451": {
+      "code_type": "CPT",
+      "ssp_id": "R0090",
+      "sub_variant_ids": []
+    },
+    "78452": {
+      "code_type": "CPT",
+      "ssp_id": "R0090",
+      "sub_variant_ids": []
+    },
+    "78454": {
+      "code_type": "CPT",
+      "ssp_id": "R0090",
+      "sub_variant_ids": []
+    },
+    "78459": {
+      "code_type": "CPT",
+      "ssp_id": "R0150",
+      "sub_variant_ids": []
+    },
+    "78492": {
+      "code_type": "CPT",
+      "ssp_id": "R0150",
+      "sub_variant_ids": []
+    },
+    "785": {
+      "code_type": "MS-DRG",
+      "ssp_id": "OP52Z",
+      "sub_variant_ids": []
+    },
+    "786": {
+      "code_type": "MS-DRG",
+      "ssp_id": "OP52Z",
+      "sub_variant_ids": []
+    },
+    "78608": {
+      "code_type": "CPT",
+      "ssp_id": "R0150",
+      "sub_variant_ids": []
+    },
+    "787": {
+      "code_type": "MS-DRG",
+      "ssp_id": "OP52Z",
+      "sub_variant_ids": []
+    },
+    "788": {
+      "code_type": "MS-DRG",
+      "ssp_id": "OP52Z",
+      "sub_variant_ids": []
+    },
+    "78812": {
+      "code_type": "CPT",
+      "ssp_id": "R0150",
+      "sub_variant_ids": []
+    },
+    "78813": {
+      "code_type": "CPT",
+      "ssp_id": "R0150",
+      "sub_variant_ids": []
+    },
+    "78814": {
+      "code_type": "CPT",
+      "ssp_id": "R0150",
+      "sub_variant_ids": []
+    },
+    "78815": {
+      "code_type": "CPT",
+      "ssp_id": "R0150",
+      "sub_variant_ids": []
+    },
+    "78816": {
+      "code_type": "CPT",
+      "ssp_id": "R0150",
+      "sub_variant_ids": []
+    },
+    "796": {
+      "code_type": "MS-DRG",
+      "ssp_id": "OP52Z",
+      "sub_variant_ids": []
+    },
+    "797": {
+      "code_type": "MS-DRG",
+      "ssp_id": "OP52Z",
+      "sub_variant_ids": []
+    },
+    "798": {
+      "code_type": "MS-DRG",
+      "ssp_id": "OP52Z",
+      "sub_variant_ids": []
+    },
+    "805": {
+      "code_type": "MS-DRG",
+      "ssp_id": "OP52Z",
+      "sub_variant_ids": []
+    },
+    "806": {
+      "code_type": "MS-DRG",
+      "ssp_id": "OP52Z",
+      "sub_variant_ids": []
+    },
+    "807": {
+      "code_type": "MS-DRG",
+      "ssp_id": "OP52Z",
+      "sub_variant_ids": []
+    },
+    "88300": {
+      "code_type": "CPT",
+      "ssp_id": "L003Z",
+      "sub_variant_ids": [
+        "L0031"
+      ]
+    },
+    "88302": {
+      "code_type": "CPT",
+      "ssp_id": "L003Z",
+      "sub_variant_ids": [
+        "L0031"
+      ]
+    },
+    "88304": {
+      "code_type": "CPT",
+      "ssp_id": "L003Z",
+      "sub_variant_ids": [
+        "L0032"
+      ]
+    },
+    "88305": {
+      "code_type": "CPT",
+      "ssp_id": "L003Z",
+      "sub_variant_ids": [
+        "L0032"
+      ]
+    },
+    "88307": {
+      "code_type": "CPT",
+      "ssp_id": "L003Z",
+      "sub_variant_ids": [
+        "L0033"
+      ]
+    },
+    "88309": {
+      "code_type": "CPT",
+      "ssp_id": "L003Z",
+      "sub_variant_ids": [
+        "L0034"
+      ]
+    },
+    "90791": {
+      "code_type": "CPT",
+      "ssp_id": "BE010",
+      "sub_variant_ids": []
+    },
+    "90792": {
+      "code_type": "CPT",
+      "ssp_id": "BE010",
+      "sub_variant_ids": []
+    },
+    "90832": {
+      "code_type": "CPT",
+      "ssp_id": "BT03Z",
+      "sub_variant_ids": [
+        "BT032"
+      ]
+    },
+    "90833": {
+      "code_type": "CPT",
+      "ssp_id": "BT03Z",
+      "sub_variant_ids": [
+        "BT031"
+      ]
+    },
+    "90834": {
+      "code_type": "CPT",
+      "ssp_id": "BT03Z",
+      "sub_variant_ids": [
+        "BT032"
+      ]
+    },
+    "90836": {
+      "code_type": "CPT",
+      "ssp_id": "BT03Z",
+      "sub_variant_ids": [
+        "BT031"
+      ]
+    },
+    "90837": {
+      "code_type": "CPT",
+      "ssp_id": "BT03Z",
+      "sub_variant_ids": [
+        "BT032"
+      ]
+    },
+    "90838": {
+      "code_type": "CPT",
+      "ssp_id": "BT03Z",
+      "sub_variant_ids": [
+        "BT031"
+      ]
+    },
+    "90839": {
+      "code_type": "CPT",
+      "ssp_id": "BT03Z",
+      "sub_variant_ids": [
+        "BT031"
+      ]
+    },
+    "90840": {
+      "code_type": "CPT",
+      "ssp_id": "BT03Z",
+      "sub_variant_ids": [
+        "BT031"
+      ]
+    },
+    "90846": {
+      "code_type": "CPT",
+      "ssp_id": "BT03Z",
+      "sub_variant_ids": [
+        "BT032"
+      ]
+    },
+    "90847": {
+      "code_type": "CPT",
+      "ssp_id": "BT03Z",
+      "sub_variant_ids": [
+        "BT032"
+      ]
+    },
+    "90853": {
+      "code_type": "CPT",
+      "ssp_id": "BT03Z",
+      "sub_variant_ids": [
+        "BT031"
+      ]
+    },
+    "90870": {
+      "code_type": "CPT",
+      "ssp_id": "BT010",
+      "sub_variant_ids": []
+    },
+    "90935": {
+      "code_type": "CPT",
+      "ssp_id": "UT02Z",
+      "sub_variant_ids": [
+        "UT022"
+      ]
+    },
+    "90945": {
+      "code_type": "CPT",
+      "ssp_id": "UT02Z",
+      "sub_variant_ids": [
+        "UT021"
+      ]
+    },
+    "92002": {
+      "code_type": "CPT",
+      "ssp_id": "VE010",
+      "sub_variant_ids": []
+    },
+    "92004": {
+      "code_type": "CPT",
+      "ssp_id": "VE010",
+      "sub_variant_ids": []
+    },
+    "92012": {
+      "code_type": "CPT",
+      "ssp_id": "VE010",
+      "sub_variant_ids": []
+    },
+    "92014": {
+      "code_type": "CPT",
+      "ssp_id": "VE010",
+      "sub_variant_ids": []
+    },
+    "92552": {
+      "code_type": "CPT",
+      "ssp_id": "R0020",
+      "sub_variant_ids": []
+    },
+    "92557": {
+      "code_type": "CPT",
+      "ssp_id": "R0020",
+      "sub_variant_ids": []
+    },
+    "92587": {
+      "code_type": "CPT",
+      "ssp_id": "R0020",
+      "sub_variant_ids": []
+    },
+    "92928": {
+      "code_type": "CPT",
+      "ssp_id": "CP07Z",
+      "sub_variant_ids": [
+        "CP071"
+      ]
+    },
+    "92933": {
+      "code_type": "CPT",
+      "ssp_id": "CP07Z",
+      "sub_variant_ids": [
+        "CP071"
+      ]
+    },
+    "92937": {
+      "code_type": "CPT",
+      "ssp_id": "CP07Z",
+      "sub_variant_ids": [
+        "CP071"
+      ]
+    },
+    "92943": {
+      "code_type": "CPT",
+      "ssp_id": "CP07Z",
+      "sub_variant_ids": [
+        "CP071"
+      ]
+    },
+    "93005": {
+      "code_type": "CPT",
+      "ssp_id": "R021Z",
+      "sub_variant_ids": [
+        "R0211"
+      ]
+    },
+    "93010": {
+      "code_type": "CPT",
+      "ssp_id": "R021Z",
+      "sub_variant_ids": [
+        "R0211"
+      ]
+    },
+    "93015": {
+      "code_type": "CPT",
+      "ssp_id": "R021Z",
+      "sub_variant_ids": [
+        "R0212"
+      ]
+    },
+    "93016": {
+      "code_type": "CPT",
+      "ssp_id": "R021Z",
+      "sub_variant_ids": [
+        "R0212"
+      ]
+    },
+    "93017": {
+      "code_type": "CPT",
+      "ssp_id": "R021Z",
+      "sub_variant_ids": [
+        "R0212"
+      ]
+    },
+    "93041": {
+      "code_type": "CPT",
+      "ssp_id": "R021Z",
+      "sub_variant_ids": []
+    },
+    "93303": {
+      "code_type": "CPT",
+      "ssp_id": "R0060",
+      "sub_variant_ids": []
+    },
+    "93304": {
+      "code_type": "CPT",
+      "ssp_id": "R0060",
+      "sub_variant_ids": []
+    },
+    "93306": {
+      "code_type": "CPT",
+      "ssp_id": "R0060",
+      "sub_variant_ids": []
+    },
+    "93307": {
+      "code_type": "CPT",
+      "ssp_id": "R0060",
+      "sub_variant_ids": []
+    },
+    "93308": {
+      "code_type": "CPT",
+      "ssp_id": "R0060",
+      "sub_variant_ids": []
+    },
+    "93312": {
+      "code_type": "CPT",
+      "ssp_id": "R0060",
+      "sub_variant_ids": []
+    },
+    "93315": {
+      "code_type": "CPT",
+      "ssp_id": "R0060",
+      "sub_variant_ids": []
+    },
+    "93320": {
+      "code_type": "CPT",
+      "ssp_id": "R0060",
+      "sub_variant_ids": []
+    },
+    "93321": {
+      "code_type": "CPT",
+      "ssp_id": "R0060",
+      "sub_variant_ids": []
+    },
+    "93325": {
+      "code_type": "CPT",
+      "ssp_id": "R0060",
+      "sub_variant_ids": []
+    },
+    "93350": {
+      "code_type": "CPT",
+      "ssp_id": "R0060",
+      "sub_variant_ids": []
+    },
+    "93351": {
+      "code_type": "CPT",
+      "ssp_id": "R0060",
+      "sub_variant_ids": []
+    },
+    "93451": {
+      "code_type": "CPT",
+      "ssp_id": "CP020",
+      "sub_variant_ids": []
+    },
+    "93453": {
+      "code_type": "CPT",
+      "ssp_id": "CP020",
+      "sub_variant_ids": []
+    },
+    "93454": {
+      "code_type": "CPT",
+      "ssp_id": "CP020",
+      "sub_variant_ids": []
+    },
+    "93456": {
+      "code_type": "CPT",
+      "ssp_id": "CP020",
+      "sub_variant_ids": []
+    },
+    "93458": {
+      "code_type": "CPT",
+      "ssp_id": "CP020",
+      "sub_variant_ids": []
+    },
+    "93459": {
+      "code_type": "CPT",
+      "ssp_id": "CP020",
+      "sub_variant_ids": []
+    },
+    "93460": {
+      "code_type": "CPT",
+      "ssp_id": "CP020",
+      "sub_variant_ids": []
+    },
+    "93461": {
+      "code_type": "CPT",
+      "ssp_id": "CP020",
+      "sub_variant_ids": []
+    },
+    "93505": {
+      "code_type": "CPT",
+      "ssp_id": "CP010",
+      "sub_variant_ids": []
+    },
+    "93597": {
+      "code_type": "CPT",
+      "ssp_id": "CP020",
+      "sub_variant_ids": []
+    },
+    "93619": {
+      "code_type": "CPT",
+      "ssp_id": "CE010",
+      "sub_variant_ids": [
+        "CE011"
+      ]
+    },
+    "93620": {
+      "code_type": "CPT",
+      "ssp_id": "CE010",
+      "sub_variant_ids": [
+        "CE011"
+      ]
+    },
+    "93650": {
+      "code_type": "CPT",
+      "ssp_id": "CP120",
+      "sub_variant_ids": []
+    },
+    "93653": {
+      "code_type": "CPT",
+      "ssp_id": "CE010",
+      "sub_variant_ids": [
+        "CE012"
+      ]
+    },
+    "93654": {
+      "code_type": "CPT",
+      "ssp_id": "CE010",
+      "sub_variant_ids": [
+        "CE012"
+      ]
+    },
+    "93656": {
+      "code_type": "CPT",
+      "ssp_id": "CE010",
+      "sub_variant_ids": [
+        "CE012"
+      ]
+    },
+    "93880": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93882": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93886": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93888": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93892": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93893": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93922": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93923": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93924": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93925": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93926": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93930": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93931": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93970": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93971": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93975": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93976": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93978": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93979": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93980": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93981": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93985": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93986": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "93990": {
+      "code_type": "CPT",
+      "ssp_id": "R017Z",
+      "sub_variant_ids": [
+        "R0173"
+      ]
+    },
+    "94010": {
+      "code_type": "CPT",
+      "ssp_id": "PE01Z",
+      "sub_variant_ids": [
+        "PE011"
+      ]
+    },
+    "94060": {
+      "code_type": "CPT",
+      "ssp_id": "PE01Z",
+      "sub_variant_ids": [
+        "PE011"
+      ]
+    },
+    "94070": {
+      "code_type": "CPT",
+      "ssp_id": "PE01Z",
+      "sub_variant_ids": [
+        "PE014"
+      ]
+    },
+    "94150": {
+      "code_type": "CPT",
+      "ssp_id": "PE01Z",
+      "sub_variant_ids": [
+        "PE011"
+      ]
+    },
+    "94200": {
+      "code_type": "CPT",
+      "ssp_id": "PE01Z",
+      "sub_variant_ids": [
+        "PE011"
+      ]
+    },
+    "94375": {
+      "code_type": "CPT",
+      "ssp_id": "PE01Z",
+      "sub_variant_ids": [
+        "PE011"
+      ]
+    },
+    "94617": {
+      "code_type": "CPT",
+      "ssp_id": "PE01Z",
+      "sub_variant_ids": [
+        "PE014"
+      ]
+    },
+    "94618": {
+      "code_type": "CPT",
+      "ssp_id": "PE01Z",
+      "sub_variant_ids": [
+        "PE013"
+      ]
+    },
+    "94621": {
+      "code_type": "CPT",
+      "ssp_id": "PE01Z",
+      "sub_variant_ids": [
+        "PE015"
+      ]
+    },
+    "94726": {
+      "code_type": "CPT",
+      "ssp_id": "PE01Z",
+      "sub_variant_ids": [
+        "PE012"
+      ]
+    },
+    "94727": {
+      "code_type": "CPT",
+      "ssp_id": "PE01Z",
+      "sub_variant_ids": [
+        "PE012"
+      ]
+    },
+    "94728": {
+      "code_type": "CPT",
+      "ssp_id": "PE01Z",
+      "sub_variant_ids": [
+        "PE012"
+      ]
+    },
+    "95800": {
+      "code_type": "CPT",
+      "ssp_id": "NE01Z",
+      "sub_variant_ids": [
+        "NE012"
+      ]
+    },
+    "95801": {
+      "code_type": "CPT",
+      "ssp_id": "NE01Z",
+      "sub_variant_ids": [
+        "NE011"
+      ]
+    },
+    "95806": {
+      "code_type": "CPT",
+      "ssp_id": "NE01Z",
+      "sub_variant_ids": [
+        "NE012"
+      ]
+    },
+    "95807": {
+      "code_type": "CPT",
+      "ssp_id": "NE01Z",
+      "sub_variant_ids": [
+        "NE013"
+      ]
+    },
+    "95808": {
+      "code_type": "CPT",
+      "ssp_id": "NE01Z",
+      "sub_variant_ids": [
+        "NE014"
+      ]
+    },
+    "95810": {
+      "code_type": "CPT",
+      "ssp_id": "NE01Z",
+      "sub_variant_ids": [
+        "NE014"
+      ]
+    },
+    "95811": {
+      "code_type": "CPT",
+      "ssp_id": "NE01Z",
+      "sub_variant_ids": [
+        "NE014"
+      ]
+    },
+    "95971": {
+      "code_type": "CPT",
+      "ssp_id": "NE020",
+      "sub_variant_ids": []
+    },
+    "95972": {
+      "code_type": "CPT",
+      "ssp_id": "NE020",
+      "sub_variant_ids": []
+    },
+    "97597": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE021"
+      ]
+    },
+    "97602": {
+      "code_type": "CPT",
+      "ssp_id": "EE02Z",
+      "sub_variant_ids": [
+        "EE021"
+      ]
+    },
+    "99202": {
+      "code_type": "CPT",
+      "ssp_id": "AE02Z",
+      "sub_variant_ids": [
+        "AE021"
+      ]
+    },
+    "99203": {
+      "code_type": "CPT",
+      "ssp_id": "AE02Z",
+      "sub_variant_ids": [
+        "AE021"
+      ]
+    },
+    "99204": {
+      "code_type": "CPT",
+      "ssp_id": "AE02Z",
+      "sub_variant_ids": [
+        "AE022"
+      ]
+    },
+    "99205": {
+      "code_type": "CPT",
+      "ssp_id": "AE02Z",
+      "sub_variant_ids": [
+        "AE023"
+      ]
+    },
+    "99211": {
+      "code_type": "CPT",
+      "ssp_id": "AE02Z",
+      "sub_variant_ids": [
+        "AE021"
+      ]
+    },
+    "99212": {
+      "code_type": "CPT",
+      "ssp_id": "AE02Z",
+      "sub_variant_ids": [
+        "AE021"
+      ]
+    },
+    "99213": {
+      "code_type": "CPT",
+      "ssp_id": "AE02Z",
+      "sub_variant_ids": [
+        "AE021"
+      ]
+    },
+    "99214": {
+      "code_type": "CPT",
+      "ssp_id": "AE02Z",
+      "sub_variant_ids": [
+        "AE022"
+      ]
+    },
+    "99215": {
+      "code_type": "CPT",
+      "ssp_id": "AE02Z",
+      "sub_variant_ids": [
+        "AE023"
+      ]
+    },
+    "99243": {
+      "code_type": "CPT",
+      "ssp_id": "AE02Z",
+      "sub_variant_ids": [
+        "AE021"
+      ]
+    },
+    "99244": {
+      "code_type": "CPT",
+      "ssp_id": "AE02Z",
+      "sub_variant_ids": [
+        "AE022"
+      ]
+    },
+    "99281": {
+      "code_type": "CPT",
+      "ssp_id": "EE01Z",
+      "sub_variant_ids": [
+        "EE011"
+      ]
+    },
+    "99282": {
+      "code_type": "CPT",
+      "ssp_id": "EE01Z",
+      "sub_variant_ids": [
+        "EE011"
+      ]
+    },
+    "99283": {
+      "code_type": "CPT",
+      "ssp_id": "EE01Z",
+      "sub_variant_ids": [
+        "EE012"
+      ]
+    },
+    "99284": {
+      "code_type": "CPT",
+      "ssp_id": "EE01Z",
+      "sub_variant_ids": [
+        "EE013"
+      ]
+    },
+    "99285": {
+      "code_type": "CPT",
+      "ssp_id": "EE01Z",
+      "sub_variant_ids": [
+        "EE014"
+      ]
+    },
+    "99291": {
+      "code_type": "CPT",
+      "ssp_id": "EM010",
+      "sub_variant_ids": []
+    },
+    "C8906": {
+      "code_type": "HCPCS",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": []
+    },
+    "C8908": {
+      "code_type": "HCPCS",
+      "ssp_id": "R013Z",
+      "sub_variant_ids": [
+        "R0132"
+      ]
+    },
+    "C9600": {
+      "code_type": "HCPCS",
+      "ssp_id": "CP07Z",
+      "sub_variant_ids": [
+        "CP071"
+      ]
+    },
+    "G0105": {
+      "code_type": "HCPCS",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP031"
+      ]
+    },
+    "G0121": {
+      "code_type": "HCPCS",
+      "ssp_id": "GP03Z",
+      "sub_variant_ids": [
+        "GP031"
+      ]
+    },
+    "G0399": {
+      "code_type": "HCPCS",
+      "ssp_id": "NE01Z",
+      "sub_variant_ids": [
+        "NE012"
+      ]
+    },
+    "G0463": {
+      "code_type": "HCPCS",
+      "ssp_id": "AE02Z",
+      "sub_variant_ids": [
+        "AE021"
+      ]
+    }
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "id": "KP24Z",
+  "version": "2.0",
+  "title": "Non-surgical wrist fracture treatment",
+  "description": "Non-surgical wrist fracture treatment is an outpatient procedure where your doctor treats your broken wrist bones without surgery using a cast or brace. Your doctor will take X-rays to determine which wrist bones are broken and assess the fracture pattern. If the fracture is stable and properly aligned, surgery is usually not necessary. You'll typically wear a cast or brace to immobilize your wrist for 4-8 weeks. You'll need to keep your wrist elevated and use ice to manage swelling and pain. You should avoid heavy gripping and strenuous hand activities during healing. Pain medication helps manage discomfort. Periodic X-rays monitor healing progress. Physical therapy helps restore your wrist strength and motion once the cast is removed. Full healing typically takes 8-12 weeks. Some wrist fractures may need the bones repositioned before casting to ensure proper alignment. The cost of this procedure may vary depending on whether your doctor needs to manually reposition (manipulate) the bone fragments into proper alignment, or whether the fracture can heal in its current position without manipulation.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 1.65,
+  "apc": "5112",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "25505",
+      "code_type": "CPT"
+    },
+    {
+      "code": "25530",
+      "code_type": "CPT"
+    },
+    {
+      "code": "24675",
+      "code_type": "CPT"
+    },
+    {
+      "code": "25650",
+      "code_type": "CPT"
+    },
+    {
+      "code": "25565",
+      "code_type": "CPT"
+    },
+    {
+      "code": "25605",
+      "code_type": "CPT"
+    },
+    {
+      "code": "24670",
+      "code_type": "CPT"
+    },
+    {
+      "code": "25600",
+      "code_type": "CPT"
+    },
+    {
+      "code": "25630",
+      "code_type": "CPT"
+    },
+    {
+      "code": "24650",
+      "code_type": "CPT"
+    },
+    {
+      "code": "25622",
+      "code_type": "CPT"
+    },
+    {
+      "code": "24655",
+      "code_type": "CPT"
+    },
+    {
+      "code": "25560",
+      "code_type": "CPT"
+    },
+    {
+      "code": "25500",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "KP241",
+      "name": "without manipulation",
+      "anchor_codes": [
+        {
+          "code": "24650",
+          "code_type": "CPT"
+        },
+        {
+          "code": "24670",
+          "code_type": "CPT"
+        },
+        {
+          "code": "25500",
+          "code_type": "CPT"
+        },
+        {
+          "code": "25530",
+          "code_type": "CPT"
+        },
+        {
+          "code": "25560",
+          "code_type": "CPT"
+        },
+        {
+          "code": "25600",
+          "code_type": "CPT"
+        },
+        {
+          "code": "25622",
+          "code_type": "CPT"
+        },
+        {
+          "code": "25630",
+          "code_type": "CPT"
+        },
+        {
+          "code": "25650",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "KP242",
+      "name": "with manipulation",
+      "anchor_codes": [
+        {
+          "code": "24655",
+          "code_type": "CPT"
+        },
+        {
+          "code": "24675",
+          "code_type": "CPT"
+        },
+        {
+          "code": "25505",
+          "code_type": "CPT"
+        },
+        {
+          "code": "25565",
+          "code_type": "CPT"
+        },
+        {
+          "code": "25605",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "25505",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Manipulative closed reduction of radial bone fracture"
+    },
+    {
+      "code": "25530",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.3505755553926241,
+      "description": "Closed reduction and fixation of ulnar shaft fracture"
+    },
+    {
+      "code": "73070",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8559670781893004,
+      "description": "X-ray of elbow, two-view series"
+    },
+    {
+      "code": "73080",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Three-view x-ray of elbow"
+    },
+    {
+      "code": "73090",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "X-ray of forearm, two-angle views"
+    },
+    {
+      "code": "24675",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Manual realignment of fractured proximal ulna"
+    },
+    {
+      "code": "25650",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.3505755553926241,
+      "description": "Closed reduction and fixation of ulnar styloid fracture"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9393283965100081,
+      "description": "General"
+    },
+    {
+      "code": "73060",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5172413793103449,
+      "description": "Radiologic examination; Humerus, minimum of 2 views"
+    },
+    {
+      "code": "25565",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed manipulation of radial and ulnar shaft fractures"
+    },
+    {
+      "code": "25605",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Manipulation and closed reduction of distal radius fractures/ulnar styloid fractures"
+    },
+    {
+      "code": "99285",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5467567445156818,
+      "description": "ED visit for complex medical decision-making involving history/exam/counseling"
+    },
+    {
+      "code": "24670",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.3505755553926241,
+      "description": "Closed fixation of proximal ulnar fracture without manipulation"
+    },
+    {
+      "code": "25600",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.3505755553926241,
+      "description": "Closed reduction and immobilization of distal radial fracture"
+    },
+    {
+      "code": "25630",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.3505755553926241,
+      "description": "Closed cast treatment of carpal bone fracture without manipulation"
+    },
+    {
+      "code": "24650",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.3505755553926241,
+      "description": "Closed reduction of radial head/neck fracture, non-manipulative"
+    },
+    {
+      "code": "25622",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.3505755553926241,
+      "description": "Closed reduction of scaphoid fracture without manipulation"
+    },
+    {
+      "code": "99204",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.543859649122807,
+      "description": "Office or other outpatient visit, new patient; Moderate complexity medical decision making, 45-59 min"
+    },
+    {
+      "code": "24655",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction of radial head/neck fracture with manipulation"
+    },
+    {
+      "code": "73110",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Radiological imaging of wrist, 3+ views"
+    },
+    {
+      "code": "99203",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7894736842105263,
+      "description": "Office or other outpatient visit, new patient; Low complexity medical decision making, 30-44 min"
+    },
+    {
+      "code": "99284",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6915859357262533,
+      "description": "Emergency department visit for moderate complexity evaluation and management with counseling/coordination of care"
+    },
+    {
+      "code": "25560",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.3505755553926241,
+      "description": "Closed reduction of radial/ulnar shaft fractures without manipulation"
+    },
+    {
+      "code": "25500",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.3505755553926241,
+      "description": "Treatment of radial shaft fracture without dislocation or resetting"
+    },
+    {
+      "code": "01730",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5925925925925926,
+      "description": "Anesthesia for all closed procedures on humerus and elbow"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

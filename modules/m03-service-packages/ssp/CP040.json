@@ -1,0 +1,191 @@
+{
+  "id": "CP040",
+  "version": "2.0",
+  "title": "Leadless pacemaker insertion",
+  "description": "A leadless pacemaker insertion is an outpatient procedure where your doctor implants a tiny, self-contained pacemaker directly into your heart. Unlike traditional pacemakers, this device has no external wires (leads), which reduces risks of complications and infections. Your cardiologist uses a catheter to guide the device through your blood vessels into the right ventricle of your heart, where it stays in place. The device monitors your heart rhythm and delivers electrical impulses to keep your heart beating at a healthy rate. This less invasive approach allows you to heal faster.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Cardiac & Vascular",
+  "place_of_service": "outpatient",
+  "shoppability": 2.5,
+  "apc": "5224",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "0795T",
+      "code_type": "HCPCS"
+    },
+    {
+      "code": "0823T",
+      "code_type": "HCPCS"
+    },
+    {
+      "code": "33274",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "93005",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7755417956656346,
+      "description": "Electrocardiogram, routine ECG; Tracing only"
+    },
+    {
+      "code": "0795T",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Leadless pacemaker insertion, dual-chamber"
+    },
+    {
+      "code": "93010",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5367088607594936,
+      "description": "Electrocardiogram, routine ECG; Interpretation & report only"
+    },
+    {
+      "code": "00530",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for permanent transvenous pacemaker insertion"
+    },
+    {
+      "code": "J2003",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, lidocaine hydrochloride, 1 MG"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "C1786",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Pacemaker, single chamber, rate-responsive (implantable)"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "C1760",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Closure device, vascular (implantable/insertable)"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "J1644",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, heparin sodium, per 1000 units"
+    },
+    {
+      "code": "0823T",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Leadless pacemaker insertion, atrial-only"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7732198142414861,
+      "description": "General"
+    },
+    {
+      "code": "33274",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Leadless cardiac pacemaker insertion, single-chamber rv"
+    },
+    {
+      "code": "Q9967",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Low osmolar contrast material, 300-399 MG/ML iodine concentration, per ML"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "71045",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8382352941176471,
+      "description": "X-ray of chest for viewing single structure"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "id": "OP52Z",
+  "version": "2.0",
+  "title": "Inpatient delivery",
+  "description": "Inpatient delivery is a hospitalization that covers your delivery at the hospital, where your baby is born and you receive comprehensive labor and delivery care. You'll be admitted when labor begins or when your doctor schedules your delivery. Your medical team monitors you and your baby throughout labor, manages pain as needed, and assists with delivery. After delivery, you'll stay in the hospital for recovery and to ensure both you and your baby are healthy. This type of delivery can occur various ways, including vaginal delivery (including VBAC) or cesarean section, and the cost may vary depending on the method of delivery.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Obstetrics",
+  "place_of_service": "inpatient",
+  "shoppability": 4.0,
+  "apc": null,
+  "ms_drg": "807",
+  "anchor_codes": [
+    {
+      "code": "797",
+      "code_type": "MS-DRG"
+    },
+    {
+      "code": "807",
+      "code_type": "MS-DRG"
+    },
+    {
+      "code": "788",
+      "code_type": "MS-DRG"
+    },
+    {
+      "code": "783",
+      "code_type": "MS-DRG"
+    },
+    {
+      "code": "798",
+      "code_type": "MS-DRG"
+    },
+    {
+      "code": "796",
+      "code_type": "MS-DRG"
+    },
+    {
+      "code": "787",
+      "code_type": "MS-DRG"
+    },
+    {
+      "code": "768",
+      "code_type": "MS-DRG"
+    },
+    {
+      "code": "805",
+      "code_type": "MS-DRG"
+    },
+    {
+      "code": "806",
+      "code_type": "MS-DRG"
+    },
+    {
+      "code": "784",
+      "code_type": "MS-DRG"
+    },
+    {
+      "code": "786",
+      "code_type": "MS-DRG"
+    },
+    {
+      "code": "785",
+      "code_type": "MS-DRG"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "OP521",
+      "name": "Vaginal (incl. VBAC)",
+      "anchor_codes": []
+    },
+    {
+      "id": "OP522",
+      "name": "C-section",
+      "anchor_codes": []
+    }
+  ],
+  "contents": [
+    {
+      "code": "797",
+      "code_type": "MS-DRG",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": null,
+      "description": "Vaginal Delivery with Sterilization or D&C with CC"
+    },
+    {
+      "code": "807",
+      "code_type": "MS-DRG",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": null,
+      "description": "Vaginal Delivery without Sterilization or D&C without CC/MCC"
+    },
+    {
+      "code": "58605",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6828501735622479,
+      "description": "Ligation or transection of fallopian tube(s), abdominal or vaginal approach, postpartum, unilateral or bilateral, during same hospitalization (separate procedure)"
+    },
+    {
+      "code": "99472",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7727272727272727,
+      "description": "Subsequent inpatient pediatric critical care, per day, for the evaluation and management of a critically ill infant or young child, 29 days through 24 months of age"
+    },
+    {
+      "code": "0302",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9650924929902834,
+      "description": "Immunology"
+    },
+    {
+      "code": "0722",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8207863814579035,
+      "description": "Delivery"
+    },
+    {
+      "code": "99232",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7879277078623484,
+      "description": "Subsequent hospital inpatient or observation care, per day, for the evaluation and management of a patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making. when using total time on the date of the encounter for code selection, 35 minutes must be met or exceeded"
+    },
+    {
+      "code": "01967",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9580773955773956,
+      "description": "Neuraxial labor analgesia/anesthesia for planned vaginal delivery (this includes any repeat subarachnoid needle placement and drug injection and/or any necessary replacement of an epidural catheter during labor)"
+    },
+    {
+      "code": "59025",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6515056723390056,
+      "description": "Fetal non-stress test"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.491001992699314,
+      "description": "Sterile"
+    },
+    {
+      "code": "0360",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.3078867394383997,
+      "description": "General"
+    },
+    {
+      "code": "788",
+      "code_type": "MS-DRG",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": null,
+      "description": "Cesarean Section without Sterilization without CC/MCC"
+    },
+    {
+      "code": "783",
+      "code_type": "MS-DRG",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": null,
+      "description": "Cesarean Section with Sterilization with MCC"
+    },
+    {
+      "code": "88302",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6602949437011146,
+      "description": "Level II - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "74018",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5909090909090909,
+      "description": "X-ray of abdomen with 1 image"
+    },
+    {
+      "code": "0720",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8207863814579035,
+      "description": "General"
+    },
+    {
+      "code": "798",
+      "code_type": "MS-DRG",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": null,
+      "description": "Vaginal Delivery with Sterilization or D&C without CC/MCC"
+    },
+    {
+      "code": "796",
+      "code_type": "MS-DRG",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": null,
+      "description": "Vaginal Delivery with Sterilization or D&C with MCC"
+    },
+    {
+      "code": "787",
+      "code_type": "MS-DRG",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": null,
+      "description": "Cesarean Section without Sterilization with CC"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5757575757575758,
+      "description": "Level IV - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "00851",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7289145323201051,
+      "description": "Anesthesia for intraperitoneal procedures in lower abdomen including laparoscopy; Tubal ligation/transection"
+    },
+    {
+      "code": "0305",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9650924929902834,
+      "description": "Hematology"
+    },
+    {
+      "code": "768",
+      "code_type": "MS-DRG",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": null,
+      "description": "Vaginal Delivery with O.R. Procedures"
+    },
+    {
+      "code": "805",
+      "code_type": "MS-DRG",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": null,
+      "description": "Vaginal Delivery without Sterilization or D&C with MCC"
+    },
+    {
+      "code": "59160",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6515151515151515,
+      "description": "Curettage, postpartum"
+    },
+    {
+      "code": "58611",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8079666845426717,
+      "description": "Ligation or transection of fallopian tube(s) when done at the time of cesarean delivery or intra-abdominal surgery (not a separate procedure) (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "0301",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9650924929902834,
+      "description": "Chemistry"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9689926581668342,
+      "description": "General"
+    },
+    {
+      "code": "806",
+      "code_type": "MS-DRG",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": null,
+      "description": "Vaginal Delivery without Sterilization or D&C with CC"
+    },
+    {
+      "code": "784",
+      "code_type": "MS-DRG",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": null,
+      "description": "Cesarean Section with Sterilization with CC"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.36580286972213893,
+      "description": "General"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.5743999858923943,
+      "description": "General"
+    },
+    {
+      "code": "786",
+      "code_type": "MS-DRG",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": null,
+      "description": "Cesarean Section without Sterilization with MCC"
+    },
+    {
+      "code": "88307",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7098087392205039,
+      "description": "Level v - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "01968",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6873343932167462,
+      "description": "Anesthesia for cesarean delivery following neuraxial labor analgesia/anesthesia (list separately in addition to code for primary procedure performed)"
+    },
+    {
+      "code": "99231",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5794188796639776,
+      "description": "Subsequent hospital inpatient or observation care, per day, for the evaluation and management of a patient, which requires a medically appropriate history and/or examination and straightforward or low level of medical decision making. when using total time on the date of the encounter for code selection, 25 minutes must be met or exceeded"
+    },
+    {
+      "code": "0300",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9650924929902834,
+      "description": "General"
+    },
+    {
+      "code": "785",
+      "code_type": "MS-DRG",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": null,
+      "description": "Cesarean Section with Sterilization without CC/MCC"
+    },
+    {
+      "code": "71045",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "X-ray of chest for viewing single structure"
+    },
+    {
+      "code": "00940",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5757575757575758,
+      "description": "Anesthesia for vaginal procedures (including biopsy of labia, vagina, cervix or endometrium); Not otherwise specified"
+    },
+    {
+      "code": "01961",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for cesarean delivery only"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

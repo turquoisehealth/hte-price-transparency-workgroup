@@ -1,0 +1,159 @@
+{
+  "id": "KP31Z",
+  "version": "2.0",
+  "title": "Surgical hip fracture repair",
+  "description": "A surgical hip fracture repair is an outpatient procedure where your surgeon uses open reduction internal fixation (ORIF) or arthroscopic techniques to repair your broken hip with surgical hardware like plates, screws, or rods. Hip fractures usually require surgery to heal properly and allow early weight-bearing. Your surgeon will position the bone pieces correctly and secure them with hardware. The procedure takes 1-2 hours, and you may go home the same day or stay overnight. You'll begin physical therapy immediately to prevent blood clots and maintain strength. You can typically begin putting weight on your hip right away in most cases. You'll have regular follow-up X-rays to confirm healing. This type of procedure can be performed various ways, including open reduction and internal fixation (orif) and arthroscopic, and the cost may vary depending on the specific approach or service provided.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 1.0,
+  "apc": "5114",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "29916",
+      "code_type": "CPT"
+    },
+    {
+      "code": "29914",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "KP311",
+      "name": "Open reduction and internal fixation (ORIF)",
+      "anchor_codes": []
+    },
+    {
+      "id": "KP312",
+      "name": "Arthroscopic",
+      "anchor_codes": [
+        {
+          "code": "29914",
+          "code_type": "CPT"
+        },
+        {
+          "code": "29916",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "C1713",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anchor/screw for opposing bone-to-bone or soft tissue-to-bone (implantable)"
+    },
+    {
+      "code": "29916",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopic hip surgery with labral tear repair"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8886374656537902,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8886374656537902,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8886374656537902,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8886374656537902,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "29914",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopic hip surgery, including femoroplasty for cam lesion"
+    },
+    {
+      "code": "01202",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8522958295233928,
+      "description": "Anesthesia for arthroscopic procedures of hip joint"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8886374656537902,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8886374656537902,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "id": "KP33Z",
+  "version": "2.0",
+  "title": "Shoulder arthroscopy",
+  "description": "A surgical shoulder repair is an outpatient procedure where your surgeon repairs damaged shoulder structures using arthroscopic (minimally invasive) or open surgical techniques. Shoulder injuries like rotator cuff tears, labral tears, or impingement can cause pain and loss of function. Your surgeon will assess your shoulder and perform the necessary repairs. The procedure takes 1-2 hours, and you may go home the same day or stay overnight. You'll typically wear a sling and avoid strenuous activities for 4-6 weeks while you heal. Physical therapy is essential and begins soon after surgery, progressing gradually from gentle motion to strengthening exercises. You'll have specific restrictions during healing. Your surgeon may perform arthroscopic repair through small incisions or use larger open incisions depending on your injury severity. This type of procedure can be performed various ways, including arthroscopic decompression/debridement and arthroscopic repair, and the cost may vary depending on the specific approach or service provided.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5113",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "29806",
+      "code_type": "CPT"
+    },
+    {
+      "code": "29826",
+      "code_type": "CPT"
+    },
+    {
+      "code": "29807",
+      "code_type": "CPT"
+    },
+    {
+      "code": "29828",
+      "code_type": "CPT"
+    },
+    {
+      "code": "29822",
+      "code_type": "CPT"
+    },
+    {
+      "code": "29824",
+      "code_type": "CPT"
+    },
+    {
+      "code": "29823",
+      "code_type": "CPT"
+    },
+    {
+      "code": "29827",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "KP331",
+      "name": "Arthroscopic decompression/debridement",
+      "anchor_codes": [
+        {
+          "code": "29822",
+          "code_type": "CPT"
+        },
+        {
+          "code": "29823",
+          "code_type": "CPT"
+        },
+        {
+          "code": "29824",
+          "code_type": "CPT"
+        },
+        {
+          "code": "29826",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "KP332",
+      "name": "Arthroscopic repair",
+      "anchor_codes": [
+        {
+          "code": "29806",
+          "code_type": "CPT"
+        },
+        {
+          "code": "29807",
+          "code_type": "CPT"
+        },
+        {
+          "code": "29827",
+          "code_type": "CPT"
+        },
+        {
+          "code": "29828",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8812241893426158,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "C1713",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anchor/screw for opposing bone-to-bone or soft tissue-to-bone (implantable)"
+    },
+    {
+      "code": "29806",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopic shoulder surgery to repair capsule tissue"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8812241893426158,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8812241893426158,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "29826",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopic shoulder decompression with partial acromioplasty, ligament release"
+    },
+    {
+      "code": "29807",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopic shoulder surgery to repair capsule tissue"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8812241893426158,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "29828",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopic shoulder surgery with biceps tenodesis fixation"
+    },
+    {
+      "code": "64415",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6247815003350949,
+      "description": "Injection(s), anesthetic agent(s) and/or steroid; Brachial plexus, including imaging guidance, when performed"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8812241893426158,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "29822",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopic shoulder surgery debridement of 1-2 structures"
+    },
+    {
+      "code": "29824",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopic surgical distal claviculectomy with mumford procedure"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "29823",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopic shoulder surgery involving debridement of 3+ structures"
+    },
+    {
+      "code": "29827",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopic shoulder surgery with rotator cuff repair"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8812241893426158,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "01630",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.91078637180165,
+      "description": "Anesthesia for open or surgical arthroscopic procedures on humeral head and neck, sternoclavicular joint, acromioclavicular joint, and shoulder joint; Not otherwise specified"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

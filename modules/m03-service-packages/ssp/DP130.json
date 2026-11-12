@@ -1,0 +1,267 @@
+{
+  "id": "DP130",
+  "version": "2.0",
+  "title": "Radical tumor resection",
+  "description": "Radical tumor resection is extensive surgical removal of a malignant tumor along with surrounding tissue and potentially lymph nodes to ensure complete cancer removal. Your surgeon removes the tumor with substantial margins and may remove involved regional lymph nodes. This aggressive approach is used for tumors with higher recurrence risk or aggressive behavior. The procedure may leave a larger scar but provides the best chance of complete cancer removal. Pathology examination confirms complete removal.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Dermatology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.0,
+  "apc": "5073",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "21936",
+      "code_type": "CPT"
+    },
+    {
+      "code": "23078",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27059",
+      "code_type": "CPT"
+    },
+    {
+      "code": "21016",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27364",
+      "code_type": "CPT"
+    },
+    {
+      "code": "24079",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27616",
+      "code_type": "CPT"
+    },
+    {
+      "code": "21558",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9858611825192802,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "21936",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radical resection, soft tissue, back/flank"
+    },
+    {
+      "code": "23078",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radical resection, soft tissue, shoulder"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "01756",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for open or surgical arthroscopic procedures of the elbow; Radical procedures"
+    },
+    {
+      "code": "27059",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radical resection, soft tissue, pelvis/hip"
+    },
+    {
+      "code": "21016",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radical resection, soft tissue, face/scalp"
+    },
+    {
+      "code": "01610",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for all procedures on nerves, muscles, tendons, fascia, and bursae of shoulder and axilla"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9858611825192802,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9858611825192802,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9858611825192802,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "01150",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8181818181818182,
+      "description": "Anesthesia for radical procedures for tumor of pelvis, except hindquarter amputation"
+    },
+    {
+      "code": "27364",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radical resection, soft tissue, thigh/knee"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9858611825192802,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "24079",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radical resection, soft tissue, upper arm/elbow"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9858611825192802,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "27616",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radical resection, soft tissue, leg/ankle"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8521850899742931,
+      "description": "Sterile"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9113110539845758,
+      "description": "Level IV - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "21558",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radical resection, soft tissue, neck/anterior thorax"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "01470",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for procedures on nerves, muscles, tendons, and fascia of lower leg, ankle, and foot; Not otherwise specified"
+    },
+    {
+      "code": "00400",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.782608695652174,
+      "description": "Anesthesia for procedures on the integumentary system on the extremities, anterior trunk and perineum; Not otherwise specified"
+    },
+    {
+      "code": "00300",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8729096989966555,
+      "description": "Anesthesia for all procedures on the integumentary system, muscles and nerves of head, neck, and posterior trunk, not otherwise specified"
+    },
+    {
+      "code": "01250",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for all procedures on nerves, muscles, tendons, fascia, and bursae of upper leg"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

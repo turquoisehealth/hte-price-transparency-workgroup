@@ -1,0 +1,131 @@
+{
+  "id": "NP020",
+  "version": "2.0",
+  "title": "Intrathecal pump implantation",
+  "description": "An intrathecal pump is a device that delivers pain medication or other drugs directly into the fluid surrounding your spinal cord, which can reduce the amount of medication needed. Your surgeon implants a small pump under your skin, usually in your abdomen, and places a thin catheter that runs to the area around your spinal cord. This targeted delivery method can provide better pain control with fewer side effects than taking medications by mouth. The procedure is performed as outpatient surgery under general anesthesia and typically takes 1-2 hours. You can usually return home the same day after recovery. Regular refills and programming adjustments will be needed to maintain your treatment.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Neurology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5471",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "62362",
+      "code_type": "CPT"
+    },
+    {
+      "code": "62365",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "C1772",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Infusion pump, programmable (implantable)"
+    },
+    {
+      "code": "62362",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Implantation or replacement of intrathecal/epidural drug infusion device; Programmable pump, with or without programming"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8958677685950414,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8958677685950414,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8958677685950414,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9928374655647383,
+      "description": "General"
+    },
+    {
+      "code": "62365",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Removal of intrathecal or epidural drug infusion pump or reservoir"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8958677685950414,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "00300",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5755258825681361,
+      "description": "Anesthesia for all procedures on the integumentary system, muscles and nerves of head, neck, and posterior trunk, not otherwise specified"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8958677685950414,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9322314049586777,
+      "description": "General"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

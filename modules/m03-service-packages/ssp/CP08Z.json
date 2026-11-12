@@ -1,0 +1,80 @@
+{
+  "id": "CP08Z",
+  "version": "2.0",
+  "title": "Cardiac rhythm monitor",
+  "description": "A cardiac rhythm monitor (also called an implantable loop recorder or event monitor) is a small device implanted under your skin to continuously record your heart's electrical activity. This helps your cardiologist diagnose irregular heartbeats (arrhythmias) that may cause fainting, palpitations, or other symptoms. The device stores months of heart rhythm data that your doctor can review at office visits or retrieve remotely. By capturing what's happening with your heart over extended periods, your doctor can diagnose subtle rhythm problems and adjust treatment. This type of procedure can involve removal and insertion of the device, and the cost may vary depending on the specific service performed.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Cardiac & Vascular",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5222",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "33286",
+      "code_type": "CPT"
+    },
+    {
+      "code": "33285",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "CP081",
+      "name": "Removal",
+      "anchor_codes": [
+        {
+          "code": "33286",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "CP082",
+      "name": "Insertion",
+      "anchor_codes": [
+        {
+          "code": "33285",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "33286",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Removal of subcutaneous cardiac rhythm monitor"
+    },
+    {
+      "code": "C1764",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Event recorder, cardiac (implantable)"
+    },
+    {
+      "code": "33285",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Insertion of subcutaneous cardiac rhythm monitor, including programming"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

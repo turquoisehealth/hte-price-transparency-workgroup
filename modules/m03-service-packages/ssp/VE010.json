@@ -1,0 +1,75 @@
+{
+  "id": "VE010",
+  "version": "2.0",
+  "title": "Eye exam",
+  "description": "An eye exam is a comprehensive check of your vision and the health of your eyes. Your eye doctor measures how clearly you see, determines whether you need glasses or contact lenses, and examines the structures inside and outside your eyes for signs of disease. During the visit you read from an eye chart, look through different lenses to fine-tune your prescription, and have the pressure and interior of your eyes checked, sometimes after drops are used to widen your pupils. The exam is painless, though dilating drops can make your vision blurry and light-sensitive for a few hours. Regular eye exams keep your prescription current and help catch conditions such as glaucoma, cataracts, or diabetic eye changes early, when they are most treatable.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Ophthalmology",
+  "place_of_service": "outpatient",
+  "shoppability": 5.0,
+  "apc": "5012",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "92004",
+      "code_type": "CPT"
+    },
+    {
+      "code": "92014",
+      "code_type": "CPT"
+    },
+    {
+      "code": "92002",
+      "code_type": "CPT"
+    },
+    {
+      "code": "92012",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "92004",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ophthalmological services: medical examination and evaluation with initiation of diagnostic and treatment program; Comprehensive, new patient, 1 or more visits"
+    },
+    {
+      "code": "92014",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ophthalmological services: medical examination and evaluation, with initiation or continuation of diagnostic and treatment program; Comprehensive, established patient, 1 or more visits"
+    },
+    {
+      "code": "92002",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ophthalmological services: medical examination and evaluation with initiation of diagnostic and treatment program; Intermediate, new patient"
+    },
+    {
+      "code": "92012",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ophthalmological services: medical examination and evaluation, with initiation or continuation of diagnostic and treatment program; Intermediate, established patient"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

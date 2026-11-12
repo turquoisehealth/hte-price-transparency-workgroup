@@ -1,0 +1,240 @@
+{
+  "id": "CP05Z",
+  "version": "2.0",
+  "title": "Pacemaker insertion",
+  "description": "A pacemaker insertion is a procedure where your doctor implants a small device under your skin to regulate your heartbeat. Your doctor places it in a pouch under your collarbone and connects wires through blood vessels to your heart. The pacemaker monitors your heart's natural rhythm and delivers electrical impulses when your heart is beating too slowly (bradycardia). This life-saving device helps restore a steady, healthy heart rhythm so blood can circulate properly. The procedure is minimally invasive and performed in a cardiac electrophysiology lab. This type of procedure can be performed various ways, including temporary pacemaker and permanent pacemaker, and the cost may vary depending on the specific approach or service provided.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Cardiac & Vascular",
+  "place_of_service": "outpatient",
+  "shoppability": 4.0,
+  "apc": "5223",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "33208",
+      "code_type": "CPT"
+    },
+    {
+      "code": "33207",
+      "code_type": "CPT"
+    },
+    {
+      "code": "33217",
+      "code_type": "CPT"
+    },
+    {
+      "code": "33206",
+      "code_type": "CPT"
+    },
+    {
+      "code": "33216",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "CP051",
+      "name": "Temporary pacemaker",
+      "anchor_codes": [
+        {
+          "code": "33206",
+          "code_type": "CPT"
+        },
+        {
+          "code": "33208",
+          "code_type": "CPT"
+        },
+        {
+          "code": "33216",
+          "code_type": "CPT"
+        },
+        {
+          "code": "33217",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "CP052",
+      "name": "Permanent pacemaker",
+      "anchor_codes": [
+        {
+          "code": "33207",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8316995466241882,
+      "description": "General"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "71045",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "X-ray of chest for viewing single structure"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "33235",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Removal of transvenous pacemaker electrode(s); Dual lead system"
+    },
+    {
+      "code": "33208",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Insertion of transvenous permanent pacemaker with atrial and ventricular leads"
+    },
+    {
+      "code": "C1898",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Lead, pacemaker, other than transvenous vdd single pass"
+    },
+    {
+      "code": "33233",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6179775280898876,
+      "description": "Removal of permanent pacemaker pulse generator only"
+    },
+    {
+      "code": "C1785",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Pacemaker, dual chamber, rate-responsive (implantable)"
+    },
+    {
+      "code": "33207",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Permanent pacemaker insertion/replacement with transvenous ventricular electrodes"
+    },
+    {
+      "code": "93005",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8057223379487808,
+      "description": "Electrocardiogram, routine ECG; Tracing only"
+    },
+    {
+      "code": "33217",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Pacemaker insertion with atrial electrode only; Epicardial electrode insertion; Temporary pacemaker codes; Single/dual transvenous lead insertion (without generator)"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "33206",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.835130498713393,
+      "description": "Pacemaker insertion with atrial electrode only; Epicardial electrode insertion; Temporary pacemaker codes; Single/dual transvenous lead insertion (without generator)"
+    },
+    {
+      "code": "C1786",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Pacemaker, single chamber, rate-responsive (implantable)"
+    },
+    {
+      "code": "00530",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6363636363636364,
+      "description": "Anesthesia for permanent transvenous pacemaker insertion"
+    },
+    {
+      "code": "33216",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Pacemaker insertion with atrial electrode only; Epicardial electrode insertion; Temporary pacemaker codes; Single/dual transvenous lead insertion (without generator)"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "93010",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5486772291572171,
+      "description": "Electrocardiogram, routine ECG; Interpretation & report only"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

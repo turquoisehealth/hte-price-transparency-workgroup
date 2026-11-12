@@ -1,0 +1,75 @@
+{
+  "id": "R0050",
+  "version": "2.0",
+  "title": "Dual-Energy X-ray Absorptiometry (DEXA) scan",
+  "description": "A DEXA scan measures bone mineral density to diagnose osteoporosis and predict fracture risk. This quick outpatient test uses low-dose X-rays to scan your hip, spine, and sometimes forearm. You simply lie on a padded table while a scanner passes over these areas, the entire procedure takes only 10-30 minutes and is completely painless. Results show how your bone density compares to healthy young adults, helping your doctor recommend treatment if needed. You go home immediately with no recovery required.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Radiology",
+  "place_of_service": "outpatient",
+  "shoppability": 5.0,
+  "apc": "5522",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "77086",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77081",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77080",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77085",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "77086",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Vertebral fracture assessment via dual-energy x-ray absorptiometry (DXA)"
+    },
+    {
+      "code": "77081",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Dual-energy x-ray absorptiometry (DXA), bone density study; Appendicular skeleton (peripheral)"
+    },
+    {
+      "code": "77080",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Dual-energy x-ray absorptiometry (DXA), bone density study; Axial skeleton (spine, pelvis)"
+    },
+    {
+      "code": "77085",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Dual-energy x-ray absorptiometry (DXA), bone density study; Axial skeleton, including vertebral fracture assessment"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "R0080",
+  "version": "2.0",
+  "title": "Mammogram",
+  "description": "A mammogram is a specialized X-ray of your breast tissue to screen for cancer or evaluate suspicious lumps. During this quick outpatient test, your breast is gently compressed between two plates while X-rays capture images from different angles, usually taking less than 15 minutes. Compression can feel uncomfortable but brief. Standard screening mammograms detect early cancers before symptoms appear, while diagnostic mammograms evaluate specific concerns. Results are typically available within days, and you go home immediately after the test.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Radiology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": null,
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "77065",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77066",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77067",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "77065",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Diagnostic mammography with CAD, unilateral workup"
+    },
+    {
+      "code": "77066",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Diagnostic mammography, including CAD, bilateral, both breasts"
+    },
+    {
+      "code": "77067",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Bilateral mammography screening with computer-aided detection (CAD)"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

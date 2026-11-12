@@ -1,0 +1,168 @@
+{
+  "id": "VP01Z",
+  "version": "2.0",
+  "title": "Cataract surgery",
+  "description": "Cataract surgery is an outpatient procedure that removes your cloudy lens and replaces it with a clear artificial lens to restore vision. Your eye surgeon makes a small incision, breaks up the cloudy lens with ultrasound, and gently removes it. A new lens implant is inserted to focus light on your retina. The procedure takes about 15 minutes per eye under local anesthesia. You go home the same day and vision gradually improves over weeks. This category includes standard extraction and extraction combined with glaucoma treatment (MIGS, Minimally Invasive Glaucoma Surgery). This type of procedure can be performed various ways, including standard extraction and with migs, and the cost may vary depending on the approach used.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Ophthalmology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5493",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "66984",
+      "code_type": "CPT"
+    },
+    {
+      "code": "66982",
+      "code_type": "CPT"
+    },
+    {
+      "code": "66991",
+      "code_type": "CPT"
+    },
+    {
+      "code": "66940",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "VP011",
+      "name": "Standard extraction",
+      "anchor_codes": [
+        {
+          "code": "66940",
+          "code_type": "CPT"
+        },
+        {
+          "code": "66982",
+          "code_type": "CPT"
+        },
+        {
+          "code": "66984",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "VP012",
+      "name": "with MIGS",
+      "anchor_codes": [
+        {
+          "code": "66991",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "C1783",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Ocular implant, aqueous drainage assist device"
+    },
+    {
+      "code": "00140",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.881437125748503,
+      "description": "Anesthesia for procedures on eye; Not otherwise specified"
+    },
+    {
+      "code": "66984",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Extracapsular cataract removal with intraocular lens insertion"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.968977631201606,
+      "description": "General"
+    },
+    {
+      "code": "66982",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Complex extracapsular cataract removal with insertion of IOL"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8853336201127999,
+      "description": "General"
+    },
+    {
+      "code": "00145",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5517241379310345,
+      "description": "Anesthesia for procedures on eye; Vitreoretinal surgery"
+    },
+    {
+      "code": "66991",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cataract removal with insertion of intraocular aqueous drainage device (migs,"
+    },
+    {
+      "code": "66940",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Removal of lens material, pars plana approach; Intracapsular cataract extraction with IOL; Cataract removal with insertion of intraocular aqueous drainage device"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8794904884810247,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8369443647834816,
+      "description": "General"
+    },
+    {
+      "code": "00142",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for procedures on eye; Lens surgery"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

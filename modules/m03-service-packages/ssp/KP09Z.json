@@ -1,0 +1,304 @@
+{
+  "id": "KP09Z",
+  "version": "2.0",
+  "title": "Non-surgical arm fracture treatment",
+  "description": "Non-surgical arm fracture treatment is an outpatient procedure where your doctor treats your broken arm without surgery by immobilizing it with a cast or sling. Your doctor will take X-rays to determine the type and severity of your fracture. If the break is stable and properly aligned, surgery is typically not needed. Your doctor will apply a cast or sling to immobilize your arm so the bone can heal. You'll need to keep your arm still and avoid strenuous activities for several weeks. X-rays will be taken periodically to monitor healing. Once the cast is removed, physical therapy helps restore your strength and motion. Some fractures may need the bones manipulated into proper position before casting. The cost of this procedure may vary depending on whether your doctor needs to manually reposition (manipulate) the bone fragments into proper alignment, or whether the fracture can heal in its current position without manipulation.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 2.84,
+  "apc": "5112",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "24500",
+      "code_type": "CPT"
+    },
+    {
+      "code": "23605",
+      "code_type": "CPT"
+    },
+    {
+      "code": "24530",
+      "code_type": "CPT"
+    },
+    {
+      "code": "23620",
+      "code_type": "CPT"
+    },
+    {
+      "code": "24576",
+      "code_type": "CPT"
+    },
+    {
+      "code": "24505",
+      "code_type": "CPT"
+    },
+    {
+      "code": "24560",
+      "code_type": "CPT"
+    },
+    {
+      "code": "23600",
+      "code_type": "CPT"
+    },
+    {
+      "code": "24620",
+      "code_type": "CPT"
+    },
+    {
+      "code": "24535",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "KP091",
+      "name": "without manipulation",
+      "anchor_codes": [
+        {
+          "code": "23600",
+          "code_type": "CPT"
+        },
+        {
+          "code": "23620",
+          "code_type": "CPT"
+        },
+        {
+          "code": "24500",
+          "code_type": "CPT"
+        },
+        {
+          "code": "24530",
+          "code_type": "CPT"
+        },
+        {
+          "code": "24560",
+          "code_type": "CPT"
+        },
+        {
+          "code": "24576",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "KP092",
+      "name": "with manipulation",
+      "anchor_codes": [
+        {
+          "code": "23605",
+          "code_type": "CPT"
+        },
+        {
+          "code": "24505",
+          "code_type": "CPT"
+        },
+        {
+          "code": "24535",
+          "code_type": "CPT"
+        },
+        {
+          "code": "24620",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "96374",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8906828119744366,
+      "description": "Therapeutic, prophylactic, or diagnostic injection; Intravenous push, single or initial substance/drug"
+    },
+    {
+      "code": "73030",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Two-view x-ray imaging of shoulder for diagnosis"
+    },
+    {
+      "code": "G0463",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Outpatient clinic visit to evaluate and treat patient"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.40935082408341744,
+      "description": "General"
+    },
+    {
+      "code": "24500",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed fixation of humeral shaft fracture, no manipulation"
+    },
+    {
+      "code": "23605",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.8906828119744366,
+      "description": "Manipulation and/or traction to treat neck of humerus fracture"
+    },
+    {
+      "code": "24530",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed fracture reduction of humeral supracondylar/transcondylar without manipulation"
+    },
+    {
+      "code": "73090",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9803921568627451,
+      "description": "X-ray of forearm, two-angle views"
+    },
+    {
+      "code": "01730",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6123680241327301,
+      "description": "Anesthesia for all closed procedures on humerus and elbow"
+    },
+    {
+      "code": "73060",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Radiologic examination; Humerus, minimum of 2 views"
+    },
+    {
+      "code": "23620",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction of humeral greater tuberosity fracture without manipulation"
+    },
+    {
+      "code": "24576",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed immobilization of humeral condyle fracture, medial or lateral"
+    },
+    {
+      "code": "24505",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.8906828119744366,
+      "description": "Manipulation and/or skeletal traction to fix humeral shaft fracture"
+    },
+    {
+      "code": "99285",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.573010935143288,
+      "description": "ED visit for complex medical decision-making involving history/exam/counseling"
+    },
+    {
+      "code": "24560",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed fixation of medial/lateral humeral epicondyle fracture"
+    },
+    {
+      "code": "24538",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5208333333333334,
+      "description": "Percutaneous skeletal fixation of supracondylar or transcondylar humeral fracture, with or without intercondylar extension"
+    },
+    {
+      "code": "73070",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8823529411764706,
+      "description": "X-ray of elbow, two-view series"
+    },
+    {
+      "code": "99284",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7156425070028012,
+      "description": "Emergency department visit for moderate complexity evaluation and management with counseling/coordination of care"
+    },
+    {
+      "code": "23600",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction of proximal humerus fracture, non-manipulative"
+    },
+    {
+      "code": "24620",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.8906828119744366,
+      "description": "Closed manipulation of monteggia type elbow fracture-dislocation"
+    },
+    {
+      "code": "24535",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.8906828119744366,
+      "description": "Manipulation and possible traction to fix humeral fracture involving supracondylar or transcondylar region"
+    },
+    {
+      "code": "73080",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6529034690799397,
+      "description": "Three-view x-ray of elbow"
+    },
+    {
+      "code": "99203",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5457053950906411,
+      "description": "Office or other outpatient visit, new patient; Low complexity medical decision making, 30-44 min"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

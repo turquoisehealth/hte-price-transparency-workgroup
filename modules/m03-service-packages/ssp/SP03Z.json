@@ -1,0 +1,304 @@
+{
+  "id": "SP03Z",
+  "version": "2.0",
+  "title": "Hysterectomy",
+  "description": "A hysterectomy removes your uterus to treat fibroids, cancer, endometriosis, or other gynecologic conditions. Your surgeon can use open surgery, vaginal approach, or laparoscopic minimally invasive technique depending on your situation. The open or vaginal approach typically requires a 1-2 day hospital stay and 4-6 weeks of recovery; laparoscopic surgery is faster, with a typical recovery of 2-3 weeks. You'll have some vaginal bleeding and cramping for a few weeks. Most people experience relief from their original symptoms. After recovery, you can return to normal activities including exercise and intercourse. This type of procedure can be performed various ways, including an open surgical approach or a minimally invasive laparoscopic technique, and the cost may vary depending on the method used.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Gynecology",
+  "place_of_service": "outpatient",
+  "shoppability": 3.44,
+  "apc": "5415",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "58571",
+      "code_type": "CPT"
+    },
+    {
+      "code": "58262",
+      "code_type": "CPT"
+    },
+    {
+      "code": "58542",
+      "code_type": "CPT"
+    },
+    {
+      "code": "58260",
+      "code_type": "CPT"
+    },
+    {
+      "code": "58552",
+      "code_type": "CPT"
+    },
+    {
+      "code": "58270",
+      "code_type": "CPT"
+    },
+    {
+      "code": "58573",
+      "code_type": "CPT"
+    },
+    {
+      "code": "58570",
+      "code_type": "CPT"
+    },
+    {
+      "code": "58150",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "SP031",
+      "name": "Open/vaginal",
+      "anchor_codes": [
+        {
+          "code": "58150",
+          "code_type": "CPT"
+        },
+        {
+          "code": "58260",
+          "code_type": "CPT"
+        },
+        {
+          "code": "58262",
+          "code_type": "CPT"
+        },
+        {
+          "code": "58270",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "SP032",
+      "name": "Laparoscopic",
+      "anchor_codes": [
+        {
+          "code": "58542",
+          "code_type": "CPT"
+        },
+        {
+          "code": "58552",
+          "code_type": "CPT"
+        },
+        {
+          "code": "58570",
+          "code_type": "CPT"
+        },
+        {
+          "code": "58571",
+          "code_type": "CPT"
+        },
+        {
+          "code": "58573",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "58571",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Minimally-invasive surgery with complete hysterectomy and removal of reproductive organs"
+    },
+    {
+      "code": "58262",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Open total abdominal hysterectomy (with/without tubes/ovaries); Abdominal supracervical hysterectomy; Vaginal hysterectomy variants (with/without oophorectomy, with colpo-urethropexy, with repair)"
+    },
+    {
+      "code": "58542",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Minimally-invasive laparoscopic supracervical hysterectomy for uterus 250g or less with salpingo-oophorectomy"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9756451511136349,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9756451511136349,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "58260",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Vaginal hysterectomy, for uterus 250 g or less"
+    },
+    {
+      "code": "J1885",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9756451511136349,
+      "description": "Injection, ketorolac tromethamine, per 15 MG"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Sterile"
+    },
+    {
+      "code": "58552",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Surgical laparoscopy with vaginal hysterectomy and ovarian/tubal removal for uterus under 250 g"
+    },
+    {
+      "code": "00944",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for vaginal procedures (including biopsy of labia, vagina, cervix or endometrium); Vaginal hysterectomy"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9756451511136349,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9756451511136349,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "58270",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Vaginal hysterectomy variants (with/without oophorectomy, with colpo-urethropexy, with repair)"
+    },
+    {
+      "code": "58573",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laparoscopic surgical total hysterectomy for uterus over 250g, with oophorectomy/salpingectomy"
+    },
+    {
+      "code": "58570",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Minimally invasive surgery for uterus removal of 250g or less"
+    },
+    {
+      "code": "00840",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9193237911797455,
+      "description": "Anesthesia for intraperitoneal procedures in lower abdomen including laparoscopy; Not otherwise specified"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9756451511136349,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "88307",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9045891433739247,
+      "description": "Level v - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9756451511136349,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "58150",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Open total abdominal hysterectomy (with/without tubes/ovaries)"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J7120",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9756451511136349,
+      "description": "Ringers lactate infusion, up to 1000 CC"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

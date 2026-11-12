@@ -1,0 +1,310 @@
+{
+  "id": "DP02Z",
+  "version": "2.0",
+  "title": "Skin cyst aspiration",
+  "description": "Skin cyst aspiration is a procedure where your dermatologist uses a needle to remove fluid or material from a cyst under or on your skin. The specific approach depends on the cyst's location, size, and type. Draining a cyst relieves pressure, reduces size, and may prevent infection or rupture. The procedure takes minutes. This type of procedure can be performed various ways, including percutaneous cyst aspiration, laparoscopic ovarian cyst, and image guided, and the cost may vary depending on the specific approach or service provided.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Dermatology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.49,
+  "apc": "5442",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "19000",
+      "code_type": "CPT"
+    },
+    {
+      "code": "55000",
+      "code_type": "CPT"
+    },
+    {
+      "code": "61070",
+      "code_type": "CPT"
+    },
+    {
+      "code": "50390",
+      "code_type": "CPT"
+    },
+    {
+      "code": "60300",
+      "code_type": "CPT"
+    },
+    {
+      "code": "49322",
+      "code_type": "CPT"
+    },
+    {
+      "code": "10160",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77002",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77012",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "DP021",
+      "name": "Percutaneous cyst aspiration",
+      "anchor_codes": [
+        {
+          "code": "10160",
+          "code_type": "CPT"
+        },
+        {
+          "code": "19000",
+          "code_type": "CPT"
+        },
+        {
+          "code": "50390",
+          "code_type": "CPT"
+        },
+        {
+          "code": "55000",
+          "code_type": "CPT"
+        },
+        {
+          "code": "60300",
+          "code_type": "CPT"
+        },
+        {
+          "code": "61070",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "DP022",
+      "name": "Laparoscopic ovarian cyst",
+      "anchor_codes": [
+        {
+          "code": "49322",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "DP023",
+      "name": "Image guided",
+      "anchor_codes": [
+        {
+          "code": "77002",
+          "code_type": "CPT"
+        },
+        {
+          "code": "77012",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "85610",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7729009843659526,
+      "description": "Prothrombin time (pt)"
+    },
+    {
+      "code": "77002",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Fluoroscopic guidance for needle placement (e.g., biopsy, aspiration, injection, localization device) (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "20610",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7801040784218807,
+      "description": "Arthrocentesis, aspiration and/or injection, major joint or bursa (e.g., shoulder, hip, knee); Without ultrasound guidance"
+    },
+    {
+      "code": "19000",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Puncture aspiration of cyst of breast"
+    },
+    {
+      "code": "88173",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7457627118644068,
+      "description": "Cytopathology, evaluation of fine needle aspirate; Interpretation and report"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "55000",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.5366821077012159,
+      "description": "Puncture aspiration of hydrocele, tunica vaginalis, with or without injection of medication"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8972495657209033,
+      "description": "Sterile"
+    },
+    {
+      "code": "00840",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for intraperitoneal procedures in lower abdomen including laparoscopy; Not otherwise specified"
+    },
+    {
+      "code": "76942",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.46546033584250146,
+      "description": "Ultrasonic guidance for needle placement (e.g., biopsy, aspiration, injection, localization device), imaging supervision and interpretation"
+    },
+    {
+      "code": "J1885",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, ketorolac tromethamine, per 15 MG"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.44643891140706427,
+      "description": "General"
+    },
+    {
+      "code": "99152",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5907511360598771,
+      "description": "Moderate sedation services provided by the same physician or other qualified health care professional performing the diagnostic or therapeutic service that the sedation supports, requiring the presence of an independent trained observer to assist in the monitoring of the Patient's level of consciousness and physiological status; Initial 15 minutes of intraservice time, patient age 5 years or older"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "61070",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Puncture of shunt tubing or reservoir for aspiration or injection procedure"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "50390",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Aspiration and/or injection of renal cyst or pelvis by needle, percutaneous"
+    },
+    {
+      "code": "10160",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Puncture aspiration of abscess, hematoma, bulla, or cyst"
+    },
+    {
+      "code": "60300",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Aspiration and/or injection, thyroid cyst"
+    },
+    {
+      "code": "49322",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laparoscopy, surgical; With aspiration of cavity or cyst (e.g., ovarian cyst)"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "77012",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT) guidance for needle placement (e.g., biopsy, aspiration, injection, localization device), radiological supervision and interpretation"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

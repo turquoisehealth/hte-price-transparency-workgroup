@@ -1,0 +1,71 @@
+{
+  "id": "KP19Z",
+  "version": "2.0",
+  "title": "Non-surgical shoulder fracture treatment",
+  "description": "Non-surgical shoulder fracture treatment is an outpatient procedure where your doctor treats your broken shoulder bone without surgery using a sling or immobilizer. Your doctor will take X-rays to determine which shoulder bone is broken and assess the fracture pattern. If the fracture is stable and not severely displaced, surgery is often not necessary. You'll wear a sling to immobilize your shoulder and reduce pain. You'll avoid strenuous arm activities and heavy lifting during healing. Ice and pain medication help manage discomfort. Periodic X-rays monitor healing progress. Physical therapy, starting gently and progressing gradually, helps restore your shoulder strength and motion. Full healing typically takes 6-12 weeks. Some shoulder fractures may need the bones repositioned before immobilization to ensure proper alignment. The cost of this procedure may vary depending on whether your doctor needs to manually reposition (manipulate) the bone fragments into proper alignment, or whether the fracture can heal in its current position without manipulation.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 3.13,
+  "apc": "5112",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "23500",
+      "code_type": "CPT"
+    },
+    {
+      "code": "23570",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "KP191",
+      "name": "without manipulation",
+      "anchor_codes": [
+        {
+          "code": "23500",
+          "code_type": "CPT"
+        },
+        {
+          "code": "23570",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "KP192",
+      "name": "with manipulation",
+      "anchor_codes": []
+    }
+  ],
+  "contents": [
+    {
+      "code": "23500",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction of clavicle fracture without manipulation"
+    },
+    {
+      "code": "23570",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction of scapular fracture, no manipulation"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

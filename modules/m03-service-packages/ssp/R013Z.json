@@ -1,0 +1,836 @@
+{
+  "id": "R013Z",
+  "version": "2.0",
+  "title": "MRI scan",
+  "description": "An MRI (magnetic resonance imaging) scan creates detailed internal images of your body using magnetic fields and radio waves, no radiation exposure. This outpatient procedure excels at imaging soft tissues, organs, and the brain. You lie still in the MRI scanner for 20-60 minutes while hearing loud knocking sounds. Depending on your doctor's questions, contrast dye may be injected through an IV to highlight certain structures. The procedure is painless. Results accurately diagnose tumors, infections, injuries, or neurological conditions. You go home immediately with no side effects. The cost of this procedure may vary depending on the imaging protocol used. Options include without contrast and with contrast.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Radiology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5523",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "72156",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73720",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73223",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70543",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74182",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72147",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70552",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73219",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70547",
+      "code_type": "CPT"
+    },
+    {
+      "code": "71552",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72146",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70551",
+      "code_type": "CPT"
+    },
+    {
+      "code": "75557",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72196",
+      "code_type": "CPT"
+    },
+    {
+      "code": "71551",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77049",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73721",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72149",
+      "code_type": "CPT"
+    },
+    {
+      "code": "71550",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72158",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70336",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70555",
+      "code_type": "CPT"
+    },
+    {
+      "code": "C8908",
+      "code_type": "HCPCS"
+    },
+    {
+      "code": "73723",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72195",
+      "code_type": "CPT"
+    },
+    {
+      "code": "C8906",
+      "code_type": "HCPCS"
+    },
+    {
+      "code": "75561",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70540",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72141",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72197",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72142",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74183",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72148",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77047",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74712",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74181",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70549",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70544",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73722",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70554",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73222",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73221",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73719",
+      "code_type": "CPT"
+    },
+    {
+      "code": "75563",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72157",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70553",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73218",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70546",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73718",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73220",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "R0131",
+      "name": "without contrast",
+      "anchor_codes": [
+        {
+          "code": "70336",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70540",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70543",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70544",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70546",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70547",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70549",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70551",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70554",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70555",
+          "code_type": "CPT"
+        },
+        {
+          "code": "71550",
+          "code_type": "CPT"
+        },
+        {
+          "code": "71552",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72141",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72146",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72148",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72156",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72157",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72195",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72197",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73218",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73220",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73221",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73223",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73718",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73721",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73723",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74181",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74712",
+          "code_type": "CPT"
+        },
+        {
+          "code": "75557",
+          "code_type": "CPT"
+        },
+        {
+          "code": "75563",
+          "code_type": "CPT"
+        },
+        {
+          "code": "77047",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0132",
+      "name": "with contrast",
+      "anchor_codes": [
+        {
+          "code": "70552",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70553",
+          "code_type": "CPT"
+        },
+        {
+          "code": "71551",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72142",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72147",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72149",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72158",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72196",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73219",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73222",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73719",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73720",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73722",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74182",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74183",
+          "code_type": "CPT"
+        },
+        {
+          "code": "75561",
+          "code_type": "CPT"
+        },
+        {
+          "code": "77049",
+          "code_type": "CPT"
+        },
+        {
+          "code": "C8908",
+          "code_type": "HCPCS"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "72156",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of cervical spine; Without contrast, followed by with contrast"
+    },
+    {
+      "code": "73720",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of lower extremity without contrast then with contrast"
+    },
+    {
+      "code": "73223",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of any joint of upper extremity; Without contrast, followed by with contrast"
+    },
+    {
+      "code": "70543",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of orbit, face, and/or neck; Without contrast followed by with contrast"
+    },
+    {
+      "code": "74182",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of abdomen; With contrast material(s)"
+    },
+    {
+      "code": "72147",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of thoracic spine; With contrast material(s)"
+    },
+    {
+      "code": "70552",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Magnetic resonance (e.g., proton) imaging, brain (including brain stem); With contrast material(s)"
+    },
+    {
+      "code": "73219",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of upper extremity (other than joint); With contrast material(s)"
+    },
+    {
+      "code": "70547",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI-based imaging of neck arteries without contrast agents"
+    },
+    {
+      "code": "71552",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of chest; Without contrast, followed by with contrast"
+    },
+    {
+      "code": "72146",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of thoracic spine; Without contrast material"
+    },
+    {
+      "code": "70551",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI proton brain including brainstem without contrast"
+    },
+    {
+      "code": "75557",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cardiac MRI for morphology and function; Without contrast material"
+    },
+    {
+      "code": "72196",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of pelvis; With contrast material(s)"
+    },
+    {
+      "code": "71551",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of chest; With contrast material(s)"
+    },
+    {
+      "code": "77049",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of bilateral breasts with contrast and CAD analysis"
+    },
+    {
+      "code": "73721",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Magnetic resonance imaging (MRI) of any joint in the lower extremity, without contrast"
+    },
+    {
+      "code": "72149",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of lumbar spine; With contrast material(s)"
+    },
+    {
+      "code": "71550",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of chest; Without contrast material(s)"
+    },
+    {
+      "code": "72158",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI (proton) spine with and without contrast, lumbar"
+    },
+    {
+      "code": "70336",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of temporomandibular joint(s)"
+    },
+    {
+      "code": "70555",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Functional MRI of brain; With physician or psychologist-administered neurofunctional testing"
+    },
+    {
+      "code": "C8908",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Bilateral breast MRI without and with contrast"
+    },
+    {
+      "code": "73723",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of any joint of lower extremity; Without contrast, followed by with contrast"
+    },
+    {
+      "code": "72195",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Magnetic resonance imaging (MRI) of pelvis without contrast material"
+    },
+    {
+      "code": "C8906",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Breast MRI with dye, scanning both sides simultaneously"
+    },
+    {
+      "code": "75561",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cardiac MRI with pre and post contrast imaging"
+    },
+    {
+      "code": "70540",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of orbit, face, and/or neck; Without contrast material(s)"
+    },
+    {
+      "code": "72141",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of cervical spine; Without contrast material"
+    },
+    {
+      "code": "72197",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of pelvis; Without contrast, followed by with contrast"
+    },
+    {
+      "code": "72142",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of cervical spine; With contrast material(s)"
+    },
+    {
+      "code": "74183",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of abdomen; Without contrast, followed by with contrast"
+    },
+    {
+      "code": "72148",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Proton MRI of lumbar spine without contrast material"
+    },
+    {
+      "code": "77047",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of breast; Without contrast material, bilateral"
+    },
+    {
+      "code": "74712",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Fetal MRI, including placental and maternal pelvic imaging; Single or first gestation"
+    },
+    {
+      "code": "74181",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Magnetic resonance imaging (MRI) of abdomen without contrast"
+    },
+    {
+      "code": "70549",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MR angiography, neck; Without contrast, followed by with contrast"
+    },
+    {
+      "code": "70544",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Non-contrast MRI scan of head's vessels"
+    },
+    {
+      "code": "73722",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of any joint of lower extremity; With contrast material(s)"
+    },
+    {
+      "code": "70554",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Functional MRI of brain; Not requiring physician or psychologist administration"
+    },
+    {
+      "code": "73222",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of any joint of upper extremity; With contrast material(s)"
+    },
+    {
+      "code": "73221",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of upper extremity joint without contrast material"
+    },
+    {
+      "code": "73719",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of lower extremity (other than joint); With contrast material(s)"
+    },
+    {
+      "code": "75563",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cardiac MRI for morphology and function; Without contrast, followed by with contrast, with stress imaging"
+    },
+    {
+      "code": "72157",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of thoracic spine; Without contrast, followed by with contrast"
+    },
+    {
+      "code": "70553",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of brain with and without contrast material"
+    },
+    {
+      "code": "73218",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of upper extremity without contrast material"
+    },
+    {
+      "code": "70546",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MR angiography, head; Without contrast, followed by with contrast"
+    },
+    {
+      "code": "73718",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI scan of lower extremity without contrast material"
+    },
+    {
+      "code": "73220",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of upper extremity (other than joint); Without contrast, followed by with contrast"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

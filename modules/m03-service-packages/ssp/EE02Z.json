@@ -1,0 +1,612 @@
+{
+  "id": "EE02Z",
+  "version": "2.0",
+  "title": "Wound treatment",
+  "description": "Wound treatment covers the full range of professional care for cuts, lacerations, and traumatic skin injuries, from thorough cleaning and tissue debridement to complex layered surgical repair. Your provider assesses the wound's depth, length, location, degree of contamination, and tissue condition to determine the appropriate level of care. The simplest cases involve irrigating and debriding the wound to remove bacteria and damaged tissue, while the most complex require multi-layer closure with advanced techniques to restore skin integrity. Local or regional anesthesia is used to keep you comfortable throughout. This type of procedure ranges in complexity from basic debridement and irrigation through to intermediate and complex repair, and the cost will vary depending on the extent of treatment required.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Emergency / Trauma",
+  "place_of_service": "outpatient",
+  "shoppability": 2.64,
+  "apc": "5052",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "97597",
+      "code_type": "CPT"
+    },
+    {
+      "code": "13131",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12014",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12002",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12051",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12042",
+      "code_type": "CPT"
+    },
+    {
+      "code": "13100",
+      "code_type": "CPT"
+    },
+    {
+      "code": "97602",
+      "code_type": "CPT"
+    },
+    {
+      "code": "13152",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12041",
+      "code_type": "CPT"
+    },
+    {
+      "code": "13132",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12013",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12021",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12045",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12037",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12032",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12006",
+      "code_type": "CPT"
+    },
+    {
+      "code": "13121",
+      "code_type": "CPT"
+    },
+    {
+      "code": "13120",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12053",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12044",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12034",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12035",
+      "code_type": "CPT"
+    },
+    {
+      "code": "13151",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12015",
+      "code_type": "CPT"
+    },
+    {
+      "code": "13101",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12011",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12004",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12054",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12052",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12001",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12005",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12031",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12036",
+      "code_type": "CPT"
+    },
+    {
+      "code": "12020",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "EE021",
+      "name": "Irrigation, with anesthesia",
+      "anchor_codes": [
+        {
+          "code": "97597",
+          "code_type": "CPT"
+        },
+        {
+          "code": "97602",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "EE022",
+      "name": "Repair, simple",
+      "anchor_codes": [
+        {
+          "code": "12001",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12002",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12004",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12005",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12006",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12011",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12013",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12014",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12015",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12020",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12021",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "EE023",
+      "name": "Repair, intermediate",
+      "anchor_codes": [
+        {
+          "code": "12031",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12032",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12034",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12035",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12036",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12037",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12041",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12042",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12044",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12045",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12051",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12052",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12053",
+          "code_type": "CPT"
+        },
+        {
+          "code": "12054",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "EE024",
+      "name": "Repair, complex",
+      "anchor_codes": [
+        {
+          "code": "13100",
+          "code_type": "CPT"
+        },
+        {
+          "code": "13101",
+          "code_type": "CPT"
+        },
+        {
+          "code": "13120",
+          "code_type": "CPT"
+        },
+        {
+          "code": "13121",
+          "code_type": "CPT"
+        },
+        {
+          "code": "13131",
+          "code_type": "CPT"
+        },
+        {
+          "code": "13132",
+          "code_type": "CPT"
+        },
+        {
+          "code": "13151",
+          "code_type": "CPT"
+        },
+        {
+          "code": "13152",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "97597",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Debridement (e.g., high pressure waterjet with/without suction, sharp selective debridement with scissors, scalpel and forceps), open wound; First 20 SQ CM or less"
+    },
+    {
+      "code": "13131",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Repair, complex, forehead, cheeks, chin, mouth, neck, axillae, genitalia, hands and/or feet; 1.1 CM to 2.5 CM"
+    },
+    {
+      "code": "12014",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Simple repair of superficial wounds of face, ears, eyelids, nose, lips and/or mucous membranes; 5.1 CM to 7.5 CM"
+    },
+    {
+      "code": "12002",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Simple repair of superficial wounds of scalp, neck, axillae, external genitalia, trunk and/or extremities (including hands and feet); 2.6 CM to 7.5 CM"
+    },
+    {
+      "code": "12051",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Repair, intermediate, wounds of face, ears, eyelids, nose, lips and/or mucous membranes; 2.5 CM or less"
+    },
+    {
+      "code": "12042",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Repair, intermediate, wounds of neck, hands, feet and/or external genitalia; 2.6 CM to 7.5 CM"
+    },
+    {
+      "code": "13100",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.30403206813517447,
+      "description": "Repair, complex, trunk; 1.1 CM to 2.5 CM"
+    },
+    {
+      "code": "97602",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Removal of devitalized tissue from wound(s); Non-selective debridement, without anesthesia (e.g., wet-to-moist dressings, enzymatic, abrasion, larval therapy), including topical application(s), wound assessment, and instruction(s) for ongoing care, per session"
+    },
+    {
+      "code": "13152",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.30403206813517447,
+      "description": "Repair, complex, eyelids, nose, ears and/or lips; 2.6 CM to 7.5 CM"
+    },
+    {
+      "code": "12041",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Repair, intermediate, wounds of neck, hands, feet and/or external genitalia; 2.5 CM or less"
+    },
+    {
+      "code": "13132",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.30403206813517447,
+      "description": "Repair, complex, forehead, cheeks, chin, mouth, neck, axillae, genitalia, hands and/or feet; 2.6 CM to 7.5 CM"
+    },
+    {
+      "code": "12013",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Simple repair of superficial wounds of face, ears, eyelids, nose, lips and/or mucous membranes; 2.6 CM to 5.0 CM"
+    },
+    {
+      "code": "12021",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.30403206813517447,
+      "description": "Treatment of superficial wound dehiscence; With packing"
+    },
+    {
+      "code": "12045",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Repair, intermediate, wounds of neck, hands, feet and/or external genitalia; 12.6 CM to 20.0 CM"
+    },
+    {
+      "code": "12037",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.30403206813517447,
+      "description": "Repair, intermediate, wounds of scalp, axillae, trunk and/or extremities (excluding hands and feet); Over 30.0 CM"
+    },
+    {
+      "code": "12032",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Repair, intermediate, wounds of scalp, axillae, trunk and/or extremities (excluding hands and feet); 2.6 CM to 7.5 CM"
+    },
+    {
+      "code": "12006",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Simple repair of superficial wounds of scalp, neck, axillae, external genitalia, trunk and/or extremities (including hands and feet); 20.1 CM to 30.0 CM"
+    },
+    {
+      "code": "13121",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.30403206813517447,
+      "description": "Repair, complex, scalp, arms, and/or legs; 2.6 CM to 7.5 CM"
+    },
+    {
+      "code": "13120",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.30403206813517447,
+      "description": "Repair, complex, scalp, arms, and/or legs; 1.1 CM to 2.5 CM"
+    },
+    {
+      "code": "12053",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Repair, intermediate, wounds of face, ears, eyelids, nose, lips and/or mucous membranes; 5.1 CM to 7.5 CM"
+    },
+    {
+      "code": "12044",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Repair, intermediate, wounds of neck, hands, feet and/or external genitalia; 7.6 CM to 12.5 CM"
+    },
+    {
+      "code": "12034",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Repair, intermediate, wounds of scalp, axillae, trunk and/or extremities (excluding hands and feet); 7.6 CM to 12.5 CM"
+    },
+    {
+      "code": "12035",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Repair, intermediate, wounds of scalp, axillae, trunk and/or extremities (excluding hands and feet); 12.6 CM to 20.0 CM"
+    },
+    {
+      "code": "13151",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.30403206813517447,
+      "description": "Repair, complex, eyelids, nose, ears and/or lips; 1.1 CM to 2.5 CM"
+    },
+    {
+      "code": "12015",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Simple repair of superficial wounds of face, ears, eyelids, nose, lips and/or mucous membranes; 7.6 CM to 12.5 CM"
+    },
+    {
+      "code": "13101",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.30403206813517447,
+      "description": "Repair, complex, trunk; 2.6 CM to 7.5 CM"
+    },
+    {
+      "code": "12011",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Simple repair, face/ears/eyelids, <=2.5cm"
+    },
+    {
+      "code": "12004",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Simple repair of superficial wounds of scalp, neck, axillae, external genitalia, trunk and/or extremities (including hands and feet); 7.6 CM to 12.5 CM"
+    },
+    {
+      "code": "12054",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Repair, intermediate, wounds of face, ears, eyelids, nose, lips and/or mucous membranes; 7.6 CM to 12.5 CM"
+    },
+    {
+      "code": "12052",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Repair, intermediate, wounds of face, ears, eyelids, nose, lips and/or mucous membranes; 2.6 CM to 5.0 CM"
+    },
+    {
+      "code": "12001",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Simple repair, trunk/extremities, <=2.5cm"
+    },
+    {
+      "code": "12005",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Simple repair of superficial wounds of scalp, neck, axillae, external genitalia, trunk and/or extremities (including hands and feet); 12.6 CM to 20.0 CM"
+    },
+    {
+      "code": "12031",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Repair, intermediate, wounds of scalp, axillae, trunk and/or extremities (excluding hands and feet); 2.5 CM or less"
+    },
+    {
+      "code": "12036",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9277890193552728,
+      "description": "Repair, intermediate, wounds of scalp, axillae, trunk and/or extremities (excluding hands and feet); 20.1 CM to 30.0 CM"
+    },
+    {
+      "code": "12020",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.30403206813517447,
+      "description": "Treatment of superficial wound dehiscence; Simple closure"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "R016Z",
+  "version": "2.0",
+  "title": "Quantitative MRI",
+  "description": "A quantitative MRI precisely measures tissue properties like water content and molecular composition. This specialized outpatient MRI goes beyond standard imaging to provide quantitative data about tissue health. Different protocols assess brain changes, tissue composition, or organ function. You lie still in the MRI scanner for 30-60 minutes. Results help track disease progression, monitor treatment response, or detect subtle abnormalities early. The procedure is painless and non-invasive. You go home immediately with no recovery needed. The cost of this procedure may vary depending on the body part being examined or treated. Categories include brain (longitudinal comparison) and body tissue composition.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Radiology",
+  "place_of_service": "outpatient",
+  "shoppability": 3.5,
+  "apc": "1511",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "0865T",
+      "code_type": "HCPCS"
+    },
+    {
+      "code": "0649T",
+      "code_type": "HCPCS"
+    },
+    {
+      "code": "0648T",
+      "code_type": "HCPCS"
+    },
+    {
+      "code": "0866T",
+      "code_type": "HCPCS"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "R0161",
+      "name": "Brain (longitudinal comparison)",
+      "anchor_codes": [
+        {
+          "code": "0865T",
+          "code_type": "HCPCS"
+        },
+        {
+          "code": "0866T",
+          "code_type": "HCPCS"
+        }
+      ]
+    },
+    {
+      "id": "R0162",
+      "name": "Body tissue composition",
+      "anchor_codes": [
+        {
+          "code": "0648T",
+          "code_type": "HCPCS"
+        },
+        {
+          "code": "0649T",
+          "code_type": "HCPCS"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "0865T",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Quantitative MRI analysis of brain with comparison to prior MRI study(ies), including lesion identification and brain volume quantification; Without concurrent diagnostic MRI"
+    },
+    {
+      "code": "0649T",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Quantitative MRI analysis of tissue composition, including data acquisition and interpretation; Single organ, with concurrent diagnostic MRI (add-on)"
+    },
+    {
+      "code": "0648T",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Quantitative MRI analysis of tissue composition, including data acquisition and interpretation; Single organ, without concurrent diagnostic MRI"
+    },
+    {
+      "code": "0866T",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Quantitative MRI analysis of brain with comparison to prior MRI study(ies), including lesion detection and brain volume quantification; With concurrent diagnostic MRI (add-on)"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

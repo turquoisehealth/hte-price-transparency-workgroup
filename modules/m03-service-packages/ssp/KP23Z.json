@@ -1,0 +1,232 @@
+{
+  "id": "KP23Z",
+  "version": "2.0",
+  "title": "Non-surgical tibia fracture treatment",
+  "description": "Non-surgical tibia fracture treatment is an outpatient procedure where your doctor treats your broken shinbone (tibia) without surgery. Your doctor will take X-rays to determine the fracture type and severity. If the break is stable and properly aligned, surgery may not be necessary. You'll wear a cast or walking boot to immobilize your shin and allow healing. You'll need to avoid weight-bearing or only partially bear weight as directed for several weeks, using crutches if necessary. Ice and elevation help manage swelling and pain. Periodic X-rays monitor healing progress. Physical therapy helps restore your strength and motion once healing is underway. Full healing typically takes 8-16 weeks depending on fracture severity and location. Some tibia fractures may need the bones manipulated into proper position before casting. The cost of this procedure may vary depending on whether your doctor needs to manually reposition (manipulate) the bone fragments into proper alignment, or whether the fracture can heal in its current position without manipulation.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 3.32,
+  "apc": "5111",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "27752",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27780",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27825",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27788",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27530",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27824",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27786",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27750",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27532",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "KP231",
+      "name": "without manipulation",
+      "anchor_codes": [
+        {
+          "code": "27530",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27750",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27780",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27786",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27824",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "KP232",
+      "name": "with manipulation",
+      "anchor_codes": [
+        {
+          "code": "27532",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27752",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27788",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27825",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.5272067714631197,
+      "description": "General"
+    },
+    {
+      "code": "27752",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Manipulation and traction of tibial and/or fibular fracture reduction"
+    },
+    {
+      "code": "27780",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed fixation of proximal fibula/shaft fracture without manipulation"
+    },
+    {
+      "code": "27825",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed tibial fracture treatment with traction and/or manipulation"
+    },
+    {
+      "code": "27788",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction and fixation of distal fibular fracture with manipulation"
+    },
+    {
+      "code": "99204",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5162088642391508,
+      "description": "Office or other outpatient visit, new patient; Moderate complexity medical decision making, 45-59 min"
+    },
+    {
+      "code": "73590",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "2-view x-ray of tibia and fibula"
+    },
+    {
+      "code": "99284",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6383642031909041,
+      "description": "Emergency department visit for moderate complexity evaluation and management with counseling/coordination of care"
+    },
+    {
+      "code": "27530",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed proximal tibial fracture fixation, without manipulation"
+    },
+    {
+      "code": "99285",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6122012347943029,
+      "description": "ED visit for complex medical decision-making involving history/exam/counseling"
+    },
+    {
+      "code": "27824",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed fixation for tibial pilon/plafond fracture"
+    },
+    {
+      "code": "27786",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction of distal fibular fracture, non-manipulative"
+    },
+    {
+      "code": "27750",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction and fixation of tibial fracture (with/without fibula)"
+    },
+    {
+      "code": "73610",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Ankle x-ray with 3 views"
+    },
+    {
+      "code": "27532",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed fixation of proximal tibial fracture with or without manipulation and skeletal traction"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

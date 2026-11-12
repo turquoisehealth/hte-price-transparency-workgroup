@@ -1,0 +1,127 @@
+{
+  "id": "KP270",
+  "version": "2.0",
+  "title": "Surgical ankle repair",
+  "description": "A surgical ankle repair is an outpatient procedure where your surgeon repairs damaged ligaments, tendons, or bones in your ankle. Ankle injuries like ligament tears, syndesmotic injuries, or small fractures often need surgical repair for stability. Your surgeon will use sutures, anchors, or other techniques to repair the damaged structures. The procedure takes 1-2 hours, and you may go home the same day or stay overnight. You'll wear a cast or boot and use crutches for several weeks while you heal. Physical therapy begins once your doctor clears it and helps restore your ankle strength and balance. You'll need to be patient with gradual return to activities to avoid re-injury. Most patients achieve good functional outcomes and return to their desired activities.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 3.5,
+  "apc": "5113",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "29898",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8821788040260509,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9502664298401421,
+      "description": "Sterile"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8821788040260509,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8821788040260509,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "29898",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Extensive ankle arthroscopic debridement of tibiotalar and fibulotalar joints"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8821788040260509,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "01464",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.826171875,
+      "description": "Anesthesia for arthroscopic procedures of ankle and/or foot"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8821788040260509,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8821788040260509,
+      "description": "Injection, propofol, 10 MG"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

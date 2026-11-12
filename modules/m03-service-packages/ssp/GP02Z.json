@@ -1,0 +1,170 @@
+{
+  "id": "GP02Z",
+  "version": "2.0",
+  "title": "Cholecystectomy",
+  "description": "Cholecystectomy is surgery to remove your gallbladder, a small organ that stores digestive fluid called bile. This surgery is performed when gallstones or other gallbladder problems cause pain or complications. Your surgeon will remove your gallbladder, and your body will function normally without it as bile will flow directly to your intestines. Most people tolerate life without a gallbladder very well, though some experience changes in bowel habits. Your surgeon may use either open surgery with a larger incision or laparoscopic surgery with several small incisions. Recovery time varies depending on the surgical approach used. After surgery, you'll gradually return to normal activities as your incisions heal. This type of procedure can be performed various ways, including an open surgical approach or a minimally invasive laparoscopic technique, and the cost may vary depending on the method used.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Gastroenterology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.0,
+  "apc": "5361",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "47563",
+      "code_type": "CPT"
+    },
+    {
+      "code": "47562",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "GP022",
+      "name": "Laparoscopic",
+      "anchor_codes": [
+        {
+          "code": "47562",
+          "code_type": "CPT"
+        },
+        {
+          "code": "47563",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "J7120",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9770060975233059,
+      "description": "Ringers lactate infusion, up to 1000 CC"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9770060975233059,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9970346391217589,
+      "description": "Sterile"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9770060975233059,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9770060975233059,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "88304",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8565506675150893,
+      "description": "Level III - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9770060975233059,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9770060975233059,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "47563",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laparoscopic cholecystectomy with cholangiography"
+    },
+    {
+      "code": "47562",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Minimally invasive removal of gallbladder via laparoscope"
+    },
+    {
+      "code": "00790",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8576126906418693,
+      "description": "Anesthesia for intraperitoneal procedures in upper abdomen including laparoscopy; Not otherwise specified"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9770060975233059,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

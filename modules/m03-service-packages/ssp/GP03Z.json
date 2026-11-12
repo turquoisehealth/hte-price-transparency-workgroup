@@ -1,0 +1,412 @@
+{
+  "id": "GP03Z",
+  "version": "2.0",
+  "title": "Colonoscopy",
+  "description": "Colonoscopy is a procedure where your doctor uses a long, flexible camera to examine your entire large intestine (colon and rectum). This important screening and diagnostic tool allows your doctor to look for polyps, tumors, inflammation, bleeding sources, and other abnormalities. Before the procedure, you'll prepare your colon by drinking a special cleaning solution to clear it completely. During the procedure, you'll be sedated to keep you comfortable while your doctor gently advances the camera through your colon. If your doctor finds polyps or areas of concern, they can remove tissue samples (biopsies) or remove growths during the same procedure. Most colonoscopies take 15-30 minutes, though therapeutic procedures may take longer. The cost of this procedure may vary depending on the complexity involved. Categories include diagnostic, simple, diagnostic, complex (eus, biopsy), therapeutic, simple, and therapeutic, mucosal resection.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Gastroenterology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5312",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "G0105",
+      "code_type": "HCPCS"
+    },
+    {
+      "code": "45390",
+      "code_type": "CPT"
+    },
+    {
+      "code": "45386",
+      "code_type": "CPT"
+    },
+    {
+      "code": "45388",
+      "code_type": "CPT"
+    },
+    {
+      "code": "45380",
+      "code_type": "CPT"
+    },
+    {
+      "code": "44388",
+      "code_type": "CPT"
+    },
+    {
+      "code": "45382",
+      "code_type": "CPT"
+    },
+    {
+      "code": "44394",
+      "code_type": "CPT"
+    },
+    {
+      "code": "45381",
+      "code_type": "CPT"
+    },
+    {
+      "code": "45378",
+      "code_type": "CPT"
+    },
+    {
+      "code": "45392",
+      "code_type": "CPT"
+    },
+    {
+      "code": "45391",
+      "code_type": "CPT"
+    },
+    {
+      "code": "45398",
+      "code_type": "CPT"
+    },
+    {
+      "code": "44389",
+      "code_type": "CPT"
+    },
+    {
+      "code": "45379",
+      "code_type": "CPT"
+    },
+    {
+      "code": "G0121",
+      "code_type": "HCPCS"
+    },
+    {
+      "code": "45385",
+      "code_type": "CPT"
+    },
+    {
+      "code": "45384",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "GP031",
+      "name": "Diagnostic, simple",
+      "anchor_codes": [
+        {
+          "code": "44388",
+          "code_type": "CPT"
+        },
+        {
+          "code": "45378",
+          "code_type": "CPT"
+        },
+        {
+          "code": "G0105",
+          "code_type": "HCPCS"
+        },
+        {
+          "code": "G0121",
+          "code_type": "HCPCS"
+        }
+      ]
+    },
+    {
+      "id": "GP032",
+      "name": "Diagnostic, with endoscopic ultrasound and/or biopsy",
+      "anchor_codes": [
+        {
+          "code": "44389",
+          "code_type": "CPT"
+        },
+        {
+          "code": "45380",
+          "code_type": "CPT"
+        },
+        {
+          "code": "45391",
+          "code_type": "CPT"
+        },
+        {
+          "code": "45392",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "GP033",
+      "name": "Therapeutic, simple",
+      "anchor_codes": [
+        {
+          "code": "44394",
+          "code_type": "CPT"
+        },
+        {
+          "code": "45379",
+          "code_type": "CPT"
+        },
+        {
+          "code": "45381",
+          "code_type": "CPT"
+        },
+        {
+          "code": "45382",
+          "code_type": "CPT"
+        },
+        {
+          "code": "45384",
+          "code_type": "CPT"
+        },
+        {
+          "code": "45385",
+          "code_type": "CPT"
+        },
+        {
+          "code": "45386",
+          "code_type": "CPT"
+        },
+        {
+          "code": "45388",
+          "code_type": "CPT"
+        },
+        {
+          "code": "45398",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "GP034",
+      "name": "Therapeutic, mucosal resection",
+      "anchor_codes": [
+        {
+          "code": "45390",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "G0105",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Colorectal cancer screening colonoscopy; Individual at high risk"
+    },
+    {
+      "code": "45390",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible endoscopic colonoscopy with mucosal resection"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9448752158038584,
+      "description": "General"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7587263155442973,
+      "description": "Sterile"
+    },
+    {
+      "code": "00812",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.75077380112459,
+      "description": "Anesthesia for lower intestinal endoscopic procedures, endoscope introduced distal to duodenum; Screening colonoscopy"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8456125421027008,
+      "description": "General"
+    },
+    {
+      "code": "C1726",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7587263155442973,
+      "description": "Catheter, balloon dilatation, non-vascular"
+    },
+    {
+      "code": "45386",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible endoscopic balloon dilation colonoscopy"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8087973554192261,
+      "description": "Level IV - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "45388",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible colonoscopy with ablation of lesions (including dilation/guidewire)"
+    },
+    {
+      "code": "45380",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Endoscopic colon biopsy with flexible scope for diagnosis"
+    },
+    {
+      "code": "44388",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Diagnostic stoma colonoscopy with brushing/washing specimen collection"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "45382",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible colonoscopy with control of bleeding of any technique"
+    },
+    {
+      "code": "44394",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Colonoscopy via stoma; Tumor, polyp, lesion resection via snare"
+    },
+    {
+      "code": "45381",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible colonoscopy with submucosal injections of any substance"
+    },
+    {
+      "code": "45378",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible endoscopy to diagnose colon, with specimen collection"
+    },
+    {
+      "code": "45392",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible endoscopic colonoscopy with endoscopic ultrasound and intramural or transmural biopsy"
+    },
+    {
+      "code": "45391",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Endoscopic ultrasound colonoscopy to examine rectum, colon, cecum, and adjacent structures"
+    },
+    {
+      "code": "45398",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Colonoscopy, flexible; With band ligation(s) (e.g., hemorrhoids)"
+    },
+    {
+      "code": "44389",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Colonostomy endoscopy with biopsy(s); Diagnosis/surveillance"
+    },
+    {
+      "code": "45379",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible colonoscopy with foreign body removal"
+    },
+    {
+      "code": "G0121",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Colorectal cancer screening colonoscopy; Individual not at high risk"
+    },
+    {
+      "code": "45385",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Colonoscopy with snare resection of tumor/polyps/lesions"
+    },
+    {
+      "code": "45384",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible endoscopic colonoscopy with hot biopsy forceps excision of lesion"
+    },
+    {
+      "code": "00811",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6156831772171409,
+      "description": "Anesthesia for lower intestinal endoscopic procedures, endoscope introduced distal to duodenum; Not otherwise specified"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "GP060",
+  "version": "2.0",
+  "title": "Image-guided liver biopsy",
+  "description": "Image-guided liver biopsy is a procedure where your doctor takes a small sample of liver tissue using a needle guided by ultrasound or CT imaging. This test helps your doctor diagnose liver diseases by examining liver tissue under a microscope. Your doctor will use imaging to guide a biopsy needle to the right spot in your liver while you remain awake. You'll receive local anesthesia to numb the area where the needle enters your skin. The biopsy needle removes a tiny piece of liver tissue that's sent to a lab for analysis. The procedure usually takes 15-30 minutes and generally causes minimal discomfort. After the procedure, you'll rest briefly and receive instructions about limiting activity for a few days while the biopsy site heals.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Gastroenterology",
+  "place_of_service": "outpatient",
+  "shoppability": 3.5,
+  "apc": "5072",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "47000",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "99152",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5642850865629668,
+      "description": "Moderate sedation services provided by the same physician or other qualified health care professional performing the diagnostic or therapeutic service that the sedation supports, requiring the presence of an independent trained observer to assist in the monitoring of the Patient's level of consciousness and physiological status; Initial 15 minutes of intraservice time, patient age 5 years or older"
+    },
+    {
+      "code": "88313",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Special stain including interpretation and report; Group II, all other (e.g., iron, trichrome), except stain for microorganisms, stains for enzyme constituents, or immunocytochemistry and immunohistochemistry"
+    },
+    {
+      "code": "47000",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Biopsy of liver, needle; Percutaneous"
+    },
+    {
+      "code": "88307",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Level v - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9092049352378027,
+      "description": "Sterile"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "85610",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8341780576460349,
+      "description": "Prothrombin time (pt)"
+    },
+    {
+      "code": "76942",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.799902728715507,
+      "description": "Ultrasonic guidance for needle placement (e.g., biopsy, aspiration, injection, localization device), imaging supervision and interpretation"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

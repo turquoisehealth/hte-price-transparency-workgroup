@@ -1,0 +1,219 @@
+{
+  "id": "KP050",
+  "version": "2.0",
+  "title": "Knee / hip arthroplasty revision",
+  "description": "A knee or hip arthroplasty revision is an outpatient procedure to replace or repair a previous knee or hip replacement that has worn out, failed, or become damaged. Over time, artificial joints can loosen, wear down, or develop problems that require surgery. Your surgeon will remove the old implant and replace it with a new one, which may require additional bone grafting if significant bone loss has occurred. The procedure takes longer than initial joint replacement and requires careful surgical planning. You may stay overnight or go home the same day depending on the complexity. Recovery takes longer than initial replacement, typically 3-6 months. Physical therapy is essential to restore function to your joint. Revision surgeries are often more complex than the original replacement.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 2.5,
+  "apc": "5116",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "27487",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27134",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27132",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27486",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "C1776",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Joint device (implantable)"
+    },
+    {
+      "code": "72170",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7201923076923077,
+      "description": "X-ray imaging of the pelvic region from one or two angles"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9375,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "27487",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Revision of total knee arthroplasty, with or without allograft; Femoral and entire tibial component"
+    },
+    {
+      "code": "73560",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7201923076923077,
+      "description": "X-ray imaging of knee, one or two views"
+    },
+    {
+      "code": "27134",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Revision of total hip arthroplasty; Both components (acetabular and femoral), with or without autograft/allograft"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9375,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9375,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "J1885",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9375,
+      "description": "Injection, ketorolac tromethamine, per 15 MG"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9375,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "27132",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Conversion of previous hip surgery to total hip arthroplasty, with or without autograft or allograft"
+    },
+    {
+      "code": "01215",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.96,
+      "description": "Anesthesia for open procedures involving hip joint; Revision of total hip arthroplasty"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "01214",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.953125,
+      "description": "Anesthesia for open procedures involving hip joint; Total hip arthroplasty"
+    },
+    {
+      "code": "01402",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8778775510204081,
+      "description": "Anesthesia for open or surgical arthroscopic procedures on knee joint; Total knee arthroplasty"
+    },
+    {
+      "code": "C1713",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anchor/screw for opposing bone-to-bone or soft tissue-to-bone (implantable)"
+    },
+    {
+      "code": "27486",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Revision of total knee arthroplasty, with or without allograft; 1 component"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9375,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9375,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "97161",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7269230769230769,
+      "description": "Physical therapy evaluation: low complexity, requiring these components: a history with no personal factors and/or comorbidities that impact the plan of care; An examination of body system(s) using standardized tests and measures addressing 1-2 elements from any of the following: body structures and functions, activity limitations, and/or participation restrictions; A clinical presentation with stable and/or uncomplicated characteristics; And clinical decision making of low complexity using standardized patient assessment instrument and/or measurable assessment of functional outcome. typically, 20 minutes are spent face-to-face with the patient and/or family"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

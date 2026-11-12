@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Anchor code index",
+  "description": "Reverse lookup from a billed anchor code to the SSP it rolls into.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "codes"
+  ],
+  "properties": {
+    "version": {
+      "description": "SSP library release version.",
+      "type": "string"
+    },
+    "codes": {
+      "description": "Keyed by billing code, e.g. 99214.",
+      "type": "object",
+      "additionalProperties": {
+        "description": "Where one anchor code rolls up.",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "code_type",
+          "ssp_id",
+          "sub_variant_ids"
+        ],
+        "properties": {
+          "code_type": {
+            "description": "Code system of the code.",
+            "enum": [
+              "CPT",
+              "HCPCS",
+              "MS-DRG",
+              "Rev Code"
+            ]
+          },
+          "ssp_id": {
+            "description": "SSP the code rolls into.",
+            "type": "string"
+          },
+          "sub_variant_ids": {
+            "description": "Sub-variants that list this code. Empty when the SSP has none or the code is in no sub-variant.",
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

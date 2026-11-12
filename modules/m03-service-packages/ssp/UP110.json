@@ -1,0 +1,139 @@
+{
+  "id": "UP110",
+  "version": "2.0",
+  "title": "Prostate biopsy",
+  "description": "A prostate biopsy collects tissue samples from your prostate to diagnose cancer or confirm high PSA levels. During this quick outpatient procedure, your urologist uses ultrasound guidance to direct a needle into the prostate and remove small tissue samples. The procedure takes 10-15 minutes and you're given local anesthesia for comfort. Afterward, you may have slight blood in your urine or semen for a few days, completely normal. Most people experience minimal discomfort. Results guide decisions about treatment or monitoring. You go home the same day and resume normal activities within a few days.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Urology / Nephrology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5374",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "55706",
+      "code_type": "CPT"
+    },
+    {
+      "code": "55700",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7406878252882947,
+      "description": "Sterile"
+    },
+    {
+      "code": "55706",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Biopsy of prostate; Saturation sampling for prostate mapping"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "00400",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for procedures on the integumentary system on the extremities, anterior trunk and perineum; Not otherwise specified"
+    },
+    {
+      "code": "G0416",
+      "code_type": "HCPCS",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.653846153846154,
+      "description": "Surgical pathology, gross and microscopic examinations, for prostate needle biopsy, any method"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8515834949144471,
+      "description": "General"
+    },
+    {
+      "code": "00902",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5850202429149798,
+      "description": "Anesthesia for; Anorectal procedure"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8080076198251522,
+      "description": "General"
+    },
+    {
+      "code": "55700",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Biopsy of prostate; Needle or punch, single or multiple, any approach"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "76872",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.560718397254933,
+      "description": "Ultrasound, transrectal"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.906861244344661,
+      "description": "General"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

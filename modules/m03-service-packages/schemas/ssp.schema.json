@@ -1,0 +1,236 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Standard Service Package (SSP)",
+  "description": "One SSP with its clinical sub-variants and bundled contents. Generated from the SSP CSV exports.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "version",
+    "title",
+    "description",
+    "type",
+    "disease_area",
+    "place_of_service",
+    "shoppability",
+    "apc",
+    "ms_drg",
+    "anchor_codes",
+    "sub_variants",
+    "contents",
+    "source"
+  ],
+  "properties": {
+    "id": {
+      "description": "Five character SSP grouper ID, e.g. AE02Z. Billed in place of the anchor code.",
+      "type": "string",
+      "pattern": "^[A-Z0-9]{5}$"
+    },
+    "version": {
+      "description": "SSP library release version.",
+      "type": "string"
+    },
+    "title": {
+      "description": "Consumer-facing SSP name.",
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "description": "Consumer-facing plain text description of the SSP.",
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "description": "Level of care the package is structured at.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "label"
+      ],
+      "properties": {
+        "code": {
+          "description": "item_service: the anchor code only. encounter: anchor code plus ancillary line items. episode: multi-visit journey.",
+          "enum": [
+            "item_service",
+            "encounter",
+            "episode"
+          ]
+        },
+        "label": {
+          "description": "Label as it appears in the source CSV.",
+          "enum": [
+            "I&S",
+            "Encounter",
+            "Episode"
+          ]
+        }
+      }
+    },
+    "disease_area": {
+      "description": "Clinical grouping used in the SSP library coverage table, e.g. Musculoskeletal.",
+      "type": "string",
+      "minLength": 1
+    },
+    "place_of_service": {
+      "description": "Outpatient or inpatient setting.",
+      "enum": [
+        "outpatient",
+        "inpatient"
+      ]
+    },
+    "shoppability": {
+      "description": "Turquoise Shoppability score: how far a patient can plan or shop for the service.",
+      "type": "number"
+    },
+    "apc": {
+      "description": "CMS Ambulatory Payment Classification the SSP crosswalks to. Outpatient SSPs only; null when missing.",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ms_drg": {
+      "description": "CMS MS-DRG the SSP crosswalks to. Inpatient SSPs only.",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "anchor_codes": {
+      "description": "Every code that rolls into this SSP: anchors from the contents export plus every sub-variant's anchor codes. Use this (or code_index.json) to map a billed code to an SSP.",
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/code_ref"
+      }
+    },
+    "sub_variants": {
+      "description": "Complexity tiers inside the SSP. Empty when the SSP has no sub-variants.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "name",
+          "anchor_codes"
+        ],
+        "properties": {
+          "id": {
+            "description": "Five character sub-variant ID, e.g. AE022. Shares its first four characters with the SSP ID.",
+            "type": "string",
+            "pattern": "^[A-Z0-9]{5}$"
+          },
+          "name": {
+            "description": "Consumer-facing sub-variant name, e.g. Moderate complexity (new or established).",
+            "type": "string",
+            "minLength": 1
+          },
+          "anchor_codes": {
+            "description": "Codes that place a claim in this sub-variant. May be empty in the current export.",
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/code_ref"
+            }
+          }
+        }
+      }
+    },
+    "contents": {
+      "description": "Services, codes and fees billed in association with the anchor code, as exported.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "code",
+          "code_type",
+          "fee_type",
+          "is_anchor",
+          "association_rate",
+          "description"
+        ],
+        "properties": {
+          "code": {
+            "description": "Billing code.",
+            "type": "string",
+            "minLength": 1
+          },
+          "code_type": {
+            "$ref": "#/$defs/code_type"
+          },
+          "fee_type": {
+            "description": "Claim the line is billed on.",
+            "enum": [
+              "facility",
+              "professional"
+            ]
+          },
+          "is_anchor": {
+            "description": "Anchor flag as exported. The current export only sets it on facility lines; see anchor_codes for the full set.",
+            "type": "boolean"
+          },
+          "association_rate": {
+            "description": "Share of historical anchor claims that included this line, 0 to 1. Null when not exported (MS-DRG anchors).",
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0,
+            "maximum": 1
+          },
+          "description": {
+            "description": "Plain language code description.",
+            "type": "string"
+          }
+        }
+      }
+    },
+    "source": {
+      "description": "Provenance of this record.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "files"
+      ],
+      "properties": {
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "CSV exports the record was built from."
+        }
+      }
+    }
+  },
+  "$defs": {
+    "code_type": {
+      "description": "Code system of a billing code.",
+      "enum": [
+        "CPT",
+        "HCPCS",
+        "MS-DRG",
+        "Rev Code"
+      ]
+    },
+    "code_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "code_type"
+      ],
+      "properties": {
+        "code": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Billing code, e.g. 99214."
+        },
+        "code_type": {
+          "$ref": "#/$defs/code_type"
+        }
+      }
+    }
+  }
+}

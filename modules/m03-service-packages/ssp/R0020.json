@@ -1,0 +1,87 @@
+{
+  "id": "R0020",
+  "version": "2.0",
+  "title": "Audiological testing",
+  "description": "Audiological testing measures your hearing ability and identifies any hearing loss. During this outpatient exam, you'll sit in a soundproof booth and listen to tones at different volumes and frequencies, raising your hand when you hear sounds. Your doctor may also perform speech recognition tests and check how your eardrums respond to sound. Results help determine if you have hearing loss, what type it is, and whether you need hearing aids or other treatment. The tests are painless and take 30-60 minutes.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Radiology",
+  "place_of_service": "outpatient",
+  "shoppability": 5.0,
+  "apc": "5721",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "92557",
+      "code_type": "CPT"
+    },
+    {
+      "code": "92552",
+      "code_type": "CPT"
+    },
+    {
+      "code": "92587",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "92557",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Comprehensive audiometry threshold evaluation and speech recognition"
+    },
+    {
+      "code": "92552",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Pure tone audiometry (threshold); Air only"
+    },
+    {
+      "code": "92567",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Tympanometry (impedance testing)"
+    },
+    {
+      "code": "92587",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Distortion product evoked otoacoustic emissions, limited"
+    },
+    {
+      "code": "99214",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5329444804493411,
+      "description": "Office or other outpatient visit, established patient; Moderate complexity medical decision making, 30-39 min"
+    },
+    {
+      "code": "99213",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Office or other outpatient visit, established patient; Low complexity medical decision making, 20-29 min"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

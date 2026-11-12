@@ -1,0 +1,51 @@
+{
+  "id": "QP090",
+  "version": "2.0",
+  "title": "Cerumen (earwax) removal",
+  "description": "Earwax removal is a quick office procedure to clear a buildup of earwax (cerumen) that is blocking your ear canal or affecting your hearing. Earwax normally protects the ear, but sometimes it hardens or builds up enough to cause muffled hearing, fullness, discomfort, or ringing. Your doctor or nurse examines your ear and removes the wax using one or more gentle methods, such as softening drops, flushing with warm water, gentle suction, or small instruments used under direct view. You may feel some water or pressure, but the process is usually painless. Clearing the wax often brings immediate relief and restores clearer hearing, and the whole visit typically takes only a few minutes.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Ear, Nose & Throat",
+  "place_of_service": "outpatient",
+  "shoppability": 5.0,
+  "apc": "5733",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "69209",
+      "code_type": "CPT"
+    },
+    {
+      "code": "69210",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "69209",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Removal impacted cerumen using irrigation/lavage, unilateral"
+    },
+    {
+      "code": "69210",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Removal impacted cerumen requiring instrumentation, unilateral"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

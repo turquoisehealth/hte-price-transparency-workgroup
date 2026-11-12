@@ -1,0 +1,176 @@
+{
+  "id": "KP08Z",
+  "version": "2.0",
+  "title": "Non-surgical ankle fracture treatment",
+  "description": "Non-surgical ankle fracture treatment is an outpatient procedure where your doctor treats your broken ankle without surgery by immobilizing it with a cast or boot. Your doctor will first take X-rays to determine the type and location of your fracture. If the break is stable and the bone pieces are properly aligned, surgery is not necessary. Your doctor will apply a cast or walking boot to keep the ankle immobilized so the bone can heal. You'll need to keep weight off your ankle for several weeks, using crutches or a walker. X-rays will be taken periodically to monitor healing progress. Physical therapy helps restore your strength and motion once healing is underway. Your ankle will be tender for several weeks, and full healing typically takes 6-12 weeks depending on the fracture severity. The cost of this procedure may vary depending on whether your doctor needs to manually reposition (manipulate) the bone fragments into proper alignment, or whether the fracture can heal in its current position without manipulation.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 1.44,
+  "apc": "5111",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "27810",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27762",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27818",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27760",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27808",
+      "code_type": "CPT"
+    },
+    {
+      "code": "28430",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "KP081",
+      "name": "without manipulation",
+      "anchor_codes": [
+        {
+          "code": "27760",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27808",
+          "code_type": "CPT"
+        },
+        {
+          "code": "28430",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "KP082",
+      "name": "with manipulation",
+      "anchor_codes": [
+        {
+          "code": "27762",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27810",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27818",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "27810",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed treatment of bimalleolar ankle fracture with manipulation"
+    },
+    {
+      "code": "96374",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Therapeutic, prophylactic, or diagnostic injection; Intravenous push, single or initial substance/drug"
+    },
+    {
+      "code": "28430",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Closed fixation of uncomplicated talus fracture"
+    },
+    {
+      "code": "99285",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7445438471524239,
+      "description": "ED visit for complex medical decision-making involving history/exam/counseling"
+    },
+    {
+      "code": "27760",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Closed repair of medial malleolus fracture without manipulation"
+    },
+    {
+      "code": "73610",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Ankle x-ray with 3 views"
+    },
+    {
+      "code": "27808",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Repair bimalleolar ankle fracture with immobilization"
+    },
+    {
+      "code": "27762",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed fixation of medial malleolus fracture with manipulation and optional traction"
+    },
+    {
+      "code": "99284",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5228311308787874,
+      "description": "Emergency department visit for moderate complexity evaluation and management with counseling/coordination of care"
+    },
+    {
+      "code": "27818",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed reduction and fixation of trimalleolar ankle fracture"
+    },
+    {
+      "code": "73590",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5387755102040817,
+      "description": "2-view x-ray of tibia and fibula"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

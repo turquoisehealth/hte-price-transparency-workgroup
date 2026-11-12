@@ -1,0 +1,255 @@
+{
+  "id": "CP020",
+  "version": "2.0",
+  "title": "Cardiac catheterization",
+  "description": "Cardiac catheterization is a diagnostic procedure where your doctor threads a thin, flexible tube called a catheter through your blood vessels to examine your heart and coronary arteries. This test helps diagnose heart disease, assess how well your heart is pumping, measure blood pressure in your heart chambers, and take tissue samples if needed. Your doctor can see blockages, valve problems, and other abnormalities on X-ray imaging. The procedure is performed while you're awake but sedated, and you'll generally feel minimal discomfort. This detailed information helps your doctor plan the best treatment for your condition, whether that's medication, a stent, bypass surgery, or another intervention.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Cardiac & Vascular",
+  "place_of_service": "outpatient",
+  "shoppability": 4.0,
+  "apc": "5191",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "93460",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93456",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93454",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93453",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93597",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93451",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93458",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93461",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93459",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8836851237672693,
+      "description": "General"
+    },
+    {
+      "code": "93567",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection procedure during cardiac catheterization including imaging supervision, interpretation, and report; For supravalvular aortography (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "C1769",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Guide wire"
+    },
+    {
+      "code": "93460",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Catheterization of coronary artery for angiography with imaging and interpretation"
+    },
+    {
+      "code": "99152",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.6533396296865734,
+      "description": "Moderate sedation services provided by the same physician or other qualified health care professional performing the diagnostic or therapeutic service that the sedation supports, requiring the presence of an independent trained observer to assist in the monitoring of the Patient's level of consciousness and physiological status; Initial 15 minutes of intraservice time, patient age 5 years or older"
+    },
+    {
+      "code": "93456",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Catheter placement for coronary angiography with imaging and right heart catheterization"
+    },
+    {
+      "code": "Q9967",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9314349096180456,
+      "description": "Low osmolar contrast material, 300-399 MG/ML iodine concentration, per ML"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.6533396296865734,
+      "description": "General"
+    },
+    {
+      "code": "99153",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.6533396296865734,
+      "description": "Moderate sedation services provided by the same physician or other qualified health care professional performing the diagnostic or therapeutic service that the sedation supports, requiring the presence of an independent trained observer to assist in the monitoring of the Patient's level of consciousness and physiological status; Each additional 15 minutes intraservice time (list separately in addition to code for primary service)"
+    },
+    {
+      "code": "93454",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Catheter placement, coronary angiography, injection, imaging, interpretation"
+    },
+    {
+      "code": "82330",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7130729864481978,
+      "description": "Calcium; Ionized"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9314349096180456,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9314349096180456,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "01920",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for cardiac catheterization including coronary angiography and ventriculography (not to include swan-ganz catheter)"
+    },
+    {
+      "code": "93453",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Combined right and left heart catheterization including intraprocedural injection(s) for left ventriculography"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.3893891805223045,
+      "description": "General"
+    },
+    {
+      "code": "C1894",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Introducer/sheath, other than guiding, other than intracardiac electrophysiological, non-laser"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9314349096180456,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "93597",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Right and left heart catheterization for congenital heart defect(s) including imaging guidance by the proceduralist to advance the catheter to the target zone(s); Abnormal native connections"
+    },
+    {
+      "code": "93451",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Right heart catheterization, hemodynamic measurements and pressures only"
+    },
+    {
+      "code": "93458",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Catheter placement in coronary artery(s) for angiography, imaging, and injection for angiography/ventriculography"
+    },
+    {
+      "code": "93461",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Catheter placement for coronary angiography with right/left heart cath, graft angiography, intraprocedural injection"
+    },
+    {
+      "code": "J1644",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9314349096180456,
+      "description": "Injection, heparin sodium, per 1000 units"
+    },
+    {
+      "code": "93459",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Catheter placement in coronary artery for coronary angiography, left heart catheterization and bypass graft angiography"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

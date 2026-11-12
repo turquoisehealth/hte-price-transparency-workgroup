@@ -1,0 +1,452 @@
+{
+  "id": "GP04Z",
+  "version": "2.0",
+  "title": "Upper endoscopy (EGD)",
+  "description": "Upper endoscopy, also called EGD (esophagogastroduodenoscopy), is a procedure where your doctor uses a flexible camera to examine your upper digestive tract. Your doctor looks at your esophagus (food tube), stomach, and the beginning of your small intestine to diagnose or treat problems. Before the procedure, your doctor will numb your throat with a spray to minimize gagging. You'll be sedated to keep you comfortable while your doctor gently advances the camera down your food tube. During the procedure, your doctor can perform various treatments depending on what they find. The procedure typically takes 10-20 minutes, though therapeutic procedures may take longer. The cost of this procedure may vary depending on the complexity involved. Categories include diagnostic, therapeutic, simple, therapeutic, with eus, ercp variants (sphincterotomy, stent, stone extraction), and transmural drainage (pseudocyst).",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Gastroenterology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5302",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "43253",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43239",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43254",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43238",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43255",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43270",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43251",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43246",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43236",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43248",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43249",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43237",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43240",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43250",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43245",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43242",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43247",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43259",
+      "code_type": "CPT"
+    },
+    {
+      "code": "43244",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "GP041",
+      "name": "Diagnostic",
+      "anchor_codes": [
+        {
+          "code": "43239",
+          "code_type": "CPT"
+        },
+        {
+          "code": "43247",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "GP042",
+      "name": "Therapeutic, simple",
+      "anchor_codes": [
+        {
+          "code": "43236",
+          "code_type": "CPT"
+        },
+        {
+          "code": "43244",
+          "code_type": "CPT"
+        },
+        {
+          "code": "43245",
+          "code_type": "CPT"
+        },
+        {
+          "code": "43246",
+          "code_type": "CPT"
+        },
+        {
+          "code": "43248",
+          "code_type": "CPT"
+        },
+        {
+          "code": "43249",
+          "code_type": "CPT"
+        },
+        {
+          "code": "43250",
+          "code_type": "CPT"
+        },
+        {
+          "code": "43254",
+          "code_type": "CPT"
+        },
+        {
+          "code": "43255",
+          "code_type": "CPT"
+        },
+        {
+          "code": "43270",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "GP043",
+      "name": "Therapeutic, with endoscopic ultrasound",
+      "anchor_codes": [
+        {
+          "code": "43237",
+          "code_type": "CPT"
+        },
+        {
+          "code": "43238",
+          "code_type": "CPT"
+        },
+        {
+          "code": "43242",
+          "code_type": "CPT"
+        },
+        {
+          "code": "43251",
+          "code_type": "CPT"
+        },
+        {
+          "code": "43253",
+          "code_type": "CPT"
+        },
+        {
+          "code": "43259",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "GP044",
+      "name": "Transmural drainage (pseudocyst)",
+      "anchor_codes": [
+        {
+          "code": "43240",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "43253",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "EGD with transendoscopic ultrasound-guided transmural injection of diagnostic or therapeutic substance(s) or fiducial marker(s)"
+    },
+    {
+      "code": "43239",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible transoral examination of esophagus, stomach & duodenum with biopsy - diag"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "43254",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "EGD with emr; EGD with bleeding control, dilation, ERCP variants"
+    },
+    {
+      "code": "43238",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Esophagogastroduodenoscopy with tus-guided intramural fna/biopsy"
+    },
+    {
+      "code": "43255",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "EGD with emr; EGD with bleeding control, dilation, ERCP variants"
+    },
+    {
+      "code": "43270",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible endoscopic removal of tumors through the mouth"
+    },
+    {
+      "code": "43251",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible esophagogastroduodenoscopy with snare-removal of tumor, polyp, or lesion"
+    },
+    {
+      "code": "43246",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible endoscopy to place gastrostomy tube in esophagus"
+    },
+    {
+      "code": "43236",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible endoscopic examination of upper GI with submucosal injections"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "43248",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible esophago-gastro-duodenoscopy with guide wire dilatation"
+    },
+    {
+      "code": "43249",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible transoral esophagogastroduodenoscopy with balloon esophageal dilation"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "43237",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible endoscopic ultrasound of esophagus, stomach, duodenum"
+    },
+    {
+      "code": "43240",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "EGD with transmural drainage of pseudocyst (including placement of transmural drainage catheter/stent and endoscopic ultrasound, when performed)"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9000503654566673,
+      "description": "Sterile"
+    },
+    {
+      "code": "43250",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "EGD with removal of tumor(s), polyp(s), or other lesion(s) by hot biopsy forceps"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9370788035132978,
+      "description": "General"
+    },
+    {
+      "code": "J0585",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, onabotulinumtoxina, 1 unit"
+    },
+    {
+      "code": "43245",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible endoscopic esophagogastroduodenoscopy with dilatation of strictures"
+    },
+    {
+      "code": "43242",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible esophagogastroduodenoscopy with transendoscopic ultrasound biopsy"
+    },
+    {
+      "code": "00813",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.71875,
+      "description": "Anesthesia for combined upper and lower gastrointestinal endoscopic procedures, endoscope introduced both proximal to and distal to the duodenum"
+    },
+    {
+      "code": "88173",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Cytopathology, evaluation of fine needle aspirate; Interpretation and report"
+    },
+    {
+      "code": "43247",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible scope with removal of esophageal foreign body(s) diag"
+    },
+    {
+      "code": "43259",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible transoral endoscopic evaluation of esophagus, stomach, and/or jejunum"
+    },
+    {
+      "code": "C1726",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9000503654566673,
+      "description": "Catheter, balloon dilatation, non-vascular"
+    },
+    {
+      "code": "43244",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible transoral endoscopic band ligation of esophageal/gastric varices"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9638621706283398,
+      "description": "General"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Level IV - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "00731",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7277431990493111,
+      "description": "Anesthesia for upper gastrointestinal endoscopic procedures, endoscope introduced proximal to duodenum; Not otherwise specified"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

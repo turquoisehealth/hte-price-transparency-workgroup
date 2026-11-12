@@ -1,0 +1,103 @@
+{
+  "id": "KP22Z",
+  "version": "2.0",
+  "title": "Non-surgical thigh (femur) fracture treatment",
+  "description": "Non-surgical thigh fracture treatment is an outpatient procedure where your doctor treats your broken thighbone (femur) without surgery. However, most thighbone fractures do require surgery because the femur is a large bone that needs precise alignment to heal properly and support weight-bearing. If your fracture is truly stable and non-displaced, your doctor might treat it with traction or bed rest. You'll use crutches or a walker and avoid weight-bearing on the injured leg. Pain medication and ice help manage discomfort. Your doctor will monitor your healing closely with periodic X-rays. Physical therapy is crucial to prevent blood clots and maintain strength in your other leg and upper body. Most thighbone fractures eventually require surgery if conservative treatment doesn't result in proper healing. Recovery without surgery is slow and may take several months. Some thighbone fractures may need manipulation to adjust bone alignment before immobilization. The cost of this procedure may vary depending on whether your doctor needs to manually reposition (manipulate) the bone fragments into proper alignment, or whether the fracture can heal in its current position without manipulation.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 2.68,
+  "apc": "5112",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "27500",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27508",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "KP221",
+      "name": "without manipulation",
+      "anchor_codes": [
+        {
+          "code": "27500",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27508",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "KP222",
+      "name": "with manipulation",
+      "anchor_codes": []
+    }
+  ],
+  "contents": [
+    {
+      "code": "73552",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6190476190476191,
+      "description": "Radiologic examination, femur; Minimum 2 views"
+    },
+    {
+      "code": "99214",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Office or other outpatient visit, established patient; Moderate complexity medical decision making, 30-39 min"
+    },
+    {
+      "code": "27508",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Closed reduction and fixation of distal femur fracture"
+    },
+    {
+      "code": "99213",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7619047619047619,
+      "description": "Office or other outpatient visit, established patient; Low complexity medical decision making, 20-29 min"
+    },
+    {
+      "code": "27500",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8571428571428571,
+      "description": "Closed fixation of femoral shaft fracture without manipulation"
+    },
+    {
+      "code": "99215",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7619047619047619,
+      "description": "Office or other outpatient visit, established patient; High complexity medical decision making, 40-54 min"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SSP index",
+  "description": "Summary of every SSP, with the path to its full record.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "ssps"
+  ],
+  "properties": {
+    "version": {
+      "description": "SSP library release version.",
+      "type": "string"
+    },
+    "ssps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "title",
+          "type",
+          "disease_area",
+          "place_of_service",
+          "sub_variant_ids",
+          "file"
+        ],
+        "properties": {
+          "id": {
+            "description": "SSP grouper ID.",
+            "type": "string"
+          },
+          "title": {
+            "description": "Consumer-facing SSP name.",
+            "type": "string"
+          },
+          "type": {
+            "description": "Level of care.",
+            "enum": [
+              "item_service",
+              "encounter",
+              "episode"
+            ]
+          },
+          "disease_area": {
+            "type": "string",
+            "description": "Clinical grouping, e.g. Musculoskeletal."
+          },
+          "place_of_service": {
+            "enum": [
+              "outpatient",
+              "inpatient"
+            ],
+            "description": "Outpatient or inpatient setting."
+          },
+          "sub_variant_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "IDs of the SSP's sub-variants. Empty when it has none."
+          },
+          "file": {
+            "description": "Path to the full SSP record, relative to this file.",
+            "type": "string"
+          }
+        }
+      },
+      "description": "One entry per SSP, in the order of ssp_list.csv."
+    }
+  }
+}

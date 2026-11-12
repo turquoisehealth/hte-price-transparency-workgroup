@@ -1,0 +1,112 @@
+{
+  "id": "CP10Z",
+  "version": "2.0",
+  "title": "Varicose vein treatment",
+  "description": "Varicose vein treatment closes off swollen, twisted veins in your legs so blood reroutes to healthier veins nearby. Varicose veins form when small valves inside the veins weaken and blood pools, causing bulging, aching, or heaviness. Your doctor performs this in an outpatient clinic using local anesthesia, so you stay awake and go home the same day. Depending on the vein, your doctor may inject a solution that seals it shut or use heat delivered through a thin catheter to close it from the inside. You feel little more than small pinpricks, and the treated veins gradually fade over the following weeks. Most people walk out afterward and return to light activity quickly.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Cardiac & Vascular",
+  "place_of_service": "outpatient",
+  "shoppability": 5.0,
+  "apc": "5183",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "36475",
+      "code_type": "CPT"
+    },
+    {
+      "code": "36478",
+      "code_type": "CPT"
+    },
+    {
+      "code": "36471",
+      "code_type": "CPT"
+    },
+    {
+      "code": "36482",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "CP101",
+      "name": "Sclerotherapy",
+      "anchor_codes": [
+        {
+          "code": "36471",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "CP102",
+      "name": "Ablation",
+      "anchor_codes": [
+        {
+          "code": "36475",
+          "code_type": "CPT"
+        },
+        {
+          "code": "36478",
+          "code_type": "CPT"
+        },
+        {
+          "code": "36482",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "36475",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Endovenous ablation therapy of incompetent vein, extremity, inclusive of all imaging guidance and monitoring, percutaneous, radiofrequency; First vein treated"
+    },
+    {
+      "code": "36478",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.49243379571248425,
+      "description": "Endovenous ablation therapy of incompetent vein, extremity, inclusive of all imaging guidance and monitoring, percutaneous, laser; First vein treated"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "36471",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.49243379571248425,
+      "description": "Injection of sclerosant; Multiple incompetent veins (other than telangiectasia), same leg"
+    },
+    {
+      "code": "36482",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Endovenous ablation therapy of incompetent vein, extremity, by transcatheter delivery of a chemical adhesive (e.g., cyanoacrylate) remote from the access site, inclusive of all imaging guidance and monitoring, percutaneous; First vein treated"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

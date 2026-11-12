@@ -1,0 +1,251 @@
+{
+  "id": "UP06Z",
+  "version": "2.0",
+  "title": "Urethroplasty",
+  "description": "Urethroplasty repairs damage or narrowing of the urethra caused by stricture, injury, or birth defects. Treatment approaches range from simple widening procedures to complex reconstruction with grafts or flaps. Your urologist assesses the stricture location and extent to determine the best surgical approach. Success rates are high with modern techniques, and most patients experience restored normal urinary flow and elimination of symptoms.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Urology / Nephrology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.21,
+  "apc": "5374",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "53460",
+      "code_type": "CPT"
+    },
+    {
+      "code": "53450",
+      "code_type": "CPT"
+    },
+    {
+      "code": "53020",
+      "code_type": "CPT"
+    },
+    {
+      "code": "53520",
+      "code_type": "CPT"
+    },
+    {
+      "code": "53400",
+      "code_type": "CPT"
+    },
+    {
+      "code": "53410",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "UP061",
+      "name": "Urethrotomy / meatotomy / Urethromeatoplasty",
+      "anchor_codes": [
+        {
+          "code": "53020",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "UP062",
+      "name": "Urethromeatoplasty",
+      "anchor_codes": [
+        {
+          "code": "53450",
+          "code_type": "CPT"
+        },
+        {
+          "code": "53460",
+          "code_type": "CPT"
+        },
+        {
+          "code": "53520",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "UP063",
+      "name": "Urethral injury / fistula repair",
+      "anchor_codes": [
+        {
+          "code": "53400",
+          "code_type": "CPT"
+        },
+        {
+          "code": "53410",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "UP064",
+      "name": "Urethroplasty, staged reconstruction",
+      "anchor_codes": []
+    }
+  ],
+  "contents": [
+    {
+      "code": "53460",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Urethromeatoplasty, with partial excision of distal urethral segment (richardson type procedure)"
+    },
+    {
+      "code": "J7120",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8715116279069768,
+      "description": "Ringers lactate infusion, up to 1000 CC"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.736046511627907,
+      "description": "Sterile"
+    },
+    {
+      "code": "53450",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Urethromeatoplasty, with mucosal advancement"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8715116279069768,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8715116279069768,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "53020",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Meatotomy, cutting of meatus (separate procedure); Except infant"
+    },
+    {
+      "code": "53520",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closure of urethrostomy or urethrocutaneous fistula, male (separate procedure)"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9375968992248062,
+      "description": "General"
+    },
+    {
+      "code": "53400",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Urethroplasty; First stage, for fistula, diverticulum, or stricture (e.g., johannsen type)"
+    },
+    {
+      "code": "53410",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Urethroplasty, 1-stage reconstruction of male anterior urethra"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8715116279069768,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "00920",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for procedures on male genitalia (including open urethral procedures); Not otherwise specified"
+    },
+    {
+      "code": "C1769",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.736046511627907,
+      "description": "Guide wire"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8715116279069768,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8715116279069768,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8715116279069768,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

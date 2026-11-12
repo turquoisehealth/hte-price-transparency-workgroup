@@ -1,0 +1,191 @@
+{
+  "id": "KP250",
+  "version": "2.0",
+  "title": "Lumbar spine fusion",
+  "description": "A lumbar spine fusion is an outpatient surgical procedure where your surgeon removes a damaged disc and fuses two or more vertebrae in your lower back together using bone graft material. This stabilizes your spine and relieves pressure on your spinal nerves that may be causing pain. The procedure takes 1-2 hours, and you may go home the same day or stay overnight. You'll have restrictions on bending, twisting, and lifting for several weeks while your spine heals. Physical therapy helps restore your strength and flexibility. You should expect 4-6 weeks of limited activity before returning to light duty, and 3-6 months before returning to strenuous activities. Most patients experience significant pain relief after the procedure. You may feel some initial fatigue as your body heals. Your fusion restricts motion slightly but provides long-term stability and pain relief.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 4.0,
+  "apc": "5117",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "22612",
+      "code_type": "CPT"
+    },
+    {
+      "code": "22633",
+      "code_type": "CPT"
+    },
+    {
+      "code": "22630",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9653679653679653,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "63052",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7325790987535955,
+      "description": "Laminectomy, facetectomy, or foraminotomy (unilateral or bilateral with decompression of spinal cord, cauda equina and/or nerve root[s] [e.g., spinal or lateral recess stenosis]), during posterior interbody arthrodesis, lumbar; Single vertebral segment (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9653679653679653,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.993006993006993,
+      "description": "General"
+    },
+    {
+      "code": "00670",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7570952988244286,
+      "description": "Anesthesia for extensive spine and spinal cord procedures (e.g., spinal instrumentation or vascular procedures)"
+    },
+    {
+      "code": "22612",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthrodesis, posterior or posterolateral technique, single interspace; Lumbar (with lateral transverse technique, when performed)"
+    },
+    {
+      "code": "C1713",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anchor/screw for opposing bone-to-bone or soft tissue-to-bone (implantable)"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9653679653679653,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9653679653679653,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "20936",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Autograft for spine surgery only (includes harvesting the graft); Local (e.g., ribs, spinous process, or laminar fragments) obtained from same incision (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "22853",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Insertion of interbody biomechanical device(s) (e.g., synthetic cage, mesh) with integral anterior instrumentation for device anchoring (e.g., screws, flanges), when performed, to intervertebral disc space in conjunction with interbody arthrodesis, each interspace (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "22840",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Posterior non-segmental instrumentation (e.g., harrington rod technique, pedicle fixation across 1 interspace, atlantoaxial transarticular screw fixation, sublaminar wiring at c1, facet screw fixation) (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9653679653679653,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "22633",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthrodesis, combined posterior or posterolateral technique with posterior interbody technique including laminectomy and/or discectomy sufficient to prepare interspace (other than for decompression), single interspace and segment; Lumbar"
+    },
+    {
+      "code": "22630",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthrodesis, posterior interbody technique, including laminectomy and/or discectomy to prepare interspace (other than for decompression), single interspace; Lumbar"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9653679653679653,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "20930",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Allograft, morselized, or placement of osteopromotive material, for spine surgery only (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

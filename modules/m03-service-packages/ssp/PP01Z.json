@@ -1,0 +1,425 @@
+{
+  "id": "PP01Z",
+  "version": "2.0",
+  "title": "Bronchoscopy",
+  "description": "A bronchoscopy allows your doctor to visualize your airways using a thin, flexible camera to diagnose or treat lung problems. Your pulmonologist passes the bronchoscope through your mouth or nose into your lungs. The procedure typically takes 15-45 minutes under light sedation. This category includes diagnostic scopes to visualize airways, diagnostic with biopsy to collect tissue samples, and therapeutic procedures using lasers, stents, or heat treatment. You go home the same day after recovery from sedation. Your throat may feel sore temporarily. The cost of this procedure may vary depending on the complexity involved. Categories include diagnostic, diagnostic, with biopsy, therapeutic, simple, therapeutic with ebus-guidance, and therapeutic with bronchial thermoplasty.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Pulmonology",
+  "place_of_service": "outpatient",
+  "shoppability": 3.5,
+  "apc": "5154",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "31628",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31623",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31625",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31635",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31641",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31629",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31645",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31652",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31640",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31653",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31622",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31624",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "PP011",
+      "name": "Diagnostic",
+      "anchor_codes": [
+        {
+          "code": "31622",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31623",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31624",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "PP012",
+      "name": "Diagnostic, with biopsy",
+      "anchor_codes": [
+        {
+          "code": "31625",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31628",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31629",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "PP013",
+      "name": "Therapeutic, simple",
+      "anchor_codes": [
+        {
+          "code": "31635",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31640",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31641",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31645",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "PP014",
+      "name": "Therapeutic with EBUS-guidance",
+      "anchor_codes": [
+        {
+          "code": "31652",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31653",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "PP015",
+      "name": "Therapeutic with bronchial thermoplasty",
+      "anchor_codes": []
+    }
+  ],
+  "contents": [
+    {
+      "code": "87070",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Culture, bacterial; Any other source except urine, blood or stool, aerobic, with isolation and presumptive identification of isolates"
+    },
+    {
+      "code": "31628",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Rigid/flexible bronchoscopy with x-ray guidance, single lobe transbronchial biopsy"
+    },
+    {
+      "code": "31623",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Rigid or flexible bronchoscopy with fluoroscopic guidance, including brushing or protected brushings"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "87205",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Smear, primary source with interpretation; Gram or giemsa stain for bacteria, fungi, or cell types"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "87116",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Culture, tubercle or other acid-fast bacilli (e.g., TB, afb, mycobacteria) any source, with isolation and presumptive identification of isolates"
+    },
+    {
+      "code": "31625",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Flexible or rigid bronchoscopy with fluoroscopic guidance and endobronchial biopsy(s)"
+    },
+    {
+      "code": "31635",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Bronchoscopy with foreign body removal"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "31627",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Bronchoscopy, rigid or flexible, including fluoroscopic guidance, when performed; With computer-assisted, image-guided navigation (list separately in addition to code for primary procedure[s])"
+    },
+    {
+      "code": "00520",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9350010917113679,
+      "description": "Anesthesia for closed chest procedures; (Including bronchoscopy) not otherwise specified"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "88173",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Cytopathology, evaluation of fine needle aspirate; Interpretation and report"
+    },
+    {
+      "code": "89051",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Cell count, miscellaneous body fluids (e.g., cerebrospinal fluid, joint fluid), except blood; With differential count"
+    },
+    {
+      "code": "87102",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Culture, fungi (mold or yeast) isolation, with presumptive identification of isolates; Other source (except blood)"
+    },
+    {
+      "code": "31641",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Bronchoscopy, rigid or flexible; With destruction of tumor or relief of stenosis by any method"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "87015",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Concentration (any type), for infectious agents"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "71045",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.6067169470766454,
+      "description": "X-ray of chest for viewing single structure"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Sterile"
+    },
+    {
+      "code": "31629",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Rigid or flexible bronchoscopy with fluoroscopy and transbronchial needle aspiration biopsies"
+    },
+    {
+      "code": "31645",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Bronchoscopy, rigid or flexible; With therapeutic aspiration of tracheobronchial tree, initial"
+    },
+    {
+      "code": "31652",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Rigid or flexible bronchoscopy with ebus-guided biopsy of one to two lymph nodes"
+    },
+    {
+      "code": "88112",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Cytopathology, selective cellular enhancement technique with interpretation (e.g., liquid based slide preparation method), except cervical or vaginal"
+    },
+    {
+      "code": "31640",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Bronchoscopy, rigid or flexible; With excision of tumor"
+    },
+    {
+      "code": "31653",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Rigid or flexible bronchoscopy with ebus-guided transtracheal aspirates/biopsies from 3+ lymph nodes"
+    },
+    {
+      "code": "31654",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5909774436090226,
+      "description": "Bronchoscopy, rigid or flexible, including fluoroscopic guidance, when performed; With transendoscopic endobronchial ultrasound (ebus) during bronchoscopic diagnostic or therapeutic intervention(s) for peripheral lesion(s) (list separately in addition to code for primary procedure[s])"
+    },
+    {
+      "code": "31622",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Bronchoscopy with fluoroscopy, cell washing"
+    },
+    {
+      "code": "31624",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Rigid/flexible bronchoscopy, including fluoroscopy & bronchial alveolar lavage"
+    },
+    {
+      "code": "87206",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Smear, primary source with interpretation; Fluorescent and/or acid fast stain for bacteria, fungi, parasites, viruses or cell types"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Level IV - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

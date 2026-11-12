@@ -1,0 +1,360 @@
+{
+  "id": "NM01Z",
+  "version": "2.0",
+  "title": "Nerve block injection",
+  "description": "A nerve block is an injection of medication near a specific nerve or group of nerves to relieve pain. It can calm pain from conditions such as back or nerve pain, or provide numbing for a procedure. Your doctor cleans the skin and often uses imaging, such as X-ray or ultrasound, to guide the needle precisely to the target nerve. The injection usually contains a local anesthetic to numb the area and sometimes a steroid to reduce inflammation. You feel a brief prick and some pressure. Depending on the type, relief can begin within minutes and last from hours to weeks. A nerve block can reduce your pain, lower your need for other pain medication, and help you move and function more comfortably.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Neurology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5442",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "64416",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64435",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64484",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64494",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64415",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64447",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64490",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64493",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64491",
+      "code_type": "CPT"
+    },
+    {
+      "code": "62321",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64488",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64461",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64448",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64445",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64483",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64492",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64450",
+      "code_type": "CPT"
+    },
+    {
+      "code": "62323",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64400",
+      "code_type": "CPT"
+    },
+    {
+      "code": "64495",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "NM011",
+      "name": "Anesthetic agent",
+      "anchor_codes": [
+        {
+          "code": "64400",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64415",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64416",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64435",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64445",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64447",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64448",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64450",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64461",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64483",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64484",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64488",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64490",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64491",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64492",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64493",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64494",
+          "code_type": "CPT"
+        },
+        {
+          "code": "64495",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "NM012",
+      "name": "Epidural",
+      "anchor_codes": [
+        {
+          "code": "62321",
+          "code_type": "CPT"
+        },
+        {
+          "code": "62323",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "64416",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s), anesthetic agent(s) and/or steroid; Brachial plexus, continuous infusion by catheter (including catheter placement), including imaging guidance, when performed"
+    },
+    {
+      "code": "64435",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s), anesthetic agent(s) and/or steroid; Paracervical (uterine) nerve"
+    },
+    {
+      "code": "64484",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s), anesthetic agent(s) and/or steroid; Transforaminal epidural, with imaging guidance (fluoroscopy or CT), lumbar or sacral, each additional level (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "64494",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s), diagnostic or therapeutic agent, paravertebral facet (zygapophyseal) joint (or nerves innervating that joint) with image guidance (fluoroscopy or CT), lumbar or sacral; Second level (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "64400",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection(s), anesthetic agent(s) and/or steroid; Trigeminal nerve, each branch (i.e., ophthalmic, maxillary, mandibular)"
+    },
+    {
+      "code": "64415",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s), anesthetic agent(s) and/or steroid; Brachial plexus, including imaging guidance, when performed"
+    },
+    {
+      "code": "64447",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s), anesthetic agent(s) and/or steroid; Femoral nerve, including imaging guidance, when performed"
+    },
+    {
+      "code": "64490",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s), diagnostic or therapeutic agent, paravertebral facet (zygapophyseal) joint (or nerves innervating that joint) with image guidance (fluoroscopy or CT), cervical or thoracic; Single level"
+    },
+    {
+      "code": "64493",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s), diagnostic or therapeutic agent, paravertebral facet (zygapophyseal) joint (or nerves innervating that joint) with image guidance (fluoroscopy or CT), lumbar or sacral; Single level"
+    },
+    {
+      "code": "64491",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s), diagnostic or therapeutic agent, paravertebral facet (zygapophyseal) joint (or nerves innervating that joint) with image guidance (fluoroscopy or CT), cervical or thoracic; Second level (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "62321",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s), of diagnostic or therapeutic substance(s) (e.g., anesthetic, antispasmodic, opioid, steroid, other solution), not including neurolytic substances, including needle or catheter placement, interlaminar epidural or subarachnoid, cervical or thoracic; With imaging guidance (i.e., fluoroscopy or CT)"
+    },
+    {
+      "code": "64488",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Transversus abdominis plane (tap) block (abdominal plane block, rectus sheath block) bilateral; By injections (includes imaging guidance, when performed)"
+    },
+    {
+      "code": "64461",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.3746307588661058,
+      "description": "Paravertebral block (pvb) (paraspinous block), thoracic; Single injection site (includes imaging guidance, when performed)"
+    },
+    {
+      "code": "64448",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s), anesthetic agent(s) and/or steroid; Femoral nerve, continuous infusion by catheter (including catheter placement), including imaging guidance, when performed"
+    },
+    {
+      "code": "64445",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s), anesthetic agent(s) and/or steroid; Sciatic nerve, including imaging guidance, when performed"
+    },
+    {
+      "code": "64483",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s), anesthetic agent(s) and/or steroid; Transforaminal epidural, with imaging guidance (fluoroscopy or CT), lumbar or sacral, single level"
+    },
+    {
+      "code": "64492",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s), diagnostic or therapeutic agent, paravertebral facet (zygapophyseal) joint (or nerves innervating that joint) with image guidance (fluoroscopy or CT), cervical or thoracic; Third and any additional level(s) (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "64450",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.3746307588661058,
+      "description": "Injection(s), anesthetic agent(s) and/or steroid; Other peripheral nerve or branch"
+    },
+    {
+      "code": "62323",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s), of diagnostic or therapeutic substance(s) (e.g., anesthetic, antispasmodic, opioid, steroid, other solution), not including neurolytic substances, including needle or catheter placement, interlaminar epidural or subarachnoid, lumbar or sacral (caudal); With imaging guidance (i.e., fluoroscopy or CT)"
+    },
+    {
+      "code": "64495",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6195652173913043,
+      "description": "Injection(s), diagnostic or therapeutic agent, paravertebral facet (zygapophyseal) joint (or nerves innervating that joint) with image guidance (fluoroscopy or CT), lumbar or sacral; Third and any additional level(s) (list separately in addition to code for primary procedure)"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

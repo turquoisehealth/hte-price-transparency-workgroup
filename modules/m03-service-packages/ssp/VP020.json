@@ -1,0 +1,147 @@
+{
+  "id": "VP020",
+  "version": "2.0",
+  "title": "Retinal repair surgery",
+  "description": "Retinal repair surgery is an outpatient procedure that repairs damage to your retina, such as a retinal detachment, hole, or macular problem. Your ophthalmologist performs specialized techniques to reattach the retina or repair the damage using lasers, injected gases, or oils. The procedure takes 1-3 hours depending on the problem. You go home the same day or may stay overnight. Recovery involves activity restrictions, positioning requirements, and frequent follow-up appointments to monitor healing.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Ophthalmology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5492",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "67040",
+      "code_type": "CPT"
+    },
+    {
+      "code": "67108",
+      "code_type": "CPT"
+    },
+    {
+      "code": "67036",
+      "code_type": "CPT"
+    },
+    {
+      "code": "67042",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "67040",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Vitrectomy, mechanical, pars plana approach; With endolaser panretinal photocoagulation"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9778371027048809,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9643378834433083,
+      "description": "General"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9778371027048809,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9994711126781847,
+      "description": "General"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "00145",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for procedures on eye; Vitreoretinal surgery"
+    },
+    {
+      "code": "67108",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Repair of retinal detachment; With vitrectomy, with or without air/gas tamponade, endolaser, cryotherapy, drainage of subretinal fluid, or scleral buckling"
+    },
+    {
+      "code": "67036",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Vitrectomy, mechanical, pars plana approach"
+    },
+    {
+      "code": "67042",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Vitrectomy, mechanical, pars plana approach; With removal of internal limiting membrane"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9778371027048809,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.977761547373193,
+      "description": "Sterile"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9778371027048809,
+      "description": "Injection, propofol, 10 MG"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

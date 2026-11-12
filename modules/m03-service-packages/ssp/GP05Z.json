@@ -1,0 +1,264 @@
+{
+  "id": "GP05Z",
+  "version": "2.0",
+  "title": "Hernia repair",
+  "description": "Hernia repair is surgery to fix a hernia, which occurs when an organ or tissue pushes through a weak spot in the surrounding muscle or tissue. Hernias commonly develop in the abdomen, groin, or at the site of previous surgery and can cause pain, enlargement, or risk of dangerous complications. Your surgeon will use mesh or sutures to close the defect and reinforce the weak area to prevent the hernia from returning. Your surgeon may use either open surgery with a larger incision or laparoscopic surgery with smaller incisions. Recovery varies depending on the type of hernia and surgical approach used. After surgery, you'll need to avoid heavy lifting and strenuous activity for several weeks while your incision heals. Most people typically return to normal activities within 4-6 weeks. This type of procedure can be performed various ways, including an open surgical approach or a minimally invasive laparoscopic technique, and the cost may vary depending on the method used.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Gastroenterology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.23,
+  "apc": "5341",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "49520",
+      "code_type": "CPT"
+    },
+    {
+      "code": "49507",
+      "code_type": "CPT"
+    },
+    {
+      "code": "49505",
+      "code_type": "CPT"
+    },
+    {
+      "code": "49651",
+      "code_type": "CPT"
+    },
+    {
+      "code": "49550",
+      "code_type": "CPT"
+    },
+    {
+      "code": "49591",
+      "code_type": "CPT"
+    },
+    {
+      "code": "49650",
+      "code_type": "CPT"
+    },
+    {
+      "code": "49553",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "GP051",
+      "name": "Open",
+      "anchor_codes": [
+        {
+          "code": "49505",
+          "code_type": "CPT"
+        },
+        {
+          "code": "49507",
+          "code_type": "CPT"
+        },
+        {
+          "code": "49520",
+          "code_type": "CPT"
+        },
+        {
+          "code": "49550",
+          "code_type": "CPT"
+        },
+        {
+          "code": "49553",
+          "code_type": "CPT"
+        },
+        {
+          "code": "49591",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "GP052",
+      "name": "Laparoscopic",
+      "anchor_codes": [
+        {
+          "code": "49650",
+          "code_type": "CPT"
+        },
+        {
+          "code": "49651",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "49520",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Repair recurrent hernia of inguinal region, reducible, any age"
+    },
+    {
+      "code": "49507",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Repair of incarcerated/strangulated inguinal hernia in ³ 5yo"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9727186602587509,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "49505",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Repair of reducible inguinal hernia in patient 5+ years"
+    },
+    {
+      "code": "00830",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8657290606490015,
+      "description": "Anesthesia for hernia repairs in lower abdomen; Not otherwise specified"
+    },
+    {
+      "code": "49651",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laparoscopic surgical repair of hernia recurrence in inguinal area"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9727186602587509,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "C1781",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Mesh (implantable)"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9727186602587509,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9727186602587509,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "00840",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7570138143188286,
+      "description": "Anesthesia for intraperitoneal procedures in lower abdomen including laparoscopy; Not otherwise specified"
+    },
+    {
+      "code": "49550",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Repair of initial femoral hernia, any approach; Reducible"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9727186602587509,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "49591",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Repair of reducible anterior abdominal hernia, any approach, implantation of mesh or prosthesis"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "49650",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Repair of hernia through laparoscopic surgical incision"
+    },
+    {
+      "code": "49553",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Repair of initial femoral hernia, any approach; Incarcerated or strangulated"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9727186602587509,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "BT010",
+  "version": "2.0",
+  "title": "Electroconvulsive therapy (ECT)",
+  "description": "Electroconvulsive therapy (ECT) is a medical treatment where your doctor uses controlled electrical currents to safely trigger a brief seizure under anesthesia. This procedure is typically used when severe depression, bipolar disorder, or catatonia hasn't responded well to medications. The electrical impulses help reset brain chemistry and can provide rapid relief from life-threatening symptoms. You'll be asleep during the procedure and closely monitored by an anesthesiologist. ECT can be very effective, especially when you need quick symptom improvement.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Behavioral Health",
+  "place_of_service": "outpatient",
+  "shoppability": 3.5,
+  "apc": "5724",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "90870",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "J0330",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7814380291439627,
+      "description": "Injection, succinylcholine chloride, up to 20 MG"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7593049466640635,
+      "description": "General"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7288653023553008,
+      "description": "General"
+    },
+    {
+      "code": "00104",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for electroconvulsive therapy"
+    },
+    {
+      "code": "90870",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Electroconvulsive therapy (includes necessary monitoring)"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

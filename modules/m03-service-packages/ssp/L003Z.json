@@ -1,0 +1,148 @@
+{
+  "id": "L003Z",
+  "version": "2.0",
+  "title": "Pathology / tissue analysis",
+  "description": "Pathology testing where a tissue sample is removed and examined under a microscope in a laboratory to diagnose diseases, especially cancer. A pathologist (a doctor specializing in examining tissues) analyzes your sample at different levels of detail and complexity. The sample might come from a biopsy, where a small piece of tissue is removed, or from tissue removed during surgery. Pathologists examine the cells to determine if cancer or other disease is present and to understand the severity and characteristics of any disease found. Different levels of testing range from simple examination to highly complex analysis using special stains and genetic testing. Results guide your treatment decisions and doctors' understanding of your condition. Four different complexity levels of testing exist depending on what information your doctor needs. The cost of this procedure may vary depending on the complexity involved. Categories include level i/ii, level iii/iv, level v, and level vi.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Lab / Pathology",
+  "place_of_service": "outpatient",
+  "shoppability": 2.0,
+  "apc": "5731",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "88300",
+      "code_type": "CPT"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT"
+    },
+    {
+      "code": "88309",
+      "code_type": "CPT"
+    },
+    {
+      "code": "88302",
+      "code_type": "CPT"
+    },
+    {
+      "code": "88304",
+      "code_type": "CPT"
+    },
+    {
+      "code": "88307",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "L0031",
+      "name": "Level I/II",
+      "anchor_codes": [
+        {
+          "code": "88300",
+          "code_type": "CPT"
+        },
+        {
+          "code": "88302",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "L0032",
+      "name": "Level III/IV",
+      "anchor_codes": [
+        {
+          "code": "88304",
+          "code_type": "CPT"
+        },
+        {
+          "code": "88305",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "L0033",
+      "name": "Level V",
+      "anchor_codes": [
+        {
+          "code": "88307",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "L0034",
+      "name": "Level VI",
+      "anchor_codes": [
+        {
+          "code": "88309",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "88300",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Level i - surgical pathology, gross examination only"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Level IV - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "88309",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Level VI - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "88302",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Level II - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "88304",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Level III - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "88307",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Level v - surgical pathology, gross and microscopic examination"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

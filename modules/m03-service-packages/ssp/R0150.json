@@ -1,0 +1,135 @@
+{
+  "id": "R0150",
+  "version": "2.0",
+  "title": "PET scan",
+  "description": "A PET (positron emission tomography) scan visualizes metabolic activity in your body to detect cancer, heart disease, or neurological conditions. During this outpatient test, you receive a small injection of radioactive tracer that accumulates in areas with abnormal metabolic activity. After waiting 30-60 minutes, you lie in the PET scanner for 20-30 minutes. Results show exactly where disease is present and how active it is. This information guides diagnosis, treatment planning, and monitoring. You go home the same day with no side effects from the minimal radiation exposure.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Radiology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5594",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "78813",
+      "code_type": "CPT"
+    },
+    {
+      "code": "78815",
+      "code_type": "CPT"
+    },
+    {
+      "code": "78814",
+      "code_type": "CPT"
+    },
+    {
+      "code": "78492",
+      "code_type": "CPT"
+    },
+    {
+      "code": "78459",
+      "code_type": "CPT"
+    },
+    {
+      "code": "78816",
+      "code_type": "CPT"
+    },
+    {
+      "code": "78434",
+      "code_type": "CPT"
+    },
+    {
+      "code": "78608",
+      "code_type": "CPT"
+    },
+    {
+      "code": "78812",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "78813",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Positron emission tomography (PET) imaging; Whole body"
+    },
+    {
+      "code": "78815",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Positron emission tomography (PET) with concurrently acquired computed tomography (CT) (CT) for attenuation correction and anatomical localization imaging; Skull base to mid-thigh"
+    },
+    {
+      "code": "78814",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Positron emission tomography (PET) with concurrently acquired computed tomography (CT) (CT) for attenuation correction and anatomical localization imaging; Limited area (e.g., chest, head/neck)"
+    },
+    {
+      "code": "78492",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Myocardial imaging, positron emission tomography (PET), perfusion study (including ventricular wall motion and/or ejection fraction when performed); Multiple studies at rest and/or stress"
+    },
+    {
+      "code": "78459",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Myocardial imaging, positron emission tomography (PET), metabolic evaluation study with or without ECG gating, when performed; Single study"
+    },
+    {
+      "code": "78816",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Positron emission tomography (PET) with concurrently acquired computed tomography (CT) (CT) for attenuation correction and anatomical localization imaging; Whole body"
+    },
+    {
+      "code": "78434",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Absolute quantitation of myocardial blood flow (aqmbf), positron emission tomography (PET), rest and pharmacologic stress (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "78608",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Brain imaging, positron emission tomography (PET); Metabolic evaluation"
+    },
+    {
+      "code": "78812",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Positron emission tomography (PET) imaging; Skull base to mid-thigh"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

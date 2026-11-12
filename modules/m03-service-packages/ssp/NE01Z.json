@@ -1,0 +1,180 @@
+{
+  "id": "NE01Z",
+  "version": "2.0",
+  "title": "Sleep study (polysomnography)",
+  "description": "A sleep study, also known as a polysomnography, is a test that monitors your brain waves, heart rate, breathing, oxygen levels, and movements while you sleep to diagnose sleep disorders like sleep apnea or narcolepsy. Technicians attach sensors and monitors to your body that record data throughout the night without pain or discomfort. The study can be done at a sleep lab facility or in some cases at your home with portable equipment. Results help your doctor understand what's happening during your sleep and determine the right treatment for you. You'll receive a detailed report showing your sleep patterns and any interruptions. Different types of sleep studies vary in complexity and setting, from simple home monitoring to comprehensive lab-based testing. The cost of this procedure may vary depending on the complexity involved. Categories include home sleep testing, limited parameters, home sleep testing, standard parameters, in-lab polysomnography, simple (<4 parameters), and in-lab polysomnography, complex.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Neurology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5723",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "95810",
+      "code_type": "CPT"
+    },
+    {
+      "code": "95808",
+      "code_type": "CPT"
+    },
+    {
+      "code": "95806",
+      "code_type": "CPT"
+    },
+    {
+      "code": "G0399",
+      "code_type": "HCPCS"
+    },
+    {
+      "code": "95811",
+      "code_type": "CPT"
+    },
+    {
+      "code": "95801",
+      "code_type": "CPT"
+    },
+    {
+      "code": "95800",
+      "code_type": "CPT"
+    },
+    {
+      "code": "95807",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "NE011",
+      "name": "Home sleep testing, limited parameters",
+      "anchor_codes": [
+        {
+          "code": "95801",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "NE012",
+      "name": "Home sleep testing, standard parameters",
+      "anchor_codes": [
+        {
+          "code": "95800",
+          "code_type": "CPT"
+        },
+        {
+          "code": "95806",
+          "code_type": "CPT"
+        },
+        {
+          "code": "G0399",
+          "code_type": "HCPCS"
+        }
+      ]
+    },
+    {
+      "id": "NE013",
+      "name": "In-lab polysomnography, simple (<4 parameters)",
+      "anchor_codes": [
+        {
+          "code": "95807",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "NE014",
+      "name": "In-lab polysomnography, complex",
+      "anchor_codes": [
+        {
+          "code": "95808",
+          "code_type": "CPT"
+        },
+        {
+          "code": "95810",
+          "code_type": "CPT"
+        },
+        {
+          "code": "95811",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "95810",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9591136017231465,
+      "description": "Attended polysomnography for age ³6 with sleep staging and ³4 parameters"
+    },
+    {
+      "code": "95808",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9591136017231465,
+      "description": "Polysomnography; Any age, sleep staging with 1-3 additional parameters of sleep, attended by a technologist"
+    },
+    {
+      "code": "95806",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Home sleep testing with airflow"
+    },
+    {
+      "code": "G0399",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Home sleep test, type III portable monitor"
+    },
+    {
+      "code": "95811",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9591136017231465,
+      "description": "Polysomnography; Age 6 years or older, sleep staging with 4 or more additional parameters of sleep, with initiation of continuous positive airway pressure therapy or bilevel ventilation, attended by a technologist"
+    },
+    {
+      "code": "95801",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Home sleep apnea testing (hst) with cardiovascular, respiratory, sleep staging"
+    },
+    {
+      "code": "95800",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Home sleep apnea testing (hst) with cardiovascular, respiratory, sleep staging"
+    },
+    {
+      "code": "95807",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.9591136017231465,
+      "description": "Polysomnography; Any age, sleep staging with 4+ additional parameters of sleep, attended by a technologist"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

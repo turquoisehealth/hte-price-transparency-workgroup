@@ -1,0 +1,47 @@
+{
+  "id": "KP200",
+  "version": "2.0",
+  "title": "Non-surgical spine fracture treatment",
+  "description": "Non-surgical spine fracture treatment is an outpatient procedure where your doctor treats your broken vertebra without surgery. Many spine fractures, particularly compression fractures or simple fractures without nerve involvement, can heal without surgery. Your doctor will take X-rays or CT (computed tomography) scans to determine the fracture location and assess for nerve damage. You'll wear a back brace to immobilize your spine and reduce pain. You'll need to avoid bending, twisting, and heavy lifting during healing. Ice and pain medication help manage discomfort. Your doctor will monitor your healing with periodic imaging. Physical therapy helps maintain your strength. You should report any new or worsening numbness, weakness, or bowel/bladder problems immediately. Most spine fractures typically heal in 8-12 weeks. Your doctor will assess whether the fracture is stable enough to avoid surgery.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5111",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "22310",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "G0463",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7482014388489209,
+      "description": "Outpatient clinic visit to evaluate and treat patient"
+    },
+    {
+      "code": "22310",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Closed fracture treatment with casting/bracing, no manipulation"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "id": "NP04Z",
+  "version": "2.0",
+  "title": "Spinal cord stimulator implantation",
+  "description": "A spinal cord stimulator is a device that sends mild electrical pulses to your spinal cord to block or reduce chronic pain signals before they reach your brain. Your surgeon places electrodes near your spinal cord and connects them to a pulse generator implanted under your skin, usually near your buttock or abdomen. You'll likely have a trial period with temporary leads to confirm the device will help your pain before permanent implantation. The outpatient procedure takes 1-3 hours depending on complexity, and you can usually go home the same day. Recovery typically takes 1-2 weeks before you can resume normal activities. The device requires periodic programming adjustments and battery replacement every few years. The cost of this procedure may vary depending on the complexity involved. Categories include revision/removal, trial/temporary electrodes, simple, trial/temporary electrodes, plate/paddle, and implantation, pulse generator / definitive.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Neurology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5465",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "63685",
+      "code_type": "CPT"
+    },
+    {
+      "code": "63664",
+      "code_type": "CPT"
+    },
+    {
+      "code": "63688",
+      "code_type": "CPT"
+    },
+    {
+      "code": "63655",
+      "code_type": "CPT"
+    },
+    {
+      "code": "63661",
+      "code_type": "CPT"
+    },
+    {
+      "code": "63662",
+      "code_type": "CPT"
+    },
+    {
+      "code": "63663",
+      "code_type": "CPT"
+    },
+    {
+      "code": "63650",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "NP041",
+      "name": "Revision / removal",
+      "anchor_codes": [
+        {
+          "code": "63661",
+          "code_type": "CPT"
+        },
+        {
+          "code": "63662",
+          "code_type": "CPT"
+        },
+        {
+          "code": "63663",
+          "code_type": "CPT"
+        },
+        {
+          "code": "63664",
+          "code_type": "CPT"
+        },
+        {
+          "code": "63688",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "NP042",
+      "name": "Trial / temporary electrodes",
+      "anchor_codes": [
+        {
+          "code": "63650",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "NP043",
+      "name": "Implantation, plate / paddle",
+      "anchor_codes": [
+        {
+          "code": "63655",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "NP044",
+      "name": "Implantation, pulse generator / definitive",
+      "anchor_codes": [
+        {
+          "code": "63685",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "C1778",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Lead, neurostimulator (implantable)"
+    },
+    {
+      "code": "C1883",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Adapter/extension, pacing lead or neurostimulator lead (implantable)"
+    },
+    {
+      "code": "63685",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Insertion or replacement of spinal neurostimulator device, direct or inductive"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9434931506849316,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "63664",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Revision/replacement of electrode plate/paddle(s)"
+    },
+    {
+      "code": "00300",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6711864406779661,
+      "description": "Anesthesia for all procedures on the integumentary system, muscles and nerves of head, neck, and posterior trunk, not otherwise specified"
+    },
+    {
+      "code": "00620",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5633802816901409,
+      "description": "Anesthesia for procedures on thoracic spine and cord, not otherwise specified"
+    },
+    {
+      "code": "63688",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Revision or removal of implanted spinal neurostimulator pulse generator or receiver"
+    },
+    {
+      "code": "63655",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laminectomy for implantation of neurostimulator electrodes, plate/paddle, epidural"
+    },
+    {
+      "code": "63661",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Removal of spinal neurostimulator electrode percutaneous array(s), including fluoroscopy, when performed"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9434931506849316,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "63662",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Removal of spinal neurostimulator electrode plate/paddle(s)"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9434931506849316,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9792380136986302,
+      "description": "General"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9434931506849316,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9434931506849316,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8516695205479452,
+      "description": "General"
+    },
+    {
+      "code": "63663",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Revision including replacement, when performed, of spinal neurostimulator electrode percutaneous array(s), including fluoroscopy, when performed"
+    },
+    {
+      "code": "C1897",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Lead, neurostimulator test kit (implantable)"
+    },
+    {
+      "code": "63650",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Percutaneous implantation trial electrode"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8277504280821918,
+      "description": "General"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9434931506849316,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

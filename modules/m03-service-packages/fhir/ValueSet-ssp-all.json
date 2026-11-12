@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ssp-all",
+  "url": "https://open.forpatients.health/fhir/ValueSet/ssp-all",
+  "version": "2.0",
+  "name": "AllStandardServicePackages",
+  "title": "All Standard Service Packages",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>All Standard Service Packages</p><p>Every SSP and sub-variant code.</p></div>"
+  },
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Turquoise",
+  "description": "Every SSP and sub-variant code.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://open.forpatients.health/fhir/CodeSystem/ssp",
+        "version": "2.0"
+      }
+    ]
+  }
+}

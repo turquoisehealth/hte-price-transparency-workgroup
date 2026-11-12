@@ -1,0 +1,371 @@
+{
+  "id": "DP05Z",
+  "version": "2.0",
+  "title": "Percutaneous (core needle) biopsy",
+  "description": "Percutaneous skin biopsy is a procedure where your doctor uses a needle or punch tool to remove a small tissue sample from skin or underlying tissue. This helps diagnose skin conditions, infections, or cancer. The procedure takes minutes and generally causes minimal discomfort. Depending on the location and type of tissue being biopsied, different approaches are used. The cost of this procedure may vary depending on the body part being examined or treated. Categories include head/neck gland, general, spine, and testis.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Dermatology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5072",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "50200",
+      "code_type": "CPT"
+    },
+    {
+      "code": "60100",
+      "code_type": "CPT"
+    },
+    {
+      "code": "19081",
+      "code_type": "CPT"
+    },
+    {
+      "code": "32400",
+      "code_type": "CPT"
+    },
+    {
+      "code": "19085",
+      "code_type": "CPT"
+    },
+    {
+      "code": "32408",
+      "code_type": "CPT"
+    },
+    {
+      "code": "19083",
+      "code_type": "CPT"
+    },
+    {
+      "code": "49180",
+      "code_type": "CPT"
+    },
+    {
+      "code": "48102",
+      "code_type": "CPT"
+    },
+    {
+      "code": "20206",
+      "code_type": "CPT"
+    },
+    {
+      "code": "62267",
+      "code_type": "CPT"
+    },
+    {
+      "code": "19100",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "DP051",
+      "name": "Head/neck gland",
+      "anchor_codes": [
+        {
+          "code": "60100",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "DP052",
+      "name": "General",
+      "anchor_codes": [
+        {
+          "code": "19081",
+          "code_type": "CPT"
+        },
+        {
+          "code": "19083",
+          "code_type": "CPT"
+        },
+        {
+          "code": "19085",
+          "code_type": "CPT"
+        },
+        {
+          "code": "19100",
+          "code_type": "CPT"
+        },
+        {
+          "code": "20206",
+          "code_type": "CPT"
+        },
+        {
+          "code": "32400",
+          "code_type": "CPT"
+        },
+        {
+          "code": "32408",
+          "code_type": "CPT"
+        },
+        {
+          "code": "48102",
+          "code_type": "CPT"
+        },
+        {
+          "code": "49180",
+          "code_type": "CPT"
+        },
+        {
+          "code": "50200",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "DP053",
+      "name": "Spine",
+      "anchor_codes": [
+        {
+          "code": "62267",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "DP054",
+      "name": "Testis",
+      "anchor_codes": []
+    }
+  ],
+  "contents": [
+    {
+      "code": "88313",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Special stain including interpretation and report; Group II, all other (e.g., iron, trichrome), except stain for microorganisms, stains for enzyme constituents, or immunocytochemistry and immunohistochemistry"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.52368573079145,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Sterile"
+    },
+    {
+      "code": "88341",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Immunohistochemistry or immunocytochemistry, per specimen; Each additional single antibody stain procedure (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "50200",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Renal biopsy; Percutaneous, by trocar or needle"
+    },
+    {
+      "code": "19100",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Biopsy of breast; Percutaneous, needle core, not using imaging guidance (separate procedure)"
+    },
+    {
+      "code": "60100",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Biopsy thyroid, percutaneous core needle"
+    },
+    {
+      "code": "88342",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Immunohistochemistry, initial single antibody stain"
+    },
+    {
+      "code": "87070",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.10909090909090909,
+      "description": "Culture, bacterial; Any other source except urine, blood or stool, aerobic, with isolation and presumptive identification of isolates"
+    },
+    {
+      "code": "19081",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Biopsy, breast, with placement of breast localization device(s) (e.g., clip, metallic pellet), when performed, and imaging of the biopsy specimen, when performed, percutaneous; First lesion, including stereotactic guidance"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Level IV - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "32400",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Percutaneous biopsy, pleura/lung"
+    },
+    {
+      "code": "19085",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Biopsy, breast, with placement of breast localization device(s) (e.g., clip, metallic pellet), when performed, and imaging of the biopsy specimen, when performed, percutaneous; First lesion, including magnetic resonance guidance"
+    },
+    {
+      "code": "88173",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Cytopathology, evaluation of fine needle aspirate; Interpretation and report"
+    },
+    {
+      "code": "32408",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Core needle biopsy, lung or mediastinum, percutaneous, including imaging guidance, when performed"
+    },
+    {
+      "code": "19083",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Biopsy, breast, with placement of breast localization device(s) (e.g., clip, metallic pellet), when performed, and imaging of the biopsy specimen, when performed, percutaneous; First lesion, including ultrasound guidance"
+    },
+    {
+      "code": "49180",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Percutaneous biopsy, abdominal mass"
+    },
+    {
+      "code": "76942",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8005940397621507,
+      "description": "Ultrasonic guidance for needle placement (e.g., biopsy, aspiration, injection, localization device), imaging supervision and interpretation"
+    },
+    {
+      "code": "77065",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8005940397621507,
+      "description": "Diagnostic mammography with CAD, unilateral workup"
+    },
+    {
+      "code": "99152",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6130204849789544,
+      "description": "Moderate sedation services provided by the same physician or other qualified health care professional performing the diagnostic or therapeutic service that the sedation supports, requiring the presence of an independent trained observer to assist in the monitoring of the Patient's level of consciousness and physiological status; Initial 15 minutes of intraservice time, patient age 5 years or older"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.52368573079145,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "48102",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Percutaneous biopsy, pancreas"
+    },
+    {
+      "code": "20206",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Biopsy, muscle, percutaneous needle"
+    },
+    {
+      "code": "87205",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.09090909090909091,
+      "description": "Smear, primary source with interpretation; Gram or giemsa stain for bacteria, fungi, or cell types"
+    },
+    {
+      "code": "85610",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.09504762984525678,
+      "description": "Prothrombin time (pt)"
+    },
+    {
+      "code": "62267",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Percutaneous biopsy, nucleus pulposus"
+    },
+    {
+      "code": "A4648",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Tissue marker, implantable, any type, each"
+    },
+    {
+      "code": "71045",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9318807165409408,
+      "description": "X-ray of chest for viewing single structure"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

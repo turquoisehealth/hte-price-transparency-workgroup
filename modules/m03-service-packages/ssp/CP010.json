@@ -1,0 +1,87 @@
+{
+  "id": "CP010",
+  "version": "2.0",
+  "title": "Cardiac biopsy",
+  "description": "A cardiac biopsy is a procedure where your doctor takes a small sample of heart tissue to examine under a microscope. This helps diagnose conditions like myocarditis (heart inflammation), cardiomyopathy (heart muscle disease), or transplant rejection. Your doctor uses a special catheter with a tiny biopsy tool guided through your blood vessels into your heart. The procedure is performed in a cardiac catheterization lab while you're awake but sedated. Your doctor can quickly analyze the tissue to determine what's affecting your heart and develop an appropriate treatment plan based on the findings.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Cardiac & Vascular",
+  "place_of_service": "outpatient",
+  "shoppability": 2.5,
+  "apc": "5183",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "93505",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "83735",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8832102603964244,
+      "description": "Magnesium"
+    },
+    {
+      "code": "80053",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8832102603964244,
+      "description": "Comprehensive metabolic panel (CMP, 14 analytes)"
+    },
+    {
+      "code": "88307",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9370384764865916,
+      "description": "Level v - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "C1894",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Introducer/sheath, other than guiding, other than intracardiac electrophysiological, non-laser"
+    },
+    {
+      "code": "85025",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8832102603964244,
+      "description": "CBC with automated differential WBC count"
+    },
+    {
+      "code": "80197",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8832102603964244,
+      "description": "Tacrolimus"
+    },
+    {
+      "code": "93505",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Endomyocardial biopsy"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "R0060",
+  "version": "2.0",
+  "title": "Echocardiogram",
+  "description": "An echocardiogram uses ultrasound waves to create detailed moving images of your heart's structure and function. During this painless outpatient test, a technician moves a small probe across your chest and captures images showing how your heart chambers pump and your valves work. The procedure takes 20-40 minutes and produces real-time video your doctor can analyze immediately. Echocardiograms detect heart damage, valve problems, fluid around the heart, and other conditions. You go home the same day with no recovery time.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Radiology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5524",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "93325",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93351",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93303",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93307",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93350",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93321",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93308",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93306",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93315",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93320",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93304",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93312",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "93325",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Doppler echocardiography color flow velocity mapping"
+    },
+    {
+      "code": "93351",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Transthoracic echocardiogram (tte) performed during a cardiovascular stress test; With monitoring & supervision"
+    },
+    {
+      "code": "93303",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Transthoracic echocardiography, congenital cardiac anomalies; Complete"
+    },
+    {
+      "code": "93307",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Transthoracic echocardiography, complete, without doppler"
+    },
+    {
+      "code": "93350",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Transthoracic echocardiogram (tte) performed during a cardiovascular stress test"
+    },
+    {
+      "code": "93321",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Doppler echocardiography, follow-up or limited study"
+    },
+    {
+      "code": "93308",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Transthoracic echocardiography, limited or follow-up"
+    },
+    {
+      "code": "93306",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Transthoracic echocardiography (tte), complete, with 2d, m-mode, spectral doppler, and color flow doppler"
+    },
+    {
+      "code": "93315",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Transesophageal echocardiography (tee) for congenital cardiac anomalies; Complete"
+    },
+    {
+      "code": "93320",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Doppler echocardiography, pulsed or continuous wave, spectral display"
+    },
+    {
+      "code": "93304",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Transthoracic echocardiography, congenital cardiac anomalies; Follow-up or limited"
+    },
+    {
+      "code": "93312",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Transesophageal echocardiography (tee) for congenital cardiac anomalies; Complete"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

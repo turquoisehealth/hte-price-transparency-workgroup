@@ -1,0 +1,207 @@
+{
+  "id": "KP320",
+  "version": "2.0",
+  "title": "Surgical knee repair (knee arthroscopy)",
+  "description": "A surgical knee repair is an outpatient procedure where your surgeon repairs damaged cartilage, ligaments, tendons, or other structures in your knee using arthroscopic or open surgical techniques. Knee injuries like meniscal tears, ligament tears, or cartilage damage can cause pain and instability. Your surgeon will assess your knee and perform the necessary repairs. The procedure takes 1-2 hours, and you may go home the same day or stay overnight. You'll use crutches and wear a brace for several weeks while you heal. Physical therapy begins immediately and is crucial for success. You'll have specific activity restrictions during healing to protect your repair. Most patients return to their desired activities with proper rehabilitation.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5113",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "29877",
+      "code_type": "CPT"
+    },
+    {
+      "code": "29876",
+      "code_type": "CPT"
+    },
+    {
+      "code": "29875",
+      "code_type": "CPT"
+    },
+    {
+      "code": "29882",
+      "code_type": "CPT"
+    },
+    {
+      "code": "29879",
+      "code_type": "CPT"
+    },
+    {
+      "code": "29880",
+      "code_type": "CPT"
+    },
+    {
+      "code": "29881",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "29877",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopic knee surgery to remove and shape cartilage"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9093239573622989,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9093239573622989,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "29876",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopic knee synovectomy of at least two compartments"
+    },
+    {
+      "code": "29875",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopic knee synovectomy for limited resection of shelf or plica"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9093239573622989,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "J1885",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9093239573622989,
+      "description": "Injection, ketorolac tromethamine, per 15 MG"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9093239573622989,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9093239573622989,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9093239573622989,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "01400",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9590453914696468,
+      "description": "Anesthesia for open or surgical arthroscopic procedures on knee joint; Not otherwise specified"
+    },
+    {
+      "code": "29882",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Surgical knee arthroscopy with medial/lateral meniscus repair"
+    },
+    {
+      "code": "29879",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopic knee surgery with abrasion, chondroplasty, drilling, microfracture"
+    },
+    {
+      "code": "C1713",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9562173225793378,
+      "description": "Anchor/screw for opposing bone-to-bone or soft tissue-to-bone (implantable)"
+    },
+    {
+      "code": "29880",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopy, knee, meniscectomy, debridement/chondroplasty, maybe multiple compartments"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9974668666153285,
+      "description": "General"
+    },
+    {
+      "code": "29881",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroscopic knee meniscectomy with debridement/cartilage shaving"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

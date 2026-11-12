@@ -1,0 +1,250 @@
+{
+  "id": "PE01Z",
+  "version": "2.0",
+  "title": "Pulmonary function testing",
+  "description": "Pulmonary function testing measures how well your lungs work, including how much air they hold and how quickly you can move air in and out. These breathing tests help diagnose and monitor conditions such as asthma, chronic obstructive pulmonary disease (COPD), and other lung problems. During the test, you breathe into a mouthpiece connected to a machine and follow simple coaching, such as taking a deep breath and blowing out as hard and fast as you can. Some tests measure your lung volumes, check how your airways respond to a medication, or track your breathing during light exercise. The tests are painless and non-invasive, take about 30 to 90 minutes depending on how many are done, and give your doctor a clear picture of your lung health.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Pulmonology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.99,
+  "apc": "5723",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "94060",
+      "code_type": "CPT"
+    },
+    {
+      "code": "94621",
+      "code_type": "CPT"
+    },
+    {
+      "code": "94200",
+      "code_type": "CPT"
+    },
+    {
+      "code": "94010",
+      "code_type": "CPT"
+    },
+    {
+      "code": "94618",
+      "code_type": "CPT"
+    },
+    {
+      "code": "94726",
+      "code_type": "CPT"
+    },
+    {
+      "code": "94617",
+      "code_type": "CPT"
+    },
+    {
+      "code": "94728",
+      "code_type": "CPT"
+    },
+    {
+      "code": "94375",
+      "code_type": "CPT"
+    },
+    {
+      "code": "94150",
+      "code_type": "CPT"
+    },
+    {
+      "code": "94070",
+      "code_type": "CPT"
+    },
+    {
+      "code": "94727",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "PE011",
+      "name": "Spirometry (baseline airflow)",
+      "anchor_codes": [
+        {
+          "code": "94010",
+          "code_type": "CPT"
+        },
+        {
+          "code": "94060",
+          "code_type": "CPT"
+        },
+        {
+          "code": "94150",
+          "code_type": "CPT"
+        },
+        {
+          "code": "94200",
+          "code_type": "CPT"
+        },
+        {
+          "code": "94375",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "PE012",
+      "name": "Lung volumes & mechanics",
+      "anchor_codes": [
+        {
+          "code": "94726",
+          "code_type": "CPT"
+        },
+        {
+          "code": "94727",
+          "code_type": "CPT"
+        },
+        {
+          "code": "94728",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "PE013",
+      "name": "Exercise stress testing",
+      "anchor_codes": [
+        {
+          "code": "94618",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "PE014",
+      "name": "Bronchoprovocation",
+      "anchor_codes": [
+        {
+          "code": "94070",
+          "code_type": "CPT"
+        },
+        {
+          "code": "94617",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "PE015",
+      "name": "Cardiopulmonary exercise testing (CPET)",
+      "anchor_codes": [
+        {
+          "code": "94621",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "94060",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Bronchodilation responsiveness, spirometry as in 94010, pre- and post-bronchodilator administration"
+    },
+    {
+      "code": "94621",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cardiopulmonary exercise testing, including measurements of minute ventilation, CO2 production, O2 uptake, and electrocardiographic recordings"
+    },
+    {
+      "code": "94200",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Maximum breathing capacity, maximal voluntary ventilation"
+    },
+    {
+      "code": "94010",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Spirometry, including graphic record, total and timed vital capacity, expiratory flow rate measurement(s), with or without maximal voluntary ventilation"
+    },
+    {
+      "code": "94618",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Pulmonary stress testing (e.g., 6-minute walk test), including measurement of heart rate, oximetry, and oxygen titration, when performed"
+    },
+    {
+      "code": "94726",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Plethysmography for determination of lung volumes and, when performed, airway resistance"
+    },
+    {
+      "code": "94617",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Exercise test for bronchospasm, including pre- and post-spirometry and pulse oximetry; With electrocardiographic recording(s)"
+    },
+    {
+      "code": "94728",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Airway resistance by oscillometry"
+    },
+    {
+      "code": "94375",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Respiratory flow volume loop"
+    },
+    {
+      "code": "94150",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Vital capacity, total (separate procedure)"
+    },
+    {
+      "code": "94070",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Bronchospasm provocation evaluation, multiple spirometric determinations as in 94010, with administered agents (e.g., antigen[s], cold air, methacholine)"
+    },
+    {
+      "code": "94727",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Gas dilution or washout for determination of lung volumes and, when performed, distribution of ventilation and closing volumes"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

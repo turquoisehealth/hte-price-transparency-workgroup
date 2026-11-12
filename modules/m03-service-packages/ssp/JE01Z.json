@@ -1,0 +1,142 @@
+{
+  "id": "JE01Z",
+  "version": "2.0",
+  "title": "IMRT treatment planning",
+  "description": "IMRT treatment planning is an outpatient appointment series that prepares you for radiation therapy by mapping the exact radiation dose for your tumor. Your radiation oncologist and medical physicists create a customized plan using imaging and computer calculations. You'll undergo CT scans and possibly other imaging while positioned exactly as you'll be during treatment. The planning process takes several appointments and may take 1-2 weeks. Once planning is complete, your actual radiation treatments begin. This category includes different levels of complexity based on your tumor characteristics. The cost of this procedure may vary depending on the complexity involved. Categories include basic consultation & dosimetry, device/hardware, and complex dosimetry.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Oncology / Radiation Therapy",
+  "place_of_service": "outpatient",
+  "shoppability": 2.0,
+  "apc": "5613",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "77338",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77300",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77336",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77301",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77295",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "JE011",
+      "name": "Basic consultation & dosimetry",
+      "anchor_codes": [
+        {
+          "code": "77300",
+          "code_type": "CPT"
+        },
+        {
+          "code": "77336",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "JE012",
+      "name": "Device/hardware",
+      "anchor_codes": [
+        {
+          "code": "77338",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "JE013",
+      "name": "Complex dosimetry",
+      "anchor_codes": [
+        {
+          "code": "77295",
+          "code_type": "CPT"
+        },
+        {
+          "code": "77301",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "77334",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Treatment devices, design and construction; Complex (irregular blocks, special shields, compensators, wedges, molds or casts)"
+    },
+    {
+      "code": "77427",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8166939443535188,
+      "description": "Radiation treatment management, 5 treatments"
+    },
+    {
+      "code": "77338",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Multi-leaf collimator (mlc) device(s) for intensity modulated radiation therapy (IMRT), design and construction per IMRT plan"
+    },
+    {
+      "code": "77300",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Basic radiation dosimetry calculation, central axis depth dose calculation, tdf, nsd, gap calculation, off axis factor, tissue inhomogeneity factors, calculation of non-ionizing radiation surface and depth dose, as required during course of treatment, only when prescribed by the treating physician"
+    },
+    {
+      "code": "77336",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Continuing medical physics consultation, including assessment of treatment parameters, quality assurance of dose delivery, and review of patient treatment documentation in support of the radiation oncologist, reported per week of therapy"
+    },
+    {
+      "code": "77301",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Intensity modulated radiation treatment plan (IMRT), including dose-volume histograms for target and critical structure partial tolerance specifications"
+    },
+    {
+      "code": "77295",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Therapeutic radiology simulation-aided field setting; 3-dimensional"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

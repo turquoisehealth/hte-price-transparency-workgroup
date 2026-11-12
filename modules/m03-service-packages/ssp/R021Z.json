@@ -1,0 +1,132 @@
+{
+  "id": "R021Z",
+  "version": "2.0",
+  "title": "Cardiac function testing",
+  "description": "A cardiac function testing evaluates how effectively your heart pumps and circulates blood. Your doctor uses these results to diagnose heart problems, check medication effectiveness, or clear you for surgery. The tests are painless, non-invasive, and typically take 30-60 minutes. You'll return home the same day feeling completely normal. This type of procedure can be performed various ways, including ecg and functional cardiac testing, and the cost may vary depending on the specific approach or service provided.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Radiology",
+  "place_of_service": "outpatient",
+  "shoppability": 3.58,
+  "apc": "5733",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "93041",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93005",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93010",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93015",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93016",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93017",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "R0211",
+      "name": "ECG",
+      "anchor_codes": [
+        {
+          "code": "93005",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93010",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0212",
+      "name": "Functional cardiac testing",
+      "anchor_codes": [
+        {
+          "code": "93015",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93016",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93017",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "93017",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.04487013750146903,
+      "description": "Cardiovascular stress test using maximal or submaximal treadmill or bicycle exercise, continuous electrocardiographic monitoring, and/or pharmacological stress; Tracing only, without interpretation and report"
+    },
+    {
+      "code": "93041",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Rhythm ECG, 1-3 leads; Tracing only without interpretation and report"
+    },
+    {
+      "code": "93005",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Electrocardiogram, routine ECG; Tracing only"
+    },
+    {
+      "code": "93016",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8695652173913043,
+      "description": "Cardiovascular stress test using maximal or submaximal treadmill or bicycle exercise, continuous electrocardiographic monitoring, and/or pharmacological stress; Supervision only, without interpretation and report"
+    },
+    {
+      "code": "93010",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Electrocardiogram, routine ECG; Interpretation & report only"
+    },
+    {
+      "code": "93015",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8333333333333334,
+      "description": "Cardiovascular stress test using maximal or submaximal treadmill or bicycle exercise, continuous electrocardiographic monitoring, and/or pharmacological stress; With supervision, interpretation and report"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

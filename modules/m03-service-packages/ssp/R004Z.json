@@ -1,0 +1,190 @@
+{
+  "id": "R004Z",
+  "version": "2.0",
+  "title": "CT angiography",
+  "description": "A CT angiography visualizes blood vessels throughout your body by combining CT imaging with contrast dye injected through an IV. This outpatient test creates detailed 3D images showing blood flow and detecting blockages, aneurysms, clots, or other vascular problems. The procedure takes only 5-10 minutes and is completely painless. Results help your doctor plan treatment, assess surgical risk, or diagnose urgent conditions. You'll return home the same day with no recovery time. This type of procedure can be performed various ways, including calcium score/screening, coronary/cardiac cta, and non-cardiac cta, and the cost may vary depending on the specific approach or service provided.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Radiology",
+  "place_of_service": "outpatient",
+  "shoppability": 1.78,
+  "apc": "5572",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "70496",
+      "code_type": "CPT"
+    },
+    {
+      "code": "75635",
+      "code_type": "CPT"
+    },
+    {
+      "code": "75571",
+      "code_type": "CPT"
+    },
+    {
+      "code": "75574",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73706",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74175",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70498",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72191",
+      "code_type": "CPT"
+    },
+    {
+      "code": "71275",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "R0041",
+      "name": "Calcium score/screening",
+      "anchor_codes": [
+        {
+          "code": "75571",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0042",
+      "name": "Coronary/cardiac CTA",
+      "anchor_codes": [
+        {
+          "code": "75574",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0043",
+      "name": "Non-cardiac CTA",
+      "anchor_codes": [
+        {
+          "code": "70496",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70498",
+          "code_type": "CPT"
+        },
+        {
+          "code": "71275",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72191",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73706",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74175",
+          "code_type": "CPT"
+        },
+        {
+          "code": "75635",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "70496",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "CT angiography, head, with contrast material(s)"
+    },
+    {
+      "code": "75635",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "CTA aorto-iliofemoral runoff, no contrast"
+    },
+    {
+      "code": "75571",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "CT, heart; Non-contrast, coronary artery calcium scoring"
+    },
+    {
+      "code": "75574",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cardiac CTA without calcium score, with contrast"
+    },
+    {
+      "code": "73706",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ctalower extremity with contrast material"
+    },
+    {
+      "code": "74175",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomographic (CT) angiography, abdomen, with contrast material(s), including noncontrast images, if performed, and image postprocessing"
+    },
+    {
+      "code": "70498",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomographic (CT) angiography, neck, with contrast material(s), including noncontrast images, if performed, and image postprocessing"
+    },
+    {
+      "code": "72191",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "CTA pelvis, with contrast, including noncontrast images"
+    },
+    {
+      "code": "71275",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "CTA chest, noncoronary, with contrast"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,1232 @@
+{
+  "id": "R019Z",
+  "version": "2.0",
+  "title": "X-ray",
+  "description": "An X-ray uses brief radiation exposure to create 2D images of bones and internal structures. This quick, painless outpatient test typically takes just minutes. Depending on what's being evaluated, images focus on specific body areas, bones, chest, abdomen, or spine. X-rays are the first-line imaging for fractures, infections, arthritis, and lung disease. Your doctor gets results quickly to guide diagnosis and treatment. You go home immediately with minimal radiation exposure, far less than other imaging tests. The cost of this procedure may vary depending on the complexity involved. Categories include lower extremity, head/neck/upper extremity, chest/pelvis/abdomen, bone length, spine, and gi contrast.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Radiology",
+  "place_of_service": "outpatient",
+  "shoppability": 3.76,
+  "apc": "5521",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "73660",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74022",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73522",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72220",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70220",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72100",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77075",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72081",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73592",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73120",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73560",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73020",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74019",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72040",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72080",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73620",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73562",
+      "code_type": "CPT"
+    },
+    {
+      "code": "71101",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72072",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70140",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73090",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72084",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73650",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74240",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70260",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70360",
+      "code_type": "CPT"
+    },
+    {
+      "code": "71120",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73610",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72070",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74018",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72120",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73070",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77072",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70330",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73600",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73564",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73110",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72083",
+      "code_type": "CPT"
+    },
+    {
+      "code": "71111",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73092",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72050",
+      "code_type": "CPT"
+    },
+    {
+      "code": "71130",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72170",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77073",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73523",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77076",
+      "code_type": "CPT"
+    },
+    {
+      "code": "71046",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73080",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73100",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73501",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72114",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72190",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70200",
+      "code_type": "CPT"
+    },
+    {
+      "code": "71048",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73502",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73030",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73000",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74021",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70100",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76010",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73521",
+      "code_type": "CPT"
+    },
+    {
+      "code": "71045",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74220",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77074",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73630",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73590",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73565",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72110",
+      "code_type": "CPT"
+    },
+    {
+      "code": "71047",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73140",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72020",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73130",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72082",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "R0191",
+      "name": "Lower extremity",
+      "anchor_codes": [
+        {
+          "code": "70100",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70140",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70200",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70220",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70260",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70330",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70360",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73000",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73020",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73030",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73070",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73080",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73090",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73092",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73100",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73110",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73120",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73130",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73140",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0192",
+      "name": "Head/neck/upper extremity",
+      "anchor_codes": [
+        {
+          "code": "71045",
+          "code_type": "CPT"
+        },
+        {
+          "code": "71046",
+          "code_type": "CPT"
+        },
+        {
+          "code": "71047",
+          "code_type": "CPT"
+        },
+        {
+          "code": "71048",
+          "code_type": "CPT"
+        },
+        {
+          "code": "71101",
+          "code_type": "CPT"
+        },
+        {
+          "code": "71111",
+          "code_type": "CPT"
+        },
+        {
+          "code": "71120",
+          "code_type": "CPT"
+        },
+        {
+          "code": "71130",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72170",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72190",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72220",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74018",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74019",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74021",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74022",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76010",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0193",
+      "name": "Chest/pelvis/abdomen",
+      "anchor_codes": [
+        {
+          "code": "73501",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73502",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73521",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73522",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73523",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73560",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73562",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73564",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73565",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73590",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73592",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73600",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73610",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73620",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73630",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73650",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73660",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0194",
+      "name": "Bone length",
+      "anchor_codes": [
+        {
+          "code": "77072",
+          "code_type": "CPT"
+        },
+        {
+          "code": "77073",
+          "code_type": "CPT"
+        },
+        {
+          "code": "77074",
+          "code_type": "CPT"
+        },
+        {
+          "code": "77075",
+          "code_type": "CPT"
+        },
+        {
+          "code": "77076",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0195",
+      "name": "Spine",
+      "anchor_codes": [
+        {
+          "code": "72020",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72040",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72050",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72070",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72072",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72080",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72081",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72082",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72083",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72084",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72100",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72110",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72114",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72120",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0196",
+      "name": "GI contrast",
+      "anchor_codes": [
+        {
+          "code": "74220",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74240",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "73660",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of two or more toes, minimum of two views"
+    },
+    {
+      "code": "74022",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of abdomen and chest, multiple angles"
+    },
+    {
+      "code": "73522",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Bilateral hip x-ray with pelvis, 3-4 views"
+    },
+    {
+      "code": "72220",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of sacrum and coccyx with 2+ views"
+    },
+    {
+      "code": "70220",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray sinuses, paranasal, complete, minimum of 3 views"
+    },
+    {
+      "code": "72100",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray imaging of lower back from 2-3 angles"
+    },
+    {
+      "code": "77075",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radiologic examination, osseous survey; Complete (axial and appendicular skeleton)"
+    },
+    {
+      "code": "72081",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radiologic spine thoracic through sacral imaging, including skull, 1 view"
+    },
+    {
+      "code": "73592",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of infant lower extremity, min. 2 views"
+    },
+    {
+      "code": "73120",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radiographic imaging of hands in two projections"
+    },
+    {
+      "code": "73560",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray imaging of knee, one or two views"
+    },
+    {
+      "code": "73020",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of shoulder joint, 1 image taken"
+    },
+    {
+      "code": "74019",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray, abdomen; 2 views"
+    },
+    {
+      "code": "72040",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radiographic imaging of the neck spine, two to three views"
+    },
+    {
+      "code": "72080",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray imaging of thoracolumbar spine, minimum of 2 views"
+    },
+    {
+      "code": "73620",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of feet, two projection angles"
+    },
+    {
+      "code": "73562",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of knee with 3 imaging views"
+    },
+    {
+      "code": "71101",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray, ribs, unilateral; Including posteroanterior chest, minimum of 3 views"
+    },
+    {
+      "code": "72072",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray imaging of thoracic spine, 3 view angles"
+    },
+    {
+      "code": "70140",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of facial bones using less than 3 views"
+    },
+    {
+      "code": "73090",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of forearm, two-angle views"
+    },
+    {
+      "code": "72084",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radiographic imaging of skull to sacrum of spine, minimum 6 views"
+    },
+    {
+      "code": "73650",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of the calcaneus bones in at least two views"
+    },
+    {
+      "code": "74240",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray, upper gastrointestinal tract; Single-contrast (e.g., barium) study"
+    },
+    {
+      "code": "70260",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of skull using at least 4 views"
+    },
+    {
+      "code": "70360",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Soft tissue radiologic neck imaging"
+    },
+    {
+      "code": "71120",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Digital x-ray imaging of sternum from multiple angles"
+    },
+    {
+      "code": "73610",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ankle x-ray with 3 views"
+    },
+    {
+      "code": "72070",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Two-view radiographic imaging of thoracic spine"
+    },
+    {
+      "code": "74018",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of abdomen with 1 image"
+    },
+    {
+      "code": "72120",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Two or three radiographic spine bending views of lumbosacral area"
+    },
+    {
+      "code": "73070",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of elbow, two-view series"
+    },
+    {
+      "code": "77072",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Bone age studies"
+    },
+    {
+      "code": "70330",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of TMJ in open and closed position, both sides"
+    },
+    {
+      "code": "73600",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radiographic imaging of ankle using two angles"
+    },
+    {
+      "code": "73564",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Knee x-ray 4+ views for comprehensive evaluation"
+    },
+    {
+      "code": "73110",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radiological imaging of wrist, 3+ views"
+    },
+    {
+      "code": "72083",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of cranio-cervicothoraco-lumbosacral spine with 4-5 views"
+    },
+    {
+      "code": "71111",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Bilateral rib x-ray with pa chest and 4 views"
+    },
+    {
+      "code": "73092",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray imaging of infant arms, minimum of 2 views"
+    },
+    {
+      "code": "72050",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of cervical spine in 4-5 views"
+    },
+    {
+      "code": "71130",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray imaging of sternoclavicular joints from 3 angles"
+    },
+    {
+      "code": "72170",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray imaging of the pelvic region from one or two angles"
+    },
+    {
+      "code": "77073",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radiographic measurement of bone length"
+    },
+    {
+      "code": "73523",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Bilateral hip radiographic imaging with pelvis, 5+ views"
+    },
+    {
+      "code": "77076",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radiological imaging to examine bones of infant"
+    },
+    {
+      "code": "71046",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radiographic imaging of chest; Two projections"
+    },
+    {
+      "code": "73080",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Three-view x-ray of elbow"
+    },
+    {
+      "code": "73100",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of wrist in two positions"
+    },
+    {
+      "code": "73501",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of hip and pelvis, one view, unilateral"
+    },
+    {
+      "code": "72114",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of lumbosacral spine with 6 views during bending"
+    },
+    {
+      "code": "72190",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of pelvis, 3-view imaging study"
+    },
+    {
+      "code": "70200",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radiographic imaging of the orbital region with at least 4 views"
+    },
+    {
+      "code": "71048",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray imaging of chest with 4+ views"
+    },
+    {
+      "code": "73502",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radiographic evaluation of hip with pelvis on 1 side, 2-3 images"
+    },
+    {
+      "code": "73030",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Two-view x-ray imaging of shoulder for diagnosis"
+    },
+    {
+      "code": "73000",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray imaging of both clavicles"
+    },
+    {
+      "code": "74021",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of abdomen with 3+ views"
+    },
+    {
+      "code": "70100",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of partial mandible, fewer than four views"
+    },
+    {
+      "code": "76010",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray to locate foreign body, nose through rectum"
+    },
+    {
+      "code": "73521",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Bilateral hip x-ray with pelvis, 2 views"
+    },
+    {
+      "code": "71045",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of chest for viewing single structure"
+    },
+    {
+      "code": "74220",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray, esophagus, single-contrast (e.g., barium) study"
+    },
+    {
+      "code": "77074",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radiologic examination, osseous survey; Limited (e.g., for metastases)"
+    },
+    {
+      "code": "73630",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of foot, 3+ views"
+    },
+    {
+      "code": "73590",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "2-view x-ray of tibia and fibula"
+    },
+    {
+      "code": "73565",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Standing anteroposterior knee x-ray of both knees"
+    },
+    {
+      "code": "72110",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray imaging of lower spine from 4 angles"
+    },
+    {
+      "code": "71047",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray of chest using three x-ray views"
+    },
+    {
+      "code": "73140",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radiographic imaging of finger(s) with 2 or more views"
+    },
+    {
+      "code": "72020",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Single view spine x-ray at specified level"
+    },
+    {
+      "code": "73130",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "X-ray imaging of the hand, requiring 3 views"
+    },
+    {
+      "code": "72082",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Radiologic scan of full spine from skull to sacrum, 2-3 views"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

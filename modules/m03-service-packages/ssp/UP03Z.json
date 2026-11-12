@@ -1,0 +1,436 @@
+{
+  "id": "UP03Z",
+  "version": "2.0",
+  "title": "Cystourethroscopy / ureteroscopy",
+  "description": "A cystourethroscopy or ureteroscopy visualizes the inside of your bladder and urethra (or ureters) using a thin camera passed through the urethra. This outpatient procedure can be purely diagnostic or therapeutic, depending on your condition. The camera shows your doctor exactly what's causing symptoms like bleeding, pain, or obstruction. If needed, small instruments can remove stones, destroy tumors, remove tissue samples, or place stents. The procedure takes 15-90 minutes depending on complexity. You may have mild burning with urination for a few days. Most people go home the same day. The cost of this procedure may vary depending on the complexity involved. Categories include diagnostic, therapeutic, simple, therapeutic, complex, with ureteroscopy, and with implant.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Urology / Nephrology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.68,
+  "apc": "5372",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "52315",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52354",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52281",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52214",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52204",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52332",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52001",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52235",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52356",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52000",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52310",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52352",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52240",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52224",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52353",
+      "code_type": "CPT"
+    },
+    {
+      "code": "52005",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "UP031",
+      "name": "Diagnostic",
+      "anchor_codes": [
+        {
+          "code": "52000",
+          "code_type": "CPT"
+        },
+        {
+          "code": "52204",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "UP032",
+      "name": "Therapeutic, simple",
+      "anchor_codes": [
+        {
+          "code": "52001",
+          "code_type": "CPT"
+        },
+        {
+          "code": "52005",
+          "code_type": "CPT"
+        },
+        {
+          "code": "52214",
+          "code_type": "CPT"
+        },
+        {
+          "code": "52224",
+          "code_type": "CPT"
+        },
+        {
+          "code": "52281",
+          "code_type": "CPT"
+        },
+        {
+          "code": "52310",
+          "code_type": "CPT"
+        },
+        {
+          "code": "52315",
+          "code_type": "CPT"
+        },
+        {
+          "code": "52332",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "UP033",
+      "name": "Therapeutic, complex",
+      "anchor_codes": [
+        {
+          "code": "52235",
+          "code_type": "CPT"
+        },
+        {
+          "code": "52240",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "UP034",
+      "name": "with ureteroscopy",
+      "anchor_codes": [
+        {
+          "code": "52352",
+          "code_type": "CPT"
+        },
+        {
+          "code": "52353",
+          "code_type": "CPT"
+        },
+        {
+          "code": "52354",
+          "code_type": "CPT"
+        },
+        {
+          "code": "52356",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8771303208222633,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "52315",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.3053979575295834,
+      "description": "Cystourethroscopy with complicated stent removal"
+    },
+    {
+      "code": "52354",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cystourethroscopy, with ureteroscopy and/or pyeloscopy; With biopsy and/or fulguration of ureteral or renal pelvic lesion"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9747617255220883,
+      "description": "General"
+    },
+    {
+      "code": "C2617",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8921837179335717,
+      "description": "Stent, non-coronary, temporary, without delivery system"
+    },
+    {
+      "code": "52281",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cystourethroscopy with calibration and/or dilation of urethral stricture or stenosis"
+    },
+    {
+      "code": "52214",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cystourethroscopy with fulguration (including cryosurgery or laser surgery) of trigone, bladder neck, prostatic fossa, urethra, or periurethral glands"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8165787933654055,
+      "description": "General"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.3851982712908446,
+      "description": "Level IV - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "52204",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cystourethroscopy, with biopsy(s)"
+    },
+    {
+      "code": "52332",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cystourethroscopy with insertion of indwelling ureteral stent"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8771303208222633,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "52001",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cystourethroscopy with irrigation and evacuation of multiple obstructing clots"
+    },
+    {
+      "code": "74420",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5521523019939368,
+      "description": "Urography, retrograde, with or without kub"
+    },
+    {
+      "code": "00912",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9117517843741633,
+      "description": "Anesthesia for transurethral procedures (including urethrocystoscopy); Transurethral resection of bladder tumor(s)"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8771303208222633,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8846474032271802,
+      "description": "General"
+    },
+    {
+      "code": "82365",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7683716559835811,
+      "description": "Calculus; Infrared spectroscopy"
+    },
+    {
+      "code": "52235",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cystourethroscopy with fulguration (TURBT) and/or resection of small bladder tumor(s)"
+    },
+    {
+      "code": "00910",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9091813173315461,
+      "description": "Anesthesia for transurethral procedures (including urethrocystoscopy); Not otherwise specified"
+    },
+    {
+      "code": "88307",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.3851982712908446,
+      "description": "Level v - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "52356",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cystourethroscopy, with ureteroscopy and/or pyeloscopy; With lithotripsy including insertion of indwelling ureteral stent"
+    },
+    {
+      "code": "52000",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.3053979575295834,
+      "description": "Cystourethroscopy (separate procedure)"
+    },
+    {
+      "code": "52310",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 0.3053979575295834,
+      "description": "Cystourethroscopy with simple stent removal"
+    },
+    {
+      "code": "52352",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cystourethroscopy with ureteroscopy and/or pyeloscopy that includes the removal or manipulation of a calculus"
+    },
+    {
+      "code": "52240",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cystourethroscopy with fulguration (TURBT) and/or resection of large bladder tumor(s)"
+    },
+    {
+      "code": "00918",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for transurethral procedures (including urethrocystoscopy); With fragmentation, manipulation and/or removal of ureteral calculus"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8771303208222633,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "52224",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cystourethroscopy with fulguration of minor (< 0.5 CM) lesion(s) with or without biopsy"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8771303208222633,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "52353",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cystourethroscopy, with ureteroscopy and/or pyeloscopy; With lithotripsy"
+    },
+    {
+      "code": "52005",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Cystourethroscopy, with ureteral catheterization, with or without irrigation, instillation, or ureteropyelography, exclusive of radiologic service"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

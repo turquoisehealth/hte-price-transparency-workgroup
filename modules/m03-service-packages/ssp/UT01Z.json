@@ -1,0 +1,184 @@
+{
+  "id": "UT01Z",
+  "version": "2.0",
+  "title": "AV access creation for dialysis",
+  "description": "An arteriovenous (AV) access is a surgically created connection between an artery and vein in your arm or leg that allows blood to flow quickly for dialysis treatment. During this procedure, your surgeon connects a vein directly to an artery, which causes the vein to enlarge and strengthen over time. This enlarged vein provides reliable access for dialysis needles and improves blood flow during treatment. The procedure takes about an hour and is typically performed as an outpatient surgery. You'll receive local or regional anesthesia so you remain awake but comfortable. Recovery usually takes a few days, though the access may need 2-6 weeks to fully mature before it's ready for dialysis. This procedure can be done as a simple connection or a more complex revision if you have scar tissue or need repair of an existing access. The cost of this procedure may vary depending on the complexity involved. Categories include arteriovenous (av) anastomosis, simple and complex (incl. revision or repair).",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Urology / Nephrology",
+  "place_of_service": "outpatient",
+  "shoppability": 2.0,
+  "apc": "5184",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "36830",
+      "code_type": "CPT"
+    },
+    {
+      "code": "36832",
+      "code_type": "CPT"
+    },
+    {
+      "code": "36831",
+      "code_type": "CPT"
+    },
+    {
+      "code": "36821",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "UT011",
+      "name": "Arteriovenous (AV) anastomosis, simple",
+      "anchor_codes": [
+        {
+          "code": "36821",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "UT012",
+      "name": "Complex (incl. revision or repair)",
+      "anchor_codes": [
+        {
+          "code": "36830",
+          "code_type": "CPT"
+        },
+        {
+          "code": "36831",
+          "code_type": "CPT"
+        },
+        {
+          "code": "36832",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "36830",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Creation of arteriovenous fistula by other than direct arteriovenous anastomosis (separate procedure); Nonautogenous graft (e.g., biological collagen, thermoplastic graft)"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.96571671629094,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.96571671629094,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "J1644",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.96571671629094,
+      "description": "Injection, heparin sodium, per 1000 units"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.96571671629094,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "36832",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Revision, open, arteriovenous fistula; Without thrombectomy, autogenous or nonautogenous graft"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9487452148022119,
+      "description": "General"
+    },
+    {
+      "code": "36831",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Thrombectomy, arteriovenous fistula, without revision, open"
+    },
+    {
+      "code": "C1768",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9295831561037856,
+      "description": "Graft, vascular"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9722245852828584,
+      "description": "General"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.906571671629094,
+      "description": "General"
+    },
+    {
+      "code": "01844",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for vascular shunt, or shunt revision, any type (e.g., dialysis)"
+    },
+    {
+      "code": "36821",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arteriovenous anastomosis, open; Direct, any site (e.g., cimino type) (separate procedure)"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.96571671629094,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

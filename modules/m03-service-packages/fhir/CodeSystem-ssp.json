@@ -1,0 +1,4118 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "ssp",
+  "url": "https://open.forpatients.health/fhir/CodeSystem/ssp",
+  "version": "2.0",
+  "name": "StandardServicePackages",
+  "title": "Standard Service Packages (SSP)",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Standard Service Packages (SSP)</p><p>Standard Service Packages bundle the services, materials and fees billed with an anchor procedure code into one code. Child concepts are clinical sub-variants (complexity tiers).</p></div>"
+  },
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Turquoise",
+  "description": "Standard Service Packages bundle the services, materials and fees billed with an anchor procedure code into one code. Child concepts are clinical sub-variants (complexity tiers).",
+  "caseSensitive": true,
+  "valueSet": "https://open.forpatients.health/fhir/ValueSet/ssp-all",
+  "hierarchyMeaning": "is-a",
+  "content": "complete",
+  "count": 299,
+  "property": [
+    {
+      "code": "type",
+      "description": "Level of care: item_service, encounter or episode.",
+      "type": "string"
+    },
+    {
+      "code": "disease-area",
+      "description": "Clinical grouping, e.g. Musculoskeletal.",
+      "type": "string"
+    },
+    {
+      "code": "place-of-service",
+      "description": "outpatient or inpatient.",
+      "type": "string"
+    },
+    {
+      "code": "shoppability",
+      "description": "Turquoise Shoppability score.",
+      "type": "decimal"
+    },
+    {
+      "code": "apc",
+      "description": "CMS Ambulatory Payment Classification, outpatient SSPs.",
+      "type": "string"
+    },
+    {
+      "code": "ms-drg",
+      "description": "CMS MS-DRG, inpatient SSPs.",
+      "type": "string"
+    }
+  ],
+  "concept": [
+    {
+      "code": "AE02Z",
+      "display": "Outpatient clinic visit",
+      "definition": "Outpatient clinic visit is an appointment with your doctor in a medical office or clinic setting. These visits allow your doctor to assess your health, evaluate symptoms, perform exams, and discuss your medical care. You'll meet with your doctor, who will listen to your concerns and perform appropriate evaluations. Your doctor may order tests, perform physical exams, or discuss treatment options with you. Clinic visits may focus on managing chronic conditions, addressing acute problems, or preventive health maintenance. The complexity of your visit depends on the nature of your health concerns and how much evaluation and discussion is needed. Your doctor will explain findings and discuss next steps in your care during your visit. The cost of this procedure may vary depending on the complexity involved. Categories include low complexity (new or established), moderate complexity (new or established), and high complexity (new or established).",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "General Medicine"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.96
+        },
+        {
+          "code": "apc",
+          "valueString": "5012"
+        }
+      ],
+      "concept": [
+        {
+          "code": "AE021",
+          "display": "Outpatient clinic visit: Low complexity (new or established)"
+        },
+        {
+          "code": "AE022",
+          "display": "Outpatient clinic visit: Moderate complexity (new or established)"
+        },
+        {
+          "code": "AE023",
+          "display": "Outpatient clinic visit: High complexity (new or established)"
+        }
+      ]
+    },
+    {
+      "code": "BE010",
+      "display": "Outpatient psychiatric evaluation",
+      "definition": "An outpatient psychiatric evaluation is a comprehensive assessment where a psychiatrist or mental health professional evaluates your mental and emotional health. During this visit, your doctor will ask about your medical history, current symptoms, family history of mental health conditions, and any medications you're taking. They may discuss your mood, sleep patterns, stress levels, and how your symptoms affect daily life. This evaluation helps your doctor diagnose mental health conditions and develop a treatment plan tailored to your needs, which might include therapy, medication, or both.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Behavioral Health"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5823"
+        }
+      ]
+    },
+    {
+      "code": "BT010",
+      "display": "Electroconvulsive therapy (ECT)",
+      "definition": "Electroconvulsive therapy (ECT) is a medical treatment where your doctor uses controlled electrical currents to safely trigger a brief seizure under anesthesia. This procedure is typically used when severe depression, bipolar disorder, or catatonia hasn't responded well to medications. The electrical impulses help reset brain chemistry and can provide rapid relief from life-threatening symptoms. You'll be asleep during the procedure and closely monitored by an anesthesiologist. ECT can be very effective, especially when you need quick symptom improvement.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Behavioral Health"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5724"
+        }
+      ]
+    },
+    {
+      "code": "BT03Z",
+      "display": "Outpatient psychotherapy",
+      "definition": "Outpatient psychotherapy is a treatment where you work with a trained mental health professional in regular office visits to address emotional, behavioral, or mental health challenges. Your therapist uses various evidence-based techniques to help you understand your thoughts and feelings, develop coping strategies, and make positive changes in your life. Psychotherapy can help with depression, anxiety, trauma, relationship issues, and many other concerns. This type of procedure can be performed various ways, including group therapy and 1:1 therapy, and the cost may vary depending on the specific approach or service provided.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Behavioral Health"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5822"
+        }
+      ],
+      "concept": [
+        {
+          "code": "BT031",
+          "display": "Outpatient psychotherapy: Group therapy"
+        },
+        {
+          "code": "BT032",
+          "display": "Outpatient psychotherapy: 1:1 therapy"
+        }
+      ]
+    },
+    {
+      "code": "CE010",
+      "display": "Cardiac electrophysiology study",
+      "definition": "An electrophysiology study maps your heart's electrical system to identify the cause of irregular heartbeats. During this outpatient procedure, your doctor threads thin catheters through blood vessels to your heart while monitoring electrical signals on screens. The test typically lasts 1-3 hours and you're sedated for comfort. This detailed electrical map guides treatment decisions, whether medication adjustments, pacemaker placement, or ablation therapy. Most people go home the same day with minimal restrictions.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Cardiac & Vascular"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.47
+        },
+        {
+          "code": "apc",
+          "valueString": "5213"
+        }
+      ],
+      "concept": [
+        {
+          "code": "CE011",
+          "display": "Cardiac electrophysiology study: Simple, without catheter"
+        },
+        {
+          "code": "CE012",
+          "display": "Cardiac electrophysiology study: With catheter insertion"
+        }
+      ]
+    },
+    {
+      "code": "CP010",
+      "display": "Cardiac biopsy",
+      "definition": "A cardiac biopsy is a procedure where your doctor takes a small sample of heart tissue to examine under a microscope. This helps diagnose conditions like myocarditis (heart inflammation), cardiomyopathy (heart muscle disease), or transplant rejection. Your doctor uses a special catheter with a tiny biopsy tool guided through your blood vessels into your heart. The procedure is performed in a cardiac catheterization lab while you're awake but sedated. Your doctor can quickly analyze the tissue to determine what's affecting your heart and develop an appropriate treatment plan based on the findings.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Cardiac & Vascular"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 2.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5183"
+        }
+      ]
+    },
+    {
+      "code": "CP020",
+      "display": "Cardiac catheterization",
+      "definition": "Cardiac catheterization is a diagnostic procedure where your doctor threads a thin, flexible tube called a catheter through your blood vessels to examine your heart and coronary arteries. This test helps diagnose heart disease, assess how well your heart is pumping, measure blood pressure in your heart chambers, and take tissue samples if needed. Your doctor can see blockages, valve problems, and other abnormalities on X-ray imaging. The procedure is performed while you're awake but sedated, and you'll generally feel minimal discomfort. This detailed information helps your doctor plan the best treatment for your condition, whether that's medication, a stent, bypass surgery, or another intervention.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Cardiac & Vascular"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5191"
+        }
+      ]
+    },
+    {
+      "code": "CP03Z",
+      "display": "Outpatient defibrillator (ICD) replacement",
+      "definition": "An implantable cardioverter-defibrillator (ICD) replacement involves removing your old device and implanting a new one under your skin. An ICD is a small device that monitors your heart rhythm and delivers an electric shock if dangerous irregular heartbeats develop, potentially saving your life. Your doctor performs this outpatient procedure in a cardiac electrophysiology lab while you're under local anesthesia. The new device is programmed to your specific needs. This type of procedure can involve removal and revision of the device, and the cost may vary depending on the specific service performed.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Cardiac & Vascular"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5232"
+        }
+      ],
+      "concept": [
+        {
+          "code": "CP031",
+          "display": "Outpatient defibrillator (ICD) replacement: Removal"
+        },
+        {
+          "code": "CP032",
+          "display": "Outpatient defibrillator (ICD) replacement: Revision"
+        }
+      ]
+    },
+    {
+      "code": "CP040",
+      "display": "Leadless pacemaker insertion",
+      "definition": "A leadless pacemaker insertion is an outpatient procedure where your doctor implants a tiny, self-contained pacemaker directly into your heart. Unlike traditional pacemakers, this device has no external wires (leads), which reduces risks of complications and infections. Your cardiologist uses a catheter to guide the device through your blood vessels into the right ventricle of your heart, where it stays in place. The device monitors your heart rhythm and delivers electrical impulses to keep your heart beating at a healthy rate. This less invasive approach allows you to heal faster.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Cardiac & Vascular"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 2.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5224"
+        }
+      ]
+    },
+    {
+      "code": "CP05Z",
+      "display": "Pacemaker insertion",
+      "definition": "A pacemaker insertion is a procedure where your doctor implants a small device under your skin to regulate your heartbeat. Your doctor places it in a pouch under your collarbone and connects wires through blood vessels to your heart. The pacemaker monitors your heart's natural rhythm and delivers electrical impulses when your heart is beating too slowly (bradycardia). This life-saving device helps restore a steady, healthy heart rhythm so blood can circulate properly. The procedure is minimally invasive and performed in a cardiac electrophysiology lab. This type of procedure can be performed various ways, including temporary pacemaker and permanent pacemaker, and the cost may vary depending on the specific approach or service provided.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Cardiac & Vascular"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5223"
+        }
+      ],
+      "concept": [
+        {
+          "code": "CP051",
+          "display": "Pacemaker insertion: Temporary pacemaker"
+        },
+        {
+          "code": "CP052",
+          "display": "Pacemaker insertion: Permanent pacemaker"
+        }
+      ]
+    },
+    {
+      "code": "CP060",
+      "display": "Pacemaker replacement",
+      "definition": "Pacemaker replacement is an outpatient procedure where your doctor removes your old pacemaker and implants a new one. Pacemakers typically last 7-10 years before the battery depletes, at which point replacement is necessary. Your cardiologist makes a small incision under your collarbone, removes the old device, and places a new one in the same location. The wires already in your heart are usually reused and connected to the new device. This procedure helps ensure your pacemaker continues to keep your heart beating at a healthy rate. After recovery, your new device will function just like your previous one.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Cardiac & Vascular"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5223"
+        }
+      ]
+    },
+    {
+      "code": "CP07Z",
+      "display": "Outpatient percutaneous coronary intervention (PCI)",
+      "definition": "Percutaneous coronary intervention (PCI) is an outpatient procedure where your cardiologist uses a catheter to open blocked coronary arteries and restore blood flow to your heart. Your doctor threads a thin tube through your blood vessels, locates the blockage, and uses a balloon or other tool to clear it. Usually a stent (small mesh tube) is placed to keep the artery open. PCI provides quick relief of chest pain and prevents heart attacks. The procedure is performed in a cardiac catheterization lab while you're awake but sedated. The cost of this procedure may vary depending on the complexity involved. Categories include standard pci and complex (multi-vessel).",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Cardiac & Vascular"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.47
+        },
+        {
+          "code": "apc",
+          "valueString": "5193"
+        }
+      ],
+      "concept": [
+        {
+          "code": "CP071",
+          "display": "Outpatient percutaneous coronary intervention (PCI): Standard PCI"
+        },
+        {
+          "code": "CP072",
+          "display": "Outpatient percutaneous coronary intervention (PCI): Complex (multi-vessel)"
+        }
+      ]
+    },
+    {
+      "code": "CP08Z",
+      "display": "Cardiac rhythm monitor",
+      "definition": "A cardiac rhythm monitor (also called an implantable loop recorder or event monitor) is a small device implanted under your skin to continuously record your heart's electrical activity. This helps your cardiologist diagnose irregular heartbeats (arrhythmias) that may cause fainting, palpitations, or other symptoms. The device stores months of heart rhythm data that your doctor can review at office visits or retrieve remotely. By capturing what's happening with your heart over extended periods, your doctor can diagnose subtle rhythm problems and adjust treatment. This type of procedure can involve removal and insertion of the device, and the cost may vary depending on the specific service performed.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Cardiac & Vascular"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5222"
+        }
+      ],
+      "concept": [
+        {
+          "code": "CP081",
+          "display": "Cardiac rhythm monitor: Removal"
+        },
+        {
+          "code": "CP082",
+          "display": "Cardiac rhythm monitor: Insertion"
+        }
+      ]
+    },
+    {
+      "code": "CP10Z",
+      "display": "Varicose vein treatment",
+      "definition": "Varicose vein treatment closes off swollen, twisted veins in your legs so blood reroutes to healthier veins nearby. Varicose veins form when small valves inside the veins weaken and blood pools, causing bulging, aching, or heaviness. Your doctor performs this in an outpatient clinic using local anesthesia, so you stay awake and go home the same day. Depending on the vein, your doctor may inject a solution that seals it shut or use heat delivered through a thin catheter to close it from the inside. You feel little more than small pinpricks, and the treated veins gradually fade over the following weeks. Most people walk out afterward and return to light activity quickly.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Cardiac & Vascular"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 5.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5183"
+        }
+      ],
+      "concept": [
+        {
+          "code": "CP101",
+          "display": "Varicose vein treatment: Sclerotherapy"
+        },
+        {
+          "code": "CP102",
+          "display": "Varicose vein treatment: Ablation"
+        }
+      ]
+    },
+    {
+      "code": "CP120",
+      "display": "AV node ablation",
+      "definition": "AV node ablation treats certain types of irregular heartbeat (arrhythmias) by carefully destroying the abnormal electrical tissue causing the problem. This procedure is performed using a catheter-based approach guided by specialized imaging, allowing your cardiologist to target only the problematic tissue while preserving normal heart function. The procedure is minimally invasive, typically requiring only a small catheter inserted through the groin or arm. Most patients experience dramatic improvement in symptoms and can return to normal activities quickly.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Cardiac & Vascular"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 2.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5212"
+        }
+      ]
+    },
+    {
+      "code": "CP140",
+      "display": "Vascular embolization",
+      "definition": "A vascular embolization blocks blood flow to abnormal blood vessels or tumors using catheters and special materials. During this outpatient procedure, your doctor threads a thin catheter through blood vessels to the target area under imaging guidance. Small particles, coils, or other materials are deployed to block blood flow, shrinking the abnormal tissue. The procedure takes 1-3 hours and you're sedated for comfort. Most people go home the same day or with brief overnight observation. Recovery is faster than surgery.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Cardiac & Vascular"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5193"
+        }
+      ]
+    },
+    {
+      "code": "DP02Z",
+      "display": "Skin cyst aspiration",
+      "definition": "Skin cyst aspiration is a procedure where your dermatologist uses a needle to remove fluid or material from a cyst under or on your skin. The specific approach depends on the cyst's location, size, and type. Draining a cyst relieves pressure, reduces size, and may prevent infection or rupture. The procedure takes minutes. This type of procedure can be performed various ways, including percutaneous cyst aspiration, laparoscopic ovarian cyst, and image guided, and the cost may vary depending on the specific approach or service provided.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Dermatology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.49
+        },
+        {
+          "code": "apc",
+          "valueString": "5442"
+        }
+      ],
+      "concept": [
+        {
+          "code": "DP021",
+          "display": "Skin cyst aspiration: Percutaneous cyst aspiration"
+        },
+        {
+          "code": "DP022",
+          "display": "Skin cyst aspiration: Laparoscopic ovarian cyst"
+        },
+        {
+          "code": "DP023",
+          "display": "Skin cyst aspiration: Image guided"
+        }
+      ]
+    },
+    {
+      "code": "DP03Z",
+      "display": "Fine needle biopsy",
+      "definition": "Fine needle biopsy is a procedure where your doctor uses a thin needle to extract a small tissue sample from a suspicious lesion or lump for examination under a microscope. This helps diagnose whether the lesion is benign or cancerous. Your pathologist examines the cells to determine diagnosis. This type of procedure can be performed various ways, including non-guided fna and image-guided fna, and the cost may vary depending on the specific approach or service provided.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Dermatology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.51
+        },
+        {
+          "code": "apc",
+          "valueString": "5071"
+        }
+      ],
+      "concept": [
+        {
+          "code": "DP031",
+          "display": "Fine needle biopsy: Non-guided FNA"
+        },
+        {
+          "code": "DP032",
+          "display": "Fine needle biopsy: Image-guided FNA"
+        }
+      ]
+    },
+    {
+      "code": "DP05Z",
+      "display": "Percutaneous (core needle) biopsy",
+      "definition": "Percutaneous skin biopsy is a procedure where your doctor uses a needle or punch tool to remove a small tissue sample from skin or underlying tissue. This helps diagnose skin conditions, infections, or cancer. The procedure takes minutes and generally causes minimal discomfort. Depending on the location and type of tissue being biopsied, different approaches are used. The cost of this procedure may vary depending on the body part being examined or treated. Categories include head/neck gland, general, spine, and testis.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Dermatology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5072"
+        }
+      ],
+      "concept": [
+        {
+          "code": "DP051",
+          "display": "Percutaneous (core needle) biopsy: Head/neck gland"
+        },
+        {
+          "code": "DP052",
+          "display": "Percutaneous (core needle) biopsy: General"
+        },
+        {
+          "code": "DP053",
+          "display": "Percutaneous (core needle) biopsy: Spine"
+        },
+        {
+          "code": "DP054",
+          "display": "Percutaneous (core needle) biopsy: Testis"
+        }
+      ]
+    },
+    {
+      "code": "DP06Z",
+      "display": "Skin lesion localization",
+      "definition": "Skin lesion localization is a procedure where your doctor marks or identifies a suspicious skin lesion's exact location to guide surgical removal or biopsy. This is particularly helpful for small or difficult-to-see lesions. Your doctor may use a dye injection, wire placement, or radioactive tracer to mark the lesion. This type of procedure can be performed various ways, including without mammography and with mammography, and the cost may vary depending on the specific approach or service provided.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Dermatology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5072"
+        }
+      ],
+      "concept": [
+        {
+          "code": "DP061",
+          "display": "Skin lesion localization: without mammography"
+        },
+        {
+          "code": "DP062",
+          "display": "Skin lesion localization: with mammography"
+        }
+      ]
+    },
+    {
+      "code": "DP090",
+      "display": "Pilonidal cyst excision",
+      "definition": "Pilonidal cyst excision is surgical removal of a cyst at the base of your tailbone that becomes infected or painful. Your surgeon removes the cyst and surrounding tissue under local or general anesthesia. After removal, the wound is closed with stitches or left to heal from inside out depending on your situation. This condition often recurs if not properly treated. Some surgeons use specialized closure techniques to reduce recurrence. Recovery typically takes one to three weeks with pain management and wound care. Once healed, you can return to normal activities.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Dermatology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5073"
+        }
+      ]
+    },
+    {
+      "code": "DP11Z",
+      "display": "Skin lesion removal",
+      "definition": "Skin lesion removal is an outpatient procedure to surgically remove benign or malignant skin lesions. Your dermatologist removes the lesion under local anesthesia, taking care to remove it completely with appropriate margins. The wound is closed with stitches or left to heal naturally depending on the lesion's size and location. Healing typically takes one to three weeks. The cost of this procedure may vary depending on the size of the area being treated. Categories include small (<2cm), medium (2-4cm), and large (>4cm).",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Dermatology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.89
+        },
+        {
+          "code": "apc",
+          "valueString": "5072"
+        }
+      ],
+      "concept": [
+        {
+          "code": "DP111",
+          "display": "Skin lesion removal: Small (<2cm)"
+        },
+        {
+          "code": "DP112",
+          "display": "Skin lesion removal: Medium (2-4cm)"
+        },
+        {
+          "code": "DP113",
+          "display": "Skin lesion removal: Large (>4cm)"
+        }
+      ]
+    },
+    {
+      "code": "DP12Z",
+      "display": "Local tumor excision",
+      "definition": "Local tumor excision is surgical removal of a skin cancer or tumor along with a margin of healthy tissue around it. Your dermatologic surgeon removes the tumor completely to eliminate cancer cells while preserving healthy skin. The size and location of the tumor determine the surgical technique used. Pathology examination of the removed specimen confirms complete removal. The wound is closed with stitches. The cost of this procedure may vary depending on the size of the area being treated. Categories include small (<3 cm), medium (2-5 cm), large (≥5 cm), and breast & radical resection.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Dermatology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5073"
+        }
+      ],
+      "concept": [
+        {
+          "code": "DP121",
+          "display": "Local tumor excision: Small (<3 cm)"
+        },
+        {
+          "code": "DP122",
+          "display": "Local tumor excision: Medium (2–5 cm)"
+        },
+        {
+          "code": "DP123",
+          "display": "Local tumor excision: Large (≥5 cm)"
+        },
+        {
+          "code": "DP124",
+          "display": "Local tumor excision: Breast & radical resection"
+        }
+      ]
+    },
+    {
+      "code": "DP130",
+      "display": "Radical tumor resection",
+      "definition": "Radical tumor resection is extensive surgical removal of a malignant tumor along with surrounding tissue and potentially lymph nodes to ensure complete cancer removal. Your surgeon removes the tumor with substantial margins and may remove involved regional lymph nodes. This aggressive approach is used for tumors with higher recurrence risk or aggressive behavior. The procedure may leave a larger scar but provides the best chance of complete cancer removal. Pathology examination confirms complete removal.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Dermatology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5073"
+        }
+      ]
+    },
+    {
+      "code": "EE01Z",
+      "display": "Emergency room visit",
+      "definition": "An emergency room visit is care you receive when you have a sudden, urgent medical problem. Your emergency care team quickly assesses your condition to determine how serious your situation is and what treatment you need. During your visit, you'll be evaluated, may have tests or imaging, and receive immediate treatment for your acute condition. The emergency room operates 24/7 to handle medical emergencies ranging from minor injuries to life-threatening situations. Your medical team works efficiently to stabilize your condition and decide if you need admission to the hospital or can go home with follow-up care. The cost of this procedure may vary depending on the complexity involved. Categories include low complexity, moderate complexity, moderate-high complexity, and high complexity.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Emergency / Trauma"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 1.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5022"
+        }
+      ],
+      "concept": [
+        {
+          "code": "EE011",
+          "display": "Emergency room visit: Low complexity"
+        },
+        {
+          "code": "EE012",
+          "display": "Emergency room visit: Moderate complexity"
+        },
+        {
+          "code": "EE013",
+          "display": "Emergency room visit: Moderate-high complexity"
+        },
+        {
+          "code": "EE014",
+          "display": "Emergency room visit: High complexity"
+        }
+      ]
+    },
+    {
+      "code": "EE02Z",
+      "display": "Wound treatment",
+      "definition": "Wound treatment covers the full range of professional care for cuts, lacerations, and traumatic skin injuries, from thorough cleaning and tissue debridement to complex layered surgical repair. Your provider assesses the wound's depth, length, location, degree of contamination, and tissue condition to determine the appropriate level of care. The simplest cases involve irrigating and debriding the wound to remove bacteria and damaged tissue, while the most complex require multi-layer closure with advanced techniques to restore skin integrity. Local or regional anesthesia is used to keep you comfortable throughout. This type of procedure ranges in complexity from basic debridement and irrigation through to intermediate and complex repair, and the cost will vary depending on the extent of treatment required.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Emergency / Trauma"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 2.64
+        },
+        {
+          "code": "apc",
+          "valueString": "5052"
+        }
+      ],
+      "concept": [
+        {
+          "code": "EE021",
+          "display": "Wound treatment: Irrigation, with anesthesia"
+        },
+        {
+          "code": "EE022",
+          "display": "Wound treatment: Repair, simple"
+        },
+        {
+          "code": "EE023",
+          "display": "Wound treatment: Repair, intermediate"
+        },
+        {
+          "code": "EE024",
+          "display": "Wound treatment: Repair, complex"
+        }
+      ]
+    },
+    {
+      "code": "EM010",
+      "display": "Critical care (outpatient)",
+      "definition": "Critical care is specialized medical treatment for patients with severe, life-threatening conditions. Your medical team provides continuous monitoring and intensive management in a dedicated critical care setting. During this treatment, you'll receive comprehensive support including respiratory assistance, medication infusions, and frequent vital sign monitoring. Your care is overseen by specially trained critical care physicians and nurses. This intensive approach allows your medical team to respond immediately to any changes in your condition. Critical care may be used for various emergencies, from severe infections to major organ dysfunction. The goal is to stabilize you and manage complications while your underlying condition is treated. Your family will be kept informed about your progress and involved in care decisions when possible.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Emergency / Trauma"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 1.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5041"
+        }
+      ]
+    },
+    {
+      "code": "GP01Z",
+      "display": "Appendectomy",
+      "definition": "Appendectomy is surgery to remove your appendix, a small tube attached to your large intestine. Appendicitis occurs when your appendix becomes inflamed or infected, causing pain and requiring surgical removal to prevent rupture. Your surgeon will carefully remove the inflamed appendix while protecting your other internal organs. This procedure is most often performed urgently or emergently because an inflamed appendix can rupture, causing life-threatening infection. Your surgeon may use either an open approach with a larger incision or a minimally invasive laparoscopic approach with smaller incisions. After appendectomy, you'll recover once your incision heals, usually within 1-2 weeks. You'll receive pain management and instructions about returning to normal activities at your own pace. This type of procedure can be performed various ways, including an open surgical approach or a minimally invasive laparoscopic technique, and the cost may vary depending on the method used.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Gastroenterology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 1.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5342"
+        }
+      ],
+      "concept": [
+        {
+          "code": "GP011",
+          "display": "Appendectomy: Open"
+        },
+        {
+          "code": "GP012",
+          "display": "Appendectomy: Laparoscopic"
+        }
+      ]
+    },
+    {
+      "code": "GP02Z",
+      "display": "Cholecystectomy",
+      "definition": "Cholecystectomy is surgery to remove your gallbladder, a small organ that stores digestive fluid called bile. This surgery is performed when gallstones or other gallbladder problems cause pain or complications. Your surgeon will remove your gallbladder, and your body will function normally without it as bile will flow directly to your intestines. Most people tolerate life without a gallbladder very well, though some experience changes in bowel habits. Your surgeon may use either open surgery with a larger incision or laparoscopic surgery with several small incisions. Recovery time varies depending on the surgical approach used. After surgery, you'll gradually return to normal activities as your incisions heal. This type of procedure can be performed various ways, including an open surgical approach or a minimally invasive laparoscopic technique, and the cost may vary depending on the method used.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Gastroenterology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5361"
+        }
+      ],
+      "concept": [
+        {
+          "code": "GP022",
+          "display": "Cholecystectomy: Laparoscopic"
+        }
+      ]
+    },
+    {
+      "code": "GP03Z",
+      "display": "Colonoscopy",
+      "definition": "Colonoscopy is a procedure where your doctor uses a long, flexible camera to examine your entire large intestine (colon and rectum). This important screening and diagnostic tool allows your doctor to look for polyps, tumors, inflammation, bleeding sources, and other abnormalities. Before the procedure, you'll prepare your colon by drinking a special cleaning solution to clear it completely. During the procedure, you'll be sedated to keep you comfortable while your doctor gently advances the camera through your colon. If your doctor finds polyps or areas of concern, they can remove tissue samples (biopsies) or remove growths during the same procedure. Most colonoscopies take 15-30 minutes, though therapeutic procedures may take longer. The cost of this procedure may vary depending on the complexity involved. Categories include diagnostic, simple, diagnostic, complex (eus, biopsy), therapeutic, simple, and therapeutic, mucosal resection.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Gastroenterology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5312"
+        }
+      ],
+      "concept": [
+        {
+          "code": "GP031",
+          "display": "Colonoscopy: Diagnostic, simple"
+        },
+        {
+          "code": "GP032",
+          "display": "Colonoscopy: Diagnostic, with endoscopic ultrasound and/or biopsy"
+        },
+        {
+          "code": "GP033",
+          "display": "Colonoscopy: Therapeutic, simple"
+        },
+        {
+          "code": "GP034",
+          "display": "Colonoscopy: Therapeutic, mucosal resection"
+        }
+      ]
+    },
+    {
+      "code": "GP04Z",
+      "display": "Upper endoscopy (EGD)",
+      "definition": "Upper endoscopy, also called EGD (esophagogastroduodenoscopy), is a procedure where your doctor uses a flexible camera to examine your upper digestive tract. Your doctor looks at your esophagus (food tube), stomach, and the beginning of your small intestine to diagnose or treat problems. Before the procedure, your doctor will numb your throat with a spray to minimize gagging. You'll be sedated to keep you comfortable while your doctor gently advances the camera down your food tube. During the procedure, your doctor can perform various treatments depending on what they find. The procedure typically takes 10-20 minutes, though therapeutic procedures may take longer. The cost of this procedure may vary depending on the complexity involved. Categories include diagnostic, therapeutic, simple, therapeutic, with eus, ercp variants (sphincterotomy, stent, stone extraction), and transmural drainage (pseudocyst).",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Gastroenterology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5302"
+        }
+      ],
+      "concept": [
+        {
+          "code": "GP041",
+          "display": "Upper endoscopy (EGD): Diagnostic"
+        },
+        {
+          "code": "GP042",
+          "display": "Upper endoscopy (EGD): Therapeutic, simple"
+        },
+        {
+          "code": "GP043",
+          "display": "Upper endoscopy (EGD): Therapeutic, with endoscopic ultrasound"
+        },
+        {
+          "code": "GP044",
+          "display": "Upper endoscopy (EGD): Transmural drainage (pseudocyst)"
+        }
+      ]
+    },
+    {
+      "code": "GP05Z",
+      "display": "Hernia repair",
+      "definition": "Hernia repair is surgery to fix a hernia, which occurs when an organ or tissue pushes through a weak spot in the surrounding muscle or tissue. Hernias commonly develop in the abdomen, groin, or at the site of previous surgery and can cause pain, enlargement, or risk of dangerous complications. Your surgeon will use mesh or sutures to close the defect and reinforce the weak area to prevent the hernia from returning. Your surgeon may use either open surgery with a larger incision or laparoscopic surgery with smaller incisions. Recovery varies depending on the type of hernia and surgical approach used. After surgery, you'll need to avoid heavy lifting and strenuous activity for several weeks while your incision heals. Most people typically return to normal activities within 4-6 weeks. This type of procedure can be performed various ways, including an open surgical approach or a minimally invasive laparoscopic technique, and the cost may vary depending on the method used.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Gastroenterology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.23
+        },
+        {
+          "code": "apc",
+          "valueString": "5341"
+        }
+      ],
+      "concept": [
+        {
+          "code": "GP051",
+          "display": "Hernia repair: Open"
+        },
+        {
+          "code": "GP052",
+          "display": "Hernia repair: Laparoscopic"
+        }
+      ]
+    },
+    {
+      "code": "GP060",
+      "display": "Image-guided liver biopsy",
+      "definition": "Image-guided liver biopsy is a procedure where your doctor takes a small sample of liver tissue using a needle guided by ultrasound or CT imaging. This test helps your doctor diagnose liver diseases by examining liver tissue under a microscope. Your doctor will use imaging to guide a biopsy needle to the right spot in your liver while you remain awake. You'll receive local anesthesia to numb the area where the needle enters your skin. The biopsy needle removes a tiny piece of liver tissue that's sent to a lab for analysis. The procedure usually takes 15-30 minutes and generally causes minimal discomfort. After the procedure, you'll rest briefly and receive instructions about limiting activity for a few days while the biopsy site heals.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Gastroenterology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5072"
+        }
+      ]
+    },
+    {
+      "code": "GP070",
+      "display": "Sigmoidoscopy",
+      "definition": "Sigmoidoscopy is a procedure where your doctor uses a flexible camera to examine your sigmoid colon (lower part of your large intestine) and rectum. This procedure helps diagnose problems like inflammation, tumors, polyps, bleeding sources, or infections in your lower colon. Your doctor will perform a bowel preparation with an enema or laxative to clear your colon for better visualization. During the procedure, you'll be awake and may feel mild pressure or cramping as the camera advances. You can usually return to normal activities immediately after sigmoidoscopy, without needing sedation or a driver. If your doctor finds concerning areas, they may take biopsies or recommend additional testing. Sigmoidoscopy examines only your lower colon, unlike colonoscopy which examines your entire large intestine.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Gastroenterology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5311"
+        }
+      ]
+    },
+    {
+      "code": "HP01Z",
+      "display": "Lymph node biopsy",
+      "definition": "Lymph node biopsy is removal of a lymph node sample for examination under a microscope. Lymph nodes are part of your immune system, and biopsying them can help diagnose infections, cancers, or other conditions. Your doctor will use imaging to locate the lymph node and remove a sample using either a needle or surgical technique. The sample is sent to a laboratory for analysis to determine the cause of your lymph node enlargement. Results help your doctor diagnose your condition and plan appropriate treatment. Lymph node biopsies can be performed on superficial nodes near your skin or deeper nodes requiring surgical access, depending on which nodes are affected. This type of procedure can be performed various ways, including superficial and open, and the cost may vary depending on the specific approach or service provided.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Hematology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.28
+        },
+        {
+          "code": "apc",
+          "valueString": "5091"
+        }
+      ],
+      "concept": [
+        {
+          "code": "HP011",
+          "display": "Lymph node biopsy: Superficial"
+        },
+        {
+          "code": "HP012",
+          "display": "Lymph node biopsy: Open"
+        }
+      ]
+    },
+    {
+      "code": "JE01Z",
+      "display": "IMRT treatment planning",
+      "definition": "IMRT treatment planning is an outpatient appointment series that prepares you for radiation therapy by mapping the exact radiation dose for your tumor. Your radiation oncologist and medical physicists create a customized plan using imaging and computer calculations. You'll undergo CT scans and possibly other imaging while positioned exactly as you'll be during treatment. The planning process takes several appointments and may take 1-2 weeks. Once planning is complete, your actual radiation treatments begin. This category includes different levels of complexity based on your tumor characteristics. The cost of this procedure may vary depending on the complexity involved. Categories include basic consultation & dosimetry, device/hardware, and complex dosimetry.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Oncology / Radiation Therapy"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 2.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5613"
+        }
+      ],
+      "concept": [
+        {
+          "code": "JE011",
+          "display": "IMRT treatment planning: Basic consultation & dosimetry"
+        },
+        {
+          "code": "JE012",
+          "display": "IMRT treatment planning: Device/hardware"
+        },
+        {
+          "code": "JE013",
+          "display": "IMRT treatment planning: Complex dosimetry"
+        }
+      ]
+    },
+    {
+      "code": "KP010",
+      "display": "Arthrocentesis",
+      "definition": "An arthrocentesis is an outpatient procedure where your doctor uses a needle to insert fluid into one of your joints, usually your knee, shoulder, hip, or ankle. This is done to inject medication (like a steroid or lubricant) to reduce inflammation and pain, or sometimes to remove fluid from a swollen joint. The procedure takes just a few minutes and is performed in your doctor's office or an outpatient clinic. Your doctor uses ultrasound or other imaging to guide the needle to the exact location inside the joint. You may feel pressure or mild discomfort, but the procedure is not very painful. After the injection, you can usually go home immediately and return to light activities. You should avoid strenuous activity for a day or two while the injection takes effect.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 5.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5441"
+        }
+      ]
+    },
+    {
+      "code": "KP03Z",
+      "display": "Cervical disc replacement",
+      "definition": "A cervical disc replacement is an outpatient surgical procedure where your surgeon removes a damaged disc in your neck and replaces it with an artificial disc that mimics your natural disc's movement. Unlike fusion, which locks vertebrae together, disc replacement preserves motion in your neck. The surgery is performed from the front of your neck and usually takes 1-2 hours. You may go home the same day or stay overnight depending on your surgeon's preference and your condition. You'll wear a neck brace temporarily to support healing. Recovery typically takes 6-12 weeks, and you can often return to normal activities within this timeframe. Physical therapy helps restore strength and motion. The goal is to relieve your pain while maintaining better neck flexibility than fusion would provide. This type of procedure can be performed various ways, including removal/replacement and total, and the cost may vary depending on the extent of the procedure.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.49
+        },
+        {
+          "code": "apc",
+          "valueString": "5116"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP031",
+          "display": "Cervical disc replacement: Removal/replacement"
+        },
+        {
+          "code": "KP032",
+          "display": "Cervical disc replacement: Total"
+        }
+      ]
+    },
+    {
+      "code": "KP04Z",
+      "display": "Hip replacement",
+      "definition": "A hip replacement is an outpatient surgical procedure where your surgeon removes damaged bone and cartilage from your hip joint and replaces it with artificial components made of metal, plastic, or ceramic. Hip replacement is performed when arthritis or other damage makes your hip painful and stiff. The surgery takes about 1-2 hours, and you may go home the same day or stay overnight. After surgery, you'll use crutches or a walker and begin physical therapy immediately. You can put weight on your new hip right away in most cases. Full recovery typically takes 3-6 months. You'll need to follow activity restrictions for several weeks to protect your new hip. Most patients experience significant pain relief and improved mobility after hip replacement. Your surgeon may perform several variations of this procedure depending on your specific hip damage. This type of procedure can be performed various ways, including acetabuloplasty and partial replacement or revision and total, and the cost may vary depending on the extent of the procedure.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.49
+        },
+        {
+          "code": "apc",
+          "valueString": "5115"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP041",
+          "display": "Hip replacement: Acetabuloplasty"
+        },
+        {
+          "code": "KP042",
+          "display": "Hip replacement: Partial replacement or revision"
+        },
+        {
+          "code": "KP043",
+          "display": "Hip replacement: Total"
+        }
+      ]
+    },
+    {
+      "code": "KP050",
+      "display": "Knee / hip arthroplasty revision",
+      "definition": "A knee or hip arthroplasty revision is an outpatient procedure to replace or repair a previous knee or hip replacement that has worn out, failed, or become damaged. Over time, artificial joints can loosen, wear down, or develop problems that require surgery. Your surgeon will remove the old implant and replace it with a new one, which may require additional bone grafting if significant bone loss has occurred. The procedure takes longer than initial joint replacement and requires careful surgical planning. You may stay overnight or go home the same day depending on the complexity. Recovery takes longer than initial replacement, typically 3-6 months. Physical therapy is essential to restore function to your joint. Revision surgeries are often more complex than the original replacement.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 2.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5116"
+        }
+      ]
+    },
+    {
+      "code": "KP06Z",
+      "display": "Knee replacement",
+      "definition": "A knee replacement is an outpatient surgical procedure where your surgeon removes damaged bone and cartilage from your knee and replaces it with artificial components. Knee replacement is performed when arthritis or injury has damaged your knee joint beyond repair, causing pain and limiting your mobility. The surgery takes about 1-2 hours, and you may go home the same day or stay overnight. You'll use crutches or a walker after surgery and begin physical therapy immediately. You can put weight on your new knee right away in most cases. Full recovery typically takes 3-6 months. You'll need to follow activity restrictions for several weeks to protect your new knee. Most patients experience significant pain relief and improved function. This type of procedure can be performed various ways, including partial/unicompartmental and total, and the cost may vary depending on the extent of the procedure.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5115"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP061",
+          "display": "Knee replacement: Partial/unicompartmental"
+        },
+        {
+          "code": "KP062",
+          "display": "Knee replacement: Total"
+        }
+      ]
+    },
+    {
+      "code": "KP070",
+      "display": "Lumbar laminectomy",
+      "definition": "A lumbar laminectomy is an outpatient surgical procedure where your surgeon removes part of the bone (lamina) from the vertebrae in your lower back to relieve pressure on your spinal nerve. This pressure often causes pain, numbness, or weakness in your leg or back. The procedure takes about 1-2 hours, and you may go home the same day or stay overnight depending on your surgeon's preference. You'll have restrictions on bending and lifting while you heal, typically for 4-6 weeks. Physical therapy helps restore your strength and flexibility. Most patients experience relief from leg pain and numbness. You may need to modify your activities for a few months while your back completely heals. Recovery varies depending on your overall health and the extent of your surgery.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5114"
+        }
+      ]
+    },
+    {
+      "code": "KP08Z",
+      "display": "Non-surgical ankle fracture treatment",
+      "definition": "Non-surgical ankle fracture treatment is an outpatient procedure where your doctor treats your broken ankle without surgery by immobilizing it with a cast or boot. Your doctor will first take X-rays to determine the type and location of your fracture. If the break is stable and the bone pieces are properly aligned, surgery is not necessary. Your doctor will apply a cast or walking boot to keep the ankle immobilized so the bone can heal. You'll need to keep weight off your ankle for several weeks, using crutches or a walker. X-rays will be taken periodically to monitor healing progress. Physical therapy helps restore your strength and motion once healing is underway. Your ankle will be tender for several weeks, and full healing typically takes 6-12 weeks depending on the fracture severity. The cost of this procedure may vary depending on whether your doctor needs to manually reposition (manipulate) the bone fragments into proper alignment, or whether the fracture can heal in its current position without manipulation.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 1.44
+        },
+        {
+          "code": "apc",
+          "valueString": "5111"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP081",
+          "display": "Non-surgical ankle fracture treatment: without manipulation"
+        },
+        {
+          "code": "KP082",
+          "display": "Non-surgical ankle fracture treatment: with manipulation"
+        }
+      ]
+    },
+    {
+      "code": "KP09Z",
+      "display": "Non-surgical arm fracture treatment",
+      "definition": "Non-surgical arm fracture treatment is an outpatient procedure where your doctor treats your broken arm without surgery by immobilizing it with a cast or sling. Your doctor will take X-rays to determine the type and severity of your fracture. If the break is stable and properly aligned, surgery is typically not needed. Your doctor will apply a cast or sling to immobilize your arm so the bone can heal. You'll need to keep your arm still and avoid strenuous activities for several weeks. X-rays will be taken periodically to monitor healing. Once the cast is removed, physical therapy helps restore your strength and motion. Some fractures may need the bones manipulated into proper position before casting. The cost of this procedure may vary depending on whether your doctor needs to manually reposition (manipulate) the bone fragments into proper alignment, or whether the fracture can heal in its current position without manipulation.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 2.84
+        },
+        {
+          "code": "apc",
+          "valueString": "5112"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP091",
+          "display": "Non-surgical arm fracture treatment: without manipulation"
+        },
+        {
+          "code": "KP092",
+          "display": "Non-surgical arm fracture treatment: with manipulation"
+        }
+      ]
+    },
+    {
+      "code": "KP120",
+      "display": "Non-surgical foot fracture treatment (with / without manipulation)",
+      "definition": "Non-surgical foot fracture treatment is an outpatient procedure where your doctor treats your broken foot bones without surgery using a cast, boot, or specialized shoe. Your doctor will take X-rays to determine which foot bones are broken and assess the severity. Many foot fractures can heal without surgery if the bones are properly aligned. You'll wear protective footwear, usually a cast or walking boot, to immobilize your foot and allow healing. You'll need to avoid weight-bearing activities for several weeks, using crutches if necessary. Ice and elevation help manage swelling and pain. Periodic X-rays monitor healing progress. Physical therapy helps restore your strength and motion once healing is underway. Full healing typically takes 6-12 weeks depending on the fracture location and severity.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5111"
+        }
+      ]
+    },
+    {
+      "code": "KP13Z",
+      "display": "Non-surgical hand fracture treatment",
+      "definition": "Non-surgical hand fracture treatment is an outpatient procedure where your doctor treats your broken hand bones without surgery using a splint, cast, or buddy taping (taping your injured finger to an adjacent finger). Your doctor takes X-rays to determine which hand bones are broken. Many hand fractures can heal without surgery if properly immobilized. Your doctor will apply protective immobilization and provide instructions for care. You'll need to keep your hand elevated to reduce swelling and ice it regularly. Pain medication helps manage discomfort. You'll avoid heavy gripping and strenuous hand activities during healing. Periodic X-rays monitor progress. Physical therapy helps restore your motion and strength once healing is underway. Full healing typically takes 4-8 weeks depending on the fracture type. Some fractures may need the bones repositioned before immobilization. The cost of this procedure may vary depending on whether your doctor needs to manually reposition (manipulate) the bone fragments into proper alignment, or whether the fracture can heal in its current position without manipulation.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5112"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP131",
+          "display": "Non-surgical hand fracture treatment: without manipulation"
+        },
+        {
+          "code": "KP132",
+          "display": "Non-surgical hand fracture treatment: with manipulation"
+        }
+      ]
+    },
+    {
+      "code": "KP140",
+      "display": "Non-surgical hip fracture treatment",
+      "definition": "Non-surgical hip fracture treatment is an outpatient procedure where your doctor treats your broken hip without surgery. However, it's important to know that most hip fractures require surgery to heal properly because the hip joint must be precisely aligned. If your fracture is truly stable and non-displaced (the bone pieces are properly aligned), your doctor might treat it with bed rest, physical therapy, and protective padding. You'll use crutches or a walker and avoid weight-bearing on the affected leg. Pain medication and ice help manage discomfort. Your doctor will monitor your healing closely with periodic X-rays. Physical therapy is crucial to prevent blood clots and maintain muscle strength.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5112"
+        }
+      ]
+    },
+    {
+      "code": "KP160",
+      "display": "Non-surgical knee fracture treatment",
+      "definition": "Non-surgical knee fracture treatment is an outpatient procedure where your doctor treats your broken knee bone without surgery. Most uncomplicated knee fractures, particularly stress fractures or simple breaks without displacement, can heal without surgery. Your doctor will take X-rays to confirm the fracture type. You'll wear a cast, brace, or immobilizer to protect your knee. You'll need to avoid weight-bearing activities for several weeks, using crutches if necessary. Ice, elevation, and pain medication help manage discomfort and swelling. Periodic X-rays monitor healing progress. Physical therapy helps maintain your strength and flexibility while you heal. Once the cast is removed, therapy becomes more active to restore full function. Full healing typically takes 6-12 weeks depending on the fracture severity.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5111"
+        }
+      ]
+    },
+    {
+      "code": "KP17Z",
+      "display": "Non-surgical nasal fracture treatment",
+      "definition": "Non-surgical nasal fracture treatment is an outpatient procedure where your doctor treats your broken nose without surgery. Nasal fractures are very common and many heal well without surgery. Your doctor will take X-rays or CT (computed tomography) scans to determine the fracture location and severity. If your nasal passages are not significantly blocked and your appearance is acceptable to you, surgery may not be needed. Treatment focuses on managing pain and swelling with ice, pain medication, and elevation. You should avoid blowing your nose and protect your face from further injury. Your doctor will monitor your healing. Once initial swelling subsides, you and your doctor can discuss whether the appearance or function warrants later surgical correction. Some nasal fractures are manipulated to improve alignment or function before healing begins. The cost of this procedure may vary depending on whether your doctor needs to manually reposition (manipulate) the bone fragments into proper alignment, or whether the fracture can heal in its current position without manipulation.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.37
+        },
+        {
+          "code": "apc",
+          "valueString": "5163"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP171",
+          "display": "Non-surgical nasal fracture treatment: without manipulation"
+        },
+        {
+          "code": "KP172",
+          "display": "Non-surgical nasal fracture treatment: with manipulation"
+        }
+      ]
+    },
+    {
+      "code": "KP180",
+      "display": "Non-surgical pelvic fracture treatment",
+      "definition": "Non-surgical pelvic fracture treatment is an outpatient procedure where your doctor treats your broken pelvic bone without surgery. Pelvic fractures range from stable breaks that heal well without surgery to complex fractures that require hospitalization and surgery. Your doctor will take X-rays to determine the fracture pattern and stability. If the fracture is stable, you'll use crutches or a walker and avoid weight-bearing or only partially bear weight as directed. You'll need bed rest initially and pain management. Ice and elevation help reduce swelling. Periodic X-rays monitor healing. Physical therapy helps restore your strength and mobility as you heal. Recovery typically takes 8-16 weeks depending on fracture severity. Your doctor will give you specific weight-bearing instructions based on your fracture type.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5111"
+        }
+      ]
+    },
+    {
+      "code": "KP19Z",
+      "display": "Non-surgical shoulder fracture treatment",
+      "definition": "Non-surgical shoulder fracture treatment is an outpatient procedure where your doctor treats your broken shoulder bone without surgery using a sling or immobilizer. Your doctor will take X-rays to determine which shoulder bone is broken and assess the fracture pattern. If the fracture is stable and not severely displaced, surgery is often not necessary. You'll wear a sling to immobilize your shoulder and reduce pain. You'll avoid strenuous arm activities and heavy lifting during healing. Ice and pain medication help manage discomfort. Periodic X-rays monitor healing progress. Physical therapy, starting gently and progressing gradually, helps restore your shoulder strength and motion. Full healing typically takes 6-12 weeks. Some shoulder fractures may need the bones repositioned before immobilization to ensure proper alignment. The cost of this procedure may vary depending on whether your doctor needs to manually reposition (manipulate) the bone fragments into proper alignment, or whether the fracture can heal in its current position without manipulation.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.13
+        },
+        {
+          "code": "apc",
+          "valueString": "5112"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP191",
+          "display": "Non-surgical shoulder fracture treatment: without manipulation"
+        },
+        {
+          "code": "KP192",
+          "display": "Non-surgical shoulder fracture treatment: with manipulation"
+        }
+      ]
+    },
+    {
+      "code": "KP200",
+      "display": "Non-surgical spine fracture treatment",
+      "definition": "Non-surgical spine fracture treatment is an outpatient procedure where your doctor treats your broken vertebra without surgery. Many spine fractures, particularly compression fractures or simple fractures without nerve involvement, can heal without surgery. Your doctor will take X-rays or CT (computed tomography) scans to determine the fracture location and assess for nerve damage. You'll wear a back brace to immobilize your spine and reduce pain. You'll need to avoid bending, twisting, and heavy lifting during healing. Ice and pain medication help manage discomfort. Your doctor will monitor your healing with periodic imaging. Physical therapy helps maintain your strength. You should report any new or worsening numbness, weakness, or bowel/bladder problems immediately. Most spine fractures typically heal in 8-12 weeks. Your doctor will assess whether the fracture is stable enough to avoid surgery.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5111"
+        }
+      ]
+    },
+    {
+      "code": "KP22Z",
+      "display": "Non-surgical thigh (femur) fracture treatment",
+      "definition": "Non-surgical thigh fracture treatment is an outpatient procedure where your doctor treats your broken thighbone (femur) without surgery. However, most thighbone fractures do require surgery because the femur is a large bone that needs precise alignment to heal properly and support weight-bearing. If your fracture is truly stable and non-displaced, your doctor might treat it with traction or bed rest. You'll use crutches or a walker and avoid weight-bearing on the injured leg. Pain medication and ice help manage discomfort. Your doctor will monitor your healing closely with periodic X-rays. Physical therapy is crucial to prevent blood clots and maintain strength in your other leg and upper body. Most thighbone fractures eventually require surgery if conservative treatment doesn't result in proper healing. Recovery without surgery is slow and may take several months. Some thighbone fractures may need manipulation to adjust bone alignment before immobilization. The cost of this procedure may vary depending on whether your doctor needs to manually reposition (manipulate) the bone fragments into proper alignment, or whether the fracture can heal in its current position without manipulation.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 2.68
+        },
+        {
+          "code": "apc",
+          "valueString": "5112"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP221",
+          "display": "Non-surgical thigh (femur) fracture treatment: without manipulation"
+        },
+        {
+          "code": "KP222",
+          "display": "Non-surgical thigh (femur) fracture treatment: with manipulation"
+        }
+      ]
+    },
+    {
+      "code": "KP23Z",
+      "display": "Non-surgical tibia fracture treatment",
+      "definition": "Non-surgical tibia fracture treatment is an outpatient procedure where your doctor treats your broken shinbone (tibia) without surgery. Your doctor will take X-rays to determine the fracture type and severity. If the break is stable and properly aligned, surgery may not be necessary. You'll wear a cast or walking boot to immobilize your shin and allow healing. You'll need to avoid weight-bearing or only partially bear weight as directed for several weeks, using crutches if necessary. Ice and elevation help manage swelling and pain. Periodic X-rays monitor healing progress. Physical therapy helps restore your strength and motion once healing is underway. Full healing typically takes 8-16 weeks depending on fracture severity and location. Some tibia fractures may need the bones manipulated into proper position before casting. The cost of this procedure may vary depending on whether your doctor needs to manually reposition (manipulate) the bone fragments into proper alignment, or whether the fracture can heal in its current position without manipulation.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.32
+        },
+        {
+          "code": "apc",
+          "valueString": "5111"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP231",
+          "display": "Non-surgical tibia fracture treatment: without manipulation"
+        },
+        {
+          "code": "KP232",
+          "display": "Non-surgical tibia fracture treatment: with manipulation"
+        }
+      ]
+    },
+    {
+      "code": "KP24Z",
+      "display": "Non-surgical wrist fracture treatment",
+      "definition": "Non-surgical wrist fracture treatment is an outpatient procedure where your doctor treats your broken wrist bones without surgery using a cast or brace. Your doctor will take X-rays to determine which wrist bones are broken and assess the fracture pattern. If the fracture is stable and properly aligned, surgery is usually not necessary. You'll typically wear a cast or brace to immobilize your wrist for 4-8 weeks. You'll need to keep your wrist elevated and use ice to manage swelling and pain. You should avoid heavy gripping and strenuous hand activities during healing. Pain medication helps manage discomfort. Periodic X-rays monitor healing progress. Physical therapy helps restore your wrist strength and motion once the cast is removed. Full healing typically takes 8-12 weeks. Some wrist fractures may need the bones repositioned before casting to ensure proper alignment. The cost of this procedure may vary depending on whether your doctor needs to manually reposition (manipulate) the bone fragments into proper alignment, or whether the fracture can heal in its current position without manipulation.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 1.65
+        },
+        {
+          "code": "apc",
+          "valueString": "5112"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP241",
+          "display": "Non-surgical wrist fracture treatment: without manipulation"
+        },
+        {
+          "code": "KP242",
+          "display": "Non-surgical wrist fracture treatment: with manipulation"
+        }
+      ]
+    },
+    {
+      "code": "KP250",
+      "display": "Lumbar spine fusion",
+      "definition": "A lumbar spine fusion is an outpatient surgical procedure where your surgeon removes a damaged disc and fuses two or more vertebrae in your lower back together using bone graft material. This stabilizes your spine and relieves pressure on your spinal nerves that may be causing pain. The procedure takes 1-2 hours, and you may go home the same day or stay overnight. You'll have restrictions on bending, twisting, and lifting for several weeks while your spine heals. Physical therapy helps restore your strength and flexibility. You should expect 4-6 weeks of limited activity before returning to light duty, and 3-6 months before returning to strenuous activities. Most patients experience significant pain relief after the procedure. You may feel some initial fatigue as your body heals. Your fusion restricts motion slightly but provides long-term stability and pain relief.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5117"
+        }
+      ]
+    },
+    {
+      "code": "KP260",
+      "display": "ACL repair / reconstruction",
+      "definition": "An ACL repair or reconstruction is an outpatient surgical procedure where your surgeon repairs or rebuilds your anterior cruciate ligament (ACL), one of the major ligaments that stabilizes your knee. A torn ACL causes instability, pain, and difficulty with activities. Your surgeon will either repair the torn ligament or reconstruct it using a graft from your own tissue (hamstring or patellar tendon) or donor tissue. The procedure takes 1-2 hours, and you typically go home the same day or stay overnight. You'll use crutches for several weeks and begin physical therapy immediately. Full recovery typically takes 4-6 months minimum and often longer for athletes returning to sports. You'll have specific restrictions on twisting and pivoting movements during healing. Physical therapy is essential for success. Most patients return to full function and activity after ACL reconstruction.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5114"
+        }
+      ]
+    },
+    {
+      "code": "KP270",
+      "display": "Surgical ankle repair",
+      "definition": "A surgical ankle repair is an outpatient procedure where your surgeon repairs damaged ligaments, tendons, or bones in your ankle. Ankle injuries like ligament tears, syndesmotic injuries, or small fractures often need surgical repair for stability. Your surgeon will use sutures, anchors, or other techniques to repair the damaged structures. The procedure takes 1-2 hours, and you may go home the same day or stay overnight. You'll wear a cast or boot and use crutches for several weeks while you heal. Physical therapy begins once your doctor clears it and helps restore your ankle strength and balance. You'll need to be patient with gradual return to activities to avoid re-injury. Most patients achieve good functional outcomes and return to their desired activities.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5113"
+        }
+      ]
+    },
+    {
+      "code": "KP280",
+      "display": "Ankle replacement",
+      "definition": "An ankle replacement is an outpatient surgical procedure where your surgeon removes damaged bone surfaces from your ankle joint and replaces them with artificial components. Ankle replacement is performed when severe arthritis has damaged your ankle beyond repair. The procedure takes 1-2 hours, and you may go home the same day or stay overnight. You'll wear a cast or boot and use crutches for 4-6 weeks while you heal. Unlike ankle fusion, which locks the joint, ankle replacement preserves some motion. Physical therapy helps you restore strength and learn to use your new ankle. Full recovery typically takes 3-6 months. You may have some restrictions on high-impact activities like running, but you should be able to return to most normal activities. Your new ankle should provide pain relief and improved function compared to a damaged arthritic ankle.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5117"
+        }
+      ]
+    },
+    {
+      "code": "KP31Z",
+      "display": "Surgical hip fracture repair",
+      "definition": "A surgical hip fracture repair is an outpatient procedure where your surgeon uses open reduction internal fixation (ORIF) or arthroscopic techniques to repair your broken hip with surgical hardware like plates, screws, or rods. Hip fractures usually require surgery to heal properly and allow early weight-bearing. Your surgeon will position the bone pieces correctly and secure them with hardware. The procedure takes 1-2 hours, and you may go home the same day or stay overnight. You'll begin physical therapy immediately to prevent blood clots and maintain strength. You can typically begin putting weight on your hip right away in most cases. You'll have regular follow-up X-rays to confirm healing. This type of procedure can be performed various ways, including open reduction and internal fixation (orif) and arthroscopic, and the cost may vary depending on the specific approach or service provided.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 1.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5114"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP311",
+          "display": "Surgical hip fracture repair: Open reduction and internal fixation (ORIF)"
+        },
+        {
+          "code": "KP312",
+          "display": "Surgical hip fracture repair: Arthroscopic"
+        }
+      ]
+    },
+    {
+      "code": "KP320",
+      "display": "Surgical knee repair (knee arthroscopy)",
+      "definition": "A surgical knee repair is an outpatient procedure where your surgeon repairs damaged cartilage, ligaments, tendons, or other structures in your knee using arthroscopic or open surgical techniques. Knee injuries like meniscal tears, ligament tears, or cartilage damage can cause pain and instability. Your surgeon will assess your knee and perform the necessary repairs. The procedure takes 1-2 hours, and you may go home the same day or stay overnight. You'll use crutches and wear a brace for several weeks while you heal. Physical therapy begins immediately and is crucial for success. You'll have specific activity restrictions during healing to protect your repair. Most patients return to their desired activities with proper rehabilitation.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5113"
+        }
+      ]
+    },
+    {
+      "code": "KP33Z",
+      "display": "Shoulder arthroscopy",
+      "definition": "A surgical shoulder repair is an outpatient procedure where your surgeon repairs damaged shoulder structures using arthroscopic (minimally invasive) or open surgical techniques. Shoulder injuries like rotator cuff tears, labral tears, or impingement can cause pain and loss of function. Your surgeon will assess your shoulder and perform the necessary repairs. The procedure takes 1-2 hours, and you may go home the same day or stay overnight. You'll typically wear a sling and avoid strenuous activities for 4-6 weeks while you heal. Physical therapy is essential and begins soon after surgery, progressing gradually from gentle motion to strengthening exercises. You'll have specific restrictions during healing. Your surgeon may perform arthroscopic repair through small incisions or use larger open incisions depending on your injury severity. This type of procedure can be performed various ways, including arthroscopic decompression/debridement and arthroscopic repair, and the cost may vary depending on the specific approach or service provided.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5113"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP331",
+          "display": "Shoulder arthroscopy: Arthroscopic decompression/debridement"
+        },
+        {
+          "code": "KP332",
+          "display": "Shoulder arthroscopy: Arthroscopic repair"
+        }
+      ]
+    },
+    {
+      "code": "KP34Z",
+      "display": "Shoulder replacement",
+      "definition": "A shoulder replacement is an outpatient surgical procedure where your surgeon removes damaged bone and cartilage from your shoulder joint and replaces it with artificial components made of metal and plastic. Shoulder replacement is performed when arthritis or severe injury has damaged your shoulder joint. The procedure takes 1-2 hours, and you may go home the same day or stay overnight. You'll wear a sling and have restrictions on arm movement for several weeks. Physical therapy begins soon after surgery and progresses gradually from gentle motion to strengthening. Full recovery typically takes 3-6 months. You'll need patience with your rehabilitation as aggressive therapy too early can cause problems. Your surgeon may perform partial replacement if only part of the shoulder is damaged, or total replacement if the entire joint needs replacing. This type of procedure can be performed various ways, including partial and total, and the cost may vary depending on the extent of the procedure.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.47
+        },
+        {
+          "code": "apc",
+          "valueString": "5115"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP341",
+          "display": "Shoulder replacement: Partial"
+        },
+        {
+          "code": "KP342",
+          "display": "Shoulder replacement: Total"
+        }
+      ]
+    },
+    {
+      "code": "KP350",
+      "display": "Trigger point injection",
+      "definition": "A trigger point injection is an outpatient procedure where your doctor injects medication directly into a trigger point, a tight, knotted muscle that's causing pain. Trigger points develop from muscle overuse, stress, or injury. Your doctor will palpate (feel) your muscle to locate the trigger point, then inject a local anesthetic and sometimes a steroid to relax the muscle and reduce inflammation. The injection takes just a few minutes. You may feel soreness for a day or two after the injection. Most patients experience pain relief within a few days to a week. You should avoid strenuous activity for a day or two after the injection. Trigger point injections often work best in combination with physical therapy, stretching, and other pain management techniques. Multiple injections over time may be needed for lasting relief.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 5.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5441"
+        }
+      ]
+    },
+    {
+      "code": "KP36Z",
+      "display": "Vertebral compression fracture treatment",
+      "definition": "A vertebral compression fracture treatment is an outpatient procedure where your surgeon uses either vertebroplasty or kyphoplasty to repair a broken vertebra caused by osteoporosis, cancer, or trauma. These fractures cause severe pain and loss of height. Your surgeon injects cement into the fractured vertebra to stabilize it and relieve pain. The procedure takes 30-60 minutes per vertebra, and you may go home the same day. You can return to light activities within a day or two, though you should avoid strenuous activity for several weeks. Pain relief is often immediate. Your surgeon may perform vertebroplasty, where cement is injected into the fracture, or kyphoplasty, where a balloon is inflated to restore vertebral height before cementing. This type of procedure can be performed various ways, including vertebroplasty and kyphoplasty, and the cost may vary depending on the specific approach or service provided.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.31
+        },
+        {
+          "code": "apc",
+          "valueString": "5113"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP361",
+          "display": "Vertebral compression fracture treatment: Vertebroplasty"
+        },
+        {
+          "code": "KP362",
+          "display": "Vertebral compression fracture treatment: Kyphoplasty"
+        }
+      ]
+    },
+    {
+      "code": "KP40Z",
+      "display": "Carpal tunnel release",
+      "definition": "Carpal tunnel release is outpatient surgery that relieves pressure on the median nerve in your wrist, the nerve responsible for carpal tunnel syndrome. When this nerve is squeezed, you may feel numbness, tingling, weakness, or pain in your hand and fingers. Your surgeon numbs the area with local anesthesia, then cuts the tight band of tissue pressing on the nerve, giving it more room. Relieving the pressure allows the nerve to recover, and many people notice their tingling and night-time symptoms improve soon afterward. You go home the same day and gradually return to using your hand as it heals.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Musculoskeletal"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5431"
+        }
+      ],
+      "concept": [
+        {
+          "code": "KP401",
+          "display": "Carpal tunnel release: Open"
+        },
+        {
+          "code": "KP402",
+          "display": "Carpal tunnel release: Endoscopic"
+        }
+      ]
+    },
+    {
+      "code": "L003Z",
+      "display": "Pathology / tissue analysis",
+      "definition": "Pathology testing where a tissue sample is removed and examined under a microscope in a laboratory to diagnose diseases, especially cancer. A pathologist (a doctor specializing in examining tissues) analyzes your sample at different levels of detail and complexity. The sample might come from a biopsy, where a small piece of tissue is removed, or from tissue removed during surgery. Pathologists examine the cells to determine if cancer or other disease is present and to understand the severity and characteristics of any disease found. Different levels of testing range from simple examination to highly complex analysis using special stains and genetic testing. Results guide your treatment decisions and doctors' understanding of your condition. Four different complexity levels of testing exist depending on what information your doctor needs. The cost of this procedure may vary depending on the complexity involved. Categories include level i/ii, level iii/iv, level v, and level vi.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Lab / Pathology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 2.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5731"
+        }
+      ],
+      "concept": [
+        {
+          "code": "L0031",
+          "display": "Pathology / tissue analysis: Level I/II"
+        },
+        {
+          "code": "L0032",
+          "display": "Pathology / tissue analysis: Level III/IV"
+        },
+        {
+          "code": "L0033",
+          "display": "Pathology / tissue analysis: Level V"
+        },
+        {
+          "code": "L0034",
+          "display": "Pathology / tissue analysis: Level VI"
+        }
+      ]
+    },
+    {
+      "code": "NE01Z",
+      "display": "Sleep study (polysomnography)",
+      "definition": "A sleep study, also known as a polysomnography, is a test that monitors your brain waves, heart rate, breathing, oxygen levels, and movements while you sleep to diagnose sleep disorders like sleep apnea or narcolepsy. Technicians attach sensors and monitors to your body that record data throughout the night without pain or discomfort. The study can be done at a sleep lab facility or in some cases at your home with portable equipment. Results help your doctor understand what's happening during your sleep and determine the right treatment for you. You'll receive a detailed report showing your sleep patterns and any interruptions. Different types of sleep studies vary in complexity and setting, from simple home monitoring to comprehensive lab-based testing. The cost of this procedure may vary depending on the complexity involved. Categories include home sleep testing, limited parameters, home sleep testing, standard parameters, in-lab polysomnography, simple (<4 parameters), and in-lab polysomnography, complex.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Neurology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5723"
+        }
+      ],
+      "concept": [
+        {
+          "code": "NE011",
+          "display": "Sleep study (polysomnography): Home sleep testing, limited parameters"
+        },
+        {
+          "code": "NE012",
+          "display": "Sleep study (polysomnography): Home sleep testing, standard parameters"
+        },
+        {
+          "code": "NE013",
+          "display": "Sleep study (polysomnography): In-lab polysomnography, simple (<4 parameters)"
+        },
+        {
+          "code": "NE014",
+          "display": "Sleep study (polysomnography): In-lab polysomnography, complex"
+        }
+      ]
+    },
+    {
+      "code": "NE020",
+      "display": "SNS device programming",
+      "definition": "SNS device programming is an outpatient appointment where your doctor adjusts the settings on your sacral neuromodulation device to optimize pain relief or symptom control. Using a wireless programmer, your doctor can change the electrical pulse intensity, frequency, and pattern without needing surgery. You'll work together to find the settings that provide the best symptom relief with minimal side effects. Programming sessions usually take 30-60 minutes and may need to be repeated as your condition changes. You can make small adjustments at home using a patient programmer if your device allows it. Regular follow-up appointments ensure your device continues to work effectively for your needs.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Neurology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 5.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5742"
+        }
+      ]
+    },
+    {
+      "code": "NM01Z",
+      "display": "Nerve block injection",
+      "definition": "A nerve block is an injection of medication near a specific nerve or group of nerves to relieve pain. It can calm pain from conditions such as back or nerve pain, or provide numbing for a procedure. Your doctor cleans the skin and often uses imaging, such as X-ray or ultrasound, to guide the needle precisely to the target nerve. The injection usually contains a local anesthetic to numb the area and sometimes a steroid to reduce inflammation. You feel a brief prick and some pressure. Depending on the type, relief can begin within minutes and last from hours to weeks. A nerve block can reduce your pain, lower your need for other pain medication, and help you move and function more comfortably.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Neurology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5442"
+        }
+      ],
+      "concept": [
+        {
+          "code": "NM011",
+          "display": "Nerve block injection: Anesthetic agent"
+        },
+        {
+          "code": "NM012",
+          "display": "Nerve block injection: Epidural"
+        }
+      ]
+    },
+    {
+      "code": "NP010",
+      "display": "Cranial neurostimulator implantation",
+      "definition": "A cranial neurostimulator is a small device implanted under your scalp that delivers electrical impulses to help manage chronic pain or neurological conditions. Your surgeon makes a small incision, positions the device, and connects it to electrodes placed on nerves in your head or brain. The device is then programmed to send gentle electrical signals that can reduce pain or improve symptoms. This outpatient procedure typically takes 1-2 hours under general anesthesia. You'll be able to go home the same day or after a brief recovery period. After surgery, you may need adjustments to the device settings as your body heals and adapts.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Neurology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 2.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5465"
+        }
+      ]
+    },
+    {
+      "code": "NP020",
+      "display": "Intrathecal pump implantation",
+      "definition": "An intrathecal pump is a device that delivers pain medication or other drugs directly into the fluid surrounding your spinal cord, which can reduce the amount of medication needed. Your surgeon implants a small pump under your skin, usually in your abdomen, and places a thin catheter that runs to the area around your spinal cord. This targeted delivery method can provide better pain control with fewer side effects than taking medications by mouth. The procedure is performed as outpatient surgery under general anesthesia and typically takes 1-2 hours. You can usually return home the same day after recovery. Regular refills and programming adjustments will be needed to maintain your treatment.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Neurology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5471"
+        }
+      ]
+    },
+    {
+      "code": "NP03Z",
+      "display": "SNS device insertion",
+      "definition": "Sacral neuromodulation (SNS) is a treatment where a small device is implanted near your sacral nerves to send electrical pulses that help control bladder, bowel, or pain issues. The procedure involves placing an electrode near these nerves and connecting it to a pulse generator (battery pack) under your skin. Before permanent implantation, you may have a trial period with temporary leads to confirm the treatment works for you. The outpatient implantation typically takes 1-2 hours under general anesthesia. You can return home the same day with careful activity restrictions while healing. The device can be adjusted or removed if needed, and battery replacement is required every few years. This type of procedure can be performed various ways, including revision/removal, implantation, electrode array, and implantation, pulse generator / definitive, and the cost may vary depending on the specific approach or service provided.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Neurology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5464"
+        }
+      ],
+      "concept": [
+        {
+          "code": "NP031",
+          "display": "SNS device insertion: Revision / removal"
+        },
+        {
+          "code": "NP032",
+          "display": "SNS device insertion: Implantation, electrode array"
+        },
+        {
+          "code": "NP033",
+          "display": "SNS device insertion: Implantation, pulse generator / definitive"
+        }
+      ]
+    },
+    {
+      "code": "NP04Z",
+      "display": "Spinal cord stimulator implantation",
+      "definition": "A spinal cord stimulator is a device that sends mild electrical pulses to your spinal cord to block or reduce chronic pain signals before they reach your brain. Your surgeon places electrodes near your spinal cord and connects them to a pulse generator implanted under your skin, usually near your buttock or abdomen. You'll likely have a trial period with temporary leads to confirm the device will help your pain before permanent implantation. The outpatient procedure takes 1-3 hours depending on complexity, and you can usually go home the same day. Recovery typically takes 1-2 weeks before you can resume normal activities. The device requires periodic programming adjustments and battery replacement every few years. The cost of this procedure may vary depending on the complexity involved. Categories include revision/removal, trial/temporary electrodes, simple, trial/temporary electrodes, plate/paddle, and implantation, pulse generator / definitive.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Neurology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5465"
+        }
+      ],
+      "concept": [
+        {
+          "code": "NP041",
+          "display": "Spinal cord stimulator implantation: Revision / removal"
+        },
+        {
+          "code": "NP042",
+          "display": "Spinal cord stimulator implantation: Trial / temporary electrodes"
+        },
+        {
+          "code": "NP043",
+          "display": "Spinal cord stimulator implantation: Implantation, plate / paddle"
+        },
+        {
+          "code": "NP044",
+          "display": "Spinal cord stimulator implantation: Implantation, pulse generator / definitive"
+        }
+      ]
+    },
+    {
+      "code": "OP52Z",
+      "display": "Inpatient delivery",
+      "definition": "Inpatient delivery is a hospitalization that covers your delivery at the hospital, where your baby is born and you receive comprehensive labor and delivery care. You'll be admitted when labor begins or when your doctor schedules your delivery. Your medical team monitors you and your baby throughout labor, manages pain as needed, and assists with delivery. After delivery, you'll stay in the hospital for recovery and to ensure both you and your baby are healthy. This type of delivery can occur various ways, including vaginal delivery (including VBAC) or cesarean section, and the cost may vary depending on the method of delivery.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Obstetrics"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "inpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.0
+        },
+        {
+          "code": "ms-drg",
+          "valueString": "807"
+        }
+      ],
+      "concept": [
+        {
+          "code": "OP521",
+          "display": "Inpatient delivery: Vaginal (incl. VBAC)"
+        },
+        {
+          "code": "OP522",
+          "display": "Inpatient delivery: C-section"
+        }
+      ]
+    },
+    {
+      "code": "PE01Z",
+      "display": "Pulmonary function testing",
+      "definition": "Pulmonary function testing measures how well your lungs work, including how much air they hold and how quickly you can move air in and out. These breathing tests help diagnose and monitor conditions such as asthma, chronic obstructive pulmonary disease (COPD), and other lung problems. During the test, you breathe into a mouthpiece connected to a machine and follow simple coaching, such as taking a deep breath and blowing out as hard and fast as you can. Some tests measure your lung volumes, check how your airways respond to a medication, or track your breathing during light exercise. The tests are painless and non-invasive, take about 30 to 90 minutes depending on how many are done, and give your doctor a clear picture of your lung health.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Pulmonology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.99
+        },
+        {
+          "code": "apc",
+          "valueString": "5723"
+        }
+      ],
+      "concept": [
+        {
+          "code": "PE011",
+          "display": "Pulmonary function testing: Spirometry (baseline airflow)"
+        },
+        {
+          "code": "PE012",
+          "display": "Pulmonary function testing: Lung volumes & mechanics"
+        },
+        {
+          "code": "PE013",
+          "display": "Pulmonary function testing: Exercise stress testing"
+        },
+        {
+          "code": "PE014",
+          "display": "Pulmonary function testing: Bronchoprovocation"
+        },
+        {
+          "code": "PE015",
+          "display": "Pulmonary function testing: Cardiopulmonary exercise testing (CPET)"
+        }
+      ]
+    },
+    {
+      "code": "PP01Z",
+      "display": "Bronchoscopy",
+      "definition": "A bronchoscopy allows your doctor to visualize your airways using a thin, flexible camera to diagnose or treat lung problems. Your pulmonologist passes the bronchoscope through your mouth or nose into your lungs. The procedure typically takes 15-45 minutes under light sedation. This category includes diagnostic scopes to visualize airways, diagnostic with biopsy to collect tissue samples, and therapeutic procedures using lasers, stents, or heat treatment. You go home the same day after recovery from sedation. Your throat may feel sore temporarily. The cost of this procedure may vary depending on the complexity involved. Categories include diagnostic, diagnostic, with biopsy, therapeutic, simple, therapeutic with ebus-guidance, and therapeutic with bronchial thermoplasty.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Pulmonology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5154"
+        }
+      ],
+      "concept": [
+        {
+          "code": "PP011",
+          "display": "Bronchoscopy: Diagnostic"
+        },
+        {
+          "code": "PP012",
+          "display": "Bronchoscopy: Diagnostic, with biopsy"
+        },
+        {
+          "code": "PP013",
+          "display": "Bronchoscopy: Therapeutic, simple"
+        },
+        {
+          "code": "PP014",
+          "display": "Bronchoscopy: Therapeutic with EBUS-guidance"
+        },
+        {
+          "code": "PP015",
+          "display": "Bronchoscopy: Therapeutic with bronchial thermoplasty"
+        }
+      ]
+    },
+    {
+      "code": "PP03Z",
+      "display": "Vena cava filter placement",
+      "definition": "Vena cava filter placement is an outpatient procedure that places a small metal filter in the large vein carrying blood to your heart (vena cava) to prevent blood clots from traveling to your lungs. Your radiologist uses imaging guidance to position the filter through a small catheter inserted in a vein. The procedure takes about 30-60 minutes under local anesthesia. You go home the same day. This category includes filter insertion (permanent or temporary) and filter retrieval when the filter needs to be removed because it's no longer needed. This type of procedure can involve either insertion of a new device or retrieval of an existing one, and the cost may vary depending on the specific service performed.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Pulmonology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.51
+        },
+        {
+          "code": "apc",
+          "valueString": "5183"
+        }
+      ],
+      "concept": [
+        {
+          "code": "PP031",
+          "display": "Vena cava filter placement: Retrieval"
+        },
+        {
+          "code": "PP032",
+          "display": "Vena cava filter placement: Insertion"
+        }
+      ]
+    },
+    {
+      "code": "QP01Z",
+      "display": "Laryngoscopy",
+      "definition": "Laryngoscopy uses a specialized scope to visualize your voice box (larynx) for diagnosis or treatment of voice, throat, or breathing problems. The procedure may be diagnostic (to identify the cause of hoarseness, throat pain, or breathing difficulty) or therapeutic (to remove polyps, nodules, or treat other conditions). Your doctor can perform laryngoscopy using a flexible scope (less invasive) or rigid scope (allowing more treatment options). The procedure is relatively quick, minimally uncomfortable, and provides valuable information about laryngeal health.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Ear, Nose & Throat"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.86
+        },
+        {
+          "code": "apc",
+          "valueString": "5151"
+        }
+      ],
+      "concept": [
+        {
+          "code": "QP011",
+          "display": "Laryngoscopy: Diagnostic, without biopsy"
+        },
+        {
+          "code": "QP012",
+          "display": "Laryngoscopy: Diagnostic, with biopsy"
+        },
+        {
+          "code": "QP013",
+          "display": "Laryngoscopy: Therapeutic"
+        },
+        {
+          "code": "QP014",
+          "display": "Laryngoscopy: Operative, simple"
+        },
+        {
+          "code": "QP015",
+          "display": "Laryngoscopy: Operative, simple"
+        }
+      ]
+    },
+    {
+      "code": "QP03Z",
+      "display": "Tonsillectomy",
+      "definition": "A tonsillectomy is surgical removal of your tonsils (lymph tissue at the back of your throat) to treat recurrent infections, severe obstructive sleep apnea, or other problems. Your ENT surgeon removes both tonsils under general anesthesia. The procedure reduces throat infections and may improve sleep quality and breathing. Recovery typically takes one to two weeks with pain, difficulty swallowing, and activity restrictions. This type of procedure can be performed on both adults and children, and the cost may vary depending on the patient's age group.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Ear, Nose & Throat"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5164"
+        }
+      ],
+      "concept": [
+        {
+          "code": "QP031",
+          "display": "Tonsillectomy: Adult"
+        },
+        {
+          "code": "QP032",
+          "display": "Tonsillectomy: Pediatric"
+        }
+      ]
+    },
+    {
+      "code": "QP090",
+      "display": "Cerumen (earwax) removal",
+      "definition": "Earwax removal is a quick office procedure to clear a buildup of earwax (cerumen) that is blocking your ear canal or affecting your hearing. Earwax normally protects the ear, but sometimes it hardens or builds up enough to cause muffled hearing, fullness, discomfort, or ringing. Your doctor or nurse examines your ear and removes the wax using one or more gentle methods, such as softening drops, flushing with warm water, gentle suction, or small instruments used under direct view. You may feel some water or pressure, but the process is usually painless. Clearing the wax often brings immediate relief and restores clearer hearing, and the whole visit typically takes only a few minutes.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Ear, Nose & Throat"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 5.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5733"
+        }
+      ]
+    },
+    {
+      "code": "R0020",
+      "display": "Audiological testing",
+      "definition": "Audiological testing measures your hearing ability and identifies any hearing loss. During this outpatient exam, you'll sit in a soundproof booth and listen to tones at different volumes and frequencies, raising your hand when you hear sounds. Your doctor may also perform speech recognition tests and check how your eardrums respond to sound. Results help determine if you have hearing loss, what type it is, and whether you need hearing aids or other treatment. The tests are painless and take 30-60 minutes.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 5.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5721"
+        }
+      ]
+    },
+    {
+      "code": "R003Z",
+      "display": "CT scan",
+      "definition": "A CT (computed tomography) scan creates detailed cross-sectional images of your body to diagnose conditions like cancer, infections, injuries, or organ disease. This outpatient procedure uses X-rays and computer processing to build precise pictures. Depending on what your doctor is evaluating, you may receive contrast dye (through IV, mouth, or enema) to highlight specific areas and improve image clarity. You'll lie still on a table that slides through the scanner for 5-10 minutes. The procedure is painless and you go home immediately after. The cost of this procedure may vary depending on the imaging protocol used. Options include without contrast, with contrast, with and without contrast, breast ct, and bone density study.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.24
+        },
+        {
+          "code": "apc",
+          "valueString": "5522"
+        }
+      ],
+      "concept": [
+        {
+          "code": "R0031",
+          "display": "CT scan: Bone density study"
+        },
+        {
+          "code": "R0032",
+          "display": "CT scan: without contrast"
+        },
+        {
+          "code": "R0033",
+          "display": "CT scan: with contrast"
+        },
+        {
+          "code": "R0034",
+          "display": "CT scan: with and without contrast"
+        },
+        {
+          "code": "R0035",
+          "display": "CT scan: Breast CT"
+        }
+      ]
+    },
+    {
+      "code": "R004Z",
+      "display": "CT angiography",
+      "definition": "A CT angiography visualizes blood vessels throughout your body by combining CT imaging with contrast dye injected through an IV. This outpatient test creates detailed 3D images showing blood flow and detecting blockages, aneurysms, clots, or other vascular problems. The procedure takes only 5-10 minutes and is completely painless. Results help your doctor plan treatment, assess surgical risk, or diagnose urgent conditions. You'll return home the same day with no recovery time. This type of procedure can be performed various ways, including calcium score/screening, coronary/cardiac cta, and non-cardiac cta, and the cost may vary depending on the specific approach or service provided.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 1.78
+        },
+        {
+          "code": "apc",
+          "valueString": "5572"
+        }
+      ],
+      "concept": [
+        {
+          "code": "R0041",
+          "display": "CT angiography: Calcium score/screening"
+        },
+        {
+          "code": "R0042",
+          "display": "CT angiography: Coronary/cardiac CTA"
+        },
+        {
+          "code": "R0043",
+          "display": "CT angiography: Non-cardiac CTA"
+        }
+      ]
+    },
+    {
+      "code": "R0050",
+      "display": "Dual-Energy X-ray Absorptiometry (DEXA) scan",
+      "definition": "A DEXA scan measures bone mineral density to diagnose osteoporosis and predict fracture risk. This quick outpatient test uses low-dose X-rays to scan your hip, spine, and sometimes forearm. You simply lie on a padded table while a scanner passes over these areas, the entire procedure takes only 10-30 minutes and is completely painless. Results show how your bone density compares to healthy young adults, helping your doctor recommend treatment if needed. You go home immediately with no recovery required.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 5.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5522"
+        }
+      ]
+    },
+    {
+      "code": "R0060",
+      "display": "Echocardiogram",
+      "definition": "An echocardiogram uses ultrasound waves to create detailed moving images of your heart's structure and function. During this painless outpatient test, a technician moves a small probe across your chest and captures images showing how your heart chambers pump and your valves work. The procedure takes 20-40 minutes and produces real-time video your doctor can analyze immediately. Echocardiograms detect heart damage, valve problems, fluid around the heart, and other conditions. You go home the same day with no recovery time.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5524"
+        }
+      ]
+    },
+    {
+      "code": "R0080",
+      "display": "Mammogram",
+      "definition": "A mammogram is a specialized X-ray of your breast tissue to screen for cancer or evaluate suspicious lumps. During this quick outpatient test, your breast is gently compressed between two plates while X-rays capture images from different angles, usually taking less than 15 minutes. Compression can feel uncomfortable but brief. Standard screening mammograms detect early cancers before symptoms appear, while diagnostic mammograms evaluate specific concerns. Results are typically available within days, and you go home immediately after the test.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        }
+      ]
+    },
+    {
+      "code": "R0090",
+      "display": "Myocardial perfusion imaging (MPI)",
+      "definition": "Myocardial perfusion imaging (MPI) shows how well blood flows through your heart muscle. During this outpatient test, you receive a small injection of radioactive tracer and rest for 15-20 minutes, then return for imaging scans. You may also undergo stress testing (exercise or medication) and repeat imaging to compare blood flow at rest versus exertion. The entire process takes 2-4 hours and is painless. Results help your doctor identify areas of poor blood flow or previous heart damage. You go home the same day with no radiation side effects.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 5.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5593"
+        }
+      ]
+    },
+    {
+      "code": "R010Z",
+      "display": "MRA (magnetic resonance angiography)",
+      "definition": "An MR angiography visualizes blood vessels throughout your body using magnetic resonance imaging without radiation. This outpatient procedure creates detailed 3D images showing blood flow and detecting blockages, aneurysms, or narrowing. Depending on the study, your doctor may inject contrast dye through an IV to enhance vessel visibility. You lie still in the MRI scanner for 20-45 minutes while magnetic fields and radio waves create images. The procedure is completely painless. You go home immediately with no recovery time. The cost of this procedure may vary depending on the imaging protocol used. Options include without contrast and with contrast.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.68
+        },
+        {
+          "code": "apc",
+          "valueString": "5572"
+        }
+      ],
+      "concept": [
+        {
+          "code": "R0101",
+          "display": "MRA (magnetic resonance angiography): without contrast"
+        },
+        {
+          "code": "R0102",
+          "display": "MRA (magnetic resonance angiography): with contrast"
+        }
+      ]
+    },
+    {
+      "code": "R0110",
+      "display": "MR elastography (MRE)",
+      "definition": "An MR elastography measures tissue stiffness to detect organ disease like liver fibrosis. This specialized outpatient MRI creates maps showing tissue elasticity, stiffer tissue indicates disease. You lie still in the MRI scanner while vibrations are applied and images captured. The procedure takes 20-30 minutes and is painless. Results help your doctor assess liver damage severity, monitor disease progression, or guide treatment decisions without requiring invasive biopsy. You go home immediately with no recovery needed.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5523"
+        }
+      ]
+    },
+    {
+      "code": "R013Z",
+      "display": "MRI scan",
+      "definition": "An MRI (magnetic resonance imaging) scan creates detailed internal images of your body using magnetic fields and radio waves, no radiation exposure. This outpatient procedure excels at imaging soft tissues, organs, and the brain. You lie still in the MRI scanner for 20-60 minutes while hearing loud knocking sounds. Depending on your doctor's questions, contrast dye may be injected through an IV to highlight certain structures. The procedure is painless. Results accurately diagnose tumors, infections, injuries, or neurological conditions. You go home immediately with no side effects. The cost of this procedure may vary depending on the imaging protocol used. Options include without contrast and with contrast.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5523"
+        }
+      ],
+      "concept": [
+        {
+          "code": "R0131",
+          "display": "MRI scan: without contrast"
+        },
+        {
+          "code": "R0132",
+          "display": "MRI scan: with contrast"
+        }
+      ]
+    },
+    {
+      "code": "R0140",
+      "display": "MR spectroscopy",
+      "definition": "An MR spectroscopy analyzes the chemical composition of tissue to detect disease at a molecular level. This specialized outpatient MRI provides information about tissue metabolism and biochemistry, going beyond standard structure imaging. It's particularly useful for evaluating brain tumors, neurological disorders, or muscle disease. You lie still in the MRI scanner for 30-60 minutes while specialized sequences are acquired. The procedure is painless and non-invasive. Results guide diagnosis and treatment planning. You go home immediately with no recovery time.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5521"
+        }
+      ]
+    },
+    {
+      "code": "R0150",
+      "display": "PET scan",
+      "definition": "A PET (positron emission tomography) scan visualizes metabolic activity in your body to detect cancer, heart disease, or neurological conditions. During this outpatient test, you receive a small injection of radioactive tracer that accumulates in areas with abnormal metabolic activity. After waiting 30-60 minutes, you lie in the PET scanner for 20-30 minutes. Results show exactly where disease is present and how active it is. This information guides diagnosis, treatment planning, and monitoring. You go home the same day with no side effects from the minimal radiation exposure.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5594"
+        }
+      ]
+    },
+    {
+      "code": "R016Z",
+      "display": "Quantitative MRI",
+      "definition": "A quantitative MRI precisely measures tissue properties like water content and molecular composition. This specialized outpatient MRI goes beyond standard imaging to provide quantitative data about tissue health. Different protocols assess brain changes, tissue composition, or organ function. You lie still in the MRI scanner for 30-60 minutes. Results help track disease progression, monitor treatment response, or detect subtle abnormalities early. The procedure is painless and non-invasive. You go home immediately with no recovery needed. The cost of this procedure may vary depending on the body part being examined or treated. Categories include brain (longitudinal comparison) and body tissue composition.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.5
+        },
+        {
+          "code": "apc",
+          "valueString": "1511"
+        }
+      ],
+      "concept": [
+        {
+          "code": "R0161",
+          "display": "Quantitative MRI: Brain (longitudinal comparison)"
+        },
+        {
+          "code": "R0162",
+          "display": "Quantitative MRI: Body tissue composition"
+        }
+      ]
+    },
+    {
+      "code": "R017Z",
+      "display": "Ultrasound",
+      "definition": "An ultrasound uses high-frequency sound waves to create real-time images of internal organs, tissues, and blood flow. This painless outpatient test requires no radiation and no needles. A technician applies gel to your skin and moves a small probe, instantly showing images on a screen. The procedure takes 15-45 minutes depending on what's being evaluated. Ultrasound safely evaluates pregnancy, organs, blood vessels, joints, and soft tissues. Results guide diagnosis and treatment planning. You go home immediately and can resume all activities. This type of procedure can be performed various ways, including prenatal, standard, and vascular / doppler duplex, and the cost may vary depending on the specific approach or service provided.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.67
+        },
+        {
+          "code": "apc",
+          "valueString": "5522"
+        }
+      ],
+      "concept": [
+        {
+          "code": "R0171",
+          "display": "Ultrasound: Prenatal"
+        },
+        {
+          "code": "R0172",
+          "display": "Ultrasound: Standard"
+        },
+        {
+          "code": "R0173",
+          "display": "Ultrasound: Vascular / doppler duplex"
+        }
+      ]
+    },
+    {
+      "code": "R019Z",
+      "display": "X-ray",
+      "definition": "An X-ray uses brief radiation exposure to create 2D images of bones and internal structures. This quick, painless outpatient test typically takes just minutes. Depending on what's being evaluated, images focus on specific body areas, bones, chest, abdomen, or spine. X-rays are the first-line imaging for fractures, infections, arthritis, and lung disease. Your doctor gets results quickly to guide diagnosis and treatment. You go home immediately with minimal radiation exposure, far less than other imaging tests. The cost of this procedure may vary depending on the complexity involved. Categories include lower extremity, head/neck/upper extremity, chest/pelvis/abdomen, bone length, spine, and gi contrast.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.76
+        },
+        {
+          "code": "apc",
+          "valueString": "5521"
+        }
+      ],
+      "concept": [
+        {
+          "code": "R0191",
+          "display": "X-ray: Lower extremity"
+        },
+        {
+          "code": "R0192",
+          "display": "X-ray: Head/neck/upper extremity"
+        },
+        {
+          "code": "R0193",
+          "display": "X-ray: Chest/pelvis/abdomen"
+        },
+        {
+          "code": "R0194",
+          "display": "X-ray: Bone length"
+        },
+        {
+          "code": "R0195",
+          "display": "X-ray: Spine"
+        },
+        {
+          "code": "R0196",
+          "display": "X-ray: GI contrast"
+        }
+      ]
+    },
+    {
+      "code": "R020Z",
+      "display": "Cardiac PET scan",
+      "definition": "A cardiac PET scan uses special imaging technology to create detailed pictures of your heart and check how well it's working. During this outpatient procedure, you'll receive a small amount of radioactive tracer through an IV, then lie still in the scanner for about 20-30 minutes. The scanner detects the tracer's signals to show your doctor blood flow and heart function. This test helps identify areas of poor blood flow or damaged heart tissue. There's minimal radiation exposure, and most people return home the same day with no recovery time needed.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.5
+        },
+        {
+          "code": "apc",
+          "valueString": "1522"
+        }
+      ]
+    },
+    {
+      "code": "R021Z",
+      "display": "Cardiac function testing",
+      "definition": "A cardiac function testing evaluates how effectively your heart pumps and circulates blood. Your doctor uses these results to diagnose heart problems, check medication effectiveness, or clear you for surgery. The tests are painless, non-invasive, and typically take 30-60 minutes. You'll return home the same day feeling completely normal. This type of procedure can be performed various ways, including ecg and functional cardiac testing, and the cost may vary depending on the specific approach or service provided.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.58
+        },
+        {
+          "code": "apc",
+          "valueString": "5733"
+        }
+      ],
+      "concept": [
+        {
+          "code": "R0211",
+          "display": "Cardiac function testing: ECG"
+        },
+        {
+          "code": "R0212",
+          "display": "Cardiac function testing: Functional cardiac testing"
+        }
+      ]
+    },
+    {
+      "code": "R0220",
+      "display": "Parathyroid scan",
+      "definition": "A parathyroid scan locates overactive parathyroid glands that control calcium levels in your body. During this outpatient test, you'll receive a small injection of radioactive tracer and then have imaging scans taken about 2-3 hours later. The tracer accumulates in overactive parathyroid tissue, allowing your doctor to pinpoint exactly where the problem is. This information guides treatment decisions, whether medical or surgical. The procedure is painless, safe, and you'll go home the same day.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Radiology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5592"
+        }
+      ]
+    },
+    {
+      "code": "SP03Z",
+      "display": "Hysterectomy",
+      "definition": "A hysterectomy removes your uterus to treat fibroids, cancer, endometriosis, or other gynecologic conditions. Your surgeon can use open surgery, vaginal approach, or laparoscopic minimally invasive technique depending on your situation. The open or vaginal approach typically requires a 1-2 day hospital stay and 4-6 weeks of recovery; laparoscopic surgery is faster, with a typical recovery of 2-3 weeks. You'll have some vaginal bleeding and cramping for a few weeks. Most people experience relief from their original symptoms. After recovery, you can return to normal activities including exercise and intercourse. This type of procedure can be performed various ways, including an open surgical approach or a minimally invasive laparoscopic technique, and the cost may vary depending on the method used.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Gynecology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 3.44
+        },
+        {
+          "code": "apc",
+          "valueString": "5415"
+        }
+      ],
+      "concept": [
+        {
+          "code": "SP031",
+          "display": "Hysterectomy: Open/vaginal"
+        },
+        {
+          "code": "SP032",
+          "display": "Hysterectomy: Laparoscopic"
+        }
+      ]
+    },
+    {
+      "code": "SP04Z",
+      "display": "Hysteroscopy",
+      "definition": "A hysteroscopy directly visualizes and treats conditions inside your uterus. During this brief outpatient procedure, your surgeon passes a thin camera through your cervix to see inside your uterus. For simple diagnostic cases, the doctor may just take tissue samples or assess the cavity. For complex cases, specialized instruments perform ablation to stop heavy bleeding, remove fibroids, or perform sterilization. The procedure takes 15-60 minutes depending on complexity and you're sedated for comfort. Most people go home the same day. Recovery is quick with minimal cramping or spotting. The cost of this procedure may vary depending on the complexity involved. Categories include simple (diagnostic, biopsy) and complex (ablation, myomectomy, sterilization).",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Gynecology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5415"
+        }
+      ],
+      "concept": [
+        {
+          "code": "SP041",
+          "display": "Hysteroscopy: Simple (diagnostic, biopsy)"
+        },
+        {
+          "code": "SP042",
+          "display": "Hysteroscopy: Complex (ablation, myomectomy, sterilization)"
+        }
+      ]
+    },
+    {
+      "code": "SP060",
+      "display": "Ovarian cystectomy",
+      "definition": "An ovarian cystectomy is a minimally invasive surgery to remove a fluid-filled sac (a cyst) from your ovary, usually while keeping the ovary itself intact. Your doctor may recommend it when a cyst causes pain, grows large, does not go away on its own, or looks concerning on imaging. Your surgeon makes a few small incisions in your lower abdomen and uses a camera and specialized tools, typically under general anesthesia, to carefully remove the cyst. Most people go home the same day or after a short stay and recover within a couple of weeks. The goal is to relieve symptoms and protect your ovary and future fertility when possible.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Gynecology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5361"
+        }
+      ]
+    },
+    {
+      "code": "SP130",
+      "display": "Tubal ligation",
+      "definition": "A tubal ligation is a minimally invasive female sterilization surgery that closes your fallopian tubes, the tubes that carry eggs from the ovaries to the uterus. With the tubes sealed, eggs and sperm cannot meet, so pregnancy cannot occur.Sealing these tubes prevents eggs and sperm from meeting, so pregnancy cannot occur. Your surgeon makes one or two small incisions near your navel and uses a camera and specialized instruments, usually under general anesthesia, to cut, seal, clip, or band each tube. The procedure is often done as day surgery, and most people go home the same day. Your menstrual cycle and hormones stay the same. Because it is permanent, your doctor will make sure you are certain about your decision beforehand.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Gynecology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5361"
+        }
+      ]
+    },
+    {
+      "code": "UP01Z",
+      "display": "Bladder neck resection",
+      "definition": "A bladder neck resection corrects bladder outlet obstruction or stricture that blocks urine flow. During this outpatient or brief inpatient procedure, your urologist uses an endoscope (camera) passed through the urethra to reach the bladder neck and either incise scar tissue, resect obstructive tissue, or perform sphincterotomy (cutting the muscle). The procedure takes 20-60 minutes and is less invasive than open surgery. You may have a temporary catheter for 24-48 hours. Most people experience improved urinary flow within weeks. Recovery typically takes 2-4 weeks. Follow-up ensures your urine flow remains good. This type of procedure can be performed various ways, including incision / contracture release, resection, and sphincterotomy, and the cost may vary depending on the specific approach or service provided.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Urology / Nephrology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5374"
+        }
+      ],
+      "concept": [
+        {
+          "code": "UP011",
+          "display": "Bladder neck resection: Incision / contracture release"
+        },
+        {
+          "code": "UP012",
+          "display": "Bladder neck resection: Resection"
+        },
+        {
+          "code": "UP013",
+          "display": "Bladder neck resection: Sphincterotomy"
+        }
+      ]
+    },
+    {
+      "code": "UP020",
+      "display": "Circumcision",
+      "definition": "A circumcision removes the foreskin covering the tip of your penis. This brief outpatient procedure takes 20-30 minutes and can be performed at any age. You're given local anesthesia for comfort. Afterwards, you'll have swelling and soreness for 1-2 weeks. Activity restrictions vary by age, children usually resume normal play within days, while adults need 1-2 weeks before strenuous activity. Sexual activity should wait 4 weeks. Your doctor provides clear wound care instructions. Most people heal perfectly without complications. Circumcision may be performed for religious reasons, phimosis (tight foreskin), or personal preference.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Urology / Nephrology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5373"
+        }
+      ]
+    },
+    {
+      "code": "UP03Z",
+      "display": "Cystourethroscopy / ureteroscopy",
+      "definition": "A cystourethroscopy or ureteroscopy visualizes the inside of your bladder and urethra (or ureters) using a thin camera passed through the urethra. This outpatient procedure can be purely diagnostic or therapeutic, depending on your condition. The camera shows your doctor exactly what's causing symptoms like bleeding, pain, or obstruction. If needed, small instruments can remove stones, destroy tumors, remove tissue samples, or place stents. The procedure takes 15-90 minutes depending on complexity. You may have mild burning with urination for a few days. Most people go home the same day. The cost of this procedure may vary depending on the complexity involved. Categories include diagnostic, therapeutic, simple, therapeutic, complex, with ureteroscopy, and with implant.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Urology / Nephrology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.68
+        },
+        {
+          "code": "apc",
+          "valueString": "5372"
+        }
+      ],
+      "concept": [
+        {
+          "code": "UP031",
+          "display": "Cystourethroscopy / ureteroscopy: Diagnostic"
+        },
+        {
+          "code": "UP032",
+          "display": "Cystourethroscopy / ureteroscopy: Therapeutic, simple"
+        },
+        {
+          "code": "UP033",
+          "display": "Cystourethroscopy / ureteroscopy: Therapeutic, complex"
+        },
+        {
+          "code": "UP034",
+          "display": "Cystourethroscopy / ureteroscopy: with ureteroscopy"
+        }
+      ]
+    },
+    {
+      "code": "UP040",
+      "display": "Hydrocelectomy",
+      "definition": "A hydrocelectomy removes fluid collecting around your testicle due to hydrocele. This brief outpatient procedure takes 30-45 minutes where your urologist makes a small incision to access and drain the fluid, then closes the membrane lining to prevent recurrence. Local anesthesia provides comfort. Afterwards, you'll have mild groin soreness and swelling for 1-2 weeks. You should avoid heavy lifting and strenuous activity for 2-3 weeks. Most people return to work within a week. The procedure is very successful with low recurrence rates. Your scrotal swelling and discomfort resolve completely.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Urology / Nephrology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5341"
+        }
+      ]
+    },
+    {
+      "code": "UP050",
+      "display": "Transurethral resection of the prostate (TURP)",
+      "definition": "A transurethral resection of the prostate (TURP) removes obstructing prostate tissue causing urinary problems. During this outpatient or brief overnight inpatient procedure, your urologist passes a resectoscope through the urethra to the prostate and uses radiofrequency energy to vaporize obstructive tissue. The procedure takes 30-90 minutes. Most people experience dramatically improved urinary stream within weeks. You may have temporary blood-tinged urine and mild discomfort for a few days. Activity restrictions last 3-4 weeks. Long-term success rates are excellent with symptom improvement lasting many years. This type of procedure can be performed various ways, including initial / revision, and the cost may vary depending on the specific approach or service provided.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Urology / Nephrology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5375"
+        }
+      ]
+    },
+    {
+      "code": "UP06Z",
+      "display": "Urethroplasty",
+      "definition": "Urethroplasty repairs damage or narrowing of the urethra caused by stricture, injury, or birth defects. Treatment approaches range from simple widening procedures to complex reconstruction with grafts or flaps. Your urologist assesses the stricture location and extent to determine the best surgical approach. Success rates are high with modern techniques, and most patients experience restored normal urinary flow and elimination of symptoms.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Urology / Nephrology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.21
+        },
+        {
+          "code": "apc",
+          "valueString": "5374"
+        }
+      ],
+      "concept": [
+        {
+          "code": "UP061",
+          "display": "Urethroplasty: Urethrotomy / meatotomy / Urethromeatoplasty"
+        },
+        {
+          "code": "UP062",
+          "display": "Urethroplasty: Urethromeatoplasty"
+        },
+        {
+          "code": "UP063",
+          "display": "Urethroplasty: Urethral injury / fistula repair"
+        },
+        {
+          "code": "UP064",
+          "display": "Urethroplasty: Urethroplasty, staged reconstruction"
+        }
+      ]
+    },
+    {
+      "code": "UP070",
+      "display": "Nephrectomy",
+      "definition": "Nephrectomy removes a kidney when it is affected by cancer, severe disease, chronic infection, or severe trauma. Your surgeon may use traditional open surgery or minimally invasive laparoscopic or robotic techniques. Modern surgical approaches have significantly reduced recovery time while maintaining excellent cancer outcomes. If you have two functional kidneys, loss of one is generally well-tolerated, and your remaining kidney typically maintains normal kidney function.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Urology / Nephrology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 2.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5362"
+        }
+      ]
+    },
+    {
+      "code": "UP08Z",
+      "display": "Lithotripsy (kidney stone)",
+      "definition": "Lithotripsy is a procedure to break up or remove kidney stones that are too large to pass on their own. Kidney stones are hard mineral deposits that can cause severe pain and block the flow of urine. Depending on the size and location of the stone, your doctor may use focused shock waves delivered from outside the body to shatter the stone into small pieces that you then pass in your urine, or, for larger stones, a minimally invasive surgery through a small incision in the back to remove the stone directly. The approach is chosen to fit your stone. Both are done with anesthesia so you are comfortable, and clearing the stone relieves pain and restores normal urine flow.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Urology / Nephrology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.41
+        },
+        {
+          "code": "apc",
+          "valueString": "5374"
+        }
+      ],
+      "concept": [
+        {
+          "code": "UP081",
+          "display": "Lithotripsy (kidney stone): ESWL"
+        },
+        {
+          "code": "UP082",
+          "display": "Lithotripsy (kidney stone): Percutaneous nephrolithotomy"
+        }
+      ]
+    },
+    {
+      "code": "UP110",
+      "display": "Prostate biopsy",
+      "definition": "A prostate biopsy collects tissue samples from your prostate to diagnose cancer or confirm high PSA levels. During this quick outpatient procedure, your urologist uses ultrasound guidance to direct a needle into the prostate and remove small tissue samples. The procedure takes 10-15 minutes and you're given local anesthesia for comfort. Afterward, you may have slight blood in your urine or semen for a few days, completely normal. Most people experience minimal discomfort. Results guide decisions about treatment or monitoring. You go home the same day and resume normal activities within a few days.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Urology / Nephrology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5374"
+        }
+      ]
+    },
+    {
+      "code": "UT01Z",
+      "display": "AV access creation for dialysis",
+      "definition": "An arteriovenous (AV) access is a surgically created connection between an artery and vein in your arm or leg that allows blood to flow quickly for dialysis treatment. During this procedure, your surgeon connects a vein directly to an artery, which causes the vein to enlarge and strengthen over time. This enlarged vein provides reliable access for dialysis needles and improves blood flow during treatment. The procedure takes about an hour and is typically performed as an outpatient surgery. You'll receive local or regional anesthesia so you remain awake but comfortable. Recovery usually takes a few days, though the access may need 2-6 weeks to fully mature before it's ready for dialysis. This procedure can be done as a simple connection or a more complex revision if you have scar tissue or need repair of an existing access. The cost of this procedure may vary depending on the complexity involved. Categories include arteriovenous (av) anastomosis, simple and complex (incl. revision or repair).",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Urology / Nephrology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 2.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5184"
+        }
+      ],
+      "concept": [
+        {
+          "code": "UT011",
+          "display": "AV access creation for dialysis: Arteriovenous (AV) anastomosis, simple"
+        },
+        {
+          "code": "UT012",
+          "display": "AV access creation for dialysis: Complex (incl. revision or repair)"
+        }
+      ]
+    },
+    {
+      "code": "UT02Z",
+      "display": "Dialysis",
+      "definition": "Dialysis is a lifesaving treatment that removes waste and excess water from your blood when your kidneys can no longer do this job. Two main types exist: hemodialysis (filtering blood through an artificial kidney machine) and peritoneal dialysis (using your abdominal lining to filter blood). The type of dialysis recommended depends on your kidney function level, lifestyle, and medical status. Most dialysis patients require three sessions per week, each lasting 3-5 hours. With proper dialysis and medical management, patients with kidney failure can enjoy good quality of life.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Urology / Nephrology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 2.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5401"
+        }
+      ],
+      "concept": [
+        {
+          "code": "UT021",
+          "display": "Dialysis: Other dialysis (peritoneal dialysis, hemofiltration)"
+        },
+        {
+          "code": "UT022",
+          "display": "Dialysis: Hemodialysis"
+        }
+      ]
+    },
+    {
+      "code": "VE010",
+      "display": "Eye exam",
+      "definition": "An eye exam is a comprehensive check of your vision and the health of your eyes. Your eye doctor measures how clearly you see, determines whether you need glasses or contact lenses, and examines the structures inside and outside your eyes for signs of disease. During the visit you read from an eye chart, look through different lenses to fine-tune your prescription, and have the pressure and interior of your eyes checked, sometimes after drops are used to widen your pupils. The exam is painless, though dilating drops can make your vision blurry and light-sensitive for a few hours. Regular eye exams keep your prescription current and help catch conditions such as glaucoma, cataracts, or diabetic eye changes early, when they are most treatable.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "item_service"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Ophthalmology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 5.0
+        },
+        {
+          "code": "apc",
+          "valueString": "5012"
+        }
+      ]
+    },
+    {
+      "code": "VP01Z",
+      "display": "Cataract surgery",
+      "definition": "Cataract surgery is an outpatient procedure that removes your cloudy lens and replaces it with a clear artificial lens to restore vision. Your eye surgeon makes a small incision, breaks up the cloudy lens with ultrasound, and gently removes it. A new lens implant is inserted to focus light on your retina. The procedure takes about 15 minutes per eye under local anesthesia. You go home the same day and vision gradually improves over weeks. This category includes standard extraction and extraction combined with glaucoma treatment (MIGS, Minimally Invasive Glaucoma Surgery). This type of procedure can be performed various ways, including standard extraction and with migs, and the cost may vary depending on the approach used.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Ophthalmology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5493"
+        }
+      ],
+      "concept": [
+        {
+          "code": "VP011",
+          "display": "Cataract surgery: Standard extraction"
+        },
+        {
+          "code": "VP012",
+          "display": "Cataract surgery: with MIGS"
+        }
+      ]
+    },
+    {
+      "code": "VP020",
+      "display": "Retinal repair surgery",
+      "definition": "Retinal repair surgery is an outpatient procedure that repairs damage to your retina, such as a retinal detachment, hole, or macular problem. Your ophthalmologist performs specialized techniques to reattach the retina or repair the damage using lasers, injected gases, or oils. The procedure takes 1-3 hours depending on the problem. You go home the same day or may stay overnight. Recovery involves activity restrictions, positioning requirements, and frequent follow-up appointments to monitor healing.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Ophthalmology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5492"
+        }
+      ]
+    },
+    {
+      "code": "VP030",
+      "display": "Glaucoma surgery",
+      "definition": "Glaucoma surgery lowers the pressure inside the eye (intraocular pressure) when eye drops, oral medications, or laser treatment have not been sufficient to prevent progressive damage to the optic nerve. Several surgical approaches are used depending on the type and severity of glaucoma: trabeculectomy creates a new drainage opening in the eye wall; canaloplasty uses a microcatheter and stent to widen the eye's natural drainage canal; and aqueous shunt implantation (tube shunt surgery) places a small drainage device to redirect fluid to a reservoir under the conjunctiva. Your ophthalmologist will recommend the most appropriate procedure based on your specific diagnosis, prior treatments, and overall eye health. The goal in all cases is to stabilize eye pressure and protect your remaining vision.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Ophthalmology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5492"
+        }
+      ]
+    },
+    {
+      "code": "VP040",
+      "display": "YAG laser capsulotomy",
+      "definition": "A YAG (yttrium-aluminum-garnet) laser capsulotomy is a quick laser procedure that restores clear vision when the membrane behind a lens implant becomes cloudy after cataract surgery. This clouding, sometimes called a secondary cataract, can develop months or years later and cause blurry or hazy vision much like the original cataract. Your eye doctor uses numbing drops and a focused laser to create a small opening in the cloudy membrane, letting light pass through clearly again. You sit at a machine and see flashes of light, and most people feel little or no discomfort. The procedure takes only a few minutes, requires no incision, and most people notice their vision clear within a day, returning to normal activities almost immediately.",
+      "property": [
+        {
+          "code": "type",
+          "valueString": "encounter"
+        },
+        {
+          "code": "disease-area",
+          "valueString": "Ophthalmology"
+        },
+        {
+          "code": "place-of-service",
+          "valueString": "outpatient"
+        },
+        {
+          "code": "shoppability",
+          "valueDecimal": 4.5
+        },
+        {
+          "code": "apc",
+          "valueString": "5481"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "id": "AE02Z",
+  "version": "2.0",
+  "title": "Outpatient clinic visit",
+  "description": "Outpatient clinic visit is an appointment with your doctor in a medical office or clinic setting. These visits allow your doctor to assess your health, evaluate symptoms, perform exams, and discuss your medical care. You'll meet with your doctor, who will listen to your concerns and perform appropriate evaluations. Your doctor may order tests, perform physical exams, or discuss treatment options with you. Clinic visits may focus on managing chronic conditions, addressing acute problems, or preventive health maintenance. The complexity of your visit depends on the nature of your health concerns and how much evaluation and discussion is needed. Your doctor will explain findings and discuss next steps in your care during your visit. The cost of this procedure may vary depending on the complexity involved. Categories include low complexity (new or established), moderate complexity (new or established), and high complexity (new or established).",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "General Medicine",
+  "place_of_service": "outpatient",
+  "shoppability": 3.96,
+  "apc": "5012",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "99211",
+      "code_type": "CPT"
+    },
+    {
+      "code": "99212",
+      "code_type": "CPT"
+    },
+    {
+      "code": "99213",
+      "code_type": "CPT"
+    },
+    {
+      "code": "99202",
+      "code_type": "CPT"
+    },
+    {
+      "code": "99203",
+      "code_type": "CPT"
+    },
+    {
+      "code": "99204",
+      "code_type": "CPT"
+    },
+    {
+      "code": "99244",
+      "code_type": "CPT"
+    },
+    {
+      "code": "99243",
+      "code_type": "CPT"
+    },
+    {
+      "code": "99214",
+      "code_type": "CPT"
+    },
+    {
+      "code": "G0463",
+      "code_type": "HCPCS"
+    },
+    {
+      "code": "99205",
+      "code_type": "CPT"
+    },
+    {
+      "code": "99215",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "AE021",
+      "name": "Low complexity (new or established)",
+      "anchor_codes": [
+        {
+          "code": "99202",
+          "code_type": "CPT"
+        },
+        {
+          "code": "99203",
+          "code_type": "CPT"
+        },
+        {
+          "code": "99211",
+          "code_type": "CPT"
+        },
+        {
+          "code": "99212",
+          "code_type": "CPT"
+        },
+        {
+          "code": "99213",
+          "code_type": "CPT"
+        },
+        {
+          "code": "99243",
+          "code_type": "CPT"
+        },
+        {
+          "code": "G0463",
+          "code_type": "HCPCS"
+        }
+      ]
+    },
+    {
+      "id": "AE022",
+      "name": "Moderate complexity (new or established)",
+      "anchor_codes": [
+        {
+          "code": "99204",
+          "code_type": "CPT"
+        },
+        {
+          "code": "99214",
+          "code_type": "CPT"
+        },
+        {
+          "code": "99244",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "AE023",
+      "name": "High complexity (new or established)",
+      "anchor_codes": [
+        {
+          "code": "99205",
+          "code_type": "CPT"
+        },
+        {
+          "code": "99215",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "99211",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Office or other outpatient visit, established patient; May not require presence of physician, minimal"
+    },
+    {
+      "code": "99212",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Office or other outpatient visit, established patient; Straightforward medical decision making, 10-19 min"
+    },
+    {
+      "code": "99213",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Office or other outpatient visit, established patient; Low complexity medical decision making, 20-29 min"
+    },
+    {
+      "code": "99205",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Office or other outpatient visit, new patient; High complexity medical decision making, 60-74 min"
+    },
+    {
+      "code": "99202",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Office or other outpatient visit, new patient; Straightforward medical decision making, 15-29 min"
+    },
+    {
+      "code": "99203",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Office or other outpatient visit, new patient; Low complexity medical decision making, 30-44 min"
+    },
+    {
+      "code": "99204",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Office or other outpatient visit, new patient; Moderate complexity medical decision making, 45-59 min"
+    },
+    {
+      "code": "99215",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Office or other outpatient visit, established patient; High complexity medical decision making, 40-54 min"
+    },
+    {
+      "code": "99244",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Office or other outpatient consultation for a new or established patient, which requires a medically appropriate history and/or examination and moderate level of medical decision making. when using total time on the date of the encounter for code selection, 40 minutes must be met or exceeded"
+    },
+    {
+      "code": "99243",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Office or other outpatient consultation for a new or established patient, which requires a medically appropriate history and/or examination and low level of medical decision making. when using total time on the date of the encounter for code selection, 30 minutes must be met or exceeded"
+    },
+    {
+      "code": "99214",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Office or other outpatient visit, established patient; Moderate complexity medical decision making, 30-39 min"
+    },
+    {
+      "code": "G0463",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Outpatient clinic visit to evaluate and treat patient"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

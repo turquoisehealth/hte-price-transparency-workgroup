@@ -1,0 +1,111 @@
+{
+  "id": "KP010",
+  "version": "2.0",
+  "title": "Arthrocentesis",
+  "description": "An arthrocentesis is an outpatient procedure where your doctor uses a needle to insert fluid into one of your joints, usually your knee, shoulder, hip, or ankle. This is done to inject medication (like a steroid or lubricant) to reduce inflammation and pain, or sometimes to remove fluid from a swollen joint. The procedure takes just a few minutes and is performed in your doctor's office or an outpatient clinic. Your doctor uses ultrasound or other imaging to guide the needle to the exact location inside the joint. You may feel pressure or mild discomfort, but the procedure is not very painful. After the injection, you can usually go home immediately and return to light activities. You should avoid strenuous activity for a day or two while the injection takes effect.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 5.0,
+  "apc": "5441",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "20606",
+      "code_type": "CPT"
+    },
+    {
+      "code": "20605",
+      "code_type": "CPT"
+    },
+    {
+      "code": "20612",
+      "code_type": "CPT"
+    },
+    {
+      "code": "20611",
+      "code_type": "CPT"
+    },
+    {
+      "code": "20600",
+      "code_type": "CPT"
+    },
+    {
+      "code": "20610",
+      "code_type": "CPT"
+    },
+    {
+      "code": "20604",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "20606",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthrocentesis, aspiration and/or injection, intermediate joint or bursa (e.g., wrist, elbow, ankle); With ultrasound guidance and permanent recording"
+    },
+    {
+      "code": "20605",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthrocentesis, aspiration and/or injection, intermediate joint or bursa (e.g., wrist, elbow, ankle); Without ultrasound guidance"
+    },
+    {
+      "code": "20612",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Aspiration and/or injection of ganglion cyst"
+    },
+    {
+      "code": "20611",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthrocentesis, aspiration and/or injection, major joint or bursa (e.g., shoulder, hip, knee, subacromial bursa); With ultrasound guidance, with permanent recording and reporting"
+    },
+    {
+      "code": "20600",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthrocentesis, aspiration and/or injection, small joint or bursa (e.g., fingers, toes); Without ultrasound guidance"
+    },
+    {
+      "code": "20610",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthrocentesis, aspiration and/or injection, major joint or bursa (e.g., shoulder, hip, knee); Without ultrasound guidance"
+    },
+    {
+      "code": "20604",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthrocentesis, aspiration and/or injection, small joint or bursa (e.g., fingers, toes); With ultrasound guidance and permanent recording"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

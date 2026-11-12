@@ -1,0 +1,466 @@
+{
+  "id": "QP01Z",
+  "version": "2.0",
+  "title": "Laryngoscopy",
+  "description": "Laryngoscopy uses a specialized scope to visualize your voice box (larynx) for diagnosis or treatment of voice, throat, or breathing problems. The procedure may be diagnostic (to identify the cause of hoarseness, throat pain, or breathing difficulty) or therapeutic (to remove polyps, nodules, or treat other conditions). Your doctor can perform laryngoscopy using a flexible scope (less invasive) or rigid scope (allowing more treatment options). The procedure is relatively quick, minimally uncomfortable, and provides valuable information about laryngeal health.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Ear, Nose & Throat",
+  "place_of_service": "outpatient",
+  "shoppability": 4.86,
+  "apc": "5151",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "31561",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31575",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31536",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31570",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31535",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31541",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31545",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31573",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31576",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31525",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31526",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31505",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31574",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31529",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31571",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31530",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31528",
+      "code_type": "CPT"
+    },
+    {
+      "code": "31572",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "QP011",
+      "name": "Diagnostic, without biopsy",
+      "anchor_codes": [
+        {
+          "code": "31505",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31575",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "QP012",
+      "name": "Diagnostic, with biopsy",
+      "anchor_codes": [
+        {
+          "code": "31525",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31526",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31576",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "QP013",
+      "name": "Therapeutic",
+      "anchor_codes": [
+        {
+          "code": "31570",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31571",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31573",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31574",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "QP014",
+      "name": "Operative, simple",
+      "anchor_codes": [
+        {
+          "code": "31528",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31529",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31530",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31535",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31536",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31541",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31545",
+          "code_type": "CPT"
+        },
+        {
+          "code": "31572",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "QP015",
+      "name": "Operative, simple",
+      "anchor_codes": [
+        {
+          "code": "31561",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "J3301",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.44110212043909364,
+      "description": "Injection, triamcinolone acetonide, not otherwise specified, 10 MG"
+    },
+    {
+      "code": "99213",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5522388059701494,
+      "description": "Office or other outpatient visit, established patient; Low complexity medical decision making, 20-29 min"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.44110212043909364,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "31561",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy, direct, operative, with arytenoidectomy; With operating microscope or telescope"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5029124354213527,
+      "description": "Level IV - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.4382163840568836,
+      "description": "General"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.4629990881073032,
+      "description": "General"
+    },
+    {
+      "code": "31575",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy, flexible; Diagnostic"
+    },
+    {
+      "code": "31536",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy, direct, operative, with biopsy; With operating microscope or telescope"
+    },
+    {
+      "code": "31570",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy, direct, with injection into vocal cord(s), therapeutic"
+    },
+    {
+      "code": "31535",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy, direct, operative, with biopsy; Other than newborn"
+    },
+    {
+      "code": "C1726",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.36333729641129825,
+      "description": "Catheter, balloon dilatation, non-vascular"
+    },
+    {
+      "code": "00320",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9995455807730176,
+      "description": "Anesthesia for all procedures on esophagus, thyroid, larynx, trachea and lymphatic system of neck; Not otherwise specified, age 1 year or older"
+    },
+    {
+      "code": "31541",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy, direct, operative, with excision of tumor and/or stripping of vocal cords or epiglottis; With operating microscope or telescope"
+    },
+    {
+      "code": "31545",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy, direct, operative, with operating microscope or telescope, with submucosal removal of non-neoplastic lesion(s) of vocal cord; Reconstruction with local tissue flap(s)"
+    },
+    {
+      "code": "31573",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy, flexible; With therapeutic injection(s) (e.g., chemodenervation agent or corticosteroid, injected percutaneous, transoral, or via endoscope channel), unilateral"
+    },
+    {
+      "code": "31576",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy, flexible; With biopsy(ies)"
+    },
+    {
+      "code": "31525",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy direct, with or without tracheoscopy; Diagnostic, except newborn"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.44110212043909364,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "G0463",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Outpatient clinic visit to evaluate and treat patient"
+    },
+    {
+      "code": "31526",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy direct, with or without tracheoscopy; Diagnostic, with operating microscope or telescope"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.44110212043909364,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "31505",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy, indirect; Diagnostic (separate procedure)"
+    },
+    {
+      "code": "31574",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy, flexible; With injection(s) for augmentation (e.g., percutaneous, transoral), unilateral"
+    },
+    {
+      "code": "31529",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy direct, with or without tracheoscopy; With dilation, subsequent"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.5166737848164095,
+      "description": "General"
+    },
+    {
+      "code": "31571",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy, direct, with injection into vocal cord(s), therapeutic; With operating microscope or telescope"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.44110212043909364,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "31530",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy, direct, operative, with foreign body removal"
+    },
+    {
+      "code": "31528",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy direct, with or without tracheoscopy; With dilation, initial"
+    },
+    {
+      "code": "99285",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.576271186440678,
+      "description": "ED visit for complex medical decision-making involving history/exam/counseling"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.44110212043909364,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "31572",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laryngoscopy, flexible; With ablation or destruction of lesion(s) with laser, unilateral"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

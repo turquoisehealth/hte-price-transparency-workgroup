@@ -1,0 +1,223 @@
+{
+  "id": "CP07Z",
+  "version": "2.0",
+  "title": "Outpatient percutaneous coronary intervention (PCI)",
+  "description": "Percutaneous coronary intervention (PCI) is an outpatient procedure where your cardiologist uses a catheter to open blocked coronary arteries and restore blood flow to your heart. Your doctor threads a thin tube through your blood vessels, locates the blockage, and uses a balloon or other tool to clear it. Usually a stent (small mesh tube) is placed to keep the artery open. PCI provides quick relief of chest pain and prevents heart attacks. The procedure is performed in a cardiac catheterization lab while you're awake but sedated. The cost of this procedure may vary depending on the complexity involved. Categories include standard pci and complex (multi-vessel).",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Cardiac & Vascular",
+  "place_of_service": "outpatient",
+  "shoppability": 3.47,
+  "apc": "5193",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "92937",
+      "code_type": "CPT"
+    },
+    {
+      "code": "C9600",
+      "code_type": "HCPCS"
+    },
+    {
+      "code": "92928",
+      "code_type": "CPT"
+    },
+    {
+      "code": "92933",
+      "code_type": "CPT"
+    },
+    {
+      "code": "92943",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "CP071",
+      "name": "Standard PCI",
+      "anchor_codes": [
+        {
+          "code": "92928",
+          "code_type": "CPT"
+        },
+        {
+          "code": "92933",
+          "code_type": "CPT"
+        },
+        {
+          "code": "92937",
+          "code_type": "CPT"
+        },
+        {
+          "code": "92943",
+          "code_type": "CPT"
+        },
+        {
+          "code": "C9600",
+          "code_type": "HCPCS"
+        }
+      ]
+    },
+    {
+      "id": "CP072",
+      "name": "Complex (multi-vessel)",
+      "anchor_codes": []
+    }
+  ],
+  "contents": [
+    {
+      "code": "93010",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6624872845121266,
+      "description": "Electrocardiogram, routine ECG; Interpretation & report only"
+    },
+    {
+      "code": "C1874",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Stent, coated/covered, with delivery system"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "99152",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7293675755764082,
+      "description": "Moderate sedation services provided by the same physician or other qualified health care professional performing the diagnostic or therapeutic service that the sedation supports, requiring the presence of an independent trained observer to assist in the monitoring of the Patient's level of consciousness and physiological status; Initial 15 minutes of intraservice time, patient age 5 years or older"
+    },
+    {
+      "code": "92937",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "PCI via bypass graft, single vessel"
+    },
+    {
+      "code": "C9600",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Percutaneous transcatheter placement of drug-eluting intracoronary stent; Single vessel"
+    },
+    {
+      "code": "C1760",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Closure device, vascular (implantable/insertable)"
+    },
+    {
+      "code": "99153",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7293675755764082,
+      "description": "Moderate sedation services provided by the same physician or other qualified health care professional performing the diagnostic or therapeutic service that the sedation supports, requiring the presence of an independent trained observer to assist in the monitoring of the Patient's level of consciousness and physiological status; Each additional 15 minutes intraservice time (list separately in addition to code for primary service)"
+    },
+    {
+      "code": "92928",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Percutaneous transcatheter placement of an intracoronary stent(s), with coronary angioplasty when performed, for a single major coronary artery or branch"
+    },
+    {
+      "code": "93005",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.5274102570767591,
+      "description": "Electrocardiogram, routine ECG; Tracing only"
+    },
+    {
+      "code": "Q9967",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Low osmolar contrast material, 300-399 MG/ML iodine concentration, per ML"
+    },
+    {
+      "code": "92933",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "PCI with stent + atherectomy, single vessel"
+    },
+    {
+      "code": "92978",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Endoluminal imaging of coronary vessel or graft using intravascular ultrasound (ivus) or optical coherence tomography (OCT) during diagnostic evaluation and/or therapeutic intervention including imaging supervision, interpretation and report; Initial vessel (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9938655090847651,
+      "description": "General"
+    },
+    {
+      "code": "J1644",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, heparin sodium, per 1000 units"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "92943",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "PCI for chronic total occlusion (cto), single vessel"
+    },
+    {
+      "code": "85347",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9148449481427569,
+      "description": "Coagulation time; Activated"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "KP350",
+  "version": "2.0",
+  "title": "Trigger point injection",
+  "description": "A trigger point injection is an outpatient procedure where your doctor injects medication directly into a trigger point, a tight, knotted muscle that's causing pain. Trigger points develop from muscle overuse, stress, or injury. Your doctor will palpate (feel) your muscle to locate the trigger point, then inject a local anesthetic and sometimes a steroid to relax the muscle and reduce inflammation. The injection takes just a few minutes. You may feel soreness for a day or two after the injection. Most patients experience pain relief within a few days to a week. You should avoid strenuous activity for a day or two after the injection. Trigger point injections often work best in combination with physical therapy, stretching, and other pain management techniques. Multiple injections over time may be needed for lasting relief.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 5.0,
+  "apc": "5441",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "20550",
+      "code_type": "CPT"
+    },
+    {
+      "code": "20553",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "20550",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s); Single tendon sheath or ligament"
+    },
+    {
+      "code": "20553",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Injection(s); 3 or more trigger points, 1 or more muscles"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

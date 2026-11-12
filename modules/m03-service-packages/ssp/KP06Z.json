@@ -1,0 +1,224 @@
+{
+  "id": "KP06Z",
+  "version": "2.0",
+  "title": "Knee replacement",
+  "description": "A knee replacement is an outpatient surgical procedure where your surgeon removes damaged bone and cartilage from your knee and replaces it with artificial components. Knee replacement is performed when arthritis or injury has damaged your knee joint beyond repair, causing pain and limiting your mobility. The surgery takes about 1-2 hours, and you may go home the same day or stay overnight. You'll use crutches or a walker after surgery and begin physical therapy immediately. You can put weight on your new knee right away in most cases. Full recovery typically takes 3-6 months. You'll need to follow activity restrictions for several weeks to protect your new knee. Most patients experience significant pain relief and improved function. This type of procedure can be performed various ways, including partial/unicompartmental and total, and the cost may vary depending on the extent of the procedure.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5115",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "27447",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27438",
+      "code_type": "CPT"
+    },
+    {
+      "code": "27446",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "KP061",
+      "name": "Partial/unicompartmental",
+      "anchor_codes": [
+        {
+          "code": "27438",
+          "code_type": "CPT"
+        },
+        {
+          "code": "27446",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "KP062",
+      "name": "Total",
+      "anchor_codes": [
+        {
+          "code": "27447",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "01392",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8205128205128206,
+      "description": "Anesthesia for all open procedures on upper ends of tibia, fibula, and/or patella"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9502515436962332,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9605467427717664,
+      "description": "General"
+    },
+    {
+      "code": "C1713",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anchor/screw for opposing bone-to-bone or soft tissue-to-bone (implantable)"
+    },
+    {
+      "code": "C1776",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Joint device (implantable)"
+    },
+    {
+      "code": "01402",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.7976686484715135,
+      "description": "Anesthesia for open or surgical arthroscopic procedures on knee joint; Total knee arthroplasty"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "73560",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.7115826825880402,
+      "description": "X-ray imaging of knee, one or two views"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "27447",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Replace medial and lateral knee joint surfaces plus potential patella resurfacing"
+    },
+    {
+      "code": "01400",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6886075949367089,
+      "description": "Anesthesia for open or surgical arthroscopic procedures on knee joint; Not otherwise specified"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9502515436962332,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "27438",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Arthroplasty, knee (patella only); Patella revision; Patellofemoral arthroplasty"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9502515436962332,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9502515436962332,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "27446",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Medial or lateral knee condyle and plateau arthroplasty"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9502515436962332,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "97161",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8175578667226949,
+      "description": "Physical therapy evaluation: low complexity, requiring these components: a history with no personal factors and/or comorbidities that impact the plan of care; An examination of body system(s) using standardized tests and measures addressing 1-2 elements from any of the following: body structures and functions, activity limitations, and/or participation restrictions; A clinical presentation with stable and/or uncomplicated characteristics; And clinical decision making of low complexity using standardized patient assessment instrument and/or measurable assessment of functional outcome. typically, 20 minutes are spent face-to-face with the patient and/or family"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9502515436962332,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "64447",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6538461538461539,
+      "description": "Injection(s), anesthetic agent(s) and/or steroid; Femoral nerve, including imaging guidance, when performed"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

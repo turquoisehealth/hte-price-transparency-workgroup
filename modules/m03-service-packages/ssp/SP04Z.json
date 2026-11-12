@@ -1,0 +1,240 @@
+{
+  "id": "SP04Z",
+  "version": "2.0",
+  "title": "Hysteroscopy",
+  "description": "A hysteroscopy directly visualizes and treats conditions inside your uterus. During this brief outpatient procedure, your surgeon passes a thin camera through your cervix to see inside your uterus. For simple diagnostic cases, the doctor may just take tissue samples or assess the cavity. For complex cases, specialized instruments perform ablation to stop heavy bleeding, remove fibroids, or perform sterilization. The procedure takes 15-60 minutes depending on complexity and you're sedated for comfort. Most people go home the same day. Recovery is quick with minimal cramping or spotting. The cost of this procedure may vary depending on the complexity involved. Categories include simple (diagnostic, biopsy) and complex (ablation, myomectomy, sterilization).",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Gynecology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5415",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "58559",
+      "code_type": "CPT"
+    },
+    {
+      "code": "58558",
+      "code_type": "CPT"
+    },
+    {
+      "code": "58563",
+      "code_type": "CPT"
+    },
+    {
+      "code": "58560",
+      "code_type": "CPT"
+    },
+    {
+      "code": "58555",
+      "code_type": "CPT"
+    },
+    {
+      "code": "58561",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "SP041",
+      "name": "Simple (diagnostic, biopsy)",
+      "anchor_codes": [
+        {
+          "code": "58555",
+          "code_type": "CPT"
+        },
+        {
+          "code": "58558",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "SP042",
+      "name": "Complex (ablation, myomectomy, sterilization)",
+      "anchor_codes": [
+        {
+          "code": "58559",
+          "code_type": "CPT"
+        },
+        {
+          "code": "58560",
+          "code_type": "CPT"
+        },
+        {
+          "code": "58561",
+          "code_type": "CPT"
+        },
+        {
+          "code": "58563",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "58559",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Hysteroscopy, surgical; With lysis of intrauterine adhesions (any method)"
+    },
+    {
+      "code": "81025",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.6461568550752983,
+      "description": "Urine pregnancy test, by visual color comparison"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9642675532955213,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "58558",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Surgical hysteroscopy with biopsy, polypectomy, and d&c"
+    },
+    {
+      "code": "58563",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Surgical hysteroscopy with endometrial ablation"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9976139252884804,
+      "description": "General"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9642675532955213,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "J1885",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9642675532955213,
+      "description": "Injection, ketorolac tromethamine, per 15 MG"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9642675532955213,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "88305",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8677162787665428,
+      "description": "Level IV - surgical pathology, gross and microscopic examination"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9642675532955213,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "00952",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9976567228736322,
+      "description": "Anesthesia for vaginal procedures (including biopsy of labia, vagina, cervix or endometrium); Hysteroscopy and/or hysterosalpingography"
+    },
+    {
+      "code": "58560",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Hysteroscopy, surgical; With division or resection of intrauterine septum (any method)"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "58555",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Diagnostic hysteroscopy"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9642675532955213,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "58561",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Hysteroscopy with endoscopic resection of uterine leiomyomata"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9434056978942564,
+      "description": "Sterile"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

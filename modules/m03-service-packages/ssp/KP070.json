@@ -1,0 +1,151 @@
+{
+  "id": "KP070",
+  "version": "2.0",
+  "title": "Lumbar laminectomy",
+  "description": "A lumbar laminectomy is an outpatient surgical procedure where your surgeon removes part of the bone (lamina) from the vertebrae in your lower back to relieve pressure on your spinal nerve. This pressure often causes pain, numbness, or weakness in your leg or back. The procedure takes about 1-2 hours, and you may go home the same day or stay overnight depending on your surgeon's preference. You'll have restrictions on bending and lifting while you heal, typically for 4-6 weeks. Physical therapy helps restore your strength and flexibility. Most patients experience relief from leg pain and numbness. You may need to modify your activities for a few months while your back completely heals. Recovery varies depending on your overall health and the extent of your surgery.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5114",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "63047",
+      "code_type": "CPT"
+    },
+    {
+      "code": "63048",
+      "code_type": "CPT"
+    },
+    {
+      "code": "63030",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9271958222075191,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9271958222075191,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "00630",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6782441629308653,
+      "description": "Anesthesia for procedures in lumbar region; Not otherwise specified"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.982395614263097,
+      "description": "Sterile"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9271958222075191,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "63047",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laminectomy, facetectomy and foraminotomy with decompression of spinal cord and/or nerve root(s); Lumbar, single vertebral segment"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9271958222075191,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9271958222075191,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9749285191048938,
+      "description": "General"
+    },
+    {
+      "code": "63048",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laminectomy, facetectomy and foraminotomy (unilateral or bilateral with decompression of spinal cord, cauda equina and/or nerve root[s], [e.g., spinal stenosis]), single segment; Each additional segment, cervical, thoracic, or lumbar (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9271958222075191,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "63030",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Laminotomy with decompression of nerve root(s), partial facetectomy, foraminotomy and/or disc excision; 1 interspace, lumbar"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

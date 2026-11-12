@@ -1,0 +1,139 @@
+{
+  "id": "NP010",
+  "version": "2.0",
+  "title": "Cranial neurostimulator implantation",
+  "description": "A cranial neurostimulator is a small device implanted under your scalp that delivers electrical impulses to help manage chronic pain or neurological conditions. Your surgeon makes a small incision, positions the device, and connects it to electrodes placed on nerves in your head or brain. The device is then programmed to send gentle electrical signals that can reduce pain or improve symptoms. This outpatient procedure typically takes 1-2 hours under general anesthesia. You'll be able to go home the same day or after a brief recovery period. After surgery, you may need adjustments to the device settings as your body heals and adapts.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Neurology",
+  "place_of_service": "outpatient",
+  "shoppability": 2.5,
+  "apc": "5465",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "61886",
+      "code_type": "CPT"
+    },
+    {
+      "code": "61885",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9742398648648649,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "61886",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Insertion or replacement of cranial neurostimulator pulse generator or receiver; Two or more electrode arrays"
+    },
+    {
+      "code": "0272",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Sterile"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9742398648648649,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9742398648648649,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "00400",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6215943192221911,
+      "description": "Anesthesia for procedures on the integumentary system on the extremities, anterior trunk and perineum; Not otherwise specified"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9742398648648649,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9742398648648649,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "00300",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.6582680883410166,
+      "description": "Anesthesia for all procedures on the integumentary system, muscles and nerves of head, neck, and posterior trunk, not otherwise specified"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "61885",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Insertion or replacement of cranial neurostimulator pulse generator or receiver; Single electrode array"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,1166 @@
+{
+  "id": "R017Z",
+  "version": "2.0",
+  "title": "Ultrasound",
+  "description": "An ultrasound uses high-frequency sound waves to create real-time images of internal organs, tissues, and blood flow. This painless outpatient test requires no radiation and no needles. A technician applies gel to your skin and moves a small probe, instantly showing images on a screen. The procedure takes 15-45 minutes depending on what's being evaluated. Ultrasound safely evaluates pregnancy, organs, blood vessels, joints, and soft tissues. Results guide diagnosis and treatment planning. You go home immediately and can resume all activities. This type of procedure can be performed various ways, including prenatal, standard, and vascular / doppler duplex, and the cost may vary depending on the specific approach or service provided.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Radiology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.67,
+  "apc": "5522",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "76830",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76604",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76826",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76857",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76856",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76815",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76827",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76506",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76642",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76641",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76882",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76775",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93981",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76812",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76998",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76872",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76821",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76811",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76770",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76828",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76776",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76705",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76805",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76873",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76881",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76820",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76700",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76802",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76514",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76511",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76886",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76885",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76813",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76519",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76516",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76801",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76536",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76817",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76706",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76816",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76870",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76510",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76810",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76800",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76831",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76825",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76512",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93880",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93882",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93886",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93888",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93892",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93893",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93922",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93923",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93924",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93925",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93926",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93930",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93931",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93970",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93971",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93975",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93976",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93978",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93979",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93980",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93985",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93986",
+      "code_type": "CPT"
+    },
+    {
+      "code": "93990",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "R0171",
+      "name": "Prenatal",
+      "anchor_codes": [
+        {
+          "code": "76801",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76802",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76805",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76810",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76811",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76812",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76813",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76815",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76816",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76817",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76825",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76826",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76827",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76828",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0172",
+      "name": "Standard",
+      "anchor_codes": [
+        {
+          "code": "76506",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76510",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76511",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76512",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76514",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76516",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76519",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76536",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76604",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76641",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76642",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76700",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76705",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76706",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76770",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76775",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76776",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76800",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76830",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76856",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76857",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76870",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76872",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76873",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76881",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76882",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76885",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76886",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76998",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0173",
+      "name": "Vascular / doppler duplex",
+      "anchor_codes": [
+        {
+          "code": "76820",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76821",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76831",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93880",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93882",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93886",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93888",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93892",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93893",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93922",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93923",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93924",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93925",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93926",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93930",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93931",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93970",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93971",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93975",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93976",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93978",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93979",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93980",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93981",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93985",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93986",
+          "code_type": "CPT"
+        },
+        {
+          "code": "93990",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "76830",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, transvaginal"
+    },
+    {
+      "code": "76604",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, chest, real-time with image documentation"
+    },
+    {
+      "code": "76826",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Echocardiography, fetal, cardiovascular system, real time with image documentation (2d), with or without m-mode recording; Follow-up or repeat study"
+    },
+    {
+      "code": "76857",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, pelvic (nonobstetric), real time with image documentation; Limited or follow-up (e.g., for follicles)"
+    },
+    {
+      "code": "93892",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Transcranial doppler study of the intracranial arteries; Emboli detection without provocative maneuvers"
+    },
+    {
+      "code": "76856",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, pelvic (nonobstetric), real time with image documentation; Complete"
+    },
+    {
+      "code": "76815",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, pregnant uterus, real time with image documentation, limited (e.g., fetal heartbeat, placental location, fetal position and/or qualitative amniotic fluid volume), 1 or more fetuses"
+    },
+    {
+      "code": "76827",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Echocardiography, fetal, cardiovascular system, real time with image documentation (2d), with or without m-mode recording; Doppler complete"
+    },
+    {
+      "code": "76506",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Echoencephalography, real time with image documentation (gray scale) (for determination of ventricular size, delineation of cerebral contents, and detection of fluid masses or other intracranial abnormalities)"
+    },
+    {
+      "code": "76642",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, breast, unilateral, real time with image documentation, including axilla when performed; Limited"
+    },
+    {
+      "code": "76641",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, breast, unilateral, real time with image documentation, including axilla when performed; Complete"
+    },
+    {
+      "code": "76882",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, limited, joint or other nonvascular extremity structure(s) (e.g., joint space, peri-articular tendon[s], muscle[s], nerve[s], other soft-tissue structure[s], or soft-tissue mass[es]), real-time with image documentation"
+    },
+    {
+      "code": "76775",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, retroperitoneal (e.g., renal, aorta, nodes), real time with image documentation; Limited"
+    },
+    {
+      "code": "93981",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Duplex scan of penile arteries; Follow-up or limited study"
+    },
+    {
+      "code": "76812",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation plus detailed fetal anatomic examination, transabdominal approach; Each additional gestation (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "93985",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Duplex scan of arterial inflow and venous outflow for preoperative vessel assessment prior to creation of hemodialysis access; Complete bilateral study"
+    },
+    {
+      "code": "93986",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Duplex scan of arterial inflow and venous outflow for preoperative vessel assessment prior to creation of hemodialysis access; Complete unilateral study"
+    },
+    {
+      "code": "93888",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Transcranial doppler study of the intracranial arteries; Limited study"
+    },
+    {
+      "code": "76998",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasonic guidance, intraoperative"
+    },
+    {
+      "code": "76872",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, transrectal"
+    },
+    {
+      "code": "76821",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Doppler velocimetry, fetal; Middle cerebral artery"
+    },
+    {
+      "code": "76811",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation plus detailed fetal anatomic examination, transabdominal approach; Single or first gestation"
+    },
+    {
+      "code": "76770",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, retroperitoneal (e.g., renal, aorta, nodes), real time with image documentation; Complete"
+    },
+    {
+      "code": "76828",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Echocardiography, fetal, cardiovascular system, real time with image documentation (2d), with or without m-mode recording; Doppler follow-up or repeat study"
+    },
+    {
+      "code": "76776",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, transplanted kidney, real time and duplex doppler with image documentation"
+    },
+    {
+      "code": "76705",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, abdominal, real time with image documentation; Limited (e.g., single organ, quadrant, follow-up)"
+    },
+    {
+      "code": "76805",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, after first trimester (>= 14 weeks 0 days), transabdominal approach; Single or first gestation"
+    },
+    {
+      "code": "93971",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Duplex scan of extremity veins including responses to compression and other maneuvers; Unilateral or limited study"
+    },
+    {
+      "code": "93882",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Duplex scan of extracranial arteries; Unilateral or limited study"
+    },
+    {
+      "code": "93925",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Duplex scan of lower extremity arteries or arterial bypass grafts; Complete bilateral study"
+    },
+    {
+      "code": "93922",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Upr/l xtremity art 2 levels extremity study"
+    },
+    {
+      "code": "93923",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Upr/lxtr art stdy 3+ lvls extremity study"
+    },
+    {
+      "code": "76873",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, transrectal; Prostate volume study for brachytherapy treatment planning (separate procedure)"
+    },
+    {
+      "code": "76881",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, complete joint (i.e., joint space and peri-articular soft-tissue structures), real-time with image documentation"
+    },
+    {
+      "code": "76820",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Doppler velocimetry, fetal; Umbilical artery"
+    },
+    {
+      "code": "93980",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Duplex scan of penile arteries; Complete study"
+    },
+    {
+      "code": "93886",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Transcranial doppler study of the intracranial arteries; Complete study"
+    },
+    {
+      "code": "93979",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Duplex scan of aorta, iliac vasculature, or bypass grafts; Unilateral or limited study"
+    },
+    {
+      "code": "93924",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Lwr xtr vasc stdy bilat extremity study"
+    },
+    {
+      "code": "93930",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Duplex scan of upper extremity arteries or arterial bypass grafts; Complete bilateral study"
+    },
+    {
+      "code": "93978",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Duplex scan of aorta, iliac vasculature, or bypass grafts; Complete study"
+    },
+    {
+      "code": "93970",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Duplex scan of extremity veins including responses to compression and other maneuvers; Complete bilateral study"
+    },
+    {
+      "code": "76700",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, abdominal, real time with image documentation; Complete"
+    },
+    {
+      "code": "76802",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, first trimester (< 14 weeks 0 days), transabdominal approach; Each additional gestation (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "76514",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ophthalmic ultrasound, diagnostic; Corneal pachymetry, unilateral or bilateral (determination of corneal thickness)"
+    },
+    {
+      "code": "76511",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ophthalmic ultrasound, diagnostic; Quantitative a-scan only"
+    },
+    {
+      "code": "76886",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, infant hips, real time with imaging documentation; Static (not requiring physician or other qualified health care professional manipulation)"
+    },
+    {
+      "code": "76885",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, infant hips, real time with imaging documentation; Dynamic (requiring physician or other qualified health care professional manipulation)"
+    },
+    {
+      "code": "93975",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Duplex scan of arterial inflow and venous outflow of abdominal, pelvic, scrotal contents and/or retroperitoneal organs; Complete study"
+    },
+    {
+      "code": "76813",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, pregnant uterus, real time with image documentation, first trimester fetal nuchal translucency measurement, transabdominal or transvaginal approach; Single or first gestation"
+    },
+    {
+      "code": "76519",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ophthalmic biometry by ultrasound echography, a-scan; With intraocular lens power calculation"
+    },
+    {
+      "code": "76516",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ophthalmic biometry by ultrasound echography, a-scan"
+    },
+    {
+      "code": "76801",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, first trimester (< 14 weeks 0 days), transabdominal approach; Single or first gestation"
+    },
+    {
+      "code": "76536",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, soft tissues of head and neck (e.g., thyroid, parathyroid, parotid), real time with image documentation"
+    },
+    {
+      "code": "76817",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, pregnant uterus, real time with image documentation; Transvaginal"
+    },
+    {
+      "code": "93926",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Duplex scan of lower extremity arteries or arterial bypass grafts; Unilateral or limited study"
+    },
+    {
+      "code": "93880",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Duplex scan of extracranial arteries; Complete bilateral study"
+    },
+    {
+      "code": "93976",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Duplex scan of arterial inflow and venous outflow of abdominal, pelvic, scrotal contents and/or retroperitoneal organs; Limited study"
+    },
+    {
+      "code": "93893",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Transcranial doppler study of the intracranial arteries; Emboli detection with provocative maneuvers"
+    },
+    {
+      "code": "93990",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Doppler flow testing"
+    },
+    {
+      "code": "76706",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, abdominal aorta, real time with image documentation, screening study for abdominal aortic aneurysm (AAA)"
+    },
+    {
+      "code": "76816",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, pregnant uterus, real time with image documentation, follow-up (e.g., re-evaluation of fetal size by measuring standard growth parameters and amniotic fluid volume, re-evaluation of organ system(s) previously found to be abnormal on a prior scan), transabdominal approach, per fetus"
+    },
+    {
+      "code": "76870",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, scrotum and contents"
+    },
+    {
+      "code": "76510",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ophthalmic ultrasound, diagnostic; B-scan and quantitative a-scan performed during the same patient encounter"
+    },
+    {
+      "code": "76810",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, pregnant uterus, real time with image documentation, fetal and maternal evaluation, after first trimester (>= 14 weeks 0 days), transabdominal approach; Each additional gestation (list separately in addition to code for primary procedure)"
+    },
+    {
+      "code": "76800",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ultrasound, spinal canal and contents"
+    },
+    {
+      "code": "76831",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Saline infusion sonohysterography (sis), including color flow doppler, when performed"
+    },
+    {
+      "code": "76825",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Echocardiography, fetal, cardiovascular system, real time with image documentation (2d), with or without m-mode recording; Complete"
+    },
+    {
+      "code": "76512",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Ophthalmic ultrasound, diagnostic; B-scan (with or without superimposed non-quantitative a-scan)"
+    },
+    {
+      "code": "93931",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Duplex scan of upper extremity arteries or arterial bypass grafts; Unilateral or limited study"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

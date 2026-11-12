@@ -1,0 +1,147 @@
+{
+  "id": "UP020",
+  "version": "2.0",
+  "title": "Circumcision",
+  "description": "A circumcision removes the foreskin covering the tip of your penis. This brief outpatient procedure takes 20-30 minutes and can be performed at any age. You're given local anesthesia for comfort. Afterwards, you'll have swelling and soreness for 1-2 weeks. Activity restrictions vary by age, children usually resume normal play within days, while adults need 1-2 weeks before strenuous activity. Sexual activity should wait 4 weeks. Your doctor provides clear wound care instructions. Most people heal perfectly without complications. Circumcision may be performed for religious reasons, phimosis (tight foreskin), or personal preference.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Urology / Nephrology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5373",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "54162",
+      "code_type": "CPT"
+    },
+    {
+      "code": "54163",
+      "code_type": "CPT"
+    },
+    {
+      "code": "54161",
+      "code_type": "CPT"
+    },
+    {
+      "code": "54150",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "54162",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Lysis or excision of penile post-circumcision adhesions"
+    },
+    {
+      "code": "99213",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.5194805194805194,
+      "description": "Office or other outpatient visit, established patient; Low complexity medical decision making, 20-29 min"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9821827540371617,
+      "description": "General"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "54163",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Repair of incomplete circumcision"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8825193020164598,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9214344297067225,
+      "description": "General"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8825193020164598,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "54161",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Circumcision, surgical excision (not clamp or dorsal slit); 28 days or older"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8825193020164598,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8825193020164598,
+      "description": "Injection, propofol, 10 MG"
+    },
+    {
+      "code": "00920",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Anesthesia for procedures on male genitalia (including open urethral procedures); Not otherwise specified"
+    },
+    {
+      "code": "54150",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.9312452253628725,
+      "description": "Circumcision, using clamp or other device with regional dorsal penile or ring block"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

@@ -1,0 +1,873 @@
+{
+  "id": "R003Z",
+  "version": "2.0",
+  "title": "CT scan",
+  "description": "A CT (computed tomography) scan creates detailed cross-sectional images of your body to diagnose conditions like cancer, infections, injuries, or organ disease. This outpatient procedure uses X-rays and computer processing to build precise pictures. Depending on what your doctor is evaluating, you may receive contrast dye (through IV, mouth, or enema) to highlight specific areas and improve image clarity. You'll lie still on a table that slides through the scanner for 5-10 minutes. The procedure is painless and you go home immediately after. The cost of this procedure may vary depending on the imaging protocol used. Options include without contrast, with contrast, with and without contrast, breast ct, and bone density study.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Radiology",
+  "place_of_service": "outpatient",
+  "shoppability": 3.24,
+  "apc": "5522",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "71270",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73702",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72193",
+      "code_type": "CPT"
+    },
+    {
+      "code": "71271",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72129",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72194",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76497",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74160",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73700",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73206",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70460",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74263",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74178",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73202",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70486",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70482",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72130",
+      "code_type": "CPT"
+    },
+    {
+      "code": "75573",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72127",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73200",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72125",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74261",
+      "code_type": "CPT"
+    },
+    {
+      "code": "71260",
+      "code_type": "CPT"
+    },
+    {
+      "code": "76380",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70488",
+      "code_type": "CPT"
+    },
+    {
+      "code": "75572",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72133",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70470",
+      "code_type": "CPT"
+    },
+    {
+      "code": "71250",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74176",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73201",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70481",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70492",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70450",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70487",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72132",
+      "code_type": "CPT"
+    },
+    {
+      "code": "73701",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72126",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77078",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70490",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74170",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72192",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74150",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74174",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74262",
+      "code_type": "CPT"
+    },
+    {
+      "code": "74177",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70491",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72131",
+      "code_type": "CPT"
+    },
+    {
+      "code": "72128",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70480",
+      "code_type": "CPT"
+    },
+    {
+      "code": "78226",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "R0031",
+      "name": "Bone density study",
+      "anchor_codes": [
+        {
+          "code": "77078",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0032",
+      "name": "without contrast",
+      "anchor_codes": [
+        {
+          "code": "70450",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70480",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70486",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70490",
+          "code_type": "CPT"
+        },
+        {
+          "code": "71250",
+          "code_type": "CPT"
+        },
+        {
+          "code": "71271",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72125",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72128",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72131",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72192",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73200",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73700",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74150",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74176",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74261",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76380",
+          "code_type": "CPT"
+        },
+        {
+          "code": "76497",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0033",
+      "name": "with contrast",
+      "anchor_codes": [
+        {
+          "code": "70460",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70481",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70487",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70491",
+          "code_type": "CPT"
+        },
+        {
+          "code": "71260",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72126",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72129",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72132",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72193",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73201",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73701",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74160",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74177",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74262",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74263",
+          "code_type": "CPT"
+        },
+        {
+          "code": "75572",
+          "code_type": "CPT"
+        },
+        {
+          "code": "75573",
+          "code_type": "CPT"
+        },
+        {
+          "code": "78226",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0034",
+      "name": "with and without contrast",
+      "anchor_codes": [
+        {
+          "code": "70470",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70482",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70488",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70492",
+          "code_type": "CPT"
+        },
+        {
+          "code": "71270",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72127",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72130",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72133",
+          "code_type": "CPT"
+        },
+        {
+          "code": "72194",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73202",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73206",
+          "code_type": "CPT"
+        },
+        {
+          "code": "73702",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74170",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74174",
+          "code_type": "CPT"
+        },
+        {
+          "code": "74178",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0035",
+      "name": "Breast CT",
+      "anchor_codes": []
+    }
+  ],
+  "contents": [
+    {
+      "code": "71270",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "CT thorax w/o & w/dye"
+    },
+    {
+      "code": "73702",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), lower extremity; Without contrast material, followed by contrast material(s) and further sections"
+    },
+    {
+      "code": "72193",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), pelvis; With contrast material(s)"
+    },
+    {
+      "code": "71271",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), thorax, low dose for lung cancer screening, without contrast material(s)"
+    },
+    {
+      "code": "72129",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), thoracic spine; With contrast material"
+    },
+    {
+      "code": "72194",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), pelvis; Without contrast material, followed by contrast material(s) and further sections"
+    },
+    {
+      "code": "76497",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "CT procedure"
+    },
+    {
+      "code": "74160",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), abdomen; With contrast material(s)"
+    },
+    {
+      "code": "73700",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), lower extremity; Without contrast material"
+    },
+    {
+      "code": "73206",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomographic (CT) angiography, upper extremity, with contrast material(s), including noncontrast images, if performed, and image postprocessing"
+    },
+    {
+      "code": "70460",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), head or brain; With contrast material(s)"
+    },
+    {
+      "code": "74263",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomographic (CT) (CT) colonography, screening, including image postprocessing"
+    },
+    {
+      "code": "74178",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), abdomen and pelvis; Without contrast material in one or both body regions, followed by contrast material(s) and further sections in one or both body regions"
+    },
+    {
+      "code": "78226",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "CT scan imaging of liver, gallbladder, and bile ducts"
+    },
+    {
+      "code": "73202",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), upper extremity; Without contrast material, followed by contrast material(s) and further sections"
+    },
+    {
+      "code": "70486",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), maxillofacial area; Without contrast material"
+    },
+    {
+      "code": "70482",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), orbit, sella, or posterior fossa or outer, middle, or inner ear; Without contrast material, followed by contrast material(s) and further sections"
+    },
+    {
+      "code": "72130",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), thoracic spine; Without contrast material, followed by contrast material(s) and further sections"
+    },
+    {
+      "code": "75573",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), heart, with contrast material(s), including noncontrast images, if performed, and image postprocessing; Cardiac structure and morphology in congenital heart disease"
+    },
+    {
+      "code": "72127",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), cervical spine; Without contrast material, followed by contrast material(s) and further sections"
+    },
+    {
+      "code": "73200",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), upper extremity; Without contrast material"
+    },
+    {
+      "code": "72125",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), cervical spine; Without contrast material"
+    },
+    {
+      "code": "74261",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomographic (CT) (CT) colonography, diagnostic, including image postprocessing; Without contrast material"
+    },
+    {
+      "code": "71260",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "CT thorax w/dye"
+    },
+    {
+      "code": "76380",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), limited or localized follow-up study"
+    },
+    {
+      "code": "70488",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), maxillofacial area; Without contrast material, followed by contrast material(s) and further sections"
+    },
+    {
+      "code": "75572",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), heart, with contrast material(s), including noncontrast images, if performed, and image postprocessing; Cardiac structure and morphology (including evaluation of cardiac chambers and pulmonary veins for pre-procedural planning)"
+    },
+    {
+      "code": "72133",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), lumbar spine; Without contrast material, followed by contrast material(s) and further sections"
+    },
+    {
+      "code": "70470",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), head or brain; Without contrast material, followed by contrast material(s) and further sections"
+    },
+    {
+      "code": "71250",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "CT thorax w/o dye"
+    },
+    {
+      "code": "74176",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "CT scan of abdomen and pelvis without contrast"
+    },
+    {
+      "code": "73201",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), upper extremity; With contrast material(s)"
+    },
+    {
+      "code": "70481",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), orbit, sella, or posterior fossa or outer, middle, or inner ear; With contrast material(s)"
+    },
+    {
+      "code": "70492",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), soft tissue neck; Without contrast material followed by contrast material(s) and further sections"
+    },
+    {
+      "code": "70450",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), head or brain; Without contrast material"
+    },
+    {
+      "code": "70487",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), maxillofacial area; With contrast material(s)"
+    },
+    {
+      "code": "72132",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), lumbar spine; With contrast material"
+    },
+    {
+      "code": "73701",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), lower extremity; With contrast material(s)"
+    },
+    {
+      "code": "72126",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), cervical spine; With contrast material"
+    },
+    {
+      "code": "77078",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), bone mineral density study, 1 or more sites; Axial skeleton (e.g., hips, pelvis, spine)"
+    },
+    {
+      "code": "70490",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), soft tissue neck; Without contrast material"
+    },
+    {
+      "code": "74170",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), abdomen; Without contrast material, followed by contrast material(s) and further sections"
+    },
+    {
+      "code": "72192",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), pelvis; Without contrast material"
+    },
+    {
+      "code": "74150",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), abdomen; Without contrast material"
+    },
+    {
+      "code": "74174",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomographic (CT) angiography, abdomen and pelvis, with contrast material(s), including noncontrast images, if performed, and image postprocessing"
+    },
+    {
+      "code": "74262",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomographic (CT) (CT) colonography, diagnostic, including image postprocessing; With contrast material(s) including non-contrast images, if performed"
+    },
+    {
+      "code": "74177",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "CT scan of abdomen and pelvis with contrast material"
+    },
+    {
+      "code": "70491",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), soft tissue neck; With contrast material(s)"
+    },
+    {
+      "code": "72131",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), lumbar spine; Without contrast material"
+    },
+    {
+      "code": "72128",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), thoracic spine; Without contrast material"
+    },
+    {
+      "code": "70480",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Computed tomography (CT), orbit, sella, or posterior fossa or outer, middle, or inner ear; Without contrast material"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

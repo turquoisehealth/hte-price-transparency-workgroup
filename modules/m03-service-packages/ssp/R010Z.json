@@ -1,0 +1,120 @@
+{
+  "id": "R010Z",
+  "version": "2.0",
+  "title": "MRA (magnetic resonance angiography)",
+  "description": "An MR angiography visualizes blood vessels throughout your body using magnetic resonance imaging without radiation. This outpatient procedure creates detailed 3D images showing blood flow and detecting blockages, aneurysms, or narrowing. Depending on the study, your doctor may inject contrast dye through an IV to enhance vessel visibility. You lie still in the MRI scanner for 20-45 minutes while magnetic fields and radio waves create images. The procedure is completely painless. You go home immediately with no recovery time. The cost of this procedure may vary depending on the imaging protocol used. Options include without contrast and with contrast.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Radiology",
+  "place_of_service": "outpatient",
+  "shoppability": 3.68,
+  "apc": "5572",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "70542",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77084",
+      "code_type": "CPT"
+    },
+    {
+      "code": "77046",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70548",
+      "code_type": "CPT"
+    },
+    {
+      "code": "70545",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "R0101",
+      "name": "without contrast",
+      "anchor_codes": [
+        {
+          "code": "77046",
+          "code_type": "CPT"
+        },
+        {
+          "code": "77084",
+          "code_type": "CPT"
+        }
+      ]
+    },
+    {
+      "id": "R0102",
+      "name": "with contrast",
+      "anchor_codes": [
+        {
+          "code": "70542",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70545",
+          "code_type": "CPT"
+        },
+        {
+          "code": "70548",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "70542",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of orbit, face, and/or neck; With contrast material(s)"
+    },
+    {
+      "code": "77084",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of bone marrow blood supply"
+    },
+    {
+      "code": "77046",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MRI of breast, without contrast material; Unilateral"
+    },
+    {
+      "code": "70548",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MR angiography, neck; With contrast material(s)"
+    },
+    {
+      "code": "70545",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "MR angiography, head; With contrast material(s)"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

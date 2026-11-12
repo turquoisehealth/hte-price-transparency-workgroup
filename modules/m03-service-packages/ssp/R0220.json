@@ -1,0 +1,63 @@
+{
+  "id": "R0220",
+  "version": "2.0",
+  "title": "Parathyroid scan",
+  "description": "A parathyroid scan locates overactive parathyroid glands that control calcium levels in your body. During this outpatient test, you'll receive a small injection of radioactive tracer and then have imaging scans taken about 2-3 hours later. The tracer accumulates in overactive parathyroid tissue, allowing your doctor to pinpoint exactly where the problem is. This information guides treatment decisions, whether medical or surgical. The procedure is painless, safe, and you'll go home the same day.",
+  "type": {
+    "code": "item_service",
+    "label": "I&S"
+  },
+  "disease_area": "Radiology",
+  "place_of_service": "outpatient",
+  "shoppability": 4.5,
+  "apc": "5592",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "78070",
+      "code_type": "CPT"
+    },
+    {
+      "code": "78072",
+      "code_type": "CPT"
+    },
+    {
+      "code": "78071",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [],
+  "contents": [
+    {
+      "code": "78070",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Parathyroid planar imaging, single phase; Tc-99m sestamibi or tetrofosmin"
+    },
+    {
+      "code": "78072",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Parathyroid scintigraphy, tomographic (SPECT), with or without concurrent CT transmission scan"
+    },
+    {
+      "code": "78071",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Parathyroid planar imaging, dual phase (early and delayed)"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}

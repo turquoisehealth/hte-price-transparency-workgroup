@@ -1,0 +1,156 @@
+{
+  "id": "KP04Z",
+  "version": "2.0",
+  "title": "Hip replacement",
+  "description": "A hip replacement is an outpatient surgical procedure where your surgeon removes damaged bone and cartilage from your hip joint and replaces it with artificial components made of metal, plastic, or ceramic. Hip replacement is performed when arthritis or other damage makes your hip painful and stiff. The surgery takes about 1-2 hours, and you may go home the same day or stay overnight. After surgery, you'll use crutches or a walker and begin physical therapy immediately. You can put weight on your new hip right away in most cases. Full recovery typically takes 3-6 months. You'll need to follow activity restrictions for several weeks to protect your new hip. Most patients experience significant pain relief and improved mobility after hip replacement. Your surgeon may perform several variations of this procedure depending on your specific hip damage. This type of procedure can be performed various ways, including acetabuloplasty and partial replacement or revision and total, and the cost may vary depending on the extent of the procedure.",
+  "type": {
+    "code": "encounter",
+    "label": "Encounter"
+  },
+  "disease_area": "Musculoskeletal",
+  "place_of_service": "outpatient",
+  "shoppability": 4.49,
+  "apc": "5115",
+  "ms_drg": null,
+  "anchor_codes": [
+    {
+      "code": "27130",
+      "code_type": "CPT"
+    }
+  ],
+  "sub_variants": [
+    {
+      "id": "KP041",
+      "name": "Acetabuloplasty",
+      "anchor_codes": []
+    },
+    {
+      "id": "KP042",
+      "name": "Partial replacement or revision",
+      "anchor_codes": []
+    },
+    {
+      "id": "KP043",
+      "name": "Total",
+      "anchor_codes": [
+        {
+          "code": "27130",
+          "code_type": "CPT"
+        }
+      ]
+    }
+  ],
+  "contents": [
+    {
+      "code": "97161",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.8311402623612513,
+      "description": "Physical therapy evaluation: low complexity, requiring these components: a history with no personal factors and/or comorbidities that impact the plan of care; An examination of body system(s) using standardized tests and measures addressing 1-2 elements from any of the following: body structures and functions, activity limitations, and/or participation restrictions; A clinical presentation with stable and/or uncomplicated characteristics; And clinical decision making of low complexity using standardized patient assessment instrument and/or measurable assessment of functional outcome. typically, 20 minutes are spent face-to-face with the patient and/or family"
+    },
+    {
+      "code": "J2405",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9371140262361252,
+      "description": "Injection, ondansetron hydrochloride, per 1 MG"
+    },
+    {
+      "code": "J2250",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9371140262361252,
+      "description": "Injection, midazolam hydrochloride, per 1 MG"
+    },
+    {
+      "code": "J1100",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9371140262361252,
+      "description": "Injection, dexamethasone sodium phosphate, 1 MG"
+    },
+    {
+      "code": "01214",
+      "code_type": "CPT",
+      "fee_type": "professional",
+      "is_anchor": false,
+      "association_rate": 0.8129168368041377,
+      "description": "Anesthesia for open procedures involving hip joint; Total hip arthroplasty"
+    },
+    {
+      "code": "0710",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J3010",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9371140262361252,
+      "description": "Injection, fentanyl citrate, 0.1 MG"
+    },
+    {
+      "code": "C1776",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "Joint device (implantable)"
+    },
+    {
+      "code": "27130",
+      "code_type": "CPT",
+      "fee_type": "facility",
+      "is_anchor": true,
+      "association_rate": 1.0,
+      "description": "Total hip replacement with optional grafting surgeries"
+    },
+    {
+      "code": "0370",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.97087790110999,
+      "description": "General"
+    },
+    {
+      "code": "0250",
+      "code_type": "Rev Code",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 1.0,
+      "description": "General"
+    },
+    {
+      "code": "J0690",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9371140262361252,
+      "description": "Injection, cefazolin sodium, 500 MG"
+    },
+    {
+      "code": "J2704",
+      "code_type": "HCPCS",
+      "fee_type": "facility",
+      "is_anchor": false,
+      "association_rate": 0.9371140262361252,
+      "description": "Injection, propofol, 10 MG"
+    }
+  ],
+  "source": {
+    "files": [
+      "ssp_list.csv",
+      "ssp_contents.csv",
+      "ssp_clinical_sub_variants.csv"
+    ]
+  }
+}
